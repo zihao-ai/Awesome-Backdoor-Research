@@ -60,6 +60,7 @@ This repository contains a collection of papers and resources  on **backdoor att
 ## Supervised learning (Image classification)
 | Year | Publication  | Paper                                                        | Code                                                         |
 | ---- | ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 2024 | arXiv        | [Unlearn to Relearn Backdoors: Deferred Backdoor Functionality Attacks on Deep Learning Models](https://arxiv.org/abs/2411.14449) |                                                              |
 | 2023 | NeurIPS 2023 | [Label Poisoning is All You Need](https://neurips.cc/virtual/2023/poster/70392) |  |
 | 2023 | ICCV 2023 | [Computation and Data Efficient Backdoor Attacks](https://openaccess.thecvf.com/content/ICCV2023/html/Wu_Computation_and_Data_Efficient_Backdoor_Attacks_ICCV_2023_paper.html) |  |
 | 2023 | arXiv | [Boosting backdoor attack with a learnable poisoning sample selection strategy](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lBSoR4IAAAAJ&citation_for_view=lBSoR4IAAAAJ:KlAtU1dfN6UC) | |
@@ -167,6 +168,7 @@ This repository contains a collection of papers and resources  on **backdoor att
 
 | Year | Publication  | Paper                                                        | Code                                                         |
 | ---- | ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 2024 | ICIP 2024    | [Mask-based Invisible Backdoor Attacks on Object Detection](https://ieeexplore.ieee.org/document/10647450/) | [:octocat:](https://github.com/jeongjin0/invisible-backdoor-object-detection) |
 | 2023 | NeurIPS 2023 | [BadTrack: A Poison-Only Backdoor Attack on Visual Object Tracking](https://neurips.cc/virtual/2023/poster/71420) |                                                              |
 | 2022 | ICLR 2022    | [Few-Shot Backdoor Attacks on Visual Object Tracking](https://openreview.net/forum?id=qSV5CuSaK_a) | [:octocat:](https://github.com/HXZhong1997/FSBA)             |
 | 2022 | MM 2022      | [Backdoor Attacks on Crowd Counting](https://doi.org/10.1145/3503161.3548296) | [:octocat:](https://github.com/Nathangitlab/Backdoor-Attacks-on-Crowd-Counting) |
