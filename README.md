@@ -167,6 +167,7 @@ This repository contains a collection of papers and resources  on **backdoor att
 
 | Year | Publication  | Paper                                                        | Code                                                         |
 | ---- | ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 2024 | ICIP 2024    | [Mask-based Invisible Backdoor Attacks on Object Detection](https://ieeexplore.ieee.org/document/10647450/) | [:octocat:](https://github.com/jeongjin0/invisible-backdoor-object-detection) |
 | 2023 | NeurIPS 2023 | [BadTrack: A Poison-Only Backdoor Attack on Visual Object Tracking](https://neurips.cc/virtual/2023/poster/71420) |                                                              |
 | 2022 | ICLR 2022    | [Few-Shot Backdoor Attacks on Visual Object Tracking](https://openreview.net/forum?id=qSV5CuSaK_a) | [:octocat:](https://github.com/HXZhong1997/FSBA)             |
 | 2022 | MM 2022      | [Backdoor Attacks on Crowd Counting](https://doi.org/10.1145/3503161.3548296) | [:octocat:](https://github.com/Nathangitlab/Backdoor-Attacks-on-Crowd-Counting) |
