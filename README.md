@@ -944,56 +944,39 @@ Survey papers are collected in **Surveys**; benchmark and dataset papers appear 
 
 ## 🎓 Tutorials & Courses
 
-Tutorials, lectures, and university courses with explicit backdoor coverage. Descriptions distinguish dedicated material from broader courses; some course pages provide a syllabus rather than a full set of recordings.
+- **[MET CS 787: AI and Cybersecurity](https://www.bu.edu/csmet/academic-programs/courses/cs787/)** · Boston University 2026
 
-- **[MET CS 787: AI and Cybersecurity](https://www.bu.edu/csmet/academic-programs/courses/cs787/)** · Boston University 2026<br>
-  Fall 2026 course listing covering backdoor injection and defenses alongside broader AI security; the public page describes the syllabus and hands\-on labs\.
-
-- **[Cryptography and Machine Learning](https://www.alonrosen.net/cryptoml/)** · Tel Aviv University 2026<br>
-  Fall 2026–27 course with public notes and a scheduled backdoor unit on detectability, cryptographic constructions, and removal guarantees\.
+- **[Cryptography and Machine Learning](https://www.alonrosen.net/cryptoml/)** · Tel Aviv University 2026
 
 - **[From Devil to Angel: Backdoor Attacks for AI Copyright Protection and Beyond](https://liyiming.tech/talks/)** · Southwest Jiaotong University 2025<br>
-  Tutorial on constructive uses of backdoors for AI copyright and ownership protection\.<br>
   [Slides](https://www.dropbox.com/scl/fi/g7a4fje33d4r98w0w0ur3/Talk_YimingLi_20250108.pdf?dl=0&rlkey=qno7yzb3muchlx0aga3yl0sh9&st=jp2vmvka)
 
 - **[Towards Theory\-guided Backdoor Learning](https://liyiming.tech/talks/)** · International Conference on Mathematical Theory of Deep Learning 2024<br>
-  Invited lecture connecting theoretical perspectives with backdoor learning; slides and a recording are available\.<br>
   [Slides](https://www.dropbox.com/scl/fi/43dl18ew5my28qzam48em/CASTalk_Yiming.pdf?dl=0&rlkey=4vfxdrgdasjgella5798jrjp5&st=ufq6la5b) · [Recording](https://www.dropbox.com/scl/fi/6h9sqoongx29oozsv9n07/CASTalk.mp4?dl=0&rlkey=h4eeas0nwmamp8rpkj9jiw49i&st=i81blvgu)
 
-- **[CMSC 491/691: Robust Machine Learning](https://courses.cs.umbc.edu/graduate/691rml/)** · University of Maryland, Baltimore County 2024<br>
-  Course with public slides, notes, and readings; its adversarial\-attack unit includes backdoors and BadNets\.
+- **[CMSC 491/691: Robust Machine Learning](https://courses.cs.umbc.edu/graduate/691rml/)** · University of Maryland, Baltimore County 2024
 
-- **[Topics in Adversarial Machine Learning](https://trustml-cispa.gitlab.io/seminar_aml_ss23/syllabus/)** · CISPA / Saarland University 2023<br>
-  Research seminar with a public syllabus and reading list covering poisoning and backdoor attacks alongside robustness theory\.
+- **[Topics in Adversarial Machine Learning](https://trustml-cispa.gitlab.io/seminar_aml_ss23/syllabus/)** · CISPA / Saarland University 2023
 
 - **[Backdoor Learning: Recent Advances and Future Trends](https://backdoor-learning-tutorial.github.io/)** · ICCV 2023<br>
-  Foundations, attacks, defenses, benchmarks, and applications\.<br>
   [Slides](https://docs.google.com/presentation/d/1C9o8cqltyKqAlkvQVukbNMypUw7G7u1w/edit)
 
 <a id="workshops"></a>
 
 ## 💬 Workshops
 
-Backdoor-focused events and selected broader security workshops with relevant topics or accepted papers. Each entry links to a specific edition.
-
-- **[Cybersecurity for AI &amp; AI for Cybersecurity \(C4AI4C\)](https://www.ieeesmc.org/cai-2026/w12-security/)** · IEEE CAI 2026<br>
-  Broader AI and cybersecurity workshop whose stated scope includes model vulnerabilities such as backdoor attacks\.
+- **[Cybersecurity for AI &amp; AI for Cybersecurity \(C4AI4C\)](https://www.ieeesmc.org/cai-2026/w12-security/)** · IEEE CAI 2026
 
 - **[Building Trust in LLMs and LLM Applications](https://building-trust-in-llms.github.io/iclr-workshop/)** · ICLR 2025<br>
-  Broader trustworthy\-LLM workshop whose poster program includes CleanGen, a defense against backdoors in language generation\.<br>
   [Poster program](https://building-trust-in-llms.github.io/iclr-workshop/poster_session_2.html)
 
-- **[Deep Learning Security and Privacy \(DLSP\)](https://dlsp2025.ieee-security.org/)** · IEEE S&amp;P 2025<br>
-  Broader deep learning security workshop explicitly soliciting poisoning and backdoor research, including modern generative and agent settings\.
+- **[Deep Learning Security and Privacy \(DLSP\)](https://dlsp2025.ieee-security.org/)** · IEEE S&amp;P 2025
 
-- **[Adversarial Threats on Real Life Learning Systems](https://mlsecurity-workshop.github.io/)** · Sorbonne University &amp; CEA 2025<br>
-  Workshop on deployed ML security with backdoor\-focused keynote slides and a presentation on physical\-world backdoors\.
+- **[Adversarial Threats on Real Life Learning Systems](https://mlsecurity-workshop.github.io/)** · Sorbonne University &amp; CEA 2025
 
-- **[Artificial Intelligence and Security \(AISec\)](https://aisec.cc/2024/)** · ACM CCS 2024<br>
-  Broader AI security workshop with accepted work on backdoor defenses, graph\-model backdoors, and speaker\-identification backdoors\.
+- **[Artificial Intelligence and Security \(AISec\)](https://aisec.cc/2024/)** · ACM CCS 2024
 
 - **[Backdoors in Deep Learning: The Good, the Bad, and the Ugly](https://neurips2023-bugs.github.io/)** · NeurIPS 2023<br>
-  Backdoor threats, defenses, and beneficial applications\.<br>
   [Program &amp; recordings](https://neurips.cc/virtual/2023/workshop/66550) · [Papers](https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/BUGS)
 
 <a id="toolboxes"></a>
@@ -1004,18 +987,18 @@ Reusable libraries and experimental frameworks. Associated papers belong in the 
 
 | Toolbox | Focus | Links |
 | :--- | :--- | :--- |
-| **Adversarial Robustness Toolbox \(ART\)** | General ML security: a reusable library with backdoor poisoning implementations, including attacks on generative models\. | <a href="https://github.com/Trusted-AI/adversarial-robustness-toolbox" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> · [Backdoor attack API](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/modules/attacks/poisoning.html) |
-| **BackdoorBench** | A unified evaluation framework for backdoor attacks and defenses in computer vision\. | <a href="https://github.com/SCLBD/backdoorbench" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> · [Docs &amp; tutorials](https://backdoorbench.github.io/docs/index.html) |
+| **Adversarial Robustness Toolbox \(ART\)** | General ML security: a reusable library with backdoor poisoning implementations, including attacks on generative models\. | <a href="https://github.com/Trusted-AI/adversarial-robustness-toolbox" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| **BackdoorBench** | A unified evaluation framework for backdoor attacks and defenses in computer vision\. | <a href="https://github.com/SCLBD/backdoorbench" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
 | **BackdoorBox** | A unified Python framework for implementing and comparing backdoor attacks and defenses\. | <a href="https://github.com/THUYimingLi/BackdoorBox" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
 | **BackdoorDM** | Diffusion models: integrated attacks, defenses, evaluation metrics, and visualization tools for image\-generation backdoors\. | <a href="https://github.com/linweiii/BackdoorDM" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
 | **BackdoorLLM** | LLMs: a shared framework for backdoor attack experiments and defense comparisons, including the Backdoor\-DefenseBox module\. | <a href="https://github.com/bboylyg/BackdoorLLM" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| **BackdoorMBTI** | Image, text, and audio classification: a common toolkit for configuring backdoor attacks and evaluating defenses across modalities\. | <a href="https://github.com/SJTUHaiyangYu/BackdoorMBTI" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> · [Docs &amp; tutorials](https://backdoormbti.readthedocs.io/en/latest/) |
+| **BackdoorMBTI** | Image, text, and audio classification: a common toolkit for configuring backdoor attacks and evaluating defenses across modalities\. | <a href="https://github.com/SJTUHaiyangYu/BackdoorMBTI" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
 | **Backdoors 101** | Centralized and federated learning: a PyTorch framework with configurable tasks, trigger synthesizers, and backdoor experiments\. | <a href="https://github.com/ebagdasa/backdoors101" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
 | **BackdoorToolbox** | Image classification: shared implementations for backdoor attacks, defenses, and evaluation\. | <a href="https://github.com/vtu81/backdoor-toolbox" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
 | **BackFed** | Federated learning: modular attack and defense evaluation with shared configurations and optional parallel client training\. | <a href="https://github.com/thinh-dao/BackFed" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
 | **Mithridates** | Training pipelines: wrappers and examples for measuring backdoor resistance and searching for more resistant training configurations\. | <a href="https://github.com/ebagdasa/mithridates" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
 | **OpenBackdoor** | A framework for implementing and evaluating textual backdoor attacks and defenses\. | <a href="https://github.com/thunlp/OpenBackdoor" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| **TrojanZoo** | A PyTorch platform for evaluating backdoor attacks and defenses in image classification\. | <a href="https://github.com/ain-soph/trojanzoo" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> · [Docs](https://ain-soph.github.io/trojanzoo/) |
+| **TrojanZoo** | A PyTorch platform for evaluating backdoor attacks and defenses in image classification\. | <a href="https://github.com/ain-soph/trojanzoo" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
 
 ---
 

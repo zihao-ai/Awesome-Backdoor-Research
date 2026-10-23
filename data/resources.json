@@ -156,25 +156,13 @@
       "id": "trojanzoo",
       "title": "TrojanZoo",
       "url": "https://github.com/ain-soph/trojanzoo",
-      "description": "A PyTorch platform for evaluating backdoor attacks and defenses in image classification.",
-      "links": [
-        {
-          "label": "Docs",
-          "url": "https://ain-soph.github.io/trojanzoo/"
-        }
-      ]
+      "description": "A PyTorch platform for evaluating backdoor attacks and defenses in image classification."
     },
     {
       "id": "backdoorbench",
       "title": "BackdoorBench",
       "url": "https://github.com/SCLBD/backdoorbench",
-      "description": "A unified evaluation framework for backdoor attacks and defenses in computer vision.",
-      "links": [
-        {
-          "label": "Docs & tutorials",
-          "url": "https://backdoorbench.github.io/docs/index.html"
-        }
-      ]
+      "description": "A unified evaluation framework for backdoor attacks and defenses in computer vision."
     },
     {
       "id": "openbackdoor",
@@ -204,13 +192,7 @@
       "id": "backdoormbti",
       "title": "BackdoorMBTI",
       "url": "https://github.com/SJTUHaiyangYu/BackdoorMBTI",
-      "description": "Image, text, and audio classification: a common toolkit for configuring backdoor attacks and evaluating defenses across modalities.",
-      "links": [
-        {
-          "label": "Docs & tutorials",
-          "url": "https://backdoormbti.readthedocs.io/en/latest/"
-        }
-      ]
+      "description": "Image, text, and audio classification: a common toolkit for configuring backdoor attacks and evaluating defenses across modalities."
     },
     {
       "id": "backfed",
@@ -234,13 +216,7 @@
       "id": "adversarial-robustness-toolbox",
       "title": "Adversarial Robustness Toolbox (ART)",
       "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox",
-      "description": "General ML security: a reusable library with backdoor poisoning implementations, including attacks on generative models.",
-      "links": [
-        {
-          "label": "Backdoor attack API",
-          "url": "https://adversarial-robustness-toolbox.readthedocs.io/en/latest/modules/attacks/poisoning.html"
-        }
-      ]
+      "description": "General ML security: a reusable library with backdoor poisoning implementations, including attacks on generative models."
     }
   ]
 }

@@ -103,7 +103,7 @@ def _resource_list(records: list[dict]) -> str:
         return "*No resources listed yet.*"
     blocks = []
     for record in sorted(records, key=_record_order):
-        text = f'- **{link(record["title"], record["url"])}** · {markdown_text(record["venue"])} {record["year"]}<br>\n  {markdown_text(record["description"])}'
+        text = f'- **{link(record["title"], record["url"])}** · {markdown_text(record["venue"])} {record["year"]}'
         if record.get("links"):
             text += "<br>\n  " + " · ".join(link(item["label"], item["url"]) for item in record["links"])
         blocks.append(text)

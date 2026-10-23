@@ -40,15 +40,11 @@ Survey papers are collected in **Surveys**; benchmark and dataset papers appear 
 
 ## 🎓 Tutorials & Courses
 
-Tutorials, lectures, and university courses with explicit backdoor coverage. Descriptions distinguish dedicated material from broader courses; some course pages provide a syllabus rather than a full set of recordings.
-
 {{TUTORIALS}}
 
 <a id="workshops"></a>
 
 ## 💬 Workshops
-
-Backdoor-focused events and selected broader security workshops with relevant topics or accepted papers. Each entry links to a specific edition.
 
 {{WORKSHOPS}}
 

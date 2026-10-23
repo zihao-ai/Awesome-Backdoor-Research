@@ -77,17 +77,29 @@ class RenderingTests(CatalogFixture):
         self.assertIn('%28test%29', row)
         self.assertNotIn('<img src=x', row)
 
-    def test_plain_text_resource_descriptions_do_not_create_markdown_blocks(self):
+    def test_workshop_descriptions_are_omitted_from_rendered_lists(self):
         for description in ("+ bullet", "- bullet", "1. numbered", "# heading", "---"):
             with self.subTest(description=description):
-                self.resources["tutorials"] = [{"id": "tutorial", "title": "Learn", "year": 2024,
+                self.resources["workshops"] = [{"id": "workshop", "title": "Learn", "year": 2024,
                     "venue": "Course", "url": "https://example.org/learn", "description": description}]
                 output = markdown.markdown(self.render(), extensions=["tables"])
                 self.assertEqual(output.count('<li>'), 1)
                 self.assertNotIn('<ol>', output)
                 self.assertNotIn('<hr', output)
                 self.assertNotIn('<h1>heading', output)
-                self.assertIn(description, output)
+                self.assertNotIn(description, output)
+
+    def test_tutorials_omit_descriptions_but_keep_material_links(self):
+        self.resources['tutorials'] = [{
+            'id': 'tutorial', 'title': 'Learn', 'year': 2026, 'venue': 'University',
+            'url': 'https://example.org/tutorial', 'description': 'Editorial explanation',
+            'links': [{'label': 'Slides', 'url': 'https://example.org/slides'}],
+        }]
+        output = self.render()
+        self.assertIn('[Learn](https://example.org/tutorial)', output)
+        self.assertIn('University 2026', output)
+        self.assertIn('[Slides](https://example.org/slides)', output)
+        self.assertNotIn('Editorial explanation', output)
 
     def test_order_is_stable_and_newer_papers_come_first(self):
         old = dict(self.paper, id="older-2023", title="Older", year=2023, url="https://example.org/older")
