@@ -1,5 +1,73 @@
 [
   {
+    "id": "agentq-quantization-conditioned-backdoor-attacks-on-llm-agents-2026",
+    "title": "AGENTQ: Quantization-Conditioned Backdoor Attacks on LLM Agents",
+    "year": 2026,
+    "venue": "EMNLP",
+    "url": "https://arxiv.org/abs/2609.14060",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "agent-tools"
+    ]
+  },
+  {
+    "id": "akrasia-stealthy-backdoor-attack-on-reasoning-based-code-llms-2026",
+    "title": "AKRASIA: Stealthy Backdoor Attack on Reasoning-based Code LLMs",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.01023",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "code-models"
+    ]
+  },
+  {
+    "id": "are-your-llm-based-text-to-sql-models-secure-exploring-sql-injection-via-backdoor-attacks-2026",
+    "title": "Are Your LLM-based Text-to-SQL Models Secure? Exploring SQL Injection via Backdoor Attacks",
+    "year": 2026,
+    "venue": "SIGMOD",
+    "url": "https://arxiv.org/abs/2503.05445",
+    "types": [
+      "Attack",
+      "Defense"
+    ],
+    "topics": [
+      "code-models"
+    ]
+  },
+  {
+    "id": "backdfl-a-unified-benchmark-for-backdoor-attacks-and-defenses-in-decentralized-federated-learning-2026",
+    "title": "BackDFL: A Unified Benchmark For Backdoor Attacks and Defenses In Decentralized Federated Learning",
+    "year": 2026,
+    "venue": "ESORICS Workshop",
+    "url": "https://arxiv.org/abs/2608.21137",
+    "types": [
+      "Benchmark",
+      "Analysis"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
+    "id": "backdoor-attacks-on-open-vocabulary-object-detectors-via-multi-modal-prompt-tuning-2026",
+    "title": "Backdoor Attacks on Open Vocabulary Object Detectors via Multi-Modal Prompt Tuning",
+    "year": 2026,
+    "venue": "AAAI",
+    "url": "https://arxiv.org/abs/2511.12735",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "detection-segmentation-tracking"
+    ],
+    "code": "https://github.com/rajankita/TrAP"
+  },
+  {
     "id": "backdoor-attacks-on-speech-emotion-recognition-via-tts-generated-poisoning-2026",
     "title": "Backdoor Attacks on Speech Emotion Recognition via TTS-Generated Poisoning",
     "year": 2026,
@@ -10,6 +78,60 @@
     ],
     "topics": [
       "audio-representation"
+    ]
+  },
+  {
+    "id": "backdoor-containment-via-expert-quarantine-and-shutdown-in-llms-2026",
+    "title": "Backdoor Containment via Expert Quarantine and Shutdown in LLMs",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.00663",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "llms"
+    ]
+  },
+  {
+    "id": "backdoor-decontamination-dynamics-in-llm-agents-2026",
+    "title": "Backdoor Decontamination Dynamics in LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2608.11295",
+    "types": [
+      "Defense",
+      "Analysis"
+    ],
+    "topics": [
+      "agent-tools"
+    ]
+  },
+  {
+    "id": "backdoor-in-the-loop-compromising-agentic-search-via-malicious-retrievers-2026",
+    "title": "Backdoor in the Loop: Compromising Agentic Search via Malicious Retrievers",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.37468",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "rag",
+      "agent-tools"
+    ]
+  },
+  {
+    "id": "backdoor-purification-for-lora-tuned-llms-via-null-space-projection-2026",
+    "title": "Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.00685",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "llms"
     ]
   },
   {
@@ -30,6 +152,34 @@
     ]
   },
   {
+    "id": "backdoors-in-learning-based-industrial-robotic-arm-manipulation-an-empirical-security-study-2026",
+    "title": "Backdoors in Learning-Based Industrial Robotic Arm Manipulation: An Empirical Security Study",
+    "year": 2026,
+    "venue": "IROS Workshop",
+    "url": "https://arxiv.org/abs/2609.26868",
+    "types": [
+      "Attack",
+      "Defense",
+      "Analysis"
+    ],
+    "topics": [
+      "robotic-control"
+    ]
+  },
+  {
+    "id": "backdoors-leave-structural-traces-fedmast-for-backdoor-detection-and-containment-in-federated-learning-2026",
+    "title": "Backdoors Leave Structural Traces: FedMAST for Backdoor Detection and Containment in Federated Learning",
+    "year": 2026,
+    "venue": "ICTAI",
+    "url": "https://arxiv.org/abs/2609.27760",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
     "id": "badaction-backdoor-attacks-on-interactive-video-generation-via-action-guided-triggers-2026",
     "title": "BadAction: Backdoor Attacks on Interactive Video Generation via Action-Guided Triggers",
     "year": 2026,
@@ -40,6 +190,20 @@
     ],
     "topics": [
       "video-generation"
+    ]
+  },
+  {
+    "id": "badengram-backdoor-attack-on-gated-memory-components-in-llms-2026",
+    "title": "BadEngram: Backdoor Attack on Gated Memory Components in LLMs",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.13478",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "llms"
     ]
   },
   {
@@ -56,6 +220,75 @@
     ]
   },
   {
+    "id": "beat-visual-backdoor-attacks-on-vlm-based-embodied-agents-via-contrastive-trigger-learning-2026",
+    "title": "BEAT: Visual Backdoor Attacks on VLM-based Embodied Agents via Contrastive Trigger Learning",
+    "year": 2026,
+    "venue": "ICLR",
+    "url": "https://arxiv.org/abs/2510.27623",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "embodied-planning"
+    ]
+  },
+  {
+    "id": "beyond-static-cues-unified-dynamic-detection-of-mllm-backdoors-via-dual-flow-trajectory-analysis-2026",
+    "title": "Beyond Static Cues: Unified Dynamic Detection of MLLM Backdoors via Dual-Flow Trajectory Analysis",
+    "year": 2026,
+    "venue": "ACM MM",
+    "url": "https://arxiv.org/abs/2610.20319",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "mllms"
+    ],
+    "code": "https://github.com/kaoru0822-kitauji/EVO_Detect"
+  },
+  {
+    "id": "breaking-customized-llms-for-coding-automated-red-teaming-for-instruction-backdoor-attacks-2026",
+    "title": "Breaking Customized LLMs for Coding: Automated Red Teaming for Instruction Backdoor Attacks",
+    "year": 2026,
+    "venue": "ASE",
+    "url": "https://arxiv.org/abs/2608.05659",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "code-models"
+    ]
+  },
+  {
+    "id": "breaking-the-stealth-potency-trade-off-in-clean-image-backdoors-with-generative-trigger-optimization-2026",
+    "title": "Breaking the Stealth-Potency Trade-off in Clean-Image Backdoors with Generative Trigger Optimization",
+    "year": 2026,
+    "venue": "AAAI",
+    "url": "https://arxiv.org/abs/2511.07210",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification",
+      "visual-regression-counting",
+      "detection-segmentation-tracking"
+    ]
+  },
+  {
+    "id": "cert-ssbd-certified-backdoor-defense-with-sample-specific-smoothing-noises-2026",
+    "title": "Cert-SSBD: Certified Backdoor Defense with Sample-Specific Smoothing Noises",
+    "year": 2026,
+    "venue": "TIFS",
+    "url": "https://arxiv.org/abs/2504.21730",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "learning-theory"
+    ],
+    "code": "https://github.com/NcepuQiaoTing/Cert-SSB"
+  },
+  {
     "id": "cross-paradigm-graph-backdoor-attacks-with-promptable-subgraph-triggers-2026",
     "title": "Cross-Paradigm Graph Backdoor Attacks with Promptable Subgraph Triggers",
     "year": 2026,
@@ -66,6 +299,60 @@
     ],
     "topics": [
       "graph-representation"
+    ]
+  },
+  {
+    "id": "defuse-generalizable-backdoor-defense-for-self-supervised-encoders-with-generative-priors-2026",
+    "title": "DEFUSE: Generalizable Backdoor Defense for Self-Supervised Encoders with Generative Priors",
+    "year": 2026,
+    "venue": "ACM MM",
+    "url": "https://arxiv.org/abs/2608.25851",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "visual-representation",
+      "vision-language-representation"
+    ],
+    "code": "https://github.com/jsrdcht/DEFUSE"
+  },
+  {
+    "id": "detecting-backdoors-in-object-detection-via-pre-nms-prediction-distribution-shift-2026",
+    "title": "Detecting Backdoors in Object Detection via Pre-NMS Prediction Distribution Shift",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2608.19088",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "detection-segmentation-tracking"
+    ]
+  },
+  {
+    "id": "detecting-chain-of-thought-hijacking-in-backdoored-multimodal-large-reasoning-models-2026",
+    "title": "Detecting Chain-of-Thought Hijacking in Backdoored Multimodal Large Reasoning Models",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.16598",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "mllms"
+    ]
+  },
+  {
+    "id": "diffsafemerge-mitigating-backdoor-inheritance-in-diffusion-model-merging-2026",
+    "title": "DiffSafeMerge: Mitigating Backdoor Inheritance in Diffusion Model Merging",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2608.09445",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-generation"
     ]
   },
   {
@@ -82,6 +369,99 @@
     ]
   },
   {
+    "id": "early-detection-of-distributed-backdoors-in-multi-agent-llm-systems-a-characterization-study-2026",
+    "title": "Early Detection of Distributed Backdoors in Multi-Agent LLM Systems: A Characterization Study",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2607.24893",
+    "types": [
+      "Analysis",
+      "Defense"
+    ],
+    "topics": [
+      "multi-agent-systems"
+    ]
+  },
+  {
+    "id": "elasticback-stealthy-conditional-backdoor-in-llm-agent-skills-via-coupled-trigger-rule-optimization-2026",
+    "title": "ElasticBack: Stealthy Conditional Backdoor in LLM-Agent Skills via Coupled Trigger-Rule Optimization",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2608.09577",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "agent-tools"
+    ]
+  },
+  {
+    "id": "event-burst-trigger-an-availability-backdoor-attack-on-event-based-snn-object-detection-2026",
+    "title": "Event Burst Trigger: An Availability Backdoor Attack on Event-Based SNN Object Detection",
+    "year": 2026,
+    "venue": "DSN",
+    "url": "https://arxiv.org/abs/2607.09115",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "detection-segmentation-tracking"
+    ]
+  },
+  {
+    "id": "evolvattack-backdooring-self-evolving-vlm-agents-2026",
+    "title": "EvolvAttack: Backdooring self Evolving VLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.15244",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "agent-memory"
+    ]
+  },
+  {
+    "id": "fedgraph-defending-federated-large-language-model-fine-tuning-against-backdoor-attacks-via-graph-based-aggregation-2026",
+    "title": "FedGraph: Defending Federated Large Language Model Fine-Tuning Against Backdoor Attacks via Graph-Based Aggregation",
+    "year": 2026,
+    "venue": "ICLR Workshop",
+    "url": "https://arxiv.org/abs/2610.18430",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "horizontal-fl",
+      "llms"
+    ]
+  },
+  {
+    "id": "fox-in-the-henhouse-supply-chain-backdoor-attacks-against-reinforcement-learning-2026",
+    "title": "Fox in the Henhouse: Supply-Chain Backdoor Attacks Against Reinforcement Learning",
+    "year": 2026,
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2505.19532",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "multi-agent-rl"
+    ]
+  },
+  {
+    "id": "freqdoor-a-hidden-trojan-in-the-frequency-domain-for-backdoor-attacks-on-vision-language-models-2026",
+    "title": "FreqDoor: A Hidden Trojan in the Frequency Domain for Backdoor Attacks on Vision-Language Models",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.07048",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "mllms"
+    ]
+  },
+  {
     "id": "ghostsplat-input-triggered-backdoors-for-multi-view-consistent-3d-content-manipulation-in-feed-forward-gaussian-splattin-2026",
     "title": "GhostSplat: Input-Triggered Backdoors for Multi-View-Consistent 3D Content Manipulation in Feed-Forward Gaussian Splatting",
     "year": 2026,
@@ -92,6 +472,117 @@
     ],
     "topics": [
       "3d-generation"
+    ]
+  },
+  {
+    "id": "ghostword-a-fine-grained-backdoor-attack-on-automatic-speech-recognition-2026",
+    "title": "GhostWord: A Fine-Grained Backdoor Attack on Automatic Speech Recognition",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.04260",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "speech-recognition"
+    ],
+    "code": "https://github.com/rohban-lab/GhostWord"
+  },
+  {
+    "id": "iag-input-aware-backdoor-attack-on-vlm-based-visual-grounding-2026",
+    "title": "IAG: Input-aware Backdoor Attack on VLM-based Visual Grounding",
+    "year": 2026,
+    "venue": "CVPR",
+    "url": "https://arxiv.org/abs/2508.09456",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "mllms",
+      "detection-segmentation-tracking"
+    ],
+    "code": "https://github.com/lijunxian111/IAG"
+  },
+  {
+    "id": "information-blackhole-exploring-backdoor-mechanism-in-3d-point-cloud-reconstruction-2026",
+    "title": "Information Blackhole: Exploring Backdoor Mechanism in 3D Point Cloud Reconstruction",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.33569",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "3d-generation"
+    ]
+  },
+  {
+    "id": "learning-normal-diffusion-dynamics-for-backdoor-defense-in-text-to-image-models-2026",
+    "title": "Learning Normal Diffusion Dynamics for Backdoor Defense in Text-to-Image Models",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.39548",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-generation"
+    ]
+  },
+  {
+    "id": "llm-forensics-where-do-backdoors-hide-localizing-and-controlling-trigger-mechanisms-with-sparse-autoencoders-2026",
+    "title": "LLM Forensics: Where Do Backdoors Hide? Localizing and Controlling Trigger Mechanisms with Sparse Autoencoders",
+    "year": 2026,
+    "venue": "Findings of EMNLP",
+    "url": "https://arxiv.org/abs/2609.07746",
+    "types": [
+      "Analysis"
+    ],
+    "topics": [
+      "llms"
+    ]
+  },
+  {
+    "id": "llm-trojans-that-increase-response-lengths-and-cost-2026",
+    "title": "LLM Trojans that Increase Response Lengths and Cost",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.24784",
+    "types": [
+      "Attack",
+      "Defense"
+    ],
+    "topics": [
+      "llms"
+    ]
+  },
+  {
+    "id": "lorascan-detecting-backdoor-prompts-in-low-rank-adapters-for-large-language-models-via-down-projection-activation-spikes-2026",
+    "title": "LoRAScan: Detecting Backdoor Prompts in Low-Rank Adapters for Large Language Models via Down-Projection Activation Spikes",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2608.06795",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "llms"
+    ]
+  },
+  {
+    "id": "moba-a-material-oriented-backdoor-attack-against-lidar-based-3d-object-detection-systems-2026",
+    "title": "MOBA: A Material-Oriented Backdoor Attack against LiDAR-based 3D Object Detection Systems",
+    "year": 2026,
+    "venue": "AAAI",
+    "url": "https://arxiv.org/abs/2511.09999",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "3d-vision",
+      "detection-segmentation-tracking"
     ]
   },
   {
@@ -108,6 +599,86 @@
     ]
   },
   {
+    "id": "mtattack-multi-target-backdoor-attacks-against-large-vision-language-models-2026",
+    "title": "MTAttack: Multi-Target Backdoor Attacks against Large Vision-Language Models",
+    "year": 2026,
+    "venue": "AAAI",
+    "url": "https://arxiv.org/abs/2511.10098",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "mllms"
+    ],
+    "code": "https://github.com/mala-lab/MTAttack"
+  },
+  {
+    "id": "mutrap-multi-trigger-trojans-attacking-robot-task-planning-systems-2026",
+    "title": "MuTRAP: Multi-trigger Trojans Attacking Robot Task Planning Systems",
+    "year": 2026,
+    "venue": "IROS",
+    "url": "https://arxiv.org/abs/2504.17070",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "embodied-planning"
+    ]
+  },
+  {
+    "id": "not-all-tokens-are-equal-region-aware-consistency-repair-of-backdoors-in-mllms-2026",
+    "title": "Not All Tokens Are Equal: Region-Aware Consistency Repair of Backdoors in MLLMs",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2608.24354",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "mllms"
+    ]
+  },
+  {
+    "id": "odpure-backdoor-purification-for-object-detection-via-ensemble-corruption-consensus-2026",
+    "title": "ODPure: Backdoor Purification for Object Detection via Ensemble Corruption Consensus",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.28239",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "detection-segmentation-tracking"
+    ],
+    "code": "https://github.com/Alex66366/ODPure"
+  },
+  {
+    "id": "once-poisoned-arbitrarily-controlled-a-programmable-backdoor-in-vlms-2026",
+    "title": "Once Poisoned, Arbitrarily Controlled: A Programmable Backdoor in VLMs",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2608.10959",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "mllms"
+    ]
+  },
+  {
+    "id": "pepper-perception-guided-perturbation-for-robust-backdoor-defense-in-text-to-image-diffusion-models-2026",
+    "title": "PEPPER: Perception-Guided Perturbation for Robust Backdoor Defense in Text-to-Image Diffusion Models",
+    "year": 2026,
+    "venue": "Findings of EMNLP",
+    "url": "https://arxiv.org/abs/2511.16830",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-generation"
+    ]
+  },
+  {
     "id": "poisoning-based-backdoors-are-not-cryptographic-2026",
     "title": "Poisoning-Based Backdoors Are Not Cryptographic",
     "year": 2026,
@@ -119,6 +690,168 @@
     "topics": [
       "learning-theory"
     ]
+  },
+  {
+    "id": "purifying-backdoored-large-vision-language-models-by-removing-hijacked-directions-2026",
+    "title": "Purifying Backdoored Large Vision-Language Models by Removing Hijacked Directions",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.09941",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "mllms"
+    ],
+    "code": "https://github.com/womeimingzi/OrthoPurify"
+  },
+  {
+    "id": "query-only-backdoor-attacks-on-self-evolving-skills-via-trajectory-poisoning-2026",
+    "title": "Query-Only Backdoor Attacks on Self-Evolving Skills via Trajectory Poisoning",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2608.08303",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "agent-tools"
+    ]
+  },
+  {
+    "id": "ragleak-supply-chain-privacy-backdoors-in-retrieval-augmented-generation-2026",
+    "title": "RAGLeak: Supply-Chain Privacy Backdoors in Retrieval-Augmented Generation",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.25937",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "rag"
+    ]
+  },
+  {
+    "id": "region-level-black-box-defense-against-stealthy-embedding-space-backdoors-in-clip-2026",
+    "title": "Region-Level Black-Box Defense Against Stealthy Embedding-Space Backdoors in CLIP",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.31558",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "vision-language-representation"
+    ],
+    "code": "https://github.com/wsu-cyber-security-lab-ai/CLIPGuard"
+  },
+  {
+    "id": "removing-the-needle-in-the-haystack-backdoor-removal-in-llms-via-weight-orthogonalisation-2026",
+    "title": "Removing the NEEDLE in the Haystack: Backdoor Removal in LLMs via Weight Orthogonalisation",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.00348",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "llms"
+    ]
+  },
+  {
+    "id": "reshift-aha-moment-driven-reasoning-level-backdoor-attacks-on-vision-language-models-2026",
+    "title": "ReShift: Aha-Moment-Driven Reasoning-Level Backdoor Attacks on Vision-Language Models",
+    "year": 2026,
+    "venue": "ECCV",
+    "url": "https://arxiv.org/abs/2607.00361",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "mllms"
+    ]
+  },
+  {
+    "id": "retrievals-can-be-detrimental-unveiling-the-backdoor-vulnerability-of-retrieval-augmented-diffusion-models-2026",
+    "title": "Retrievals Can Be Detrimental: Unveiling the Backdoor Vulnerability of Retrieval-Augmented Diffusion Models",
+    "year": 2026,
+    "venue": "ACL",
+    "url": "https://arxiv.org/abs/2501.13340",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-generation"
+    ]
+  },
+  {
+    "id": "shadowcot-cognitive-hijacking-for-stealthy-reasoning-backdoors-in-llms-2026",
+    "title": "ShadowCoT: Cognitive Hijacking for Stealthy Reasoning Backdoors in LLMs",
+    "year": 2026,
+    "venue": "TIFS",
+    "url": "https://arxiv.org/abs/2504.05605",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "llms"
+    ]
+  },
+  {
+    "id": "shadowfpt-backdooring-federated-prompt-tuning-via-shadow-triggers-2026",
+    "title": "ShadowFPT: Backdooring Federated Prompt Tuning via Shadow Triggers",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.22871",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "horizontal-fl",
+      "vision-language-representation"
+    ]
+  },
+  {
+    "id": "silent-sabotage-internal-state-triggered-backdoor-attacks-on-llm-powered-robotic-systems-2026",
+    "title": "Silent Sabotage: Internal State Triggered Backdoor Attacks on LLM-Powered Robotic Systems",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.26184",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "embodied-planning"
+    ]
+  },
+  {
+    "id": "silentcall-hidden-tool-call-backdoors-in-open-weight-agents-and-how-to-catch-them-2026",
+    "title": "SilentCall: Hidden Tool-Call Backdoors in Open-Weight Agents, and How to Catch Them",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.32021",
+    "types": [
+      "Attack",
+      "Defense"
+    ],
+    "topics": [
+      "agent-tools"
+    ]
+  },
+  {
+    "id": "skilljack-persistent-skill-backdoors-in-self-evolving-agents-2026",
+    "title": "SkillJack: Persistent Skill Backdoors in Self-Evolving Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2608.03509",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "agent-tools"
+    ],
+    "code": "https://github.com/Tencent/AI-Infra-Guard"
   },
   {
     "id": "skilltrojan-backdoor-attacks-on-skill-based-agent-systems-2026",
@@ -133,6 +866,33 @@
     "topics": [
       "agent-tools"
     ]
+  },
+  {
+    "id": "slip-soft-label-mechanism-and-key-extraction-guided-cot-based-defense-against-instruction-backdoor-in-apis-2026",
+    "title": "SLIP: Soft Label Mechanism and Key-Extraction-Guided CoT-based Defense Against Instruction Backdoor in APIs",
+    "year": 2026,
+    "venue": "Findings of ACL",
+    "url": "https://arxiv.org/abs/2508.06153",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "llms"
+    ]
+  },
+  {
+    "id": "srd-reinforcement-learned-semantic-perturbation-for-backdoor-defense-in-vlms-2026",
+    "title": "SRD: Reinforcement-Learned Semantic Perturbation for Backdoor Defense in VLMs",
+    "year": 2026,
+    "venue": "AAAI",
+    "url": "https://arxiv.org/abs/2506.04743",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "mllms"
+    ],
+    "code": "https://github.com/Ciconey/SRD"
   },
   {
     "id": "stateful-agent-backdoors-constructing-cross-session-attack-programs-2026",
@@ -163,6 +923,143 @@
     ]
   },
   {
+    "id": "steptrigger-contact-state-triggered-backdoor-attacks-on-vlm-powered-legged-robots-2026",
+    "title": "StepTrigger: Contact-State-Triggered Backdoor Attacks on VLM-Powered Legged Robots",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.26131",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "embodied-planning"
+    ]
+  },
+  {
+    "id": "the-model-plants-the-trigger-answer-side-backdoor-attacks-in-multi-turn-large-language-models-2026",
+    "title": "The Model Plants the Trigger: Answer-Side Backdoor Attacks in Multi-Turn Large Language Models",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.07723",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "llms"
+    ]
+  },
+  {
+    "id": "the-platonic-defense-backdoor-defense-for-self-supervised-encoders-in-the-era-of-large-scale-pre-training-2026",
+    "title": "The Platonic Defense: Backdoor Defense for Self-Supervised Encoders in the Era of Large Scale Pre-training",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2606.29451",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "visual-representation"
+    ],
+    "code": "https://github.com/jsrdcht/Platonic-Representation-Defense"
+  },
+  {
+    "id": "tmt-runtime-backdoor-detection-for-vision-language-action-policies-on-unseen-tasks-2026",
+    "title": "TMT: Runtime Backdoor Detection for Vision-Language-Action Policies on Unseen Tasks",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.09462",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "vla-models"
+    ]
+  },
+  {
+    "id": "tokenscanner-detecting-backdoors-and-discovering-triggers-in-text-to-image-loras-via-full-vocabulary-scanning-2026",
+    "title": "TokenScanner: Detecting Backdoors and Discovering Triggers in Text-to-Image LoRAs via Full Vocabulary Scanning",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.31878",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-generation"
+    ]
+  },
+  {
+    "id": "topology-conditioned-backdoors-language-models-that-insert-vulnerabilities-when-they-infer-they-are-in-a-multi-agent-sys-2026",
+    "title": "Topology-Conditioned Backdoors: Language Models That Insert Vulnerabilities When They Infer They Are in a Multi-Agent System",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.05793",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "code-models",
+      "llms"
+    ]
+  },
+  {
+    "id": "towards-effective-stealthy-and-persistent-backdoor-attacks-targeting-graph-foundation-models-2026",
+    "title": "Towards Effective, Stealthy, and Persistent Backdoor Attacks Targeting Graph Foundation Models",
+    "year": 2026,
+    "venue": "AAAI",
+    "url": "https://arxiv.org/abs/2511.17982",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "graph-representation"
+    ]
+  },
+  {
+    "id": "towards-merging-conditional-backdoor-unalignment-against-large-language-models-2026",
+    "title": "Towards Merging-conditional Backdoor Unalignment against Large Language Models",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.14701",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "llms"
+    ]
+  },
+  {
+    "id": "towards-stealthy-and-effective-backdoor-attacks-on-lane-detection-a-naturalistic-data-poisoning-approach-2026",
+    "title": "Towards Stealthy and Effective Backdoor Attacks on Lane Detection: A Naturalistic Data Poisoning Approach",
+    "year": 2026,
+    "venue": "CVPR",
+    "url": "https://arxiv.org/abs/2508.15778",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "navigation-driving",
+      "detection-segmentation-tracking"
+    ]
+  },
+  {
+    "id": "trojaning-the-alignment-stealthy-backdoor-attacks-against-graph-foundation-models-2026",
+    "title": "Trojaning the Alignment: Stealthy Backdoor Attacks against Graph Foundation Models",
+    "year": 2026,
+    "venue": "ICDM",
+    "url": "https://arxiv.org/abs/2608.20991",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "graph-representation",
+      "graph-node-classification"
+    ],
+    "code": "https://github.com/ventr1c/STAG"
+  },
+  {
     "id": "trojanto-action-level-backdoor-attacks-against-trajectory-optimization-models-2026",
     "title": "TrojanTO: Action-Level Backdoor Attacks against Trajectory Optimization Models",
     "year": 2026,
@@ -173,6 +1070,61 @@
     ],
     "topics": [
       "single-agent-rl"
+    ]
+  },
+  {
+    "id": "trojanworld-backdooring-world-model-agents-via-imagination-steering-2026",
+    "title": "TrojanWorld: Backdooring World-Model Agents via Imagination Steering",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.07051",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "single-agent-rl",
+      "robotic-control"
+    ]
+  },
+  {
+    "id": "trustvla-mechanism-guided-inference-time-defense-against-vision-language-action-backdoors-2026",
+    "title": "TrustVLA: Mechanism-Guided Inference-Time Defense Against Vision-Language-Action Backdoors",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2607.12571",
+    "types": [
+      "Defense",
+      "Analysis"
+    ],
+    "topics": [
+      "vla-models"
+    ]
+  },
+  {
+    "id": "uba-orl-unlearning-activated-backdoor-attacks-on-offline-reinforcement-learning-2026",
+    "title": "UBA-ORL: Unlearning-Activated Backdoor Attacks on Offline Reinforcement Learning",
+    "year": 2026,
+    "venue": "ICDM",
+    "url": "https://arxiv.org/abs/2609.22711",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "single-agent-rl"
+    ]
+  },
+  {
+    "id": "under-the-skin-backdoor-infection-in-multimodal-large-language-models-2026",
+    "title": "Under the Skin: Backdoor Infection in Multimodal Large Language Models",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.24058",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "mllms"
     ]
   },
   {
@@ -189,6 +1141,74 @@
       "code-models"
     ],
     "code": "https://github.com/uiuc-kang-lab/PersistBD"
+  },
+  {
+    "id": "understanding-backdoor-vulnerabilities-in-vertical-federated-learning-the-gap-between-research-and-practice-2026",
+    "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2608.12962",
+    "types": [
+      "Analysis",
+      "Benchmark"
+    ],
+    "topics": [
+      "vertical-fl"
+    ]
+  },
+  {
+    "id": "when-collaboration-becomes-a-trigger-collective-evidence-threshold-backdoors-in-multi-agent-systems-2026",
+    "title": "When Collaboration Becomes a Trigger: Collective Evidence-Threshold Backdoors in Multi-Agent Systems",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2608.01085",
+    "types": [
+      "Attack",
+      "Defense"
+    ],
+    "topics": [
+      "multi-agent-systems"
+    ]
+  },
+  {
+    "id": "when-local-monitors-miss-compositional-harm-diagnosing-distributed-backdoors-in-multi-agent-systems-2026",
+    "title": "When Local Monitors Miss Compositional Harm: Diagnosing Distributed Backdoors in Multi-Agent Systems",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2607.11751",
+    "types": [
+      "Analysis",
+      "Defense"
+    ],
+    "topics": [
+      "multi-agent-systems"
+    ]
+  },
+  {
+    "id": "when-modalities-fail-to-tango-conformal-backdoor-detection-in-multimodal-contrastive-learning-2026",
+    "title": "When Modalities Fail to Tango: Conformal Backdoor Detection in Multimodal Contrastive Learning",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2608.04052",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "vision-language-representation"
+    ]
+  },
+  {
+    "id": "when-the-world-lies-backdoor-attacks-on-latent-world-models-for-downstream-control-2026",
+    "title": "When the World Lies: Backdoor Attacks on Latent World Models for Downstream Control",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.15781",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "single-agent-rl"
+    ]
   },
   {
     "id": "where-do-backdoors-live-a-component-level-analysis-of-backdoor-propagation-in-speech-language-models-2026",

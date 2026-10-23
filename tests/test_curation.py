@@ -60,6 +60,22 @@ class CurationEvidenceTests(unittest.TestCase):
         topics = {t["id"] for area in self.catalog["taxonomy"]["areas"] for t in area["topics"]}
         self.assertEqual(covered, topics)
 
+    def test_recent_batch_counts_and_exclusions_reconcile(self):
+        batch = json.loads((ROOT / "data/curation/recent-expansion.json").read_text())
+        reviews = [r for r in self.reviews if r.get("batch_id") == batch["batch_id"]]
+        self.assertEqual(len(reviews), batch["added"])
+        self.assertEqual(batch["abstracts_reviewed"],
+                         batch["added"] + len(batch["excluded_after_abstract_review"]))
+        self.assertEqual(batch["catalog_before"] + batch["added"], batch["catalog_after"])
+        self.assertEqual(batch["reported_total"], batch["retrieved"])
+        sources = {review["abstract_source"] for review in reviews}
+        for excluded in batch["excluded_after_abstract_review"]:
+            self.assertNotIn(excluded["source"], sources)
+        for review in reviews:
+            self.assertIn(self.papers[review["paper_id"]]["year"], (2025, 2026))
+            self.assertGreaterEqual(review["first_submitted"], "2025-01-01")
+            self.assertLessEqual(review["first_submitted"], batch["review_date"])
+
 
 if __name__ == "__main__":
     unittest.main()

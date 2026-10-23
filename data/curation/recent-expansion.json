@@ -1,0 +1,89 @@
+{
+  "batch_id": "2026-10-23-recent-expansion",
+  "review_date": "2026-10-23",
+  "focus": "2025 and 2026 model/agent backdoor research",
+  "source": "https://export.arxiv.org/api/query",
+  "query": "(ti:backdoor OR ti:trojan) AND submittedDate:[202501010000 TO 202610232359]",
+  "sort_by": "submittedDate",
+  "sort_order": "descending",
+  "max_results": 800,
+  "reported_total": 767,
+  "retrieved": 767,
+  "metadata_candidates_after_prior-catalog_and_category_filtering": 699,
+  "abstracts_reviewed": 152,
+  "added": 146,
+  "excluded_after_abstract_review": [
+    {
+      "title": "Natural Backdoor Attacks on Speech Recognition Models",
+      "source": "https://arxiv.org/abs/2607.15724",
+      "reason": "older-publication",
+      "note": "First arXiv upload is 2026, but the source states the work was published in 2023; omitted from this recent-paper batch."
+    },
+    {
+      "title": "SpeechGuard: Online Defense against Backdoor Attacks on Speech Recognition Models",
+      "source": "https://arxiv.org/abs/2607.15697",
+      "reason": "older-publication",
+      "note": "First arXiv upload is 2026, but journal metadata identifies IJCNN 2024; omitted from this recent-paper batch."
+    },
+    {
+      "title": "DUP: Detection-guided Unlearning for Backdoor Purification in Language Models",
+      "source": "https://arxiv.org/abs/2508.01647",
+      "reason": "ambiguous-subtype",
+      "note": "The retrieved abstract does not identify the evaluated language-model family or tasks sufficiently to distinguish PLM representation defenses from generative LLM defenses."
+    },
+    {
+      "title": "AnywhereDoor: Multi-Target Backdoor Attacks on Object Detection",
+      "source": "https://arxiv.org/abs/2503.06529",
+      "reason": "withdrawn-alias",
+      "note": "The author states this submission was mistakenly duplicated and withdrawn; canonical work is arXiv:2411.14243 from 2024, so it is not counted as a new 2025 paper."
+    },
+    {
+      "title": "SSD: A State-based Stealthy Backdoor Attack For Navigation System in UAV Route Planning",
+      "source": "https://arxiv.org/abs/2502.20178",
+      "reason": "unclear-model-backdoor",
+      "note": "The abstract describes state-triggered GNSS spoofing but does not establish an implanted learning-model backdoor; held out pending stronger scope evidence."
+    },
+    {
+      "title": "MBTSAD: Mitigating Backdoors in Language Models Based on Token Splitting and Attention Distillation",
+      "source": "https://arxiv.org/abs/2501.02754",
+      "reason": "older-publication",
+      "note": "Although uploaded to arXiv in January 2025, source metadata identifies ICTAI 2024; omitted from this 2025-2026 batch."
+    }
+  ],
+  "possible_existing_aliases_not_counted": [
+    {
+      "arxiv_id": "2512.24665",
+      "reason": "possible prior-paper alias",
+      "existing": "heteroba-a-structure-manipulating-backdoor-attack-on-heterogeneous-graphs-2025",
+      "score": 0.9219858156028369
+    },
+    {
+      "arxiv_id": "2505.16640",
+      "reason": "possible prior-paper alias",
+      "existing": "badvla-2025",
+      "score": 1.0
+    }
+  ],
+  "canonical_alias_checked": {
+    "source": "https://arxiv.org/abs/2411.14243",
+    "duplicate_submission": "https://arxiv.org/abs/2503.06529",
+    "decision": "Author explicitly identifies a mistaken duplicate upload and withdrawal; do not count as a new 2025 work."
+  },
+  "first_submission_year_counts": {
+    "2026": 58,
+    "2025": 88
+  },
+  "displayed_year_counts": {
+    "2026": 75,
+    "2025": 71
+  },
+  "catalog_before": 306,
+  "catalog_after": 452,
+  "limitations": [
+    "Keyword query matches titles; papers with different terminology can be missed.",
+    "Selection prioritizes modern language/multimodal models, agents, embodied systems, and generative models; not all retrieved records were abstract-screened.",
+    "No PDFs downloaded or full texts reviewed.",
+    "No claims of exhaustive coverage or independent verification of reported experimental results.",
+    "Publication metadata may reflect author-reported acceptance; use arXiv where a year or venue is not established."
+  ]
+}

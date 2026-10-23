@@ -20,7 +20,8 @@ Awesome-Backdoor-Research/
 │   ├── curation/
 │   │   ├── legacy-migration.json # Original-row dispositions and canonical IDs
 │   │   ├── expansion-reviews.json # Abstract sources and editorial decisions
-│   │   └── searches.json        # Topic search queries and retrieval scope
+│   │   ├── searches.json        # Initial topic queries and retrieval scope
+│   │   └── recent-expansion.json # Recent-paper review counts and exclusions
 │   └── resources.json           # Tutorials/courses, workshops, toolboxes
 ├── schemas/
 │   ├── taxonomy.schema.json

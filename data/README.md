@@ -67,7 +67,8 @@ The files in `curation/` are editorial ledgers, separate from rendered paper fie
 
 - `legacy-migration.json` accounts for every historical paper row as migrated, duplicate, or excluded. Preserve its original row number, source line in the historical Git snapshot, and title. Retain canonical paper IDs when editing records.
 - `expansion-reviews.json` records each added paper's abstract source, review date, classification rationale, and arXiv version when applicable. Identify secondary mirrors explicitly rather than claiming primary-source access.
-- `searches.json` records topic queries and retrieval limits for the dated expansion pass. A result count is not a count of accepted papers.
+- `searches.json` records topic queries and retrieval limits for the initial expansion pass. A result count is not a count of accepted papers.
+- `recent-expansion.json` records the subsequent 2025–2026 query, retrieval and review counts, excluded candidates, and alias decisions. Its `batch_id` joins the corresponding entries in `expansion-reviews.json`.
 
 These ledgers do not duplicate paper abstracts or feed the README renderer. The offline curation tests check archive accounting, paper references, and batch coverage. See the dated [coverage report](../docs/curation.md) for interpretation and limitations. Add later editorial batches without rewriting the historical evidence.
 
