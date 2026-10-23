@@ -1,0 +1,76 @@
+{
+  "tutorials": [
+    {
+      "id": "backdoor-learning-iccv-2023",
+      "title": "Backdoor Learning: Recent Advances and Future Trends",
+      "year": 2023,
+      "venue": "ICCV",
+      "url": "https://backdoor-learning-tutorial.github.io/",
+      "description": "Foundations, attacks, defenses, benchmarks, and applications.",
+      "links": [
+        {
+          "label": "Slides",
+          "url": "https://docs.google.com/presentation/d/1C9o8cqltyKqAlkvQVukbNMypUw7G7u1w/edit"
+        }
+      ]
+    }
+  ],
+  "workshops": [
+    {
+      "id": "bugs-neurips-2023",
+      "title": "Backdoors in Deep Learning: The Good, the Bad, and the Ugly",
+      "year": 2023,
+      "venue": "NeurIPS",
+      "url": "https://neurips2023-bugs.github.io/",
+      "description": "Backdoor threats, defenses, and beneficial applications.",
+      "links": [
+        {
+          "label": "Program & recordings",
+          "url": "https://neurips.cc/virtual/2023/workshop/66550"
+        },
+        {
+          "label": "Papers",
+          "url": "https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/BUGS"
+        }
+      ]
+    }
+  ],
+  "toolboxes": [
+    {
+      "id": "backdoorbox",
+      "title": "BackdoorBox",
+      "url": "https://github.com/THUYimingLi/BackdoorBox",
+      "description": "A unified Python framework for implementing and comparing backdoor attacks and defenses."
+    },
+    {
+      "id": "trojanzoo",
+      "title": "TrojanZoo",
+      "url": "https://github.com/ain-soph/trojanzoo",
+      "description": "A PyTorch platform for evaluating backdoor attacks and defenses in image classification.",
+      "links": [
+        {
+          "label": "Docs",
+          "url": "https://ain-soph.github.io/trojanzoo/"
+        }
+      ]
+    },
+    {
+      "id": "backdoorbench",
+      "title": "BackdoorBench",
+      "url": "https://github.com/SCLBD/backdoorbench",
+      "description": "A unified evaluation framework for backdoor attacks and defenses in computer vision."
+    },
+    {
+      "id": "openbackdoor",
+      "title": "OpenBackdoor",
+      "url": "https://github.com/thunlp/OpenBackdoor",
+      "description": "A framework for implementing and evaluating textual backdoor attacks and defenses."
+    },
+    {
+      "id": "backdoor-toolbox",
+      "title": "BackdoorToolbox",
+      "url": "https://github.com/vtu81/backdoor-toolbox",
+      "description": "A collection of backdoor attack and defense implementations retained from the original catalog."
+    }
+  ]
+}

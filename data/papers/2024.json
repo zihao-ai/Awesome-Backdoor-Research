@@ -1,0 +1,553 @@
+[
+  {
+    "id": "a-survey-of-recent-backdoor-attacks-and-defenses-in-large-language-models-2024",
+    "title": "A Survey of Recent Backdoor Attacks and Defenses in Large Language Models",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2406.06852",
+    "types": [
+      "Survey"
+    ],
+    "topics": [
+      "surveys-specific"
+    ]
+  },
+  {
+    "id": "a-survey-of-trojan-attacks-and-defenses-to-deep-neural-networks-2024",
+    "title": "A Survey of Trojan Attacks and Defenses to Deep Neural Networks",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2408.08920",
+    "types": [
+      "Survey"
+    ],
+    "topics": [
+      "general-surveys"
+    ]
+  },
+  {
+    "id": "adversarial-backdoor-defense-in-clip-2024",
+    "title": "Adversarial Backdoor Defense in CLIP",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2409.15968",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "vision-language-representation"
+    ]
+  },
+  {
+    "id": "agentpoison-2024",
+    "title": "AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases",
+    "year": 2024,
+    "venue": "NeurIPS",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/eb113910e9c3f6242541c1652e30dfd6-Abstract-Conference.html",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "agent-memory"
+    ],
+    "code": "https://github.com/AI-secure/AgentPoison"
+  },
+  {
+    "id": "backdoor-attack-on-vertical-federated-graph-neural-network-learning-2024",
+    "title": "Backdoor Attack on Vertical Federated Graph Neural Network Learning",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2410.11290",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "vertical-fl",
+      "graph-node-classification"
+    ]
+  },
+  {
+    "id": "backdoor-attacks-against-voice-recognition-systems-a-survey-2024",
+    "title": "Backdoor Attacks against Voice Recognition Systems: A Survey",
+    "year": 2024,
+    "venue": "ACM CSUR",
+    "url": "https://arxiv.org/abs/2307.13643",
+    "types": [
+      "Survey"
+    ],
+    "topics": [
+      "surveys-specific"
+    ]
+  },
+  {
+    "id": "backdoor-defense-through-self-supervised-and-generative-learning-2024",
+    "title": "Backdoor Defense through Self-Supervised and Generative Learning",
+    "year": 2024,
+    "venue": "BMVC",
+    "url": "https://arxiv.org/abs/2409.01185",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "backdoored-retrievers-for-prompt-injection-attacks-on-retrieval-augmented-generation-of-large-language-models-2024",
+    "title": "Backdoored Retrievers for Prompt Injection Attacks on Retrieval Augmented Generation of Large Language Models",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2410.14479",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "rag"
+    ]
+  },
+  {
+    "id": "backdooring-multimodal-learning-2024",
+    "title": "Backdooring Multimodal Learning",
+    "year": 2024,
+    "venue": "IEEE S&P",
+    "url": "https://doi.org/10.1109/SP54263.2024.00031",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "audio-language"
+    ]
+  },
+  {
+    "id": "badagent-inserting-and-activating-backdoor-attacks-in-llm-agents-2024",
+    "title": "BadAgent: Inserting and Activating Backdoor Attacks in LLM Agents",
+    "year": 2024,
+    "venue": "ACL",
+    "url": "https://arxiv.org/abs/2406.03007",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "agent-planning"
+    ],
+    "code": "https://github.com/DPamK/BadAgent"
+  },
+  {
+    "id": "badchain-2024",
+    "title": "BadChain: Backdoor Chain-of-Thought Prompting for Large Language Models",
+    "year": 2024,
+    "venue": "ICLR",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/791d3337291b2c574545aeecfa75484c-Abstract-Conference.html",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "llms"
+    ],
+    "code": "https://github.com/Django-Jiang/BadChain"
+  },
+  {
+    "id": "badclip-dual-embedding-guided-backdoor-attack-on-multimodal-contrastive-learning-2024",
+    "title": "BadCLIP: Dual-Embedding Guided Backdoor Attack on Multimodal Contrastive Learning",
+    "year": 2024,
+    "venue": "CVPR",
+    "url": "https://arxiv.org/abs/2311.12075",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "vision-language-representation"
+    ]
+  },
+  {
+    "id": "badscan-an-architectural-backdoor-attack-on-visual-state-space-models-2024",
+    "title": "BadScan: An Architectural Backdoor Attack on Visual State Space Models",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2411.17283",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "badtts-2024",
+    "title": "BadTTS: Identifying Vulnerabilities in Neural Text-to-Speech Models",
+    "year": 2024,
+    "venue": "GLOBECOM",
+    "url": "https://doi.org/10.1109/GLOBECOM52923.2024.10901725",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "audio-generation"
+    ]
+  },
+  {
+    "id": "client-side-patching-against-backdoor-attacks-in-federated-learning-2024",
+    "title": "Client-Side Patching against Backdoor Attacks in Federated Learning",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2412.10605",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
+    "id": "cloudfort-enhancing-robustness-of-3d-point-cloud-classification-against-backdoor-attacks-via-spatial-partitioning-and-en-2024",
+    "title": "CloudFort: Enhancing Robustness of 3D Point Cloud Classification Against Backdoor Attacks via Spatial Partitioning and Ensemble Prediction",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2404.14042",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "3d-vision"
+    ]
+  },
+  {
+    "id": "compromising-embodied-agents-with-contextual-backdoor-attacks-2024",
+    "title": "Compromising Embodied Agents with Contextual Backdoor Attacks",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2408.02882",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "embodied-planning"
+    ]
+  },
+  {
+    "id": "cooperative-backdoor-attack-in-decentralized-reinforcement-learning-with-theoretical-guarantee-2024",
+    "title": "Cooperative Backdoor Attack in Decentralized Reinforcement Learning with Theoretical Guarantee",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2405.15245",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "multi-agent-rl"
+    ]
+  },
+  {
+    "id": "effective-backdoor-attack-on-graph-neural-networks-in-link-prediction-tasks-2024",
+    "title": "Effective backdoor attack on graph neural networks in link prediction tasks",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2401.02663",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "graph-representation"
+    ]
+  },
+  {
+    "id": "emoattack-utilizing-emotional-voice-conversion-for-speech-backdoor-attacks-on-deep-speech-classification-models-2024",
+    "title": "EmoAttack: Utilizing Emotional Voice Conversion for Speech Backdoor Attacks on Deep Speech Classification Models",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2408.15508",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "speech-recognition"
+    ]
+  },
+  {
+    "id": "iba-backdoor-attack-on-3d-point-cloud-via-reconstructing-itself-2024",
+    "title": "iBA: Backdoor Attack on 3D Point Cloud via Reconstructing Itself",
+    "year": 2024,
+    "venue": "TIFS",
+    "url": "https://arxiv.org/abs/2403.05847",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "3d-vision"
+    ]
+  },
+  {
+    "id": "injecting-bias-into-text-classification-models-using-backdoor-attacks-2024",
+    "title": "Injecting Bias into Text Classification Models using Backdoor Attacks",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2412.18975",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "text-classification"
+    ]
+  },
+  {
+    "id": "instruction-backdoor-attacks-against-customized-llms-2024",
+    "title": "Instruction Backdoor Attacks Against Customized LLMs",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2402.09179",
+    "types": [
+      "Attack",
+      "Defense"
+    ],
+    "topics": [
+      "llms"
+    ]
+  },
+  {
+    "id": "instructions-as-backdoors-backdoor-vulnerabilities-of-instruction-tuning-for-large-language-models-2024",
+    "title": "Instructions as Backdoors: Backdoor Vulnerabilities of Instruction Tuning for Large Language Models",
+    "year": 2024,
+    "venue": "NAACL",
+    "url": "https://arxiv.org/abs/2305.14710",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "llms"
+    ]
+  },
+  {
+    "id": "invisible-backdoor-attack-against-self-supervised-learning-2024",
+    "title": "Invisible Backdoor Attack against Self-supervised Learning",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2405.14672",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "visual-representation"
+    ],
+    "code": "https://github.com/Zhang-Henry/INACTIVE"
+  },
+  {
+    "id": "invisible-backdoor-attacks-on-diffusion-models-2024",
+    "title": "Invisible Backdoor Attacks on Diffusion Models",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2406.00816",
+    "types": [
+      "Attack",
+      "Application"
+    ],
+    "topics": [
+      "image-generation"
+    ],
+    "code": "https://github.com/invisibleTriggerDiffusion/invisible_triggers_for_diffusion"
+  },
+  {
+    "id": "megatron-evasive-clean-label-backdoor-attacks-against-vision-transformer-2024",
+    "title": "Megatron: Evasive Clean-Label Backdoor Attacks against Vision Transformer",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2412.04776",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "mm-bd-post-training-detection-of-backdoor-attacks-with-arbitrary-backdoor-pattern-types-using-a-maximum-margin-statistic-2024",
+    "title": "MM-BD: Post-Training Detection of Backdoor Attacks with Arbitrary Backdoor Pattern Types Using a Maximum Margin Statistic",
+    "year": 2024,
+    "venue": "IEEE S&P",
+    "url": "https://arxiv.org/abs/2205.06900",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "phantom-general-backdoor-attacks-on-retrieval-augmented-language-generation-2024",
+    "title": "Phantom: General Backdoor Attacks on Retrieval Augmented Language Generation",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2405.20485",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "rag"
+    ]
+  },
+  {
+    "id": "physical-backdoor-attack-can-jeopardize-driving-with-vision-large-language-models-2024",
+    "title": "Physical Backdoor Attack can Jeopardize Driving with Vision-Large-Language Models",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2404.12916",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "navigation-driving"
+    ]
+  },
+  {
+    "id": "robot-collapse-supply-chain-backdoor-attacks-against-vlm-based-robotic-manipulation-2024",
+    "title": "Robot Collapse: Supply Chain Backdoor Attacks Against VLM-based Robotic Manipulation",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2411.11683",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "robotic-control"
+    ]
+  },
+  {
+    "id": "robust-backdoor-detection-for-deep-learning-via-topological-evolution-dynamics-2024",
+    "title": "Robust Backdoor Detection for Deep Learning via Topological Evolution Dynamics",
+    "year": 2024,
+    "venue": "IEEE S&P",
+    "url": "https://arxiv.org/abs/2312.02673",
+    "types": [
+      "Defense",
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification",
+      "text-classification"
+    ],
+    "code": "https://github.com/tedbackdoordefense/ted"
+  },
+  {
+    "id": "sleeper-agents-training-deceptive-llms-that-persist-through-safety-training-2024",
+    "title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2401.05566",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "llms",
+      "code-models"
+    ]
+  },
+  {
+    "id": "temporal-distributed-backdoor-attack-against-video-based-action-recognition-2024",
+    "title": "Temporal-Distributed Backdoor Attack Against Video Based Action Recognition",
+    "year": 2024,
+    "venue": "AAAI",
+    "url": "https://arxiv.org/abs/2308.11070",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "video-understanding"
+    ]
+  },
+  {
+    "id": "test-time-backdoor-attacks-on-multimodal-large-language-models-2024",
+    "title": "Test-Time Backdoor Attacks on Multimodal Large Language Models",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2402.08577",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "mllms"
+    ]
+  },
+  {
+    "id": "textguard-provable-defense-against-backdoor-attacks-on-text-classification-2024",
+    "title": "TextGuard: Provable Defense against Backdoor Attacks on Text Classification",
+    "year": 2024,
+    "venue": "NDSS",
+    "url": "https://arxiv.org/abs/2311.11225",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "text-classification",
+      "learning-theory"
+    ],
+    "code": "https://github.com/AI-secure/TextGuard"
+  },
+  {
+    "id": "trojanrag-retrieval-augmented-generation-can-be-backdoor-driver-in-large-language-models-2024",
+    "title": "TrojanRAG: Retrieval-Augmented Generation Can Be Backdoor Driver in Large Language Models",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2405.13401",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "rag"
+    ]
+  },
+  {
+    "id": "uor-universal-backdoor-attacks-on-pre-trained-language-models-2024",
+    "title": "UOR: Universal Backdoor Attacks on Pre-trained Language Models",
+    "year": 2024,
+    "venue": "Findings of ACL",
+    "url": "https://arxiv.org/abs/2305.09574",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "language-representation"
+    ]
+  },
+  {
+    "id": "vdc-versatile-data-cleanser-based-on-visual-linguistic-inconsistency-by-multimodal-large-language-models-2024",
+    "title": "VDC: Versatile Data Cleanser based on Visual-Linguistic Inconsistency by Multimodal Large Language Models",
+    "year": 2024,
+    "venue": "ICLR",
+    "url": "https://arxiv.org/abs/2309.16211",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/zihao-ai/vdc"
+  },
+  {
+    "id": "vflip-a-backdoor-defense-for-vertical-federated-learning-via-identification-and-purification-2024",
+    "title": "VFLIP: A Backdoor Defense for Vertical Federated Learning via Identification and Purification",
+    "year": 2024,
+    "venue": "ESORICS",
+    "url": "https://arxiv.org/abs/2408.15591",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "vertical-fl"
+    ],
+    "code": "https://github.com/blingcho/VFLIP-esorics24"
+  },
+  {
+    "id": "vl-trojan-multimodal-instruction-backdoor-attacks-against-autoregressive-visual-language-models-2024",
+    "title": "VL-Trojan: Multimodal Instruction Backdoor Attacks against Autoregressive Visual Language Models",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2402.13851",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "mllms"
+    ]
+  }
+]

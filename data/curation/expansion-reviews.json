@@ -1,0 +1,898 @@
+[
+  {
+    "paper_id": "a-survey-of-trojan-attacks-and-defenses-to-deep-neural-networks-2024",
+    "abstract_source": "https://arxiv.org/abs/2408.08920",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2408.08920v1",
+    "first_submitted": "2024-08-15",
+    "classification_note": "Broad review of neural backdoor attacks and defenses.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "a-survey-of-recent-backdoor-attacks-and-defenses-in-large-language-models-2024",
+    "abstract_source": "https://arxiv.org/abs/2406.06852",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2406.06852v5",
+    "first_submitted": "2024-06-10",
+    "classification_note": "Survey focused on a particular model family or modality; placed only in Surveys.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "a-survey-on-backdoor-threats-in-large-language-models-llms-attacks-defenses-and-evaluations-2025",
+    "abstract_source": "https://arxiv.org/abs/2502.05224",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2502.05224v1",
+    "first_submitted": "2025-02-06",
+    "classification_note": "Survey focused on a particular model family or modality; placed only in Surveys.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "backdoor-attacks-against-voice-recognition-systems-a-survey-2024",
+    "abstract_source": "https://arxiv.org/abs/2307.13643",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2307.13643v1",
+    "first_submitted": "2023-07-23",
+    "classification_note": "Survey focused on a particular model family or modality; placed only in Surveys.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "badscan-an-architectural-backdoor-attack-on-visual-state-space-models-2024",
+    "abstract_source": "https://arxiv.org/abs/2411.17283",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2411.17283v1",
+    "first_submitted": "2024-11-26",
+    "classification_note": "Conditional misclassification of image recognition models.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "megatron-evasive-clean-label-backdoor-attacks-against-vision-transformer-2024",
+    "abstract_source": "https://arxiv.org/abs/2412.04776",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2412.04776v1",
+    "first_submitted": "2024-12-06",
+    "classification_note": "Conditional misclassification of image recognition models.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "influencer-backdoor-attack-on-semantic-segmentation-2023",
+    "abstract_source": "https://arxiv.org/abs/2303.12054",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2303.12054v5",
+    "first_submitted": "2023-03-21",
+    "classification_note": "Backdoors in dense spatial predictions or test-time detection for object detectors.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "conseg-contextual-backdoor-attack-against-semantic-segmentation-2025",
+    "abstract_source": "https://arxiv.org/abs/2507.19905",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2507.19905v1",
+    "first_submitted": "2025-07-26",
+    "classification_note": "Backdoors in dense spatial predictions or test-time detection for object detectors.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "test-time-backdoor-detection-for-object-detection-models-2025",
+    "abstract_source": "https://arxiv.org/abs/2503.15293",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2503.15293v2",
+    "first_submitted": "2025-03-19",
+    "classification_note": "Backdoors in dense spatial predictions or test-time detection for object detectors.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "temporal-distributed-backdoor-attack-against-video-based-action-recognition-2024",
+    "abstract_source": "https://arxiv.org/abs/2308.11070",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2308.11070v3",
+    "first_submitted": "2023-08-21",
+    "classification_note": "Action recognition is the victim task, rather than video synthesis.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "look-listen-and-attack-backdoor-attacks-against-video-action-recognition-2023",
+    "abstract_source": "https://arxiv.org/abs/2301.00986",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2301.00986v2",
+    "first_submitted": "2023-01-03",
+    "classification_note": "Action recognition is the victim task, rather than video synthesis.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "cloudfort-enhancing-robustness-of-3d-point-cloud-classification-against-backdoor-attacks-via-spatial-partitioning-and-en-2024",
+    "abstract_source": "https://arxiv.org/abs/2404.14042",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2404.14042v1",
+    "first_submitted": "2024-04-22",
+    "classification_note": "Point-cloud classifier is the attacked or defended model.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "iba-backdoor-attack-on-3d-point-cloud-via-reconstructing-itself-2024",
+    "abstract_source": "https://arxiv.org/abs/2403.05847",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2403.05847v2",
+    "first_submitted": "2024-03-09",
+    "classification_note": "Point-cloud classifier is the attacked or defended model.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "invisible-backdoor-attack-against-self-supervised-learning-2024",
+    "abstract_source": "https://arxiv.org/abs/2405.14672",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2405.14672v2",
+    "first_submitted": "2024-05-23",
+    "classification_note": "Backdoor is embedded in self-supervised visual representations.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "backdoor-defense-through-self-supervised-and-generative-learning-2024",
+    "abstract_source": "https://arxiv.org/abs/2409.01185",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2409.01185v1",
+    "first_submitted": "2024-09-02",
+    "classification_note": "Conditional misclassification of image recognition models.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "mrop-mask-region-optimized-purification-against-backdoor-attack-in-deep-jscc-2026",
+    "abstract_source": "https://arxiv.org/abs/2609.00786",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2609.00786v1",
+    "first_submitted": "2026-09-01",
+    "classification_note": "Triggered corruption of reconstructed images in deep source/channel coding.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "baddepth-backdoor-attacks-against-monocular-depth-estimation-in-the-physical-world-2025",
+    "abstract_source": "https://arxiv.org/abs/2505.16154",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2505.16154v1",
+    "first_submitted": "2025-05-22",
+    "classification_note": "Triggered manipulation of continuous depth predictions, not an image class label.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "backdoor-learning-on-sequence-to-sequence-models-2023",
+    "abstract_source": "https://arxiv.org/abs/2305.02424",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2305.02424v1",
+    "first_submitted": "2023-05-03",
+    "classification_note": "Machine translation and summarization are evaluated as sequence-output tasks.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "textguard-provable-defense-against-backdoor-attacks-on-text-classification-2024",
+    "abstract_source": "https://arxiv.org/abs/2311.11225",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2311.11225v2",
+    "first_submitted": "2023-11-19",
+    "classification_note": "Triggered changes to text classification predictions or their defense. Formal learnability, undetectability, or cryptographic guarantees are central.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "injecting-bias-into-text-classification-models-using-backdoor-attacks-2024",
+    "abstract_source": "https://arxiv.org/abs/2412.18975",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2412.18975v1",
+    "first_submitted": "2024-12-25",
+    "classification_note": "Triggered changes to text classification predictions or their defense.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "uor-universal-backdoor-attacks-on-pre-trained-language-models-2024",
+    "abstract_source": "https://arxiv.org/abs/2305.09574",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2305.09574v2",
+    "first_submitted": "2023-05-16",
+    "classification_note": "Backdoor affects pretrained representations or embedding parameters reused downstream.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "backdoor-token-unlearning-exposing-and-defending-backdoors-in-pretrained-language-models-2025",
+    "abstract_source": "https://arxiv.org/abs/2501.03272",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2501.03272v1",
+    "first_submitted": "2025-01-05",
+    "classification_note": "Backdoor affects pretrained representations or embedding parameters reused downstream.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "instructions-as-backdoors-backdoor-vulnerabilities-of-instruction-tuning-for-large-language-models-2024",
+    "abstract_source": "https://arxiv.org/abs/2305.14710",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2305.14710v2",
+    "first_submitted": "2023-05-24",
+    "classification_note": "Instruction following or text generation is the attacked, defended, or analyzed behavior.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "instruction-backdoor-attacks-against-customized-llms-2024",
+    "abstract_source": "https://arxiv.org/abs/2402.09179",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2402.09179v3",
+    "first_submitted": "2024-02-14",
+    "classification_note": "Instruction following or text generation is the attacked, defended, or analyzed behavior.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "rethinking-backdoor-detection-evaluation-for-language-models-2025",
+    "abstract_source": "https://arxiv.org/abs/2409.00399",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2409.00399v2",
+    "first_submitted": "2024-08-31",
+    "classification_note": "Instruction following or text generation is the attacked, defended, or analyzed behavior.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "crow-eliminating-backdoors-from-large-language-models-via-internal-consistency-regularization-2025",
+    "abstract_source": "https://arxiv.org/abs/2411.12768",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2411.12768v2",
+    "first_submitted": "2024-11-18",
+    "classification_note": "Instruction following or text generation is the attacked, defended, or analyzed behavior. Code understanding, code generation, or software-engineering agents are explicitly evaluated.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "trojanedcm-a-repository-of-trojaned-large-language-models-of-code-2023",
+    "abstract_source": "https://arxiv.org/abs/2311.14850",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2311.14850v2",
+    "first_submitted": "2023-11-24",
+    "classification_note": "Code understanding, code generation, or software-engineering agents are explicitly evaluated.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "multi-target-backdoor-attacks-for-code-pre-trained-models-2023",
+    "abstract_source": "https://arxiv.org/abs/2306.08350",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2306.08350v1",
+    "first_submitted": "2023-06-14",
+    "classification_note": "Code understanding, code generation, or software-engineering agents are explicitly evaluated.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "stealthy-backdoor-attack-for-code-models-2023",
+    "abstract_source": "https://arxiv.org/abs/2301.02496",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2301.02496v2",
+    "first_submitted": "2023-01-06",
+    "classification_note": "Code understanding, code generation, or software-engineering agents are explicitly evaluated.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "phantom-general-backdoor-attacks-on-retrieval-augmented-language-generation-2024",
+    "abstract_source": "https://arxiv.org/abs/2405.20485",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2405.20485v3",
+    "first_submitted": "2024-05-30",
+    "classification_note": "Retrieval corpus or retriever is backdoored; not every generic poisoning paper is included.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "trojanrag-retrieval-augmented-generation-can-be-backdoor-driver-in-large-language-models-2024",
+    "abstract_source": "https://arxiv.org/abs/2405.13401",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2405.13401v4",
+    "first_submitted": "2024-05-22",
+    "classification_note": "Retrieval corpus or retriever is backdoored; not every generic poisoning paper is included.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "backdoored-retrievers-for-prompt-injection-attacks-on-retrieval-augmented-generation-of-large-language-models-2024",
+    "abstract_source": "https://arxiv.org/abs/2410.14479",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2410.14479v1",
+    "first_submitted": "2024-10-18",
+    "classification_note": "Retrieval corpus or retriever is backdoored; not every generic poisoning paper is included.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "badclip-dual-embedding-guided-backdoor-attack-on-multimodal-contrastive-learning-2024",
+    "abstract_source": "https://arxiv.org/abs/2311.12075",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2311.12075v3",
+    "first_submitted": "2023-11-20",
+    "classification_note": "Cross-modal embeddings or contrastive pretraining are central.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "adversarial-backdoor-defense-in-clip-2024",
+    "abstract_source": "https://arxiv.org/abs/2409.15968",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2409.15968v1",
+    "first_submitted": "2024-09-24",
+    "classification_note": "Cross-modal embeddings or contrastive pretraining are central.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "test-time-backdoor-attacks-on-multimodal-large-language-models-2024",
+    "abstract_source": "https://arxiv.org/abs/2402.08577",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2402.08577v1",
+    "first_submitted": "2024-02-13",
+    "classification_note": "Visual-language instruction following or understanding is the victim task.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "vl-trojan-multimodal-instruction-backdoor-attacks-against-autoregressive-visual-language-models-2024",
+    "abstract_source": "https://arxiv.org/abs/2402.13851",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2402.13851v1",
+    "first_submitted": "2024-02-21",
+    "classification_note": "Visual-language instruction following or understanding is the victim task.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "backdoor-cleaning-without-external-guidance-in-mllm-fine-tuning-2025",
+    "abstract_source": "https://arxiv.org/abs/2505.16916",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2505.16916v1",
+    "first_submitted": "2025-05-22",
+    "classification_note": "Visual-language instruction following or understanding is the victim task.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "you-are-the-trigger-speaker-activated-backdoors-2026",
+    "abstract_source": "https://arxiv.org/abs/2610.27210",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2610.27210v1",
+    "first_submitted": "2026-10-19",
+    "classification_note": "Victim performs speech recognition, keyword spotting, or speaker verification; synthesis is only a possible attack tool.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "invisible-backdoor-attacks-on-diffusion-models-2024",
+    "abstract_source": "https://arxiv.org/abs/2406.00816",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2406.00816v1",
+    "first_submitted": "2024-06-02",
+    "classification_note": "Image synthesis or editing model itself is attacked or defended.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "backdoor-defense-in-diffusion-models-via-spatial-attention-unlearning-2025",
+    "abstract_source": "https://arxiv.org/abs/2504.18563",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2504.18563v1",
+    "first_submitted": "2025-04-21",
+    "classification_note": "Image synthesis or editing model itself is attacked or defended.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "backdoordm-a-comprehensive-benchmark-for-backdoor-learning-on-diffusion-model-2025",
+    "abstract_source": "https://arxiv.org/abs/2502.11798",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2502.11798v2",
+    "first_submitted": "2025-02-17",
+    "classification_note": "Image synthesis or editing model itself is attacked or defended.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "badvideo-stealthy-backdoor-attack-against-text-to-video-generation-2025",
+    "abstract_source": "https://arxiv.org/abs/2504.16907",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2504.16907v2",
+    "first_submitted": "2025-04-23",
+    "classification_note": "A triggered generator produces manipulated videos.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "badaction-backdoor-attacks-on-interactive-video-generation-via-action-guided-triggers-2026",
+    "abstract_source": "https://arxiv.org/abs/2609.39047",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2609.39047v1",
+    "first_submitted": "2026-09-30",
+    "classification_note": "A triggered generator produces manipulated videos.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "gausstrap-stealthy-backdoor-attacks-on-3d-gaussian-splatting-for-targeted-scene-misperception-2025",
+    "abstract_source": "https://arxiv.org/abs/2504.20829",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2504.20829v2",
+    "first_submitted": "2025-04-29",
+    "classification_note": "3D scene synthesis/rendering is compromised, rather than point-cloud classification.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "ghostsplat-input-triggered-backdoors-for-multi-view-consistent-3d-content-manipulation-in-feed-forward-gaussian-splattin-2026",
+    "abstract_source": "https://arxiv.org/abs/2608.29184",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2608.29184v1",
+    "first_submitted": "2026-08-29",
+    "classification_note": "3D scene synthesis/rendering is compromised, rather than point-cloud classification.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "backdooragent-a-unified-framework-for-backdoor-attacks-on-llm-based-agents-2026",
+    "abstract_source": "https://arxiv.org/abs/2601.04566",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2601.04566v2",
+    "first_submitted": "2026-01-08",
+    "classification_note": "Agent workflow execution or post-training behavior is central. Persistent memory carries attack behavior between steps or sessions. Attack targets tool/skill execution or the agent training pipeline that enables it.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "understanding-and-enhancing-backdoor-persistency-in-llm-agent-post-training-2026",
+    "abstract_source": "https://arxiv.org/abs/2610.07510",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2610.07510v2",
+    "first_submitted": "2026-10-05",
+    "classification_note": "Agent workflow execution or post-training behavior is central. Code understanding, code generation, or software-engineering agents are explicitly evaluated.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "stateful-agent-backdoors-constructing-cross-session-attack-programs-2026",
+    "abstract_source": "https://arxiv.org/abs/2605.06158",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2605.06158v2",
+    "first_submitted": "2026-05-07",
+    "classification_note": "Persistent memory carries attack behavior between steps or sessions. Attack targets tool/skill execution or the agent training pipeline that enables it.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "skilltrojan-backdoor-attacks-on-skill-based-agent-systems-2026",
+    "abstract_source": "https://arxiv.org/abs/2604.06811",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2604.06811v2",
+    "first_submitted": "2026-04-08",
+    "classification_note": "Attack targets tool/skill execution or the agent training pipeline that enables it.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "badskill-backdoor-attacks-on-agent-skills-via-model-in-skill-poisoning-2026",
+    "abstract_source": "https://arxiv.org/abs/2604.09378",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2604.09378v1",
+    "first_submitted": "2026-04-10",
+    "classification_note": "Attack targets tool/skill execution or the agent training pipeline that enables it.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "malice-in-agentland-down-the-rabbit-hole-of-backdoors-in-the-ai-supply-chain-2025",
+    "abstract_source": "https://arxiv.org/abs/2510.05159",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2510.05159v5",
+    "first_submitted": "2025-10-03",
+    "classification_note": "Attack targets tool/skill execution or the agent training pipeline that enables it.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "peerguard-defending-multi-agent-systems-against-backdoor-attacks-through-mutual-reasoning-2025",
+    "abstract_source": "https://arxiv.org/abs/2505.11642",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2505.11642v2",
+    "first_submitted": "2025-05-16",
+    "classification_note": "Interacting LLM agents activate attacks or mutually evaluate one another.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "collaborative-shadows-distributed-backdoor-attacks-in-llm-based-multi-agent-systems-2025",
+    "abstract_source": "https://arxiv.org/abs/2510.11246",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2510.11246v1",
+    "first_submitted": "2025-10-13",
+    "classification_note": "Interacting LLM agents activate attacks or mutually evaluate one another. Attack targets tool/skill execution or the agent training pipeline that enables it.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "dropvla-an-action-level-backdoor-attack-on-vision-language-action-models-2026",
+    "abstract_source": "https://arxiv.org/abs/2510.10932",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2510.10932v5",
+    "first_submitted": "2025-10-13",
+    "classification_note": "Multimodal robot action policies are the attacked or evaluated object.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "attackvla-benchmarking-adversarial-and-backdoor-attacks-on-vision-language-action-models-2025",
+    "abstract_source": "https://arxiv.org/abs/2511.12149",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2511.12149v1",
+    "first_submitted": "2025-11-15",
+    "classification_note": "Multimodal robot action policies are the attacked or evaluated object.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "robot-collapse-supply-chain-backdoor-attacks-against-vlm-based-robotic-manipulation-2024",
+    "abstract_source": "https://arxiv.org/abs/2411.11683",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2411.11683v7",
+    "first_submitted": "2024-11-18",
+    "classification_note": "Backdoor redirects a robotic manipulation policy in physical and simulated tasks.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "trojanto-action-level-backdoor-attacks-against-trajectory-optimization-models-2026",
+    "abstract_source": "https://arxiv.org/abs/2506.12815",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2506.12815v2",
+    "first_submitted": "2025-06-15",
+    "classification_note": "Backdoor changes a learned policy, including offline or safety-constrained RL.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "physical-backdoor-attack-can-jeopardize-driving-with-vision-large-language-models-2024",
+    "abstract_source": "https://arxiv.org/abs/2404.12916",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2404.12916v2",
+    "first_submitted": "2024-04-19",
+    "classification_note": "Driving decisions or their response latency are explicitly targeted.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "natural-reflection-backdoor-attack-on-vision-language-model-for-autonomous-driving-2025",
+    "abstract_source": "https://arxiv.org/abs/2505.06413",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2505.06413v1",
+    "first_submitted": "2025-05-09",
+    "classification_note": "Driving decisions or their response latency are explicitly targeted.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "compromising-embodied-agents-with-contextual-backdoor-attacks-2024",
+    "abstract_source": "https://arxiv.org/abs/2408.02882",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2408.02882v1",
+    "first_submitted": "2024-08-06",
+    "classification_note": "Triggers alter embodied decision making or generated executable plans.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "can-we-trust-embodied-agents-exploring-backdoor-attacks-against-embodied-llm-based-decision-making-systems-2025",
+    "abstract_source": "https://arxiv.org/abs/2405.20774",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2405.20774v3",
+    "first_submitted": "2024-05-27",
+    "classification_note": "Triggers alter embodied decision making or generated executable plans. Driving decisions or their response latency are explicitly targeted.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "robustness-inspired-graph-backdoor-defense-2025",
+    "abstract_source": "https://arxiv.org/abs/2406.09836",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2406.09836v2",
+    "first_submitted": "2024-06-14",
+    "classification_note": "Graph structure and node predictions form the actual attack/defense surface.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "unnoticeable-backdoor-attacks-on-graph-neural-networks-2023",
+    "abstract_source": "https://arxiv.org/abs/2303.01263",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2303.01263v1",
+    "first_submitted": "2023-02-11",
+    "classification_note": "Graph structure and node predictions form the actual attack/defense surface.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "heteroba-a-structure-manipulating-backdoor-attack-on-heterogeneous-graphs-2025",
+    "abstract_source": "https://arxiv.org/abs/2505.21140",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2505.21140v1",
+    "first_submitted": "2025-05-27",
+    "classification_note": "Graph structure and node predictions form the actual attack/defense surface.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "effective-backdoor-attack-on-graph-neural-networks-in-link-prediction-tasks-2024",
+    "abstract_source": "https://arxiv.org/abs/2401.02663",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2401.02663v2",
+    "first_submitted": "2024-01-05",
+    "classification_note": "Link prediction or cross-paradigm graph representation transfer is central.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "cross-paradigm-graph-backdoor-attacks-with-promptable-subgraph-triggers-2026",
+    "abstract_source": "https://arxiv.org/abs/2510.22555",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2510.22555v3",
+    "first_submitted": "2025-10-26",
+    "classification_note": "Link prediction or cross-paradigm graph representation transfer is central.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "imperceptible-rhythm-backdoor-attacks-exploring-rhythm-transformation-for-embedding-undetectable-vulnerabilities-on-spee-2025",
+    "abstract_source": "https://arxiv.org/abs/2406.10932",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2406.10932v3",
+    "first_submitted": "2024-06-16",
+    "classification_note": "Victim performs speech recognition, keyword spotting, or speaker verification; synthesis is only a possible attack tool.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "a-universal-identity-backdoor-attack-against-speaker-verification-based-on-siamese-network-2023",
+    "abstract_source": "https://arxiv.org/abs/2303.16031",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2303.16031v2",
+    "first_submitted": "2023-03-28",
+    "classification_note": "Victim performs speech recognition, keyword spotting, or speaker verification; synthesis is only a possible attack tool.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "emoattack-utilizing-emotional-voice-conversion-for-speech-backdoor-attacks-on-deep-speech-classification-models-2024",
+    "abstract_source": "https://arxiv.org/abs/2408.15508",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2408.15508v2",
+    "first_submitted": "2024-08-28",
+    "classification_note": "Victim performs speech recognition, keyword spotting, or speaker verification; synthesis is only a possible attack tool.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "fake-the-real-backdoor-attack-on-deep-speech-classification-via-voice-conversion-2023",
+    "abstract_source": "https://arxiv.org/abs/2306.15875",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2306.15875v1",
+    "first_submitted": "2023-06-28",
+    "classification_note": "Victim performs speech recognition, keyword spotting, or speaker verification; synthesis is only a possible attack tool.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "pnact-crafting-backdoor-attacks-in-safe-reinforcement-learning-2025",
+    "abstract_source": "https://arxiv.org/abs/2507.00485",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2507.00485v1",
+    "first_submitted": "2025-07-01",
+    "classification_note": "Backdoor changes a learned policy, including offline or safety-constrained RL.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "backdoors-in-drl-four-environments-focusing-on-in-distribution-triggers-2025",
+    "abstract_source": "https://arxiv.org/abs/2505.17248",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2505.17248v3",
+    "first_submitted": "2025-05-22",
+    "classification_note": "Backdoor changes a learned policy, including offline or safety-constrained RL.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "cooperative-backdoor-attack-in-decentralized-reinforcement-learning-with-theoretical-guarantee-2024",
+    "abstract_source": "https://arxiv.org/abs/2405.15245",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2405.15245v1",
+    "first_submitted": "2024-05-24",
+    "classification_note": "Multiple learned RL policies interact or share backdoor components; not an LLM conversation system.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "sdba-a-stealthy-and-long-lasting-durable-backdoor-attack-in-federated-learning-2025",
+    "abstract_source": "https://arxiv.org/abs/2409.14805",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2409.14805v2",
+    "first_submitted": "2024-09-23",
+    "classification_note": "Distributed client updates and aggregation are central.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "client-side-patching-against-backdoor-attacks-in-federated-learning-2024",
+    "abstract_source": "https://arxiv.org/abs/2412.10605",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2412.10605v2",
+    "first_submitted": "2024-12-13",
+    "classification_note": "Distributed client updates and aggregation are central.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "vflip-a-backdoor-defense-for-vertical-federated-learning-via-identification-and-purification-2024",
+    "abstract_source": "https://arxiv.org/abs/2408.15591",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2408.15591v2",
+    "first_submitted": "2024-08-28",
+    "classification_note": "Features are partitioned across participants, with a distinct VFL threat model.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "practical-and-general-backdoor-attacks-against-vertical-federated-learning-2023",
+    "abstract_source": "https://arxiv.org/abs/2306.10746",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2306.10746v1",
+    "first_submitted": "2023-06-19",
+    "classification_note": "Features are partitioned across participants, with a distinct VFL threat model.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "backdoor-attack-on-vertical-federated-graph-neural-network-learning-2024",
+    "abstract_source": "https://arxiv.org/abs/2410.11290",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2410.11290v2",
+    "first_submitted": "2024-10-15",
+    "classification_note": "Features are partitioned across participants, with a distinct VFL threat model. Graph structure and node predictions form the actual attack/defense surface.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "poisoning-based-backdoors-are-not-cryptographic-2026",
+    "abstract_source": "https://arxiv.org/abs/2610.28045",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2610.28045v2",
+    "first_submitted": "2026-10-20",
+    "classification_note": "Formal learnability, undetectability, or cryptographic guarantees are central.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "statistically-undetectable-backdoors-in-deep-neural-networks-2026",
+    "abstract_source": "https://arxiv.org/abs/2607.09532",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2607.09532v1",
+    "first_submitted": "2026-07-10",
+    "classification_note": "Formal learnability, undetectability, or cryptographic guarantees are central.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "cryptographic-backdoor-for-neural-networks-boon-and-bane-2025",
+    "abstract_source": "https://arxiv.org/abs/2509.20714",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2509.20714v2",
+    "first_submitted": "2025-09-25",
+    "classification_note": "Formal learnability, undetectability, or cryptographic guarantees are central.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "blast-a-stealthy-backdoor-leverage-attack-against-cooperative-multi-agent-deep-reinforcement-learning-based-systems-2025",
+    "abstract_source": "https://arxiv.org/abs/2501.01593",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2501.01593v2",
+    "first_submitted": "2025-01-03",
+    "classification_note": "Multiple learned RL policies interact or share backdoor components; not an LLM conversation system.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "where-do-backdoors-live-a-component-level-analysis-of-backdoor-propagation-in-speech-language-models-2026",
+    "abstract_source": "https://arxiv.org/abs/2510.01157",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2510.01157v4",
+    "first_submitted": "2025-10-01",
+    "classification_note": "Speech/audio and language components are jointly involved in the compromised model.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "sleeper-agents-training-deceptive-llms-that-persist-through-safety-training-2024",
+    "abstract_source": "https://arxiv.org/abs/2401.05566",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2401.05566v3",
+    "first_submitted": "2024-01-10",
+    "classification_note": "Instruction following or text generation is the attacked, defended, or analyzed behavior. Code understanding, code generation, or software-engineering agents are explicitly evaluated.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "planting-undetectable-backdoors-in-machine-learning-models-2022",
+    "abstract_source": "https://arxiv.org/abs/2204.06974",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2204.06974v2",
+    "first_submitted": "2022-04-14",
+    "classification_note": "Formal learnability, undetectability, or cryptographic guarantees are central.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "backdoor-attacks-on-speech-emotion-recognition-via-tts-generated-poisoning-2026",
+    "abstract_source": "https://arxiv.org/abs/2606.21052",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2606.21052v2",
+    "first_submitted": "2026-06-19",
+    "classification_note": "Victim performs speech emotion classification using acoustic representations.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "hidden-in-the-noise-unveiling-backdoors-in-audio-llms-alignment-through-latent-acoustic-pattern-triggers-2025",
+    "abstract_source": "https://arxiv.org/abs/2508.02175",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2508.02175v3",
+    "first_submitted": "2025-08-04",
+    "classification_note": "Speech/audio and language components are jointly involved in the compromised model.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "badagent-inserting-and-activating-backdoor-attacks-in-llm-agents-2024",
+    "abstract_source": "https://arxiv.org/abs/2406.03007",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2406.03007v1",
+    "first_submitted": "2024-06-05",
+    "classification_note": "Agent workflow execution or post-training behavior is central.",
+    "metadata_note": "Venue/year use publication information reported in source metadata when explicit; otherwise arXiv and first-submission year.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "trojanwave-2025",
+    "abstract_source": "https://aclanthology.org/2025.emnlp-main.940/",
+    "review_basis": "abstract",
+    "classification_note": "Backdoor targets learnable audio-language prompts and audio classification.",
+    "review_date": "2026-10-23"
+  },
+  {
+    "paper_id": "badtts-2024",
+    "abstract_source": "https://lacuna.tiptreesystems.com/work/badtts-identifying-vulnerabilities-in-neural-text-to-speech-models/wrk_8600540e7cb82b4f87841fe05272679a",
+    "review_basis": "abstract",
+    "classification_note": "The TTS generator itself is backdoored at character, word, or sentence trigger levels; not recognition attacked using synthetic speech.",
+    "metadata_source": "https://doi.org/10.1109/GLOBECOM52923.2024.10901725",
+    "source_note": "Publisher and OpenReview direct access challenged. Read the mirrored abstract, and checked DOI/title/year against Crossref publisher metadata. Recheck against primary abstract when accessible.",
+    "review_date": "2026-10-23"
+  }
+]

@@ -1,0 +1,40 @@
+name: Audit catalog links
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.14'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Audit current source URLs
+        run: python scripts/check_links.py --timeout 10 --workers 4 --report reports/links.json
+      - name: Include report in job summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          report = Path('reports/links.json')
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as summary:
+              if report.exists():
+                  data = json.loads(report.read_text())
+                  summary.write('## Catalog link audit\n\n')
+                  summary.write('Blocked and unreachable links need manual review. No records were modified.\n\n')
+                  summary.write('```json\n' + json.dumps(data, indent=2) + '\n```\n')
+              else:
+                  summary.write('No link report was produced. See the audit step for details.\n')
+          PY

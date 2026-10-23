@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "$ref": "#/$defs/paper"
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*(?![\\s\\S])"
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!\\s*$)[^\\r\\n\\x00-\\x1F\\x7F]+(?![\\s\\S])"
+    },
+    "url": {
+      "type": "string",
+      "format": "http-url"
+    },
+    "repository": {
+      "type": "string",
+      "format": "github-repository"
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1900,
+      "maximum": 2100
+    },
+    "paper": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "title": {
+          "$ref": "#/$defs/text"
+        },
+        "year": {
+          "$ref": "#/$defs/year"
+        },
+        "venue": {
+          "$ref": "#/$defs/text"
+        },
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "code": {
+          "$ref": "#/$defs/repository"
+        },
+        "types": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "Attack",
+              "Defense",
+              "Analysis",
+              "Application",
+              "Survey",
+              "Benchmark",
+              "Dataset"
+            ]
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "topics": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "year",
+        "venue",
+        "url",
+        "types",
+        "topics"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

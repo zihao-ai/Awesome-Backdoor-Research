@@ -1,0 +1,413 @@
+[
+  {
+    "id": "a-survey-on-backdoor-threats-in-large-language-models-llms-attacks-defenses-and-evaluations-2025",
+    "title": "A Survey on Backdoor Threats in Large Language Models (LLMs): Attacks, Defenses, and Evaluations",
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2502.05224",
+    "types": [
+      "Survey"
+    ],
+    "topics": [
+      "surveys-specific"
+    ]
+  },
+  {
+    "id": "attackvla-benchmarking-adversarial-and-backdoor-attacks-on-vision-language-action-models-2025",
+    "title": "AttackVLA: Benchmarking Adversarial and Backdoor Attacks on Vision-Language-Action Models",
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2511.12149",
+    "types": [
+      "Benchmark",
+      "Attack"
+    ],
+    "topics": [
+      "vla-models"
+    ]
+  },
+  {
+    "id": "backdoor-cleaning-without-external-guidance-in-mllm-fine-tuning-2025",
+    "title": "Backdoor Cleaning without External Guidance in MLLM Fine-tuning",
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2505.16916",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "mllms"
+    ]
+  },
+  {
+    "id": "backdoor-defense-in-diffusion-models-via-spatial-attention-unlearning-2025",
+    "title": "Backdoor Defense in Diffusion Models via Spatial Attention Unlearning",
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2504.18563",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-generation"
+    ]
+  },
+  {
+    "id": "backdoor-token-unlearning-exposing-and-defending-backdoors-in-pretrained-language-models-2025",
+    "title": "Backdoor Token Unlearning: Exposing and Defending Backdoors in Pretrained Language Models",
+    "year": 2025,
+    "venue": "AAAI",
+    "url": "https://arxiv.org/abs/2501.03272",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "language-representation"
+    ],
+    "code": "https://github.com/XDJPH/BTU"
+  },
+  {
+    "id": "backdoordm-a-comprehensive-benchmark-for-backdoor-learning-on-diffusion-model-2025",
+    "title": "BackdoorDM: A Comprehensive Benchmark for Backdoor Learning on Diffusion Model",
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2502.11798",
+    "types": [
+      "Benchmark",
+      "Analysis"
+    ],
+    "topics": [
+      "image-generation"
+    ],
+    "code": "https://github.com/linweiii/BackdoorDM"
+  },
+  {
+    "id": "backdoorllm-2025",
+    "title": "BackdoorLLM: A Comprehensive Benchmark for Backdoor Attacks and Defenses on Large Language Models",
+    "year": 2025,
+    "venue": "NeurIPS",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/20ffc2b42c7de4a1960cfdadf305bbe2-Abstract-Datasets_and_Benchmarks_Track.html",
+    "types": [
+      "Benchmark"
+    ],
+    "topics": [
+      "llms"
+    ],
+    "code": "https://github.com/bboylyg/BackdoorLLM"
+  },
+  {
+    "id": "backdoors-in-drl-four-environments-focusing-on-in-distribution-triggers-2025",
+    "title": "Backdoors in DRL: Four Environments Focusing on In-distribution Triggers",
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2505.17248",
+    "types": [
+      "Attack",
+      "Benchmark"
+    ],
+    "topics": [
+      "single-agent-rl"
+    ]
+  },
+  {
+    "id": "baddepth-backdoor-attacks-against-monocular-depth-estimation-in-the-physical-world-2025",
+    "title": "BadDepth: Backdoor Attacks Against Monocular Depth Estimation in the Physical World",
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2505.16154",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "visual-regression-counting"
+    ]
+  },
+  {
+    "id": "badvideo-stealthy-backdoor-attack-against-text-to-video-generation-2025",
+    "title": "BadVideo: Stealthy Backdoor Attack against Text-to-Video Generation",
+    "year": 2025,
+    "venue": "ICCV",
+    "url": "https://arxiv.org/abs/2504.16907",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "video-generation"
+    ]
+  },
+  {
+    "id": "badvla-2025",
+    "title": "BadVLA: Towards Backdoor Attacks on Vision-Language-Action Models via Objective-Decoupled Optimization",
+    "year": 2025,
+    "venue": "NeurIPS",
+    "url": "https://papers.nips.cc/paper_files/paper/2025/hash/b94925a92f2271cd60c9f3f7a7d366fe-Abstract-Conference.html",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "vla-models"
+    ],
+    "code": "https://github.com/Zxy-MLlab/BadVLA"
+  },
+  {
+    "id": "blast-a-stealthy-backdoor-leverage-attack-against-cooperative-multi-agent-deep-reinforcement-learning-based-systems-2025",
+    "title": "BLAST: A Stealthy Backdoor Leverage Attack against Cooperative Multi-Agent Deep Reinforcement Learning based Systems",
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2501.01593",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "multi-agent-rl"
+    ]
+  },
+  {
+    "id": "can-we-trust-embodied-agents-exploring-backdoor-attacks-against-embodied-llm-based-decision-making-systems-2025",
+    "title": "Can We Trust Embodied Agents? Exploring Backdoor Attacks against Embodied LLM-based Decision-Making Systems",
+    "year": 2025,
+    "venue": "ICLR",
+    "url": "https://arxiv.org/abs/2405.20774",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "embodied-planning",
+      "navigation-driving"
+    ]
+  },
+  {
+    "id": "collaborative-shadows-distributed-backdoor-attacks-in-llm-based-multi-agent-systems-2025",
+    "title": "Collaborative Shadows: Distributed Backdoor Attacks in LLM-Based Multi-Agent Systems",
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2510.11246",
+    "types": [
+      "Attack",
+      "Benchmark"
+    ],
+    "topics": [
+      "multi-agent-systems",
+      "agent-tools"
+    ],
+    "code": "https://github.com/whfeLingYu/Distributed-Backdoor-Attacks-in-MAS"
+  },
+  {
+    "id": "conseg-contextual-backdoor-attack-against-semantic-segmentation-2025",
+    "title": "ConSeg: Contextual Backdoor Attack Against Semantic Segmentation",
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2507.19905",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "detection-segmentation-tracking"
+    ]
+  },
+  {
+    "id": "crow-eliminating-backdoors-from-large-language-models-via-internal-consistency-regularization-2025",
+    "title": "CROW: Eliminating Backdoors from Large Language Models via Internal Consistency Regularization",
+    "year": 2025,
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2411.12768",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "llms",
+      "code-models"
+    ]
+  },
+  {
+    "id": "cryptographic-backdoor-for-neural-networks-boon-and-bane-2025",
+    "title": "Cryptographic Backdoor for Neural Networks: Boon and Bane",
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2509.20714",
+    "types": [
+      "Attack",
+      "Analysis",
+      "Application"
+    ],
+    "topics": [
+      "learning-theory"
+    ]
+  },
+  {
+    "id": "gausstrap-stealthy-backdoor-attacks-on-3d-gaussian-splatting-for-targeted-scene-misperception-2025",
+    "title": "GaussTrap: Stealthy Backdoor Attacks on 3D Gaussian Splatting for Targeted Scene Misperception",
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2504.20829",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "3d-generation"
+    ],
+    "code": "https://github.com/acang425/GaussTrap"
+  },
+  {
+    "id": "heteroba-a-structure-manipulating-backdoor-attack-on-heterogeneous-graphs-2025",
+    "title": "HeteroBA: A Structure-Manipulating Backdoor Attack on Heterogeneous Graphs",
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2505.21140",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "graph-node-classification"
+    ]
+  },
+  {
+    "id": "hidden-in-the-noise-unveiling-backdoors-in-audio-llms-alignment-through-latent-acoustic-pattern-triggers-2025",
+    "title": "Hidden in the Noise: Unveiling Backdoors in Audio LLMs Alignment through Latent Acoustic Pattern Triggers",
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2508.02175",
+    "types": [
+      "Attack",
+      "Benchmark"
+    ],
+    "topics": [
+      "audio-language"
+    ]
+  },
+  {
+    "id": "imperceptible-rhythm-backdoor-attacks-exploring-rhythm-transformation-for-embedding-undetectable-vulnerabilities-on-spee-2025",
+    "title": "Imperceptible Rhythm Backdoor Attacks: Exploring Rhythm Transformation for Embedding Undetectable Vulnerabilities on Speech Recognition",
+    "year": 2025,
+    "venue": "Neurocomputing",
+    "url": "https://arxiv.org/abs/2406.10932",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "speech-recognition"
+    ]
+  },
+  {
+    "id": "malice-in-agentland-down-the-rabbit-hole-of-backdoors-in-the-ai-supply-chain-2025",
+    "title": "Malice in Agentland: Down the Rabbit Hole of Backdoors in the AI Supply Chain",
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2510.05159",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "agent-tools"
+    ]
+  },
+  {
+    "id": "natural-reflection-backdoor-attack-on-vision-language-model-for-autonomous-driving-2025",
+    "title": "Natural Reflection Backdoor Attack on Vision Language Model for Autonomous Driving",
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2505.06413",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "navigation-driving"
+    ]
+  },
+  {
+    "id": "peerguard-defending-multi-agent-systems-against-backdoor-attacks-through-mutual-reasoning-2025",
+    "title": "PeerGuard: Defending Multi-Agent Systems Against Backdoor Attacks Through Mutual Reasoning",
+    "year": 2025,
+    "venue": "IEEE IRI",
+    "url": "https://arxiv.org/abs/2505.11642",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "multi-agent-systems"
+    ]
+  },
+  {
+    "id": "pnact-crafting-backdoor-attacks-in-safe-reinforcement-learning-2025",
+    "title": "PNAct: Crafting Backdoor Attacks in Safe Reinforcement Learning",
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2507.00485",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "single-agent-rl"
+    ],
+    "code": "https://github.com/azure-123/PNAct"
+  },
+  {
+    "id": "rethinking-backdoor-detection-evaluation-for-language-models-2025",
+    "title": "Rethinking Backdoor Detection Evaluation for Language Models",
+    "year": 2025,
+    "venue": "EMNLP",
+    "url": "https://arxiv.org/abs/2409.00399",
+    "types": [
+      "Analysis"
+    ],
+    "topics": [
+      "llms"
+    ]
+  },
+  {
+    "id": "robustness-inspired-graph-backdoor-defense-2025",
+    "title": "Robustness Inspired Graph Backdoor Defense",
+    "year": 2025,
+    "venue": "ICLR",
+    "url": "https://arxiv.org/abs/2406.09836",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "graph-node-classification"
+    ]
+  },
+  {
+    "id": "sdba-a-stealthy-and-long-lasting-durable-backdoor-attack-in-federated-learning-2025",
+    "title": "SDBA: A Stealthy and Long-Lasting Durable Backdoor Attack in Federated Learning",
+    "year": 2025,
+    "venue": "TDSC",
+    "url": "https://arxiv.org/abs/2409.14805",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
+    "id": "test-time-backdoor-detection-for-object-detection-models-2025",
+    "title": "Test-Time Backdoor Detection for Object Detection Models",
+    "year": 2025,
+    "venue": "CVPR",
+    "url": "https://arxiv.org/abs/2503.15293",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "detection-segmentation-tracking"
+    ],
+    "code": "https://github.com/Rookie143/Trace"
+  },
+  {
+    "id": "trojanwave-2025",
+    "title": "TrojanWave: Exploiting Prompt Learning for Stealthy Backdoor Attacks on Large Audio-Language Models",
+    "year": 2025,
+    "venue": "EMNLP",
+    "url": "https://aclanthology.org/2025.emnlp-main.940/",
+    "types": [
+      "Attack",
+      "Defense"
+    ],
+    "topics": [
+      "audio-language",
+      "audio-representation"
+    ]
+  }
+]

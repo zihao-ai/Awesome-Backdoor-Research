@@ -1,0 +1,341 @@
+[
+  {
+    "topic": "general-surveys",
+    "query": "ti:survey AND (ti:backdoor OR ti:trojan)",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:survey AND (ti:backdoor OR ti:trojan)) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 12,
+    "arxiv_total_hits": 17
+  },
+  {
+    "topic": "surveys-specific",
+    "query": "ti:survey AND (abs:\"language models\" OR abs:agents OR abs:diffusion) AND (ti:backdoor OR abs:\"backdoor attacks\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:survey AND (abs:\"language models\" OR abs:agents OR abs:diffusion) AND (ti:backdoor OR abs:\"backdoor attacks\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 7,
+    "arxiv_total_hits": 7
+  },
+  {
+    "topic": "image-classification",
+    "query": "ti:backdoor AND (abs:\"image classification\" OR abs:\"vision transformers\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"image classification\" OR abs:\"vision transformers\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 12,
+    "arxiv_total_hits": 39
+  },
+  {
+    "topic": "detection-segmentation-tracking",
+    "query": "ti:backdoor AND (ti:detection OR ti:segmentation OR ti:tracking)",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (ti:detection OR ti:segmentation OR ti:tracking)) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 12,
+    "arxiv_total_hits": 103
+  },
+  {
+    "topic": "video-understanding",
+    "query": "(ti:backdoor OR ti:trojan) AND (abs:\"video recognition\" OR abs:\"action recognition\" OR abs:\"video understanding\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "((ti:backdoor OR ti:trojan) AND (abs:\"video recognition\" OR abs:\"action recognition\" OR abs:\"video understanding\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 6,
+    "arxiv_total_hits": 6
+  },
+  {
+    "topic": "3d-vision",
+    "query": "ti:backdoor AND (abs:\"point cloud\" OR abs:\"3D vision\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"point cloud\" OR abs:\"3D vision\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 8,
+    "arxiv_total_hits": 8
+  },
+  {
+    "topic": "visual-representation",
+    "query": "ti:backdoor AND (abs:\"self-supervised\" OR abs:\"visual encoder\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"self-supervised\" OR abs:\"visual encoder\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 12,
+    "arxiv_total_hits": 27
+  },
+  {
+    "topic": "image-restoration-compression",
+    "query": "backdoor AND (image reconstruction OR image compression OR deep JSCC)",
+    "method": "Abstract-screened recent-title discovery and targeted public web follow-up",
+    "review_date": "2026-10-23"
+  },
+  {
+    "topic": "visual-regression-counting",
+    "query": "backdoor AND (crowd counting OR depth estimation OR visual regression)",
+    "method": "Abstract-screened recent-title discovery and targeted public web follow-up",
+    "review_date": "2026-10-23"
+  },
+  {
+    "topic": "text-classification",
+    "query": "ti:backdoor AND (abs:\"text classification\" OR abs:\"sequence labeling\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"text classification\" OR abs:\"sequence labeling\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 12,
+    "arxiv_total_hits": 13
+  },
+  {
+    "topic": "language-representation",
+    "query": "ti:backdoor AND (abs:embedding OR abs:\"text encoder\" OR abs:\"sentence encoder\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:embedding OR abs:\"text encoder\" OR abs:\"sentence encoder\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 12,
+    "arxiv_total_hits": 139
+  },
+  {
+    "topic": "sequence-generation-translation",
+    "query": "backdoor AND (sequence to sequence OR machine translation OR summarization)",
+    "method": "Abstract-screened recent-title discovery and targeted public web follow-up",
+    "review_date": "2026-10-23"
+  },
+  {
+    "topic": "llms",
+    "query": "ti:backdoor AND (ti:LLM OR ti:\"language models\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (ti:LLM OR ti:\"language models\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 12,
+    "arxiv_total_hits": 135
+  },
+  {
+    "topic": "code-models",
+    "query": "(ti:backdoor OR ti:poisoning OR ti:trojan) AND (abs:\"code models\" OR abs:\"code generation\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "((ti:backdoor OR ti:poisoning OR ti:trojan) AND (abs:\"code models\" OR abs:\"code generation\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 12,
+    "arxiv_total_hits": 28
+  },
+  {
+    "topic": "rag",
+    "query": "ti:backdoor AND (abs:\"retrieval-augmented\" OR abs:RAG)",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"retrieval-augmented\" OR abs:RAG)) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 9,
+    "arxiv_total_hits": 9
+  },
+  {
+    "topic": "vision-language-representation",
+    "query": "(ti:backdoor OR ti:poisoning) AND (abs:CLIP OR abs:\"multimodal contrastive\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "((ti:backdoor OR ti:poisoning) AND (abs:CLIP OR abs:\"multimodal contrastive\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 12,
+    "arxiv_total_hits": 50
+  },
+  {
+    "topic": "mllms",
+    "query": "ti:backdoor AND (abs:\"multimodal large language\" OR abs:\"large vision-language\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"multimodal large language\" OR abs:\"large vision-language\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 12,
+    "arxiv_total_hits": 15
+  },
+  {
+    "topic": "audio-language",
+    "query": "ti:backdoor AND (abs:\"audio-language\" OR abs:\"audio language\" OR abs:\"audio-visual\" OR abs:omni)",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"audio-language\" OR abs:\"audio language\" OR abs:\"audio-visual\" OR abs:omni)) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 1,
+    "arxiv_total_hits": 1
+  },
+  {
+    "topic": "image-generation",
+    "query": "ti:backdoor AND (abs:\"text-to-image\" OR abs:\"diffusion models\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"text-to-image\" OR abs:\"diffusion models\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 12,
+    "arxiv_total_hits": 55
+  },
+  {
+    "topic": "video-generation",
+    "query": "ti:backdoor AND (abs:\"video generation\" OR abs:\"text-to-video\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"video generation\" OR abs:\"text-to-video\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 1,
+    "arxiv_total_hits": 1
+  },
+  {
+    "topic": "audio-generation",
+    "query": "ti:backdoor AND (abs:\"text-to-speech\" OR abs:\"audio generation\" OR abs:\"music generation\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"text-to-speech\" OR abs:\"audio generation\" OR abs:\"music generation\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 0,
+    "arxiv_total_hits": 0
+  },
+  {
+    "topic": "3d-generation",
+    "query": "ti:backdoor AND (abs:\"3D generation\" OR abs:\"3D content\" OR abs:\"motion generation\" OR abs:\"Gaussian splatting\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"3D generation\" OR abs:\"3D content\" OR abs:\"motion generation\" OR abs:\"Gaussian splatting\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 1,
+    "arxiv_total_hits": 1
+  },
+  {
+    "topic": "agent-planning",
+    "query": "ti:backdoor AND (abs:\"LLM agents\" OR abs:\"language agents\") AND (abs:planning OR abs:reasoning)",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"LLM agents\" OR abs:\"language agents\") AND (abs:planning OR abs:reasoning)) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 1,
+    "arxiv_total_hits": 1
+  },
+  {
+    "topic": "agent-memory",
+    "query": "ti:backdoor AND (abs:\"agent memory\" OR abs:\"memory poisoning\" OR abs:\"knowledge bases\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"agent memory\" OR abs:\"memory poisoning\" OR abs:\"knowledge bases\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 4,
+    "arxiv_total_hits": 4
+  },
+  {
+    "topic": "agent-tools",
+    "query": "ti:backdoor AND (abs:skills OR abs:\"tool use\" OR abs:\"tool-use\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:skills OR abs:\"tool use\" OR abs:\"tool-use\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 4,
+    "arxiv_total_hits": 4
+  },
+  {
+    "topic": "multi-agent-systems",
+    "query": "ti:backdoor AND (abs:\"multi-agent\" OR abs:\"multiagent\") AND (abs:LLM OR abs:\"language models\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"multi-agent\" OR abs:\"multiagent\") AND (abs:LLM OR abs:\"language models\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 2,
+    "arxiv_total_hits": 2
+  },
+  {
+    "topic": "vla-models",
+    "query": "ti:backdoor AND (abs:\"vision-language-action\" OR abs:VLA)",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"vision-language-action\" OR abs:VLA)) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 4,
+    "arxiv_total_hits": 4
+  },
+  {
+    "topic": "robotic-control",
+    "query": "ti:backdoor AND (abs:robotic OR abs:manipulation)",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:robotic OR abs:manipulation)) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 12,
+    "arxiv_total_hits": 194
+  },
+  {
+    "topic": "navigation-driving",
+    "query": "ti:backdoor AND (abs:\"autonomous driving\" OR abs:navigation)",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"autonomous driving\" OR abs:navigation)) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 12,
+    "arxiv_total_hits": 29
+  },
+  {
+    "topic": "embodied-planning",
+    "query": "ti:backdoor AND (abs:\"embodied agents\" OR abs:\"embodied planning\" OR abs:\"embodied AI\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"embodied agents\" OR abs:\"embodied planning\" OR abs:\"embodied AI\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 4,
+    "arxiv_total_hits": 4
+  },
+  {
+    "topic": "graph-node-classification",
+    "query": "ti:backdoor AND (abs:\"graph neural\" OR abs:\"node classification\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"graph neural\" OR abs:\"node classification\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 12,
+    "arxiv_total_hits": 31
+  },
+  {
+    "topic": "graph-representation",
+    "query": "ti:backdoor AND (abs:\"link prediction\" OR abs:\"graph contrastive\" OR abs:\"graph representation\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"link prediction\" OR abs:\"graph contrastive\" OR abs:\"graph representation\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 5,
+    "arxiv_total_hits": 5
+  },
+  {
+    "topic": "speech-recognition",
+    "query": "ti:backdoor AND (abs:\"speech recognition\" OR abs:\"speaker verification\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"speech recognition\" OR abs:\"speaker verification\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 12,
+    "arxiv_total_hits": 19
+  },
+  {
+    "topic": "audio-representation",
+    "query": "ti:backdoor AND (abs:\"audio classification\" OR abs:\"audio foundation\" OR abs:\"speech classification\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"audio classification\" OR abs:\"audio foundation\" OR abs:\"speech classification\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 4,
+    "arxiv_total_hits": 4
+  },
+  {
+    "topic": "single-agent-rl",
+    "query": "ti:backdoor AND abs:\"reinforcement learning\"",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND abs:\"reinforcement learning\") AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 12,
+    "arxiv_total_hits": 33
+  },
+  {
+    "topic": "multi-agent-rl",
+    "query": "ti:backdoor AND (abs:\"multi-agent reinforcement\" OR abs:\"multiagent reinforcement\")",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND (abs:\"multi-agent reinforcement\" OR abs:\"multiagent reinforcement\")) AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 0,
+    "arxiv_total_hits": 0
+  },
+  {
+    "topic": "horizontal-fl",
+    "query": "ti:backdoor AND abs:\"federated learning\"",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND abs:\"federated learning\") AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 12,
+    "arxiv_total_hits": 102
+  },
+  {
+    "topic": "vertical-fl",
+    "query": "ti:backdoor AND abs:\"vertical federated\"",
+    "method": "arXiv topic query plus abstract-screened recent-title discovery and public web follow-up",
+    "review_date": "2026-10-23",
+    "arxiv_query": "(ti:backdoor AND abs:\"vertical federated\") AND submittedDate:[202301010000 TO 202512312359]",
+    "arxiv_returned": 5,
+    "arxiv_total_hits": 5
+  },
+  {
+    "topic": "learning-theory",
+    "query": "backdoor AND (cryptographic OR undetectable OR certification OR learning theory)",
+    "method": "Abstract-screened recent-title discovery and targeted public web follow-up",
+    "review_date": "2026-10-23"
+  }
+]

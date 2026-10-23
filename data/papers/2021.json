@@ -1,0 +1,561 @@
+[
+  {
+    "id": "a-backdoor-attack-against-3d-point-cloud-classifiers-2021",
+    "title": "A Backdoor Attack against 3D Point Cloud Classifiers",
+    "year": 2021,
+    "venue": "ICCV",
+    "url": "https://arxiv.org/abs/2104.05808",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "3d-vision"
+    ],
+    "code": "https://github.com/zhenxianglance/PCBA"
+  },
+  {
+    "id": "adversarial-neuron-pruning-purifies-backdoored-deep-models-2021",
+    "title": "Adversarial Neuron Pruning Purifies Backdoored Deep Models",
+    "year": 2021,
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2110.14430",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/csdongxian/ANP_backdoor"
+  },
+  {
+    "id": "anti-backdoor-learning-training-clean-models-on-poisoned-data-2021",
+    "title": "Anti-Backdoor Learning: Training Clean Models on Poisoned Data",
+    "year": 2021,
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2110.11571",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/bboylyg/ABL"
+  },
+  {
+    "id": "backdoor-attack-with-imperceptible-input-and-latent-modification-2021",
+    "title": "Backdoor Attack with Imperceptible Input and Latent Modification",
+    "year": 2021,
+    "venue": "NeurIPS",
+    "url": "https://proceedings.neurips.cc/paper/2021/hash/9d99197e2ebf03fc388d09f1e94af89b-Abstract.html",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "backdoor-attacks-against-deep-learning-systems-in-the-physical-world-2021",
+    "title": "Backdoor Attacks Against Deep Learning Systems in the Physical World",
+    "year": 2021,
+    "venue": "CVPR",
+    "url": "https://arxiv.org/abs/2006.14580",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "backdoor-attacks-on-pre-trained-models-by-layerwise-weight-poisoning-2021",
+    "title": "Backdoor Attacks on Pre-trained Models by Layerwise Weight Poisoning",
+    "year": 2021,
+    "venue": "EMNLP",
+    "url": "https://arxiv.org/abs/2108.13888",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "language-representation"
+    ]
+  },
+  {
+    "id": "backdoor-attacks-to-graph-neural-networks-2021",
+    "title": "Backdoor Attacks to Graph Neural Networks",
+    "year": 2021,
+    "venue": "SACMAT",
+    "url": "https://arxiv.org/abs/2006.11165",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "graph-node-classification"
+    ],
+    "code": "https://github.com/zaixizhang/graphbackdoor"
+  },
+  {
+    "id": "backdoor-pre-trained-models-can-transfer-to-all-2021",
+    "title": "Backdoor Pre-trained Models Can Transfer to All",
+    "year": 2021,
+    "venue": "CCS",
+    "url": "https://arxiv.org/abs/2111.00197",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "language-representation"
+    ],
+    "code": "https://github.com/thunlp/OpenBackdoor"
+  },
+  {
+    "id": "backdoorl-backdoor-attack-against-competitive-reinforcement-learning-2021",
+    "title": "BACKDOORL: Backdoor Attack against Competitive Reinforcement Learning",
+    "year": 2021,
+    "venue": "IJCAI",
+    "url": "https://arxiv.org/abs/2105.00579",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "multi-agent-rl"
+    ]
+  },
+  {
+    "id": "blind-backdoors-in-deep-learning-models-2021",
+    "title": "Blind Backdoors in Deep Learning Models",
+    "year": 2021,
+    "venue": "USENIX Security",
+    "url": "https://arxiv.org/abs/2005.03823",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/ebagdasa/backdoors101"
+  },
+  {
+    "id": "clear-clean-up-sample-targeted-backdoor-in-neural-networks-2021",
+    "title": "CLEAR: Clean-up Sample-Targeted Backdoor in Neural Networks",
+    "year": 2021,
+    "venue": "ICCV",
+    "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Zhu_CLEAR_Clean-Up_Sample-Targeted_Backdoor_in_Neural_Networks_ICCV_2021_paper.html",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "deep-feature-space-trojan-attack-of-neural-networks-by-controlled-detoxification-2021",
+    "title": "Deep Feature Space Trojan Attack of Neural Networks by Controlled Detoxification",
+    "year": 2021,
+    "venue": "AAAI",
+    "url": "https://arxiv.org/abs/2012.11212",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/Megum1/DFST"
+  },
+  {
+    "id": "deep-neural-backdoor-in-semi-supervised-learning-threats-and-countermeasures-2021",
+    "title": "Deep Neural Backdoor in Semi-Supervised Learning: Threats and Countermeasures",
+    "year": 2021,
+    "venue": "TIFS",
+    "url": "https://waseda.elsevierpure.com/en/publications/deep-neural-backdoor-in-semi-supervised-learning-threats-and-coun/",
+    "types": [
+      "Attack",
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "defense-against-neural-trojan-attacks-a-survey-2021",
+    "title": "Defense against Neural Trojan Attacks: A Survey",
+    "year": 2021,
+    "venue": "Neurocomputing",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0925231220316350",
+    "types": [
+      "Survey"
+    ],
+    "topics": [
+      "general-surveys"
+    ]
+  },
+  {
+    "id": "dehib-deep-hidden-backdoor-attack-on-semi-supervised-learning-via-adversarial-perturbation-2021",
+    "title": "DeHiB: Deep Hidden Backdoor Attack on Semi-supervised Learning via Adversarial Perturbation",
+    "year": 2021,
+    "venue": "AAAI",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/17266",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "demon-in-the-variant-statistical-analysis-of-dnns-for-robust-backdoor-contamination-detection-2021",
+    "title": "Demon in the Variant: Statistical Analysis of DNNs for Robust Backdoor Contamination Detection",
+    "year": 2021,
+    "venue": "USENIX Security",
+    "url": "https://arxiv.org/abs/1908.00686",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/TDteach/Demon-in-the-Variant"
+  },
+  {
+    "id": "detecting-ai-trojans-using-meta-neural-analysis-2021",
+    "title": "Detecting AI Trojans Using Meta Neural Analysis",
+    "year": 2021,
+    "venue": "IEEE S&P",
+    "url": "https://arxiv.org/abs/1910.03137",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/AI-secure/Meta-Nerual-Trojan-Detection"
+  },
+  {
+    "id": "excess-capacity-and-backdoor-poisoning-2021",
+    "title": "Excess Capacity and Backdoor Poisoning",
+    "year": 2021,
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2109.00685",
+    "types": [
+      "Analysis"
+    ],
+    "topics": [
+      "learning-theory"
+    ],
+    "code": "https://github.com/narenmanoj/mnist-adv-training"
+  },
+  {
+    "id": "explainability-based-backdoor-attacks-against-graph-neural-network-2021",
+    "title": "Explainability-based Backdoor Attacks Against Graph Neural Network",
+    "year": 2021,
+    "venue": "WiseML",
+    "url": "https://arxiv.org/abs/2104.03674",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "graph-node-classification"
+    ],
+    "code": "https://github.com/xujing1994/Explanability_bkd_gnn"
+  },
+  {
+    "id": "graph-backdoor-2021",
+    "title": "Graph Backdoor",
+    "year": 2021,
+    "venue": "USENIX Security",
+    "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/xi",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "graph-node-classification"
+    ],
+    "code": "https://github.com/HarrialX/GraphBackdoor"
+  },
+  {
+    "id": "hidden-backdoors-in-human-centric-language-models-2021",
+    "title": "Hidden Backdoors in Human-Centric Language Models",
+    "year": 2021,
+    "venue": "CCS",
+    "url": "https://arxiv.org/abs/2105.00164",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "text-classification",
+      "sequence-generation-translation"
+    ],
+    "code": "https://github.com/lishaofeng/NLP_Backdoor"
+  },
+  {
+    "id": "hidden-killer-invisible-textual-backdoor-attacks-with-syntactic-trigger-2021",
+    "title": "Hidden Killer: Invisible Textual Backdoor Attacks with Syntactic Trigger",
+    "year": 2021,
+    "venue": "ACL",
+    "url": "https://arxiv.org/abs/2105.12400",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "text-classification"
+    ],
+    "code": "https://github.com/thunlp/HiddenKiller"
+  },
+  {
+    "id": "intrinsic-certified-robustness-of-bagging-against-data-poisoning-attacks-2021",
+    "title": "Intrinsic Certified Robustness of Bagging against Data Poisoning Attacks",
+    "year": 2021,
+    "venue": "AAAI",
+    "url": "https://arxiv.org/abs/2008.04495",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "learning-theory"
+    ],
+    "code": "https://github.com/jinyuan-jia/BaggingCertifyDataPoisoning"
+  },
+  {
+    "id": "invisible-backdoor-attack-with-sample-specific-triggers-2021",
+    "title": "Invisible Backdoor Attack with Sample-Specific Triggers",
+    "year": 2021,
+    "venue": "ICCV",
+    "url": "https://arxiv.org/abs/2012.03816",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/yuezunli/ISSBA"
+  },
+  {
+    "id": "invisible-backdoor-attacks-on-deep-neural-networks-via-steganography-and-regularization-2021",
+    "title": "Invisible Backdoor Attacks on Deep Neural Networks Via Steganography and Regularization",
+    "year": 2021,
+    "venue": "TDSC",
+    "url": "https://arxiv.org/abs/1909.02742",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "just-how-toxic-is-data-poisoning-a-unified-benchmark-for-backdoor-and-data-poisoning-attacks-2021",
+    "title": "Just How Toxic is Data Poisoning? A Unified Benchmark for Backdoor and Data Poisoning Attacks",
+    "year": 2021,
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2006.12557",
+    "types": [
+      "Benchmark",
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/aks2203/poisoning-benchmark"
+  },
+  {
+    "id": "lira-learnable-imperceptible-and-robust-backdoor-attacks-2021",
+    "title": "LIRA: Learnable, Imperceptible and Robust Backdoor Attacks",
+    "year": 2021,
+    "venue": "ICCV",
+    "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Doan_LIRA_Learnable_Imperceptible_and_Robust_Backdoor_Attacks_ICCV_2021_paper.html",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/sunbelbd/invisible_backdoor_attacks"
+  },
+  {
+    "id": "mind-the-style-of-text-adversarial-and-backdoor-attacks-based-on-text-style-transfer-2021",
+    "title": "Mind the Style of Text! Adversarial and Backdoor Attacks Based on Text Style Transfer",
+    "year": 2021,
+    "venue": "EMNLP",
+    "url": "https://arxiv.org/abs/2110.07139",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "text-classification"
+    ]
+  },
+  {
+    "id": "neural-attention-distillation-erasing-backdoor-triggers-from-deep-neural-networks-2021",
+    "title": "Neural Attention Distillation: Erasing Backdoor Triggers from Deep Neural Networks",
+    "year": 2021,
+    "venue": "ICLR",
+    "url": "https://arxiv.org/abs/2101.05930",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/bboylyg/NAD"
+  },
+  {
+    "id": "odyssey-creation-analysis-and-detection-of-trojan-models-2021",
+    "title": "Odyssey: Creation, Analysis and Detection of Trojan Models",
+    "year": 2021,
+    "venue": "TIFS",
+    "url": "https://arxiv.org/abs/2007.08142",
+    "types": [
+      "Defense",
+      "Analysis",
+      "Benchmark"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/LCWN-Lab/Odyssey"
+  },
+  {
+    "id": "pointba-towards-backdoor-attacks-in-3d-point-cloud-2021",
+    "title": "PointBA: Towards Backdoor Attacks in 3D Point Cloud",
+    "year": 2021,
+    "venue": "ICCV",
+    "url": "https://arxiv.org/abs/2103.16074",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "3d-vision"
+    ],
+    "code": "https://github.com/zhenxianglance/PCBA"
+  },
+  {
+    "id": "rethinking-stealthiness-of-backdoor-attack-against-nlp-models-2021",
+    "title": "Rethinking Stealthiness of Backdoor Attack against NLP Models",
+    "year": 2021,
+    "venue": "ACL",
+    "url": "https://aclanthology.org/2021.acl-long.431/",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "text-classification"
+    ],
+    "code": "https://github.com/lancopku/SOS"
+  },
+  {
+    "id": "rethinking-the-backdoor-attacks-triggers-a-frequency-perspective-2021",
+    "title": "Rethinking the Backdoor Attacks' Triggers: A Frequency Perspective",
+    "year": 2021,
+    "venue": "ICCV",
+    "url": "https://arxiv.org/abs/2104.03413",
+    "types": [
+      "Attack",
+      "Defense",
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/YiZeng623/frequency-backdoor"
+  },
+  {
+    "id": "speaker-backdoor-2021",
+    "title": "Backdoor Attack Against Speaker Verification",
+    "year": 2021,
+    "venue": "ICASSP",
+    "url": "https://arxiv.org/abs/2010.11607",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "speech-recognition"
+    ],
+    "code": "https://github.com/zhaitongqing233/Backdoor-attack-against-speaker-verification"
+  },
+  {
+    "id": "spectre-defending-against-backdoor-attacks-using-robust-statistics-2021",
+    "title": "SPECTRE: Defending Against Backdoor Attacks Using Robust Statistics",
+    "year": 2021,
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2104.11315",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/SewoongLab/spectre-defense"
+  },
+  {
+    "id": "topological-detection-of-trojaned-neural-networks-2021",
+    "title": "Topological Detection of Trojaned Neural Networks",
+    "year": 2021,
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2106.06469",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/TopoXLab/TopoTrojDetection"
+  },
+  {
+    "id": "trojaning-language-models-for-fun-and-profit-2021",
+    "title": "Trojaning Language Models for Fun and Profit",
+    "year": 2021,
+    "venue": "EuroS&P",
+    "url": "https://arxiv.org/abs/2008.00312",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "language-representation",
+      "sequence-generation-translation"
+    ],
+    "code": "https://github.com/alps-lab/trojan-lm"
+  },
+  {
+    "id": "turn-the-combination-lock-learnable-textual-backdoor-attacks-via-word-substitution-2021",
+    "title": "Turn the Combination Lock: Learnable Textual Backdoor Attacks via Word Substitution",
+    "year": 2021,
+    "venue": "ACL",
+    "url": "https://arxiv.org/abs/2106.06361",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "text-classification"
+    ],
+    "code": "https://github.com/thunlp/BkdAtk-LWS"
+  },
+  {
+    "id": "wanet-2021",
+    "title": "WaNet - Imperceptible Warping-based Backdoor Attack",
+    "year": 2021,
+    "venue": "ICLR",
+    "url": "https://openreview.net/forum?id=eEn8KTtJOx",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/VinAIResearch/Warping-based_Backdoor_Attack-release"
+  },
+  {
+    "id": "what-do-you-see-evaluation-of-explainable-artificial-intelligence-xai-interpretability-through-neural-backdoors-2021",
+    "title": "What Do You See?: Evaluation of Explainable Artificial Intelligence (XAI) Interpretability through Neural Backdoors",
+    "year": 2021,
+    "venue": "KDD",
+    "url": "https://arxiv.org/abs/2009.10639",
+    "types": [
+      "Analysis",
+      "Application"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  }
+]

@@ -1,0 +1,220 @@
+[
+  {
+    "id": "backdoor-attacks-on-speech-emotion-recognition-via-tts-generated-poisoning-2026",
+    "title": "Backdoor Attacks on Speech Emotion Recognition via TTS-Generated Poisoning",
+    "year": 2026,
+    "venue": "IEEE Cyber AI",
+    "url": "https://arxiv.org/abs/2606.21052",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "audio-representation"
+    ]
+  },
+  {
+    "id": "backdooragent-a-unified-framework-for-backdoor-attacks-on-llm-based-agents-2026",
+    "title": "BackdoorAgent: A Unified Framework for Backdoor Attacks on LLM-based Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2601.04566",
+    "types": [
+      "Benchmark",
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "agent-planning",
+      "agent-memory",
+      "agent-tools"
+    ]
+  },
+  {
+    "id": "badaction-backdoor-attacks-on-interactive-video-generation-via-action-guided-triggers-2026",
+    "title": "BadAction: Backdoor Attacks on Interactive Video Generation via Action-Guided Triggers",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.39047",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "video-generation"
+    ]
+  },
+  {
+    "id": "badskill-backdoor-attacks-on-agent-skills-via-model-in-skill-poisoning-2026",
+    "title": "BadSkill: Backdoor Attacks on Agent Skills via Model-in-Skill Poisoning",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2604.09378",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "agent-tools"
+    ]
+  },
+  {
+    "id": "cross-paradigm-graph-backdoor-attacks-with-promptable-subgraph-triggers-2026",
+    "title": "Cross-Paradigm Graph Backdoor Attacks with Promptable Subgraph Triggers",
+    "year": 2026,
+    "venue": "IJCAI",
+    "url": "https://arxiv.org/abs/2510.22555",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "graph-representation"
+    ]
+  },
+  {
+    "id": "dropvla-an-action-level-backdoor-attack-on-vision-language-action-models-2026",
+    "title": "DropVLA: An Action-Level Backdoor Attack on Vision-Language-Action Models",
+    "year": 2026,
+    "venue": "IROS",
+    "url": "https://arxiv.org/abs/2510.10932",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "vla-models"
+    ]
+  },
+  {
+    "id": "ghostsplat-input-triggered-backdoors-for-multi-view-consistent-3d-content-manipulation-in-feed-forward-gaussian-splattin-2026",
+    "title": "GhostSplat: Input-Triggered Backdoors for Multi-View-Consistent 3D Content Manipulation in Feed-Forward Gaussian Splatting",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2608.29184",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "3d-generation"
+    ]
+  },
+  {
+    "id": "mrop-mask-region-optimized-purification-against-backdoor-attack-in-deep-jscc-2026",
+    "title": "MROP: Mask-Region Optimized Purification Against Backdoor Attack in Deep JSCC",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.00786",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-restoration-compression"
+    ]
+  },
+  {
+    "id": "poisoning-based-backdoors-are-not-cryptographic-2026",
+    "title": "Poisoning-Based Backdoors Are Not Cryptographic",
+    "year": 2026,
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2610.28045",
+    "types": [
+      "Analysis"
+    ],
+    "topics": [
+      "learning-theory"
+    ]
+  },
+  {
+    "id": "skilltrojan-backdoor-attacks-on-skill-based-agent-systems-2026",
+    "title": "SkillTrojan: Backdoor Attacks on Skill-Based Agent Systems",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2604.06811",
+    "types": [
+      "Attack",
+      "Dataset"
+    ],
+    "topics": [
+      "agent-tools"
+    ]
+  },
+  {
+    "id": "stateful-agent-backdoors-constructing-cross-session-attack-programs-2026",
+    "title": "Stateful Agent Backdoors: Constructing Cross-Session Attack Programs",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2605.06158",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "agent-memory",
+      "agent-tools"
+    ]
+  },
+  {
+    "id": "statistically-undetectable-backdoors-in-deep-neural-networks-2026",
+    "title": "Statistically Undetectable Backdoors in Deep Neural Networks",
+    "year": 2026,
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2607.09532",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "learning-theory"
+    ]
+  },
+  {
+    "id": "trojanto-action-level-backdoor-attacks-against-trajectory-optimization-models-2026",
+    "title": "TrojanTO: Action-Level Backdoor Attacks against Trajectory Optimization Models",
+    "year": 2026,
+    "venue": "ICLR",
+    "url": "https://arxiv.org/abs/2506.12815",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "single-agent-rl"
+    ]
+  },
+  {
+    "id": "understanding-and-enhancing-backdoor-persistency-in-llm-agent-post-training-2026",
+    "title": "Understanding and Enhancing Backdoor Persistency in LLM Agent Post-Training",
+    "year": 2026,
+    "venue": "Findings of EMNLP",
+    "url": "https://arxiv.org/abs/2610.07510",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "agent-planning",
+      "code-models"
+    ],
+    "code": "https://github.com/uiuc-kang-lab/PersistBD"
+  },
+  {
+    "id": "where-do-backdoors-live-a-component-level-analysis-of-backdoor-propagation-in-speech-language-models-2026",
+    "title": "Where Do Backdoors Live? A Component-Level Analysis of Backdoor Propagation in Speech Language Models",
+    "year": 2026,
+    "venue": "Interspeech",
+    "url": "https://arxiv.org/abs/2510.01157",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "audio-language"
+    ]
+  },
+  {
+    "id": "you-are-the-trigger-speaker-activated-backdoors-2026",
+    "title": "You Are the Trigger: Speaker-Activated Backdoors",
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.27210",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "speech-recognition"
+    ]
+  }
+]

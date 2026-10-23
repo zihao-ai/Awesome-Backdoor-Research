@@ -1,0 +1,44 @@
+name: Suggest a resource
+description: Propose a tutorial/course, workshop, or reusable toolbox.
+title: "[Resource] "
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Resource type
+      options:
+        - Tutorial or course
+        - Workshop
+        - Toolbox
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Resource title
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Primary URL
+      description: For toolboxes, provide the GitHub repository root URL.
+    validations:
+      required: true
+  - type: input
+    id: event
+    attributes:
+      label: Year and hosting venue/platform
+      description: Required for tutorials, courses, and workshops; not applicable to toolboxes.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description and relevance
+      description: Describe the contents, intended audience, and relevance to backdoor research.
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional links (optional)
+      description: Slides, recordings, documentation, or workshop proceedings. Individual papers should use the paper form.

@@ -1,0 +1,67 @@
+name: Suggest a paper
+description: Propose a paper, survey, benchmark paper, or dataset paper.
+title: "[Paper] "
+body:
+  - type: markdown
+    attributes:
+      value: "Search existing entries first. Choose leaf IDs from data/taxonomy.json; survey papers belong in Surveys."
+  - type: input
+    id: title
+    attributes:
+      label: Paper title
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Primary paper URL
+      description: Publisher, conference, OpenReview, DOI, or arXiv link.
+    validations:
+      required: true
+  - type: input
+    id: publication
+    attributes:
+      label: Year and venue
+    validations:
+      required: true
+  - type: dropdown
+    id: types
+    attributes:
+      label: Paper types
+      multiple: true
+      options:
+        - Attack
+        - Defense
+        - Analysis
+        - Application
+        - Survey
+        - Benchmark
+        - Dataset
+    validations:
+      required: true
+  - type: input
+    id: topics
+    attributes:
+      label: Suggested subcategory IDs
+      description: For example, image-classification or agent-memory; explain multiple selections below.
+    validations:
+      required: true
+  - type: input
+    id: code
+    attributes:
+      label: GitHub repository URL (optional)
+      description: Leave blank when no implementation is known.
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Relevance and classification
+      description: Briefly explain the backdoor contribution and any classification ambiguity.
+    validations:
+      required: true
+  - type: checkboxes
+    id: duplicate
+    attributes:
+      label: Existing entries
+      options:
+        - label: I searched for this title and its preprint/proceedings versions in the catalog.
+          required: true

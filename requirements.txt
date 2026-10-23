@@ -1,0 +1,2 @@
+jsonschema>=4.23,<5
+Markdown>=3.7,<4

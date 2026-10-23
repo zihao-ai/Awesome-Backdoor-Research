@@ -1,0 +1,24 @@
+name: Correction or taxonomy proposal
+description: Report metadata/link problems or suggest a classification improvement.
+title: "[Correction] "
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Affected record ID, category, or file
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Current problem
+      description: Describe the incorrect information, broken link, duplicate, or classification gap.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested change and supporting source
+      description: Include the primary source for a metadata correction; explain the scope for a taxonomy change.
+    validations:
+      required: true

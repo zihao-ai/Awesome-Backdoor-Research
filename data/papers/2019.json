@@ -1,0 +1,85 @@
+[
+  {
+    "id": "abs-scanning-neural-networks-for-backdoors-by-artificial-brain-stimulation-2019",
+    "title": "Abs: Scanning neural networks for backdoors by artificial brain stimulation",
+    "year": 2019,
+    "venue": "CCS",
+    "url": "https://doi.org/10.1145/3319535.3363216",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/naiyeleo/ABS"
+  },
+  {
+    "id": "deepinspect-a-black-box-trojan-detection-and-mitigation-framework-for-deep-neural-networks-2019",
+    "title": "DeepInspect: A Black-box Trojan Detection and Mitigation Framework for Deep Neural Networks",
+    "year": 2019,
+    "venue": "IJCAI",
+    "url": "https://www.ijcai.org/Proceedings/2019/647",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "defending-neural-backdoors-via-generative-distribution-modeling-2019",
+    "title": "Defending Neural Backdoors via Generative Distribution Modeling",
+    "year": 2019,
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/1910.04749",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/superrrpotato/Defending-Neural-Backdoors-via-Generative-Distribution-Modeling"
+  },
+  {
+    "id": "latent-backdoor-attacks-on-deep-neural-networks-2019",
+    "title": "Latent Backdoor Attacks on Deep Neural Networks",
+    "year": 2019,
+    "venue": "CCS",
+    "url": "https://arxiv.org/abs/1905.10447",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/Huiying-Li/Latent-Backdoor"
+  },
+  {
+    "id": "neural-cleanse-identifying-and-mitigating-backdoor-attacks-in-neural-networks-2019",
+    "title": "Neural Cleanse: Identifying and Mitigating Backdoor Attacks in Neural Networks",
+    "year": 2019,
+    "venue": "IEEE S&P",
+    "url": "https://people.cs.uchicago.edu/~ravenben/publications/abstracts/backdoor-sp19.html",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/bolunwang/backdoor"
+  },
+  {
+    "id": "strip-a-defence-against-trojan-attacks-on-deep-neural-networks-2019",
+    "title": "STRIP: A Defence Against Trojan Attacks on Deep Neural Networks",
+    "year": 2019,
+    "venue": "ACSAC",
+    "url": "https://arxiv.org/abs/1902.06531",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/garrisongys/STRIP"
+  }
+]

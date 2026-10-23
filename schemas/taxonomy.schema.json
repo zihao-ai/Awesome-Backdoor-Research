@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "areas": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/area"
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "version",
+    "areas"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*(?![\\s\\S])"
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!\\s*$)[^\\r\\n\\x00-\\x1F\\x7F]+(?![\\s\\S])"
+    },
+    "url": {
+      "type": "string",
+      "format": "http-url"
+    },
+    "repository": {
+      "type": "string",
+      "format": "github-repository"
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1900,
+      "maximum": 2100
+    },
+    "topic": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "$ref": "#/$defs/text"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ],
+      "additionalProperties": false
+    },
+    "area": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "$ref": "#/$defs/text"
+        },
+        "emoji": {
+          "$ref": "#/$defs/text"
+        },
+        "description": {
+          "$ref": "#/$defs/text"
+        },
+        "topics": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/topic"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "emoji",
+        "description",
+        "topics"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

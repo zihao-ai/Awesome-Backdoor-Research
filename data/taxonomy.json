@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "areas": [
+    {
+      "id": "surveys",
+      "name": "Surveys",
+      "emoji": "📖",
+      "description": "Start here: broad overviews and surveys of specific research directions",
+      "topics": [
+        {
+          "id": "general-surveys",
+          "name": "General Surveys"
+        },
+        {
+          "id": "surveys-specific",
+          "name": "Topic-Specific Surveys"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision",
+      "name": "Computer Vision",
+      "emoji": "🖼️",
+      "description": "Recognition, detection, segmentation, video & 3D vision",
+      "topics": [
+        {
+          "id": "image-classification",
+          "name": "Image Classification & Recognition"
+        },
+        {
+          "id": "detection-segmentation-tracking",
+          "name": "Object Detection, Segmentation & Tracking"
+        },
+        {
+          "id": "video-understanding",
+          "name": "Video Understanding"
+        },
+        {
+          "id": "3d-vision",
+          "name": "3D Vision & Point Clouds"
+        },
+        {
+          "id": "visual-representation",
+          "name": "Visual Representation Learning"
+        },
+        {
+          "id": "image-restoration-compression",
+          "name": "Image Restoration & Compression"
+        },
+        {
+          "id": "visual-regression-counting",
+          "name": "Visual Regression & Counting"
+        }
+      ]
+    },
+    {
+      "id": "language-models",
+      "name": "NLP & Language Models",
+      "emoji": "📝",
+      "description": "Text, language models, reasoning & code generation",
+      "topics": [
+        {
+          "id": "text-classification",
+          "name": "Text Classification & Sequence Labeling"
+        },
+        {
+          "id": "language-representation",
+          "name": "Language Representation & Embedding Models"
+        },
+        {
+          "id": "sequence-generation-translation",
+          "name": "Sequence Generation & Translation"
+        },
+        {
+          "id": "llms",
+          "name": "Large Language Models & Instruction Following"
+        },
+        {
+          "id": "code-models",
+          "name": "Code Language Models"
+        },
+        {
+          "id": "rag",
+          "name": "Retrieval-Augmented Generation"
+        }
+      ]
+    },
+    {
+      "id": "multimodal-learning",
+      "name": "Multimodal Learning",
+      "emoji": "🔗",
+      "description": "Cross-modal representations, retrieval & understanding",
+      "topics": [
+        {
+          "id": "vision-language-representation",
+          "name": "Vision–Language Representation & Retrieval"
+        },
+        {
+          "id": "mllms",
+          "name": "Vision–Language Understanding & MLLMs"
+        },
+        {
+          "id": "audio-language",
+          "name": "Audio–Language & Other Multimodal Models"
+        }
+      ]
+    },
+    {
+      "id": "generative-models",
+      "name": "Generative Models",
+      "emoji": "🎨",
+      "description": "Image, video, audio & 3D generation",
+      "topics": [
+        {
+          "id": "image-generation",
+          "name": "Image Generation & Editing"
+        },
+        {
+          "id": "video-generation",
+          "name": "Video Generation"
+        },
+        {
+          "id": "audio-generation",
+          "name": "Audio, Speech & Music Generation"
+        },
+        {
+          "id": "3d-generation",
+          "name": "3D Content & Motion Generation"
+        }
+      ]
+    },
+    {
+      "id": "ai-agents",
+      "name": "AI Agents",
+      "emoji": "🤖",
+      "description": "Planning, memory, tools, skills & multi-agent systems",
+      "topics": [
+        {
+          "id": "agent-planning",
+          "name": "Planning & Reasoning"
+        },
+        {
+          "id": "agent-memory",
+          "name": "Memory & Knowledge"
+        },
+        {
+          "id": "agent-tools",
+          "name": "Tools & Skills"
+        },
+        {
+          "id": "multi-agent-systems",
+          "name": "Multi-Agent Systems"
+        }
+      ]
+    },
+    {
+      "id": "embodied-ai",
+      "name": "Embodied AI",
+      "emoji": "🦾",
+      "description": "Vision–language–action models, robotics & autonomy",
+      "topics": [
+        {
+          "id": "vla-models",
+          "name": "Vision–Language–Action Models"
+        },
+        {
+          "id": "robotic-control",
+          "name": "Robotic Manipulation & Control"
+        },
+        {
+          "id": "navigation-driving",
+          "name": "Navigation & Autonomous Driving"
+        },
+        {
+          "id": "embodied-planning",
+          "name": "Embodied Planning & Interaction"
+        }
+      ]
+    },
+    {
+      "id": "graph-learning",
+      "name": "Graph Learning",
+      "emoji": "🕸️",
+      "description": "Graph classification, node classification & link prediction",
+      "topics": [
+        {
+          "id": "graph-node-classification",
+          "name": "Graph & Node Classification"
+        },
+        {
+          "id": "graph-representation",
+          "name": "Link Prediction & Graph Representation Learning"
+        }
+      ]
+    },
+    {
+      "id": "speech-audio",
+      "name": "Speech & Audio",
+      "emoji": "🔊",
+      "description": "Speech recognition, speaker verification & audio understanding",
+      "topics": [
+        {
+          "id": "speech-recognition",
+          "name": "Speech & Speaker Recognition"
+        },
+        {
+          "id": "audio-representation",
+          "name": "Audio Classification & Representation Learning"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "name": "Reinforcement Learning",
+      "emoji": "🎮",
+      "description": "Policies, sequential decisions & multi-agent learning",
+      "topics": [
+        {
+          "id": "single-agent-rl",
+          "name": "Single-Agent Reinforcement Learning"
+        },
+        {
+          "id": "multi-agent-rl",
+          "name": "Multi-Agent Reinforcement Learning"
+        }
+      ]
+    },
+    {
+      "id": "federated-learning",
+      "name": "Federated Learning",
+      "emoji": "🌐",
+      "description": "Collaborative training, client updates & aggregation",
+      "topics": [
+        {
+          "id": "horizontal-fl",
+          "name": "Horizontal Federated Learning"
+        },
+        {
+          "id": "vertical-fl",
+          "name": "Vertical Federated Learning"
+        }
+      ]
+    },
+    {
+      "id": "foundations-theory",
+      "name": "Foundations & Theory",
+      "emoji": "📐",
+      "description": "Learning-theoretic limits, formal guarantees & cryptographic backdoors",
+      "topics": [
+        {
+          "id": "learning-theory",
+          "name": "Learning Theory & Formal Guarantees"
+        }
+      ]
+    }
+  ]
+}

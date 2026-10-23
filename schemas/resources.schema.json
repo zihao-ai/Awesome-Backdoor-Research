@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "tutorials": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/event"
+      }
+    },
+    "workshops": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/event"
+      }
+    },
+    "toolboxes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/toolbox"
+      }
+    }
+  },
+  "required": [
+    "tutorials",
+    "workshops",
+    "toolboxes"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*(?![\\s\\S])"
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!\\s*$)[^\\r\\n\\x00-\\x1F\\x7F]+(?![\\s\\S])"
+    },
+    "url": {
+      "type": "string",
+      "format": "http-url"
+    },
+    "repository": {
+      "type": "string",
+      "format": "github-repository"
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1900,
+      "maximum": 2100
+    },
+    "link": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "$ref": "#/$defs/text"
+        },
+        "url": {
+          "$ref": "#/$defs/url"
+        }
+      },
+      "required": [
+        "label",
+        "url"
+      ],
+      "additionalProperties": false
+    },
+    "event": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "title": {
+          "$ref": "#/$defs/text"
+        },
+        "year": {
+          "$ref": "#/$defs/year"
+        },
+        "venue": {
+          "$ref": "#/$defs/text"
+        },
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "description": {
+          "$ref": "#/$defs/text"
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/link"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "year",
+        "venue",
+        "url",
+        "description"
+      ],
+      "additionalProperties": false
+    },
+    "toolbox": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "title": {
+          "$ref": "#/$defs/text"
+        },
+        "url": {
+          "$ref": "#/$defs/repository"
+        },
+        "description": {
+          "$ref": "#/$defs/text"
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/link"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "url",
+        "description"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

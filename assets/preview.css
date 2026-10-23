@@ -1,0 +1,27 @@
+/* Local preview styles. README rendering on GitHub is controlled by GitHub. */
+:root { color-scheme: light dark; --bg:#f6f8fa; --paper:#fff; --text:#1f2328; --muted:#59636e; --border:#d1d9e0; --link:#0969da; --stripe:#f6f8fa; }
+* { box-sizing:border-box; }
+body { margin:0; padding:32px 24px; background:var(--bg); color:var(--text); font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+.markdown-body { max-width:1092px; margin:auto; padding:40px; background:var(--paper); border:1px solid var(--border); border-radius:8px; overflow-wrap:break-word; }
+h1,h2,h3,h4 { line-height:1.3; font-weight:600; scroll-margin-top:24px; }
+h1 { font-size:2em; }
+h2 { font-size:1.5em; padding-bottom:.3em; border-bottom:1px solid var(--border); margin-top:32px; }
+h3 { font-size:1.25em; margin-top:32px; }
+h4 { font-size:1em; margin:24px 0 12px; }
+a { color:var(--link); text-decoration:none; }
+a:hover { text-decoration:underline; }
+p,ul,ol,table,pre,blockquote { margin-top:0; margin-bottom:16px; }
+li + li { margin-top:4px; }
+blockquote { margin-left:0; padding:0 1em; color:var(--muted); border-left:4px solid var(--border); }
+hr { height:1px; border:0; background:var(--border); margin:28px 0; }
+table { display:block; max-width:100%; overflow:auto; border-spacing:0; border-collapse:collapse; }
+th,td { padding:6px 13px; border:1px solid var(--border); }
+th { font-weight:600; }
+tr:nth-child(2n) { background:var(--stripe); }
+code { padding:.2em .4em; border-radius:4px; background:var(--stripe); font-size:85%; }
+pre { padding:16px; overflow:auto; border-radius:6px; background:var(--stripe); line-height:1.45; }
+pre code { padding:0; }
+img { max-width:100%; vertical-align:middle; }
+sub { color:var(--muted); font-size:85%; }
+@media (prefers-color-scheme: dark) { :root { --bg:#010409; --paper:#0d1117; --text:#e6edf3; --muted:#9198a1; --border:#3d444d; --link:#4493f8; --stripe:#151b23; } }
+@media (max-width:767px) { body { padding:0; } .markdown-body { padding:20px 16px; border:0; border-radius:0; } h1 { font-size:1.7em; } }

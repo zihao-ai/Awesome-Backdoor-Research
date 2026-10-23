@@ -1,0 +1,34 @@
+name: Validate catalog
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.11', '3.14']
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          fetch-depth: 2
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python scripts/validate.py
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/build.py --check
+      - name: Check whitespace in active files
+        run: git diff-tree --root -m --check HEAD -- .

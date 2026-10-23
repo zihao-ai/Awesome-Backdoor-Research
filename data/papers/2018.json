@@ -1,0 +1,72 @@
+[
+  {
+    "id": "detecting-backdoor-attacks-on-deep-neural-networks-by-activation-clustering-2018",
+    "title": "Detecting Backdoor Attacks on Deep Neural Networks by Activation Clustering",
+    "year": 2018,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/1811.03728",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification",
+      "text-classification"
+    ]
+  },
+  {
+    "id": "fine-pruning-defending-against-backdooring-attacks-on-deep-neural-networks-2018",
+    "title": "Fine-pruning: Defending against backdooring attacks on deep neural networks",
+    "year": 2018,
+    "venue": "RAID",
+    "url": "https://arxiv.org/abs/1805.12185",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/kangliucn/Fine-pruning-defense"
+  },
+  {
+    "id": "spectral-signatures-in-backdoor-attacks-2018",
+    "title": "Spectral Signatures in Backdoor Attacks",
+    "year": 2018,
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/1811.00636",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/MadryLab/backdoor_data_poisoning"
+  },
+  {
+    "id": "trojaning-attack-on-neural-networks-2018",
+    "title": "Trojaning Attack on Neural Networks",
+    "year": 2018,
+    "venue": "NDSS",
+    "url": "https://www.ndss-symposium.org/ndss-program-2018-program/",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/PurduePAML/TrojanNN"
+  },
+  {
+    "id": "turning-your-weakness-into-a-strength-watermarking-deep-neural-networks-by-backdooring-2018",
+    "title": "Turning Your Weakness Into a Strength: Watermarking Deep Neural Networks by Backdooring",
+    "year": 2018,
+    "venue": "USENIX Security",
+    "url": "https://arxiv.org/abs/1802.04633",
+    "types": [
+      "Application"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/adiyoss/WatermarkNN"
+  }
+]

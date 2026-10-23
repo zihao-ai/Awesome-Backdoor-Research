@@ -1,2 +1,18 @@
-source
-*.py
+# Local environments and Python caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated local artifacts
+.preview/
+reports/
+.superpowers/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Legacy local working data
+/source/
