@@ -63,7 +63,7 @@ The navigation shows each full subcategory name on its own line, linked to its s
 
 `data/papers/YYYY.json` stores each paper once. Its `topics` array contains one or more leaf IDs, allowing the same record to appear in multiple appropriate tables. The filename year must match each record's displayed publication year. `types` is an array of Attack, Defense, Analysis, Application, Survey, Benchmark, or Dataset. Survey records belong in survey subcategories; benchmark and dataset papers belong in their subject areas.
 
-`data/resources.json` keeps tutorials/courses, workshops, and toolboxes separate from paper records. The README template supplies fixed prose and exactly five generated slots: `AREA_NAVIGATION`, `PAPERS`, `TUTORIALS`, `WORKSHOPS`, and `TOOLBOXES`.
+`data/resources.json` keeps tutorials/courses, workshops, and toolboxes separate from paper records. The README template supplies fixed prose and exactly six generated slots: `CATALOG_STATS`, `AREA_NAVIGATION`, `PAPERS`, `TUTORIALS`, `WORKSHOPS`, and `TOOLBOXES`.
 
 ```text
 JSON records + JSON Schemas ── validate ──┐

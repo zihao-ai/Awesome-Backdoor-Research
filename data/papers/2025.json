@@ -96,6 +96,20 @@
     ]
   },
   {
+    "id": "backdoor-attacks-against-no-reference-image-quality-assessment-models-via-a-scalable-trigger-2025",
+    "title": "Backdoor Attacks against No-Reference Image Quality Assessment Models via a Scalable Trigger",
+    "year": 2025,
+    "venue": "AAAI",
+    "url": "https://arxiv.org/abs/2412.07277",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "visual-regression-counting"
+    ],
+    "code": "https://github.com/yuyi-sd/BAIQA"
+  },
+  {
     "id": "backdoor-attacks-and-defenses-in-computer-vision-domain-a-survey-2025",
     "title": "Backdoor Attacks and Defenses in Computer Vision Domain: A Survey",
     "year": 2025,
@@ -410,6 +424,22 @@
     "code": "https://github.com/Zxy-MLlab/BadVLA"
   },
   {
+    "id": "bdefects4nn-a-backdoor-defect-database-for-controlled-localization-studies-in-neural-networks-2025",
+    "title": "BDefects4NN: A Backdoor Defect Database for Controlled Localization Studies in Neural Networks",
+    "year": 2025,
+    "venue": "ICSE",
+    "url": "https://arxiv.org/abs/2412.00746",
+    "types": [
+      "Benchmark",
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification",
+      "llms",
+      "navigation-driving"
+    ]
+  },
+  {
     "id": "blast-a-stealthy-backdoor-leverage-attack-against-cooperative-multi-agent-deep-reinforcement-learning-based-systems-2025",
     "title": "BLAST: A Stealthy Backdoor Leverage Attack against Cooperative Multi-Agent Deep Reinforcement Learning based Systems",
     "year": 2025,
@@ -473,6 +503,21 @@
     ],
     "topics": [
       "detection-segmentation-tracking"
+    ]
+  },
+  {
+    "id": "cl-attack-textual-backdoor-attacks-via-cross-lingual-triggers-2024",
+    "title": "CL-Attack: Textual Backdoor Attacks via Cross-Lingual Triggers",
+    "year": 2025,
+    "venue": "AAAI",
+    "url": "https://arxiv.org/abs/2412.19037",
+    "types": [
+      "Attack",
+      "Defense"
+    ],
+    "topics": [
+      "text-classification",
+      "llms"
     ]
   },
   {
@@ -562,6 +607,20 @@
     ]
   },
   {
+    "id": "cut-the-deadwood-out-backdoor-purification-via-guided-module-substitution-2024",
+    "title": "Cut the Deadwood Out: Backdoor Purification via Guided Module Substitution",
+    "year": 2025,
+    "venue": "Findings of EMNLP",
+    "url": "https://arxiv.org/abs/2412.20476",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "language-representation",
+      "llms"
+    ]
+  },
+  {
     "id": "darkmind-latent-chain-of-thought-backdoor-in-customized-llms-2025",
     "title": "DarkMind: Latent Chain-of-Thought Backdoor in Customized LLMs",
     "year": 2025,
@@ -572,6 +631,20 @@
     ],
     "topics": [
       "llms"
+    ]
+  },
+  {
+    "id": "dede-detecting-backdoor-samples-for-ssl-encoders-via-decoders-2024",
+    "title": "DeDe: Detecting Backdoor Samples for SSL Encoders via Decoders",
+    "year": 2025,
+    "venue": "CVPR",
+    "url": "https://arxiv.org/abs/2411.16154",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "visual-representation",
+      "vision-language-representation"
     ]
   },
   {
@@ -672,6 +745,20 @@
     "topics": [
       "vla-models"
     ]
+  },
+  {
+    "id": "gracefully-filtering-backdoor-samples-for-generative-large-language-models-without-retraining-2025",
+    "title": "Gracefully Filtering Backdoor Samples for Generative Large Language Models without Retraining",
+    "year": 2025,
+    "venue": "COLING",
+    "url": "https://arxiv.org/abs/2412.02454",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "llms"
+    ],
+    "code": "https://github.com/ZrW00/GraceFul"
   },
   {
     "id": "guard-dual-agent-based-backdoor-defense-on-chain-of-thought-in-neural-code-generation-2025",
@@ -781,6 +868,20 @@
     "code": "https://github.com/aiiu-lab/BackdoorImageEditing"
   },
   {
+    "id": "laserguider-a-laser-based-physical-backdoor-attack-against-deep-neural-networks-2024",
+    "title": "LaserGuider: A Laser Based Physical Backdoor Attack against Deep Neural Networks",
+    "year": 2025,
+    "venue": "ACNS",
+    "url": "https://arxiv.org/abs/2412.03993",
+    "types": [
+      "Attack",
+      "Benchmark"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "lethe-purifying-backdoored-large-language-models-with-knowledge-dilution-2025",
     "title": "Lethe: Purifying Backdoored Large Language Models with Knowledge Dilution",
     "year": 2025,
@@ -804,6 +905,19 @@
     ],
     "topics": [
       "agent-tools"
+    ]
+  },
+  {
+    "id": "meme-trojan-backdoor-attacks-against-hateful-meme-detection-via-cross-modal-triggers-2024",
+    "title": "Meme Trojan: Backdoor Attacks Against Hateful Meme Detection via Cross-Modal Triggers",
+    "year": 2025,
+    "venue": "AAAI",
+    "url": "https://arxiv.org/abs/2412.15503",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "mllms"
     ]
   },
   {
@@ -897,6 +1011,20 @@
     ],
     "topics": [
       "multi-agent-systems"
+    ]
+  },
+  {
+    "id": "peftguard-detecting-backdoor-attacks-against-parameter-efficient-fine-tuning-2024",
+    "title": "PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning",
+    "year": 2025,
+    "venue": "IEEE S&P",
+    "url": "https://arxiv.org/abs/2411.17453",
+    "types": [
+      "Defense",
+      "Benchmark"
+    ],
+    "topics": [
+      "llms"
     ]
   },
   {
@@ -1046,6 +1174,20 @@
     ]
   },
   {
+    "id": "rtl-breaker-assessing-the-security-of-llms-against-backdoor-attacks-on-hdl-code-generation-2025",
+    "title": "RTL-Breaker: Assessing the Security of LLMs against Backdoor Attacks on HDL Code Generation",
+    "year": 2025,
+    "venue": "DATE",
+    "url": "https://arxiv.org/abs/2411.17569",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "code-models"
+    ]
+  },
+  {
     "id": "sdba-a-stealthy-and-long-lasting-durable-backdoor-attack-in-federated-learning-2025",
     "title": "SDBA: A Stealthy and Long-Lasting Durable Backdoor Attack in Federated Learning",
     "year": 2025,
@@ -1112,6 +1254,20 @@
     "topics": [
       "code-models"
     ]
+  },
+  {
+    "id": "sneakdoor-stealthy-backdoor-attacks-against-distribution-matching-based-dataset-condensation-2025",
+    "title": "SNEAKDOOR: Stealthy Backdoor Attacks against Distribution Matching-based Dataset Condensation",
+    "year": 2025,
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2603.28824",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/XJTU-AI-Lab/SneakDoor"
   },
   {
     "id": "sok-the-last-line-of-defense-on-backdoor-defense-evaluation-2025",
@@ -1302,6 +1458,19 @@
     "topics": [
       "audio-language",
       "audio-representation"
+    ]
+  },
+  {
+    "id": "two-sides-of-the-same-coin-learning-the-backdoor-to-remove-the-backdoor-2025",
+    "title": "Two Sides of the Same Coin: Learning the Backdoor to Remove the Backdoor",
+    "year": 2025,
+    "venue": "AAAI",
+    "url": "https://arxiv.org/abs/2607.05748",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
     ]
   },
   {

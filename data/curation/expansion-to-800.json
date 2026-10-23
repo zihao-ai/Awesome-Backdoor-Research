@@ -1,0 +1,160 @@
+{
+  "batch_id": "expansion-to-800-2026-10-23",
+  "review_date": "2026-10-23",
+  "requested_target": 800,
+  "catalog_before": 454,
+  "added": 433,
+  "catalog_after": 887,
+  "scope": "Backdoor research across existing taxonomy; recent additions and historical omissions; abstracts only, no PDFs or full text.",
+  "retrievals": [
+    {
+      "database": "arXiv",
+      "query": "(ti:backdoor OR ti:trojan) AND submittedDate:[201701010000 TO 202412312359]",
+      "sort_by": "submittedDate",
+      "sort_order": "descending",
+      "reported_total": 1221,
+      "retrieved": 1221,
+      "pages": [
+        {
+          "start": 0,
+          "max_results": 900,
+          "returned": 900
+        },
+        {
+          "start": 900,
+          "max_results": 350,
+          "returned": 321
+        }
+      ],
+      "access_date": "2026-10-23",
+      "candidate_count_after_exact_base_dedup": 1023
+    },
+    {
+      "database": "arXiv",
+      "query": "(ti:backdoor OR ti:trojan) AND submittedDate:[202501010000 TO 202610232359]",
+      "reported_total": 767,
+      "retrieved": 767,
+      "access_date": "2026-10-23",
+      "provenance": "Same-day metadata cache from prior expansion; 553 candidates remained after current exact catalog deduplication.",
+      "reviewed_in_this_pass": 215
+    }
+  ],
+  "accepted_by_first_submission_year": {
+    "2017": 1,
+    "2018": 2,
+    "2019": 10,
+    "2020": 31,
+    "2021": 9,
+    "2022": 125,
+    "2023": 52,
+    "2024": 38,
+    "2026": 165
+  },
+  "accepted_by_display_year": {
+    "2017": 1,
+    "2018": 2,
+    "2019": 9,
+    "2020": 27,
+    "2021": 13,
+    "2022": 107,
+    "2023": 61,
+    "2024": 39,
+    "2025": 12,
+    "2026": 162
+  },
+  "accepted_by_type": {
+    "Analysis": 97,
+    "Application": 15,
+    "Attack": 220,
+    "Benchmark": 14,
+    "Defense": 189,
+    "Survey": 7
+  },
+  "final_alias_exclusions": [
+    {
+      "paper_id": "open-sourced-dataset-protection-via-backdoor-watermarking-2020",
+      "source": "https://arxiv.org/abs/2010.05821",
+      "reason": "Official metadata for arXiv2209.06015 identifies this as its earlier nonarchival short version; retain the expanded dataset-ownership work once."
+    },
+    {
+      "paper_id": "backdoor-attack-through-frequency-domain-2021",
+      "source": "https://arxiv.org/abs/2111.10991",
+      "reason": "FTrojan preprint alias of the existing ECCV2022 work An Invisible Black-Box Backdoor Attack Through Frequency Domain."
+    },
+    {
+      "paper_id": "backdoor-attack-is-a-devil-in-federated-gan-based-medical-image-synthesis-2022",
+      "source": "https://arxiv.org/abs/2207.00762",
+      "retained_source": "https://arxiv.org/abs/2210.10886",
+      "reason": "Same-author FedGAN medical-synthesis workshop/expanded versions; official arXiv administrator overlap note and matching method confirm one study. Retained the fuller FedDetect attack-and-defense version."
+    }
+  ],
+  "metadata_adjustments": [
+    {
+      "paper_id": "sempurify-semantics-aware-data-purification-for-black-box-backdoor-defense-2026",
+      "source": "https://arxiv.org/abs/2610.23589",
+      "reason": "Author metadata reports acceptance at WACV 2027. Listed as arXiv 2026 pending formal publication; no future publication is presented as already published."
+    },
+    {
+      "paper_id": "quiet-triggers-loud-footprints-a-tri-space-measurement-study-of-backdoor-stealthiness-2026",
+      "source": "https://arxiv.org/abs/2610.19947",
+      "reason": "Author metadata reports acceptance at IEEE S&P 2027. Listed as arXiv 2026 pending formal publication; no future publication is presented as already published."
+    },
+    {
+      "paper_id": "your-privacy-my-cloak-backdoor-attacks-on-differentially-private-federated-learning-2026",
+      "source": "https://arxiv.org/abs/2606.17035",
+      "reason": "Author metadata reports acceptance at IEEE S&P 2027. Listed as arXiv 2026 pending formal publication; no future publication is presented as already published."
+    },
+    {
+      "paper_id": "natural-backdoor-attacks-on-speech-recognition-models-2023",
+      "reason": "Use the literal published-venue label supplied in journal_ref rather than an inferred acronym."
+    }
+  ],
+  "review_limitations": [
+    "Accepted entries each have an individual abstract-review record; unselected candidates are not all claimed abstract-reviewed.",
+    "Title-screened hardware, astronomy, SAT, causal-adjustment, and generic non-backdoor poisoning records were not counted as backdoor research.",
+    "Model tasks outside the existing leaf taxonomy, including time-series, BCI, and tabular malware/insurance settings, were held rather than forced into unrelated categories.",
+    "Venue/year follow explicit author-provided publication metadata where available; other entries remain arXiv and first-submission year. This is not a comprehensive publisher metadata audit.",
+    "Exact identifiers/titles and near-title or method aliases were checked; this is a curated expansion, not an exhaustive bibliography."
+  ],
+  "classification_corrections": [
+    {
+      "paper_id": "stop-and-go-exploring-backdoor-attacks-on-deep-reinforcement-learning-based-traffic-congestion-control-systems-2021",
+      "topics": [
+        "navigation-driving",
+        "single-agent-rl"
+      ],
+      "reason": "The attacked victim is explicitly a reinforcement-learning autonomous-driving controller; cross-listed in navigation/driving and single-agent RL."
+    },
+    {
+      "paper_id": "memory-backdoor-attacks-on-neural-networks-2024",
+      "topics": [
+        "horizontal-fl",
+        "image-classification",
+        "detection-segmentation-tracking",
+        "llms"
+      ],
+      "reason": "A malicious federated server trains index-triggered memory backdoors for data extraction; the abstract explicitly evaluates classifiers, segmentation models, and LLMs."
+    },
+    {
+      "paper_id": "fine-tuning-is-all-you-need-to-mitigate-backdoor-attacks-2022",
+      "topics": [
+        "image-classification"
+      ],
+      "reason": "Fine-tuning and super-fine-tuning mitigate neural backdoors and measure backdoor sequela. Retained conservative vision placement; removed NLP placement because the abstract does not establish text tasks."
+    },
+    {
+      "paper_id": "badskp-backdoor-attacks-on-knowledge-graph-enhanced-llms-with-soft-prompts-2026",
+      "topics": [
+        "rag"
+      ],
+      "reason": "Poisons node embeddings that steer graph-derived soft prompts in knowledge-graph-enhanced LLM generation. Kept under RAG; the GNN is a component, not a demonstrated graph-representation victim task."
+    },
+    {
+      "paper_id": "cross-modal-backdoors-in-multimodal-large-language-models-2026",
+      "topics": [
+        "mllms"
+      ],
+      "reason": "Studies cross-modal transfer of backdoors in multimodal LLMs. Audio-specific placement was removed because the abstract does not explicitly identify attacked audio inputs."
+    }
+  ]
+}

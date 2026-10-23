@@ -1,5 +1,84 @@
 [
   {
+    "id": "a-knowledge-distillation-based-backdoor-attack-in-federated-learning-2022",
+    "title": "A Knowledge Distillation-Based Backdoor Attack in Federated Learning",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2208.06176",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
+    "id": "a-study-of-the-attention-abnormality-in-trojaned-berts-2022",
+    "title": "A Study of the Attention Abnormality in Trojaned BERTs",
+    "year": 2022,
+    "venue": "NAACL-HLT",
+    "url": "https://arxiv.org/abs/2205.08305",
+    "types": [
+      "Analysis",
+      "Defense"
+    ],
+    "topics": [
+      "text-classification"
+    ]
+  },
+  {
+    "id": "a-survey-of-neural-trojan-attacks-and-defenses-in-deep-learning-2022",
+    "title": "A Survey of Neural Trojan Attacks and Defenses in Deep Learning",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2202.07183",
+    "types": [
+      "Survey"
+    ],
+    "topics": [
+      "general-surveys"
+    ]
+  },
+  {
+    "id": "a-survey-on-backdoor-attack-and-defense-in-natural-language-processing-2022",
+    "title": "A Survey on Backdoor Attack and Defense in Natural Language Processing",
+    "year": 2022,
+    "venue": "QRS",
+    "url": "https://arxiv.org/abs/2211.11958",
+    "types": [
+      "Survey"
+    ],
+    "topics": [
+      "surveys-specific"
+    ]
+  },
+  {
+    "id": "a-temporal-chrominance-trigger-for-clean-label-backdoor-attack-against-anti-spoof-rebroadcast-detection-2022",
+    "title": "A temporal chrominance trigger for clean-label backdoor attack against anti-spoof rebroadcast detection",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2206.01102",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "video-understanding"
+    ]
+  },
+  {
+    "id": "a-temporal-pattern-backdoor-attack-to-deep-reinforcement-learning-2022",
+    "title": "A Temporal-Pattern Backdoor Attack to Deep Reinforcement Learning",
+    "year": 2022,
+    "venue": "IEEE GLOBECOM",
+    "url": "https://arxiv.org/abs/2205.02589",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "single-agent-rl"
+    ]
+  },
+  {
     "id": "a-unified-evaluation-of-textual-backdoor-learning-frameworks-and-benchmarks-2022",
     "title": "A Unified Evaluation of Textual Backdoor Learning: Frameworks and Benchmarks",
     "year": 2022,
@@ -44,6 +123,33 @@
     "code": "https://github.com/JunfengGo/AEVA-Blackbox-Backdoor-Detection-main"
   },
   {
+    "id": "an-adaptive-black-box-defense-against-trojan-attacks-trojdef-2022",
+    "title": "An Adaptive Black-box Defense against Trojan Attacks (TrojDef)",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2209.01721",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "an-anomaly-detection-approach-for-backdoored-neural-networks-face-recognition-as-a-case-study-2022",
+    "title": "An anomaly detection approach for backdoored neural networks: face recognition as a case study",
+    "year": 2022,
+    "venue": "BIOSIG",
+    "url": "https://arxiv.org/abs/2208.10231",
+    "types": [
+      "Defense",
+      "Benchmark"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "an-invisible-black-box-backdoor-attack-through-frequency-domain-2022",
     "title": "An Invisible Black-Box Backdoor Attack Through Frequency Domain",
     "year": 2022,
@@ -56,6 +162,75 @@
       "image-classification"
     ],
     "code": "https://github.com/SoftWiser-group/FTrojan"
+  },
+  {
+    "id": "apple-of-sodom-hidden-backdoors-in-superior-sentence-embeddings-via-contrastive-learning-2022",
+    "title": "Apple of Sodom: Hidden Backdoors in Superior Sentence Embeddings via Contrastive Learning",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2210.11082",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "language-representation"
+    ]
+  },
+  {
+    "id": "attention-hijacking-in-trojan-transformers-2022",
+    "title": "Attention Hijacking in Trojan Transformers",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2208.04946",
+    "types": [
+      "Analysis",
+      "Defense"
+    ],
+    "topics": [
+      "text-classification",
+      "image-classification"
+    ]
+  },
+  {
+    "id": "augmentation-backdoors-2022",
+    "title": "Augmentation Backdoors",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2209.15139",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "backdoor-attack-against-nlp-models-with-robustness-aware-perturbation-defense-2022",
+    "title": "Backdoor Attack against NLP models with Robustness-Aware Perturbation defense",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2204.05758",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "text-classification"
+    ]
+  },
+  {
+    "id": "backdoor-attack-and-defense-in-federated-generative-adversarial-network-based-medical-image-synthesis-2022",
+    "title": "Backdoor Attack and Defense in Federated Generative Adversarial Network-based Medical Image Synthesis",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2210.10886",
+    "types": [
+      "Attack",
+      "Defense"
+    ],
+    "topics": [
+      "horizontal-fl",
+      "image-generation"
+    ]
   },
   {
     "id": "backdoor-attacks-and-defenses-in-federated-learning-state-of-the-art-taxonomy-and-future-directions-2022",
@@ -71,6 +246,47 @@
     ]
   },
   {
+    "id": "backdoor-attacks-in-federated-learning-by-rare-embeddings-and-gradient-ensembling-2022",
+    "title": "Backdoor Attacks in Federated Learning by Rare Embeddings and Gradient Ensembling",
+    "year": 2022,
+    "venue": "EMNLP",
+    "url": "https://arxiv.org/abs/2204.14017",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "horizontal-fl",
+      "text-classification"
+    ]
+  },
+  {
+    "id": "backdoor-attacks-in-the-supply-chain-of-masked-image-modeling-2022",
+    "title": "Backdoor Attacks in the Supply Chain of Masked Image Modeling",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2210.01632",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "visual-representation"
+    ]
+  },
+  {
+    "id": "backdoor-attacks-on-bayesian-neural-networks-using-reverse-distribution-2022",
+    "title": "Backdoor Attacks on Bayesian Neural Networks using Reverse Distribution",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2205.09167",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "backdoor-attacks-on-crowd-counting-2022",
     "title": "Backdoor Attacks on Crowd Counting",
     "year": 2022,
@@ -83,6 +299,19 @@
       "visual-regression-counting"
     ],
     "code": "https://github.com/Nathangitlab/Backdoor-Attacks-on-Crowd-Counting"
+  },
+  {
+    "id": "backdoor-attacks-on-multiagent-collaborative-systems-2022",
+    "title": "Backdoor Attacks on Multiagent Collaborative Systems",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2211.11455",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "multi-agent-rl"
+    ]
   },
   {
     "id": "backdoor-attacks-on-self-supervised-learning-2022",
@@ -111,6 +340,34 @@
     ],
     "topics": [
       "image-classification"
+    ]
+  },
+  {
+    "id": "backdoor-attacks-on-vision-transformers-2022",
+    "title": "Backdoor Attacks on Vision Transformers",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2206.08477",
+    "types": [
+      "Attack",
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/UCDvision/backdoor_transformer.git"
+  },
+  {
+    "id": "backdoor-defense-in-federated-learning-using-differential-testing-and-outlier-detection-2022",
+    "title": "Backdoor Defense in Federated Learning Using Differential Testing and Outlier Detection",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2202.11196",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "horizontal-fl"
     ]
   },
   {
@@ -155,6 +412,20 @@
     ]
   },
   {
+    "id": "backdoor-vulnerabilities-in-normally-trained-deep-learning-models-2022",
+    "title": "Backdoor Vulnerabilities in Normally Trained Deep Learning Models",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2211.15929",
+    "types": [
+      "Analysis",
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "backdoorbench-2022",
     "title": "BackdoorBench: A Comprehensive Benchmark of Backdoor Learning",
     "year": 2022,
@@ -167,6 +438,48 @@
       "image-classification"
     ],
     "code": "https://github.com/SCLBD/backdoorbench"
+  },
+  {
+    "id": "backdooring-explainable-machine-learning-2022",
+    "title": "Backdooring Explainable Machine Learning",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2204.09498",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "backdoors-stuck-at-the-frontdoor-multi-agent-backdoor-attacks-that-backfire-2022",
+    "title": "Backdoors Stuck At The Frontdoor: Multi-Agent Backdoor Attacks That Backfire",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2201.12211",
+    "types": [
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "baddet-backdoor-attacks-on-object-detection-2022",
+    "title": "BadDet: Backdoor Attacks on Object Detection",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2205.14497",
+    "types": [
+      "Attack",
+      "Defense",
+      "Benchmark"
+    ],
+    "topics": [
+      "detection-segmentation-tracking"
+    ]
   },
   {
     "id": "badhash-invisible-backdoor-attacks-against-deep-hashing-with-clean-label-2022",
@@ -210,6 +523,19 @@
     "code": "https://github.com/papersPapers/BadPrompt"
   },
   {
+    "id": "badres-reveal-the-backdoors-through-residual-connection-2022",
+    "title": "BadRes: Reveal the Backdoors through Residual Connection",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2209.07125",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "bagflip-a-certified-defense-against-data-poisoning-2022",
     "title": "BagFlip: A Certified Defense against Data Poisoning",
     "year": 2022,
@@ -222,6 +548,19 @@
       "learning-theory"
     ],
     "code": "https://github.com/foreverzyh/defend_framework"
+  },
+  {
+    "id": "be-careful-with-rotation-a-uniform-backdoor-pattern-for-3d-shape-2022",
+    "title": "Be Careful with Rotation: A Uniform Backdoor Pattern for 3D Shape",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2211.16192",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "3d-vision"
+    ]
   },
   {
     "id": "better-trigger-inversion-optimization-in-backdoor-scanning-2022",
@@ -238,11 +577,39 @@
     "code": "https://github.com/Gwinhen/PixelBackdoor"
   },
   {
+    "id": "black-box-dataset-ownership-verification-via-backdoor-watermarking-2022",
+    "title": "Black-box Dataset Ownership Verification via Backdoor Watermarking",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2209.06015",
+    "types": [
+      "Application",
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/THUYimingLi/DVBW"
+  },
+  {
     "id": "bppattack-stealthy-and-efficient-trojan-attacks-against-deep-neural-networks-via-image-quantization-and-contrastive-adve-2022",
     "title": "BppAttack: Stealthy and Efficient Trojan Attacks against Deep Neural Networks via Image Quantization and Contrastive Adversarial Learning",
     "year": 2022,
     "venue": "CVPR",
     "url": "https://arxiv.org/abs/2205.13383",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "cassock-viable-backdoor-attacks-against-dnn-in-the-wall-of-source-specific-backdoor-defences-2022",
+    "title": "CASSOCK: Viable Backdoor Attacks against DNN in The Wall of Source-Specific Backdoor Defences",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2206.00145",
     "types": [
       "Attack"
     ],
@@ -264,6 +631,33 @@
     ]
   },
   {
+    "id": "circumventing-backdoor-defenses-that-are-based-on-latent-separability-2022",
+    "title": "Circumventing Backdoor Defenses That Are Based on Latent Separability",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2205.13613",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "collider-a-robust-training-framework-for-backdoor-data-2022",
+    "title": "COLLIDER: A Robust Training Framework for Backdoor Data",
+    "year": 2022,
+    "venue": "ACCV",
+    "url": "https://arxiv.org/abs/2210.06704",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "complex-backdoor-detection-by-symmetric-feature-differencing-2022",
     "title": "Complex Backdoor Detection by Symmetric Feature Differencing",
     "year": 2022,
@@ -278,6 +672,32 @@
     "code": "https://github.com/PurduePAML/Exray"
   },
   {
+    "id": "confidence-matters-inspecting-backdoors-in-deep-neural-networks-via-distribution-transfer-2022",
+    "title": "Confidence Matters: Inspecting Backdoors in Deep Neural Networks via Distribution Transfer",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2208.06592",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "contributor-aware-defenses-against-adversarial-backdoor-attacks-2022",
+    "title": "Contributor-Aware Defenses Against Adversarial Backdoor Attacks",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2206.03583",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "critical-path-based-backdoor-detection-for-deep-neural-networks-2022",
     "title": "Critical Path-Based Backdoor Detection for Deep Neural Networks",
     "year": 2022,
@@ -288,6 +708,19 @@
     ],
     "topics": [
       "image-classification"
+    ]
+  },
+  {
+    "id": "dangerous-cloaking-natural-trigger-based-backdoor-attacks-on-object-detectors-in-the-physical-world-2022",
+    "title": "Dangerous Cloaking: Natural Trigger based Backdoor Attacks on Object Detectors in the Physical World",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2201.08619",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "detection-segmentation-tracking"
     ]
   },
   {
@@ -332,6 +765,46 @@
     ]
   },
   {
+    "id": "debiasing-backdoor-attack-a-benign-application-of-backdoor-attack-in-eliminating-data-bias-2022",
+    "title": "Debiasing Backdoor Attack: A Benign Application of Backdoor Attack in Eliminating Data Bias",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2202.10582",
+    "types": [
+      "Application"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "deck-model-hardening-for-defending-pervasive-backdoors-2022",
+    "title": "DECK: Model Hardening for Defending Pervasive Backdoors",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2206.09272",
+    "types": [
+      "Attack",
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "deepsight-mitigating-backdoor-attacks-in-federated-learning-through-deep-model-inspection-2022",
+    "title": "DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep Model Inspection",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2201.00763",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
     "id": "defeat-deep-hidden-feature-backdoor-attacks-by-imperceptible-perturbation-and-latent-representation-constraints-2022",
     "title": "DEFEAT: Deep Hidden Feature Backdoor Attacks by Imperceptible Perturbation and Latent Representation Constraints",
     "year": 2022,
@@ -345,11 +818,132 @@
     ]
   },
   {
+    "id": "defending-against-backdoor-attack-on-graph-nerual-network-by-explainability-2022",
+    "title": "Defending Against Backdoor Attack on Graph Nerual Network by Explainability",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2209.02902",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "graph-node-classification"
+    ]
+  },
+  {
+    "id": "defending-against-stealthy-backdoor-attacks-2022",
+    "title": "Defending Against Stealthy Backdoor Attacks",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2205.14246",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "text-classification"
+    ]
+  },
+  {
+    "id": "defense-against-backdoor-attacks-via-identifying-and-purifying-bad-neurons-2022",
+    "title": "Defense against Backdoor Attacks via Identifying and Purifying Bad Neurons",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2208.06537",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "defense-against-multi-target-trojan-attacks-2022",
+    "title": "Defense Against Multi-target Trojan Attacks",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2207.03895",
+    "types": [
+      "Attack",
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "detecting-backdoor-poisoning-attacks-on-deep-neural-networks-by-heatmap-clustering-2022",
+    "title": "Detecting Backdoor Poisoning Attacks on Deep Neural Networks by Heatmap Clustering",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2204.12848",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "detecting-backdoors-in-deep-text-classifiers-2022",
+    "title": "Detecting Backdoors in Deep Text Classifiers",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2210.11264",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "text-classification"
+    ]
+  },
+  {
+    "id": "dim-krum-backdoor-resistant-federated-learning-for-nlp-with-dimension-wise-krum-based-aggregation-2022",
+    "title": "Dim-Krum: Backdoor-Resistant Federated Learning for NLP with Dimension-wise Krum-Based Aggregation",
+    "year": 2022,
+    "venue": "Findings of EMNLP",
+    "url": "https://arxiv.org/abs/2210.06894",
+    "types": [
+      "Defense",
+      "Analysis"
+    ],
+    "topics": [
+      "horizontal-fl",
+      "text-classification"
+    ]
+  },
+  {
     "id": "dispersed-pixel-perturbation-based-imperceptible-backdoor-trigger-for-image-classifier-models-2022",
     "title": "Dispersed Pixel Perturbation-Based Imperceptible Backdoor Trigger for Image Classifier Models",
     "year": 2022,
     "venue": "TIFS",
     "url": "https://arxiv.org/abs/2208.09336",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "don-t-watch-me-a-spatio-temporal-trojan-attack-on-deep-reinforcement-learning-augment-autonomous-driving-2022",
+    "title": "Don't Watch Me: A Spatio-Temporal Trojan Attack on Deep-Reinforcement-Learning-Augment Autonomous Driving",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2211.14440",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "navigation-driving",
+      "single-agent-rl"
+    ]
+  },
+  {
+    "id": "dormant-neural-trojans-2022",
+    "title": "Dormant Neural Trojans",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2211.01808",
     "types": [
       "Attack"
     ],
@@ -385,6 +979,22 @@
     ]
   },
   {
+    "id": "dynamic-backdoors-with-global-average-pooling-2022",
+    "title": "Dynamic Backdoors with Global Average Pooling",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2203.02079",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification",
+      "text-classification",
+      "audio-representation"
+    ]
+  },
+  {
     "id": "effective-backdoor-defense-by-exploiting-sensitivity-of-poisoned-samples-2022",
     "title": "Effective Backdoor Defense by Exploiting Sensitivity of Poisoned Samples",
     "year": 2022,
@@ -406,6 +1016,59 @@
     "url": "https://arxiv.org/abs/2204.09975",
     "types": [
       "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "enhancing-clean-label-backdoor-attack-with-two-phase-specific-triggers-2022",
+    "title": "Enhancing Clean Label Backdoor Attack with Two-phase Specific Triggers",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2206.04881",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "estas-effective-and-stable-trojan-attacks-in-self-supervised-encoders-with-one-target-unlabelled-sample-2022",
+    "title": "ESTAS: Effective and Stable Trojan Attacks in Self-supervised Encoders with One Target Unlabelled Sample",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2211.10908",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "visual-representation"
+    ]
+  },
+  {
+    "id": "expose-backdoors-on-the-way-a-feature-based-efficient-defense-against-textual-backdoor-attacks-2022",
+    "title": "Expose Backdoors on the Way: A Feature-Based Efficient Defense against Textual Backdoor Attacks",
+    "year": 2022,
+    "venue": "Findings of EMNLP",
+    "url": "https://arxiv.org/abs/2210.07907",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "text-classification"
+    ],
+    "code": "https://github.com/lancopku/DAN"
+  },
+  {
+    "id": "false-memory-formation-in-continual-learners-through-imperceptible-backdoor-trigger-2022",
+    "title": "False Memory Formation in Continual Learners Through Imperceptible Backdoor Trigger",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2202.04479",
+    "types": [
+      "Attack"
     ],
     "topics": [
       "image-classification"
@@ -454,6 +1117,34 @@
     "code": "https://github.com/HazardFY/FIBA"
   },
   {
+    "id": "fine-mixing-mitigating-backdoors-in-fine-tuned-language-models-2022",
+    "title": "Fine-mixing: Mitigating Backdoors in Fine-tuned Language Models",
+    "year": 2022,
+    "venue": "Findings of EMNLP",
+    "url": "https://arxiv.org/abs/2210.09545",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "text-classification",
+      "language-representation"
+    ]
+  },
+  {
+    "id": "fine-tuning-is-all-you-need-to-mitigate-backdoor-attacks-2022",
+    "title": "Fine-Tuning Is All You Need to Mitigate Backdoor Attacks",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2212.09067",
+    "types": [
+      "Defense",
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "flame-2022",
     "title": "FLAME: Taming Backdoors in Federated Learning",
     "year": 2022,
@@ -464,6 +1155,48 @@
     ],
     "topics": [
       "horizontal-fl"
+    ]
+  },
+  {
+    "id": "flareon-stealthy-any2any-backdoor-injection-via-poisoned-augmentation-2022",
+    "title": "Flareon: Stealthy any2any Backdoor Injection via Poisoned Augmentation",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2212.09979",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/lafeat/flareon"
+  },
+  {
+    "id": "frib-low-poisoning-rate-invisible-backdoor-attack-based-on-feature-repair-2022",
+    "title": "FRIB: Low-poisoning Rate Invisible Backdoor Attack based on Feature Repair",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2207.12863",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "game-of-trojans-a-submodular-byzantine-approach-2022",
+    "title": "Game of Trojans: A Submodular Byzantine Approach",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2207.05937",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "learning-theory",
+      "image-classification"
     ]
   },
   {
@@ -478,6 +1211,20 @@
     "topics": [
       "image-classification"
     ]
+  },
+  {
+    "id": "hardly-perceptible-trojan-attack-against-neural-networks-with-bit-flips-2022",
+    "title": "Hardly Perceptible Trojan Attack against Neural Networks with Bit Flips",
+    "year": 2022,
+    "venue": "ECCV",
+    "url": "https://arxiv.org/abs/2207.13417",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/jiawangbai/HPT"
   },
   {
     "id": "hibernated-backdoor-a-mutual-information-empowered-backdoor-attack-to-deep-neural-networks-2022",
@@ -506,6 +1253,32 @@
     ]
   },
   {
+    "id": "hiding-behind-backdoors-self-obfuscation-against-generative-models-2022",
+    "title": "Hiding Behind Backdoors: Self-Obfuscation Against Generative Models",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2201.09774",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-generation"
+    ]
+  },
+  {
+    "id": "how-to-backdoor-hypernetwork-in-personalized-federated-learning-2022",
+    "title": "How to Backdoor HyperNetwork in Personalized Federated Learning?",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2201.07063",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
     "id": "how-to-inject-backdoors-with-better-consistency-logit-anchoring-on-clean-data-2022",
     "title": "How to Inject Backdoors with Better Consistency: Logit Anchoring on Clean Data",
     "year": 2022,
@@ -516,6 +1289,19 @@
     ],
     "topics": [
       "image-classification"
+    ]
+  },
+  {
+    "id": "imperceptible-and-robust-backdoor-attack-in-3d-point-cloud-2022",
+    "title": "Imperceptible and Robust Backdoor Attack in 3D Point Cloud",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2208.08052",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "3d-vision"
     ]
   },
   {
@@ -546,6 +1332,74 @@
     ]
   },
   {
+    "id": "invisible-backdoor-attack-with-dynamic-triggers-against-person-re-identification-2022",
+    "title": "Invisible Backdoor Attack with Dynamic Triggers against Person Re-identification",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2211.10933",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "invisible-backdoor-attacks-using-data-poisoning-in-the-frequency-domain-2022",
+    "title": "Invisible Backdoor Attacks Using Data Poisoning in the Frequency Domain",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2207.04209",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification",
+      "visual-representation"
+    ]
+  },
+  {
+    "id": "just-rotate-it-deploying-backdoor-attacks-via-rotation-transformation-2022",
+    "title": "Just Rotate it: Deploying Backdoor Attacks via Rotation Transformation",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2207.10825",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification",
+      "detection-segmentation-tracking"
+    ]
+  },
+  {
+    "id": "kallima-a-clean-label-framework-for-textual-backdoor-attacks-2022",
+    "title": "Kallima: A Clean-label Framework for Textual Backdoor Attacks",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2206.01832",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "text-classification"
+    ]
+  },
+  {
+    "id": "link-backdoor-backdoor-attack-on-link-prediction-via-node-injection-2022",
+    "title": "Link-Backdoor: Backdoor Attack on Link Prediction via Node Injection",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2208.06776",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "graph-representation"
+    ],
+    "code": "https://github.com/Seaocn/Link-Backdoor"
+  },
+  {
     "id": "loneneuron-a-highly-effective-feature-domain-neural-trojan-using-invisible-and-polymorphic-watermarks-2022",
     "title": "LoneNeuron: A Highly-Effective Feature-Domain Neural Trojan Using Invisible and Polymorphic Watermarks",
     "year": 2022,
@@ -553,6 +1407,19 @@
     "url": "https://liuzey.com/publication/ccs2022",
     "types": [
       "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "low-loss-subspace-compression-for-clean-gains-against-multi-agent-backdoor-attacks-2022",
+    "title": "Low-Loss Subspace Compression for Clean Gains against Multi-Agent Backdoor Attacks",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2203.03692",
+    "types": [
+      "Defense"
     ],
     "topics": [
       "image-classification"
@@ -586,6 +1453,89 @@
     "code": "https://github.com/HongshengHu/membership-inference-via-backdooring"
   },
   {
+    "id": "model-contrastive-learning-for-backdoor-defense-2022",
+    "title": "Model-Contrastive Learning for Backdoor Defense",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2205.04411",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/WeCanShow/MCL"
+  },
+  {
+    "id": "more-is-better-mostly-on-the-backdoor-attacks-in-federated-graph-neural-networks-2022",
+    "title": "More is Better (Mostly): On the Backdoor Attacks in Federated Graph Neural Networks",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2202.03195",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "horizontal-fl",
+      "graph-node-classification"
+    ]
+  },
+  {
+    "id": "motif-backdoor-rethinking-the-backdoor-attack-on-graph-neural-networks-via-motifs-2022",
+    "title": "Motif-Backdoor: Rethinking the Backdoor Attack on Graph Neural Networks via Motifs",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2210.13710",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "graph-node-classification"
+    ]
+  },
+  {
+    "id": "narcissus-a-practical-clean-label-backdoor-attack-with-limited-information-2022",
+    "title": "Narcissus: A Practical Clean-Label Backdoor Attack with Limited Information",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2204.05255",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "natural-backdoor-datasets-2022",
+    "title": "Natural Backdoor Datasets",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2206.10673",
+    "types": [
+      "Benchmark",
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "neighboring-backdoor-attacks-on-graph-convolutional-network-2022",
+    "title": "Neighboring Backdoor Attacks on Graph Convolutional Network",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2201.06202",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "graph-node-classification"
+    ]
+  },
+  {
     "id": "neurotoxin-durable-backdoors-in-federated-learning-2022",
     "title": "Neurotoxin: Durable Backdoors in Federated Learning",
     "year": 2022,
@@ -609,6 +1559,34 @@
     ],
     "topics": [
       "mllms"
+    ]
+  },
+  {
+    "id": "on-the-effectiveness-of-adversarial-training-against-backdoor-attacks-2022",
+    "title": "On the Effectiveness of Adversarial Training against Backdoor Attacks",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2202.10627",
+    "types": [
+      "Defense",
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "on-the-permanence-of-backdoors-in-evolving-models-2022",
+    "title": "On the Permanence of Backdoors in Evolving Models",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2206.04677",
+    "types": [
+      "Analysis",
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
     ]
   },
   {
@@ -651,6 +1629,73 @@
       "speech-recognition"
     ],
     "code": "https://github.com/lqsunshine/DABA"
+  },
+  {
+    "id": "pbsm-backdoor-attack-against-keyword-spotting-based-on-pitch-boosting-and-sound-masking-2022",
+    "title": "PBSM: Backdoor attack against Keyword spotting based on pitch boosting and sound masking",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2211.08697",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "speech-recognition"
+    ]
+  },
+  {
+    "id": "perd-perturbation-sensitivity-based-neural-trojan-detection-framework-on-nlp-applications-2022",
+    "title": "PerD: Perturbation Sensitivity-based Neural Trojan Detection Framework on NLP Applications",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2208.04943",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "text-classification"
+    ]
+  },
+  {
+    "id": "perdoor-persistent-non-uniform-backdoors-in-federated-learning-using-adversarial-perturbations-2022",
+    "title": "PerDoor: Persistent Non-Uniform Backdoors in Federated Learning using Adversarial Perturbations",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2205.13523",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
+    "id": "physical-backdoor-attacks-to-lane-detection-systems-in-autonomous-driving-2022",
+    "title": "Physical Backdoor Attacks to Lane Detection Systems in Autonomous Driving",
+    "year": 2022,
+    "venue": "ACM Multimedia",
+    "url": "https://arxiv.org/abs/2203.00858",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "navigation-driving",
+      "detection-segmentation-tracking"
+    ]
+  },
+  {
+    "id": "pidan-a-coherence-optimization-approach-for-backdoor-attack-detection-and-mitigation-in-deep-neural-networks-2022",
+    "title": "PiDAn: A Coherence Optimization Approach for Backdoor Attack Detection and Mitigation in Deep Neural Networks",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2203.09289",
+    "types": [
+      "Defense",
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification"
+    ]
   },
   {
     "id": "planting-undetectable-backdoors-in-machine-learning-models-2022",
@@ -761,6 +1806,21 @@
     "code": "https://github.com/RJ-T/NIPS2022_EP_BNP"
   },
   {
+    "id": "provable-defense-against-backdoor-policies-in-reinforcement-learning-2022",
+    "title": "Provable Defense against Backdoor Policies in Reinforcement Learning",
+    "year": 2022,
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2211.10530",
+    "types": [
+      "Defense",
+      "Analysis"
+    ],
+    "topics": [
+      "single-agent-rl",
+      "learning-theory"
+    ]
+  },
+  {
     "id": "purifier-plug-and-play-backdoor-mitigation-for-pre-trained-models-via-anomaly-activation-suppression-2022",
     "title": "Purifier: Plug-and-play Backdoor Mitigation for Pre-trained Models Via Anomaly Activation Suppression",
     "year": 2022,
@@ -775,6 +1835,20 @@
     "code": "https://github.com/RUIYUN-ML/Purifier"
   },
   {
+    "id": "quarantine-sparsity-can-uncover-the-trojan-attack-trigger-for-free-2022",
+    "title": "Quarantine: Sparsity Can Uncover the Trojan Attack Trigger for Free",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2205.11819",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/VITA-Group/Backdoor-LTH"
+  },
+  {
     "id": "randomized-channel-shuffling-minimal-overhead-backdoor-attack-detection-without-clean-datasets-2022",
     "title": "Randomized channel shuffling: Minimal-overhead backdoor attack detection without clean datasets",
     "year": 2022,
@@ -787,6 +1861,73 @@
       "image-classification"
     ],
     "code": "https://github.com/VITA-Group/Random-Shuffling-BackdoorDetect"
+  },
+  {
+    "id": "resurrecting-trust-in-facial-recognition-mitigating-backdoor-attacks-in-face-recognition-to-prevent-potential-privacy-breaches-2022",
+    "title": "Resurrecting Trust in Facial Recognition: Mitigating Backdoor Attacks in Face Recognition to Prevent Potential Privacy Breaches",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2202.10320",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "rethink-the-evaluation-for-attack-strength-of-backdoor-attacks-in-natural-language-processing-2022",
+    "title": "Rethink the Evaluation for Attack Strength of Backdoor Attacks in Natural Language Processing",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2201.02993",
+    "types": [
+      "Analysis",
+      "Defense"
+    ],
+    "topics": [
+      "text-classification"
+    ]
+  },
+  {
+    "id": "rethinking-backdoor-data-poisoning-attacks-in-the-context-of-semi-supervised-learning-2022",
+    "title": "Rethinking Backdoor Data Poisoning Attacks in the Context of Semi-Supervised Learning",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2212.02582",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "rethinking-the-reverse-engineering-of-trojan-triggers-2022",
+    "title": "Rethinking the Reverse-engineering of Trojan Triggers",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2210.15127",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/RU-System-Software-and-Security/FeatureRE"
+  },
+  {
+    "id": "rflbat-a-robust-federated-learning-algorithm-against-backdoor-attack-2022",
+    "title": "RFLBAT: A Robust Federated Learning Algorithm against Backdoor Attack",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2201.03772",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
   },
   {
     "id": "ribac-towards-robust-and-imperceptible-backdoor-attack-against-compact-dnn-2022",
@@ -817,6 +1958,34 @@
     "code": "https://github.com/hsouri/Sleeper-Agent"
   },
   {
+    "id": "sniper-backdoor-single-client-targeted-backdoor-attack-in-federated-learning-2022",
+    "title": "Sniper Backdoor: Single Client Targeted Backdoor Attack in Federated Learning",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2203.08689",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
+    "id": "solving-the-capsulation-attack-against-backdoor-based-deep-neural-network-watermarks-by-reversing-triggers-2022",
+    "title": "Solving the Capsulation Attack against Backdoor-based Deep Neural Network Watermarks by Reversing Triggers",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2208.14127",
+    "types": [
+      "Attack",
+      "Defense",
+      "Application"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "stealthy-backdoor-attack-with-adversarial-training-2022",
     "title": "Stealthy Backdoor Attack with Adversarial Training",
     "year": 2022,
@@ -844,6 +2013,73 @@
     "code": "https://github.com/yulongtzzz/Stealthy-Backdoors-as-Compression-Artifacts"
   },
   {
+    "id": "technical-report-assisting-backdoor-federated-learning-with-whole-population-knowledge-alignment-2022",
+    "title": "Technical Report: Assisting Backdoor Federated Learning with Whole Population Knowledge Alignment",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2207.12327",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
+    "id": "thinking-two-moves-ahead-anticipating-other-users-improves-backdoor-attacks-in-federated-learning-2022",
+    "title": "Thinking Two Moves Ahead: Anticipating Other Users Improves Backdoor Attacks in Federated Learning",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2210.09305",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ],
+    "code": "https://github.com/YuxinWenRick/thinking-two-moves-ahead"
+  },
+  {
+    "id": "towards-a-critical-evaluation-of-robustness-for-deep-learning-backdoor-countermeasures-2022",
+    "title": "Towards A Critical Evaluation of Robustness for Deep Learning Backdoor Countermeasures",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2204.06273",
+    "types": [
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "towards-a-defense-against-federated-backdoor-attacks-under-continuous-training-2022",
+    "title": "Towards a Defense Against Federated Backdoor Attacks Under Continuous Training",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2205.11736",
+    "types": [
+      "Defense",
+      "Analysis"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
+    "id": "towards-effective-and-robust-neural-trojan-defenses-via-input-filtering-2022",
+    "title": "Towards Effective and Robust Neural Trojan Defenses via Input Filtering",
+    "year": 2022,
+    "venue": "ECCV",
+    "url": "https://arxiv.org/abs/2202.12154",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "towards-practical-deployment-stage-backdoor-attack-on-deep-neural-networks-2022",
     "title": "Towards Practical Deployment-Stage Backdoor Attack on Deep Neural Networks",
     "year": 2022,
@@ -854,6 +2090,47 @@
     ],
     "topics": [
       "image-classification"
+    ]
+  },
+  {
+    "id": "training-set-cleansing-of-backdoor-poisoning-by-self-supervised-representation-learning-2022",
+    "title": "Training set cleansing of backdoor poisoning by self-supervised representation learning",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2210.10272",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "training-with-more-confidence-mitigating-injected-and-natural-backdoors-during-training-2022",
+    "title": "Training with More Confidence: Mitigating Injected and Natural Backdoors During Training",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2202.06382",
+    "types": [
+      "Defense",
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/RU-System-Software-and-Security/NONE"
+  },
+  {
+    "id": "transcab-transferable-clean-annotation-backdoor-to-object-detection-with-natural-trigger-in-real-world-2022",
+    "title": "TransCAB: Transferable Clean-Annotation Backdoor to Object Detection with Natural Trigger in Real-World",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2209.02339",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "detection-segmentation-tracking"
     ]
   },
   {
@@ -870,6 +2147,20 @@
     ]
   },
   {
+    "id": "trap-and-replace-defending-backdoor-attacks-by-trapping-them-into-an-easy-to-replace-subnetwork-2022",
+    "title": "Trap and Replace: Defending Backdoor Attacks by Trapping Them into an Easy-to-Replace Subnetwork",
+    "year": 2022,
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2210.06428",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/VITA-Group/Trap-and-Replace-Backdoor-Defense"
+  },
+  {
     "id": "trigger-hunting-with-a-topological-prior-for-trojan-detection-2022",
     "title": "Trigger Hunting with a Topological Prior for Trojan Detection",
     "year": 2022,
@@ -877,6 +2168,32 @@
     "url": "https://arxiv.org/abs/2110.08335",
     "types": [
       "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "triggerless-backdoor-attack-for-nlp-tasks-with-clean-labels-2021",
+    "title": "Triggerless Backdoor Attack for NLP Tasks with Clean Labels",
+    "year": 2022,
+    "venue": "NAACL",
+    "url": "https://arxiv.org/abs/2111.07970",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "text-classification"
+    ]
+  },
+  {
+    "id": "trojan-horse-training-for-breaking-defenses-against-backdoor-attacks-in-deep-learning-2022",
+    "title": "Trojan Horse Training for Breaking Defenses against Backdoor Attacks in Deep Learning",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2203.15506",
+    "types": [
+      "Attack"
     ],
     "topics": [
       "image-classification"
@@ -897,6 +2214,61 @@
     "code": "https://github.com/ain-soph/trojanzoo"
   },
   {
+    "id": "trojvit-trojan-insertion-in-vision-transformers-2022",
+    "title": "TrojViT: Trojan Insertion in Vision Transformers",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2208.13049",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/mxzheng/TrojViT"
+  },
+  {
+    "id": "under-confidence-backdoors-are-resilient-and-stealthy-backdoors-2022",
+    "title": "Under-confidence Backdoors Are Resilient and Stealthy Backdoors",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2202.11203",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/v-mipeng/LabelSmoothedAttack.git"
+  },
+  {
+    "id": "understanding-impacts-of-task-similarity-on-backdoor-attack-and-detection-2022",
+    "title": "Understanding Impacts of Task Similarity on Backdoor Attack and Detection",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2210.06509",
+    "types": [
+      "Analysis",
+      "Attack"
+    ],
+    "topics": [
+      "learning-theory"
+    ]
+  },
+  {
+    "id": "universal-backdoor-attacks-detection-via-adaptive-adversarial-probe-2022",
+    "title": "Universal Backdoor Attacks Detection via Adaptive Adversarial Probe",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2209.05244",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "untargeted-backdoor-watermark-towards-harmless-and-stealthy-dataset-copyright-protection-2022",
     "title": "Untargeted Backdoor Watermark: Towards Harmless and Stealthy Dataset Copyright Protection",
     "year": 2022,
@@ -911,6 +2283,72 @@
     "code": "https://github.com/THUYimingLi/Untargeted_Backdoor_Watermark"
   },
   {
+    "id": "verifying-neural-networks-against-backdoor-attacks-2022",
+    "title": "Verifying Neural Networks Against Backdoor Attacks",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2205.06992",
+    "types": [
+      "Defense",
+      "Analysis"
+    ],
+    "topics": [
+      "learning-theory"
+    ]
+  },
+  {
+    "id": "vsvc-backdoor-attack-against-keyword-spotting-based-on-voiceprint-selection-and-voice-conversion-2022",
+    "title": "VSVC: Backdoor attack against Keyword Spotting based on Voiceprint Selection and Voice Conversion",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2212.10103",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "speech-recognition"
+    ]
+  },
+  {
+    "id": "watermarking-in-secure-federated-learning-a-verification-framework-based-on-client-side-backdooring-2022",
+    "title": "Watermarking in Secure Federated Learning: A Verification Framework Based on Client-Side Backdooring",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2211.07138",
+    "types": [
+      "Application"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
+    "id": "watermarking-pre-trained-language-models-with-backdooring-2022",
+    "title": "Watermarking Pre-trained Language Models with Backdooring",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2210.07543",
+    "types": [
+      "Application"
+    ],
+    "topics": [
+      "language-representation"
+    ]
+  },
+  {
+    "id": "wedef-weakly-supervised-backdoor-defense-for-text-classification-2022",
+    "title": "WeDef: Weakly Supervised Backdoor Defense for Text Classification",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2205.11803",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "text-classification"
+    ]
+  },
+  {
     "id": "when-does-backdoor-attack-succeed-in-image-reconstruction-a-study-of-heuristics-vs-bi-level-solution-2022",
     "title": "When Does Backdoor Attack Succeed in Image Reconstruction? A Study of Heuristics vs. Bi-Level Solution",
     "year": 2022,
@@ -921,6 +2359,19 @@
     ],
     "topics": [
       "image-restoration-compression"
+    ]
+  },
+  {
+    "id": "xmam-x-raying-models-with-a-matrix-to-reveal-backdoor-attacks-for-federated-learning-2022",
+    "title": "XMAM:X-raying Models with A Matrix to Reveal Backdoor Attacks for Federated Learning",
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2212.13675",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "horizontal-fl"
     ]
   }
 ]

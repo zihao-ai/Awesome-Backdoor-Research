@@ -1,0 +1,15 @@
+[
+  {
+    "id": "targeted-backdoor-attacks-on-deep-learning-systems-using-data-poisoning-2017",
+    "title": "Targeted Backdoor Attacks on Deep Learning Systems Using Data Poisoning",
+    "year": 2017,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/1712.05526",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  }
+]

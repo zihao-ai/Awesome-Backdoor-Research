@@ -22,9 +22,9 @@
 
 ## 📚 Papers
 
-Start with surveys for an overview, or browse a research area and its subcategories. Each table lists papers from newest to oldest; GitHub icons link to implementations when available.
+{{CATALOG_STATS}}
 
-Navigation counts are generated from the catalog. Each area counts unique papers across its subcategories; cross-listed papers may appear in multiple subcategories or areas.
+Start with surveys for an overview, or browse a research area and its subcategories. Each table lists papers from newest to oldest.
 
 {{AREA_NAVIGATION}}
 

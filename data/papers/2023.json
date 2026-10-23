@@ -1,5 +1,18 @@
 [
   {
+    "id": "a-dual-stealthy-backdoor-from-both-spatial-and-frequency-perspectives-2023",
+    "title": "A Dual Stealthy Backdoor: From Both Spatial and Frequency Perspectives",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2307.10184",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "a-unified-detection-framework-for-inference-stage-backdoor-defenses-2023",
     "title": "A Unified Detection Framework for Inference-Stage Backdoor Defenses",
     "year": 2023,
@@ -37,6 +50,34 @@
     ],
     "topics": [
       "horizontal-fl"
+    ]
+  },
+  {
+    "id": "adversarial-backdoor-attack-by-naturalistic-data-poisoning-on-trajectory-prediction-in-autonomous-driving-2023",
+    "title": "Adversarial Backdoor Attack by Naturalistic Data Poisoning on Trajectory Prediction in Autonomous Driving",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2306.15755",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "navigation-driving"
+    ]
+  },
+  {
+    "id": "adversarial-clean-label-backdoor-attacks-and-defenses-on-text-classification-systems-2023",
+    "title": "Adversarial Clean Label Backdoor Attacks and Defenses on Text Classification Systems",
+    "year": 2023,
+    "venue": "RepL4NLP",
+    "url": "https://arxiv.org/abs/2305.19607",
+    "types": [
+      "Attack",
+      "Defense",
+      "Analysis"
+    ],
+    "topics": [
+      "text-classification"
     ]
   },
   {
@@ -82,6 +123,33 @@
     "code": "https://github.com/ruoxi-jia-group/ASSET"
   },
   {
+    "id": "backdoor-attack-detection-in-computer-vision-by-applying-matrix-factorization-on-the-weights-of-deep-networks-2022",
+    "title": "Backdoor Attack Detection in Computer Vision by Applying Matrix Factorization on the Weights of Deep Networks",
+    "year": 2023,
+    "venue": "AAAI SafeAI Workshop",
+    "url": "https://arxiv.org/abs/2212.08121",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification",
+      "detection-segmentation-tracking"
+    ]
+  },
+  {
+    "id": "backdoor-attacks-against-dataset-distillation-2023",
+    "title": "Backdoor Attacks Against Dataset Distillation",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2301.01197",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "backdoor-attacks-against-deep-image-compression-via-adaptive-frequency-trigger-2023",
     "title": "Backdoor Attacks Against Deep Image Compression via Adaptive Frequency Trigger",
     "year": 2023,
@@ -92,6 +160,89 @@
     ],
     "topics": [
       "image-restoration-compression"
+    ]
+  },
+  {
+    "id": "backdoor-attacks-and-defenses-in-federated-learning-survey-challenges-and-future-research-directions-2023",
+    "title": "Backdoor Attacks and Defenses in Federated Learning: Survey, Challenges and Future Research Directions",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2303.02213",
+    "types": [
+      "Survey"
+    ],
+    "topics": [
+      "surveys-specific"
+    ]
+  },
+  {
+    "id": "backdoor-attacks-for-in-context-learning-with-language-models-2023",
+    "title": "Backdoor Attacks for In-Context Learning with Language Models",
+    "year": 2023,
+    "venue": "AdvML Frontiers Workshop",
+    "url": "https://arxiv.org/abs/2307.14692",
+    "types": [
+      "Attack",
+      "Defense"
+    ],
+    "topics": [
+      "llms"
+    ]
+  },
+  {
+    "id": "backdoor-attacks-for-remote-sensing-data-with-wavelet-transform-2022",
+    "title": "Backdoor Attacks for Remote Sensing Data with Wavelet Transform",
+    "year": 2023,
+    "venue": "IEEE TGRS",
+    "url": "https://arxiv.org/abs/2211.08044",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification",
+      "detection-segmentation-tracking"
+    ],
+    "code": "https://github.com/ndraeger/waba"
+  },
+  {
+    "id": "backdoor-attacks-in-peer-to-peer-federated-learning-2023",
+    "title": "Backdoor Attacks in Peer-to-Peer Federated Learning",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2301.09732",
+    "types": [
+      "Attack",
+      "Defense"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
+    "id": "backdoor-attacks-to-pre-trained-unified-foundation-models-2023",
+    "title": "Backdoor Attacks to Pre-trained Unified Foundation Models",
+    "year": 2023,
+    "venue": "NDSS (Poster)",
+    "url": "https://arxiv.org/abs/2302.09360",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "text-classification",
+      "image-classification"
+    ]
+  },
+  {
+    "id": "backdoor-attacks-with-input-unique-triggers-in-nlp-2023",
+    "title": "Backdoor Attacks with Input-unique Triggers in NLP",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2303.14325",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "text-classification"
     ]
   },
   {
@@ -151,6 +302,33 @@
     "code": "https://github.com/20000yshust/Backdoor-Defense-Via-Suppressing-Model-Shortcuts"
   },
   {
+    "id": "backdoor-for-debias-mitigating-model-bias-with-backdoor-attack-based-artificial-bias-2023",
+    "title": "Backdoor for Debias: Mitigating Model Bias with Backdoor Attack-based Artificial Bias",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2303.01504",
+    "types": [
+      "Application"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "backdoor-learning-for-nlp-recent-advances-challenges-and-future-research-directions-2023",
+    "title": "Backdoor Learning for NLP: Recent Advances, Challenges, and Future Research Directions",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2302.06801",
+    "types": [
+      "Survey"
+    ],
+    "topics": [
+      "surveys-specific"
+    ],
+    "code": "https://github.com/marwanomar1/Backdoor-Learning-for-NLP"
+  },
+  {
     "id": "backdoor-learning-on-sequence-to-sequence-models-2023",
     "title": "Backdoor Learning on Sequence to Sequence Models",
     "year": 2023,
@@ -161,6 +339,33 @@
     ],
     "topics": [
       "sequence-generation-translation"
+    ]
+  },
+  {
+    "id": "backdoor-mitigation-by-correcting-the-distribution-of-neural-activations-2023",
+    "title": "Backdoor Mitigation by Correcting the Distribution of Neural Activations",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2308.09850",
+    "types": [
+      "Defense",
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "backdoor-mitigation-in-deep-neural-networks-via-strategic-retraining-2023",
+    "title": "Backdoor Mitigation in Deep Neural Networks via Strategic Retraining",
+    "year": 2023,
+    "venue": "FM",
+    "url": "https://arxiv.org/abs/2212.07278",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
     ]
   },
   {
@@ -176,6 +381,20 @@
       "image-classification"
     ],
     "code": "https://github.com/THUYimingLi/BackdoorBox"
+  },
+  {
+    "id": "backdooring-textual-inversion-for-concept-censorship-2023",
+    "title": "Backdooring Textual Inversion for Concept Censorship",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2308.10718",
+    "types": [
+      "Application",
+      "Attack"
+    ],
+    "topics": [
+      "image-generation"
+    ]
   },
   {
     "id": "baddiffusion-2023",
@@ -218,6 +437,74 @@
     ]
   },
   {
+    "id": "bagm-a-backdoor-attack-for-manipulating-text-to-image-generative-models-2023",
+    "title": "BAGM: A Backdoor Attack for Manipulating Text-to-Image Generative Models",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2307.16489",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "image-generation"
+    ],
+    "code": "https://github.com/JJ-Vice/BAGM"
+  },
+  {
+    "id": "batt-backdoor-attack-with-transformation-based-triggers-2023",
+    "title": "BATT: Backdoor Attack with Transformation-based Triggers",
+    "year": 2023,
+    "venue": "ICASSP",
+    "url": "https://arxiv.org/abs/2211.01806",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "baybfed-bayesian-backdoor-defense-for-federated-learning-2023",
+    "title": "BayBFed: Bayesian Backdoor Defense for Federated Learning",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2301.09508",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
+    "id": "bdmmt-backdoor-sample-detection-for-language-models-through-model-mutation-testing-2023",
+    "title": "BDMMT: Backdoor Sample Detection for Language Models through Model Mutation Testing",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2301.10412",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "text-classification"
+    ]
+  },
+  {
+    "id": "beagle-forensics-of-deep-learning-backdoor-attack-for-better-defense-2023",
+    "title": "BEAGLE: Forensics of Deep Learning Backdoor Attack for Better Defense",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2301.06241",
+    "types": [
+      "Defense",
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "beating-backdoor-attack-at-its-own-game-2023",
     "title": "Beating Backdoor Attack at Its Own Game",
     "year": 2023,
@@ -245,6 +532,36 @@
       "multi-agent-rl"
     ],
     "code": "https://github.com/XuanChen-xc/BIRD"
+  },
+  {
+    "id": "bite-textual-backdoor-attacks-with-iterative-trigger-injection-2022",
+    "title": "BITE: Textual Backdoor Attacks with Iterative Trigger Injection",
+    "year": 2023,
+    "venue": "ACL",
+    "url": "https://arxiv.org/abs/2205.12700",
+    "types": [
+      "Attack",
+      "Defense"
+    ],
+    "topics": [
+      "text-classification"
+    ]
+  },
+  {
+    "id": "bkd-fedgnn-a-benchmark-for-classification-backdoor-attacks-on-federated-graph-neural-network-2023",
+    "title": "Bkd-FedGNN: A Benchmark for Classification Backdoor Attacks on Federated Graph Neural Network",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2306.10351",
+    "types": [
+      "Benchmark",
+      "Analysis"
+    ],
+    "topics": [
+      "horizontal-fl",
+      "graph-node-classification"
+    ],
+    "code": "https://github.com/usail-hkust/BkdFedGCN"
   },
   {
     "id": "black-box-backdoor-defense-via-zero-shot-image-purification-2023",
@@ -339,6 +656,19 @@
     ]
   },
   {
+    "id": "compression-resistant-backdoor-attack-against-deep-neural-networks-2022",
+    "title": "Compression-Resistant Backdoor Attack against Deep Neural Networks",
+    "year": 2023,
+    "venue": "Applied Intelligence",
+    "url": "https://arxiv.org/abs/2201.00672",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "computation-and-data-efficient-backdoor-attacks-2023",
     "title": "Computation and Data Efficient Backdoor Attacks",
     "year": 2023,
@@ -351,6 +681,21 @@
       "image-classification",
       "3d-vision"
     ]
+  },
+  {
+    "id": "deep-fidelity-in-dnn-watermarking-a-study-of-backdoor-watermarking-for-classification-models-2023",
+    "title": "Deep Fidelity in DNN Watermarking: A Study of Backdoor Watermarking for Classification Models",
+    "year": 2023,
+    "venue": "Pattern Recognition",
+    "url": "https://arxiv.org/abs/2208.00563",
+    "types": [
+      "Application",
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/ghua-ac/dnn_watermark"
   },
   {
     "id": "defending-against-insertion-based-textual-backdoor-attacks-via-attribution-2023",
@@ -378,6 +723,19 @@
       "visual-representation"
     ],
     "code": "https://github.com/UCDvision/PatchSearch"
+  },
+  {
+    "id": "defending-backdoor-attacks-on-vision-transformer-via-patch-processing-2023",
+    "title": "Defending Backdoor Attacks on Vision Transformer via Patch Processing",
+    "year": 2023,
+    "venue": "AAAI",
+    "url": "https://arxiv.org/abs/2206.12381",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
   },
   {
     "id": "defending-pre-trained-language-models-as-few-shot-learners-against-backdoor-attacks-2023",
@@ -421,6 +779,19 @@
     "code": "https://github.com/GiantSeaweed/DECREE"
   },
   {
+    "id": "differential-analysis-of-triggers-and-benign-features-for-black-box-dnn-backdoor-detection-2023",
+    "title": "Differential Analysis of Triggers and Benign Features for Black-Box DNN Backdoor Detection",
+    "year": 2023,
+    "venue": "IEEE TIFS",
+    "url": "https://arxiv.org/abs/2307.05422",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "diffusion-theory-as-a-scalpel-detecting-and-purifying-poisonous-dimensions-in-pre-trained-language-models-caused-by-back-2023",
     "title": "Diffusion Theory as a Scalpel: Detecting and Purifying Poisonous Dimensions in Pre-trained Language Models Caused by Backdoor or Bias",
     "year": 2023,
@@ -448,6 +819,20 @@
     "code": "https://github.com/PurduePAML/DJGO"
   },
   {
+    "id": "do-backdoors-assist-membership-inference-attacks-2023",
+    "title": "Do Backdoors Assist Membership Inference Attacks?",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2303.12589",
+    "types": [
+      "Analysis",
+      "Application"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "don-t-freak-out-a-frequency-inspired-approach-to-detecting-backdoor-poisoned-samples-in-dnns-2023",
     "title": "Don’t FREAK Out: A Frequency-Inspired Approach to Detecting Backdoor Poisoned Samples in DNNs",
     "year": 2023,
@@ -467,6 +852,20 @@
     "venue": "ICCV",
     "url": "https://arxiv.org/abs/2304.11823",
     "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "exploiting-machine-unlearning-for-backdoor-attacks-in-deep-learning-system-2023",
+    "title": "Exploiting Machine Unlearning for Backdoor Attacks in Deep Learning System",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2310.10659",
+    "types": [
+      "Attack",
       "Defense"
     ],
     "topics": [
@@ -515,6 +914,19 @@
     "code": "https://github.com/AI-secure/FedGame"
   },
   {
+    "id": "fedward-flexible-federated-backdoor-defense-framework-with-non-iid-data-2023",
+    "title": "Fedward: Flexible Federated Backdoor Defense Framework with Non-IID Data",
+    "year": 2023,
+    "venue": "IEEE ICME",
+    "url": "https://arxiv.org/abs/2307.00356",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
     "id": "few-shot-backdoor-attacks-via-neural-tangent-kernels-2023",
     "title": "Few-shot Backdoor Attacks via Neural Tangent Kernels",
     "year": 2023,
@@ -542,6 +954,59 @@
     "code": "https://github.com/KaiyuanZh/FLIP"
   },
   {
+    "id": "freeeagle-detecting-complex-neural-trojans-in-data-free-cases-2023",
+    "title": "FreeEagle: Detecting Complex Neural Trojans in Data-Free Cases",
+    "year": 2023,
+    "venue": "USENIX Security",
+    "url": "https://arxiv.org/abs/2302.14500",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "fta-stealthy-and-adaptive-backdoor-attack-with-flexible-triggers-on-federated-learning-2023",
+    "title": "FTA: Stealthy and Adaptive Backdoor Attack with Flexible Triggers on Federated Learning",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2309.00127",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
+    "id": "get-rid-of-your-trail-remotely-erasing-backdoors-in-federated-learning-2023",
+    "title": "Get Rid Of Your Trail: Remotely Erasing Backdoors in Federated Learning",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2304.10638",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
+    "id": "going-in-style-audio-backdoors-through-stylistic-transformations-2023",
+    "title": "Going In Style: Audio Backdoors Through Stylistic Transformations",
+    "year": 2023,
+    "venue": "ICASSP",
+    "url": "https://arxiv.org/abs/2211.03117",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "audio-representation"
+    ],
+    "code": "https://github.com/skoffas/going-in-style"
+  },
+  {
     "id": "how-to-sift-out-a-clean-data-subset-in-the-presence-of-data-poisoning-2023",
     "title": "How to Sift Out a Clean Data Subset in the Presence of Data Poisoning?",
     "year": 2023,
@@ -566,6 +1031,45 @@
     ],
     "topics": [
       "horizontal-fl"
+    ]
+  },
+  {
+    "id": "identifying-backdoor-attacks-in-federated-learning-via-anomaly-detection-2023",
+    "title": "Identifying Backdoor Attacks in Federated Learning via Anomaly Detection",
+    "year": 2023,
+    "venue": "APWeb-WAIM",
+    "url": "https://arxiv.org/abs/2202.04311",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
+    "id": "imperceptible-and-multi-channel-backdoor-attack-against-deep-neural-networks-2023",
+    "title": "Imperceptible and Multi-channel Backdoor Attack against Deep Neural Networks",
+    "year": 2023,
+    "venue": "Applied Intelligence",
+    "url": "https://arxiv.org/abs/2201.13164",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "improved-activation-clipping-for-universal-backdoor-mitigation-and-test-time-detection-2023",
+    "title": "Improved Activation Clipping for Universal Backdoor Mitigation and Test-Time Detection",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2308.04617",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
     ]
   },
   {
@@ -635,6 +1139,34 @@
     ]
   },
   {
+    "id": "masterkey-practical-backdoor-attack-against-speaker-verification-systems-2023",
+    "title": "MASTERKEY: Practical Backdoor Attack Against Speaker Verification Systems",
+    "year": 2023,
+    "venue": "ACM MobiCom",
+    "url": "https://arxiv.org/abs/2309.06981",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "speech-recognition"
+    ]
+  },
+  {
+    "id": "mdtd-a-multi-domain-trojan-detector-for-deep-neural-networks-2023",
+    "title": "MDTD: A Multi Domain Trojan Detector for Deep Neural Networks",
+    "year": 2023,
+    "venue": "ACM CCS",
+    "url": "https://arxiv.org/abs/2308.15673",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification",
+      "graph-node-classification",
+      "speech-recognition"
+    ]
+  },
+  {
     "id": "medic-remove-model-backdoors-via-importance-driven-cloning-2023",
     "title": "MEDIC: Remove Model Backdoors via Importance Driven Cloning",
     "year": 2023,
@@ -642,6 +1174,33 @@
     "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Xu_MEDIC_Remove_Model_Backdoors_via_Importance_Driven_Cloning_CVPR_2023_paper.html",
     "types": [
       "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "mind-your-heart-stealthy-backdoor-attack-on-dynamic-deep-neural-network-in-edge-computing-2022",
+    "title": "Mind Your Heart: Stealthy Backdoor Attack on Dynamic Deep Neural Network in Edge Computing",
+    "year": 2023,
+    "venue": "IEEE INFOCOM",
+    "url": "https://arxiv.org/abs/2212.11751",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "mithridates-auditing-and-boosting-backdoor-resistance-of-machine-learning-pipelines-2023",
+    "title": "Mithridates: Auditing and Boosting Backdoor Resistance of Machine Learning Pipelines",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2302.04977",
+    "types": [
+      "Defense",
+      "Analysis"
     ],
     "topics": [
       "image-classification"
@@ -674,6 +1233,19 @@
     ]
   },
   {
+    "id": "natural-backdoor-attacks-on-speech-recognition-models-2023",
+    "title": "Natural Backdoor Attacks on Speech Recognition Models",
+    "year": 2023,
+    "venue": "Machine Learning for Cyber Security",
+    "url": "https://arxiv.org/abs/2607.15724",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "speech-recognition"
+    ]
+  },
+  {
     "id": "neural-polarizer-a-lightweight-and-effective-backdoor-defense-via-purifying-poisoned-features-2023",
     "title": "Neural Polarizer: A Lightweight and Effective Backdoor Defense via Purifying Poisoned Features",
     "year": 2023,
@@ -687,6 +1259,34 @@
     ]
   },
   {
+    "id": "on-feasibility-of-server-side-backdoor-attacks-on-split-learning-2023",
+    "title": "On Feasibility of Server-side Backdoor Attacks on Split Learning",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2302.09578",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "on-the-vulnerability-of-backdoor-defenses-for-federated-learning-2023",
+    "title": "On the Vulnerability of Backdoor Defenses for Federated Learning",
+    "year": 2023,
+    "venue": "AAAI",
+    "url": "https://arxiv.org/abs/2301.08170",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
     "id": "orion-online-backdoor-sample-detection-via-evolution-deviance-2023",
     "title": "Orion: Online Backdoor Sample Detection via Evolution Deviance",
     "year": 2023,
@@ -697,6 +1297,32 @@
     ],
     "topics": [
       "image-classification"
+    ]
+  },
+  {
+    "id": "patchbackdoor-backdoor-attack-against-deep-neural-networks-without-model-modification-2023",
+    "title": "PatchBackdoor: Backdoor Attack against Deep Neural Networks without Model Modification",
+    "year": 2023,
+    "venue": "ACM Multimedia",
+    "url": "https://arxiv.org/abs/2308.11822",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "poisonedgnn-backdoor-attack-on-graph-neural-networks-based-hardware-security-systems-2023",
+    "title": "PoisonedGNN: Backdoor Attack on Graph Neural Networks-based Hardware Security Systems",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2303.14009",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "graph-node-classification"
     ]
   },
   {
@@ -740,6 +1366,19 @@
     ]
   },
   {
+    "id": "privacy-inference-empowered-stealthy-backdoor-attack-on-federated-learning-under-non-iid-scenarios-2023",
+    "title": "Privacy Inference-Empowered Stealthy Backdoor Attack on Federated Learning under Non-IID Scenarios",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2306.08011",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
     "id": "progressive-backdoor-erasing-via-connecting-backdoor-and-adversarial-attacks-2023",
     "title": "Progressive Backdoor Erasing via connecting Backdoor and Adversarial Attacks",
     "year": 2023,
@@ -765,6 +1404,47 @@
       "learning-theory"
     ],
     "code": "https://github.com/AI-secure/Robustness-Against-Backdoor-Attacks"
+  },
+  {
+    "id": "recover-triggered-states-protect-model-against-backdoor-attack-in-reinforcement-learning-2023",
+    "title": "Recover Triggered States: Protect Model Against Backdoor Attack in Reinforcement Learning",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2304.00252",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "single-agent-rl"
+    ]
+  },
+  {
+    "id": "rethinking-backdoor-attacks-2023",
+    "title": "Rethinking Backdoor Attacks",
+    "year": 2023,
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2307.10163",
+    "types": [
+      "Analysis",
+      "Defense"
+    ],
+    "topics": [
+      "learning-theory"
+    ]
+  },
+  {
+    "id": "rethinking-the-trigger-injecting-position-in-graph-backdoor-attack-2023",
+    "title": "Rethinking the Trigger-injecting Position in Graph Backdoor Attack",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2304.02277",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "graph-node-classification"
+    ]
   },
   {
     "id": "revisiting-the-assumption-of-latent-separability-for-backdoor-defenses-2023",
@@ -821,6 +1501,19 @@
     ]
   },
   {
+    "id": "satba-an-invisible-backdoor-attack-based-on-spatial-attention-2023",
+    "title": "SATBA: An Invisible Backdoor Attack Based On Spatial Attention",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2302.13056",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "scale-up-an-efficient-black-box-input-level-backdoor-detection-via-analyzing-scaled-prediction-consistency-2023",
     "title": "SCALE-UP: An Efficient Black-box Input-level Backdoor Detection via Analyzing Scaled Prediction Consistency",
     "year": 2023,
@@ -833,6 +1526,21 @@
       "image-classification"
     ],
     "code": "https://github.com/JunfengGo/SCALE-UP"
+  },
+  {
+    "id": "selective-amnesia-on-efficient-high-fidelity-and-blind-suppression-of-backdoor-effects-in-trojaned-machine-learning-models-2022",
+    "title": "Selective Amnesia: On Efficient, High-Fidelity and Blind Suppression of Backdoor Effects in Trojaned Machine Learning Models",
+    "year": 2023,
+    "venue": "IEEE S&P",
+    "url": "https://arxiv.org/abs/2212.04687",
+    "types": [
+      "Defense",
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification",
+      "text-classification"
+    ]
   },
   {
     "id": "setting-the-trap-capturing-and-defeating-backdoor-threats-in-plms-through-honeypots-2023",
@@ -861,6 +1569,19 @@
     ]
   },
   {
+    "id": "silent-killer-a-stealthy-clean-label-black-box-backdoor-attack-2023",
+    "title": "Silent Killer: A Stealthy, Clean-Label, Black-Box Backdoor Attack",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2301.02615",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "single-image-backdoor-inversion-via-robust-smoothed-classifiers-2023",
     "title": "Single Image Backdoor Inversion via Robust Smoothed Classifiers",
     "year": 2023,
@@ -873,6 +1594,20 @@
       "image-classification"
     ],
     "code": "https://github.com/locuslab/smoothinv"
+  },
+  {
+    "id": "sok-a-systematic-evaluation-of-backdoor-trigger-characteristics-in-image-classification-2023",
+    "title": "SoK: A Systematic Evaluation of Backdoor Trigger Characteristics in Image Classification",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2302.01740",
+    "types": [
+      "Analysis",
+      "Benchmark"
+    ],
+    "topics": [
+      "image-classification"
+    ]
   },
   {
     "id": "stable-backdoor-purification-with-feature-shift-tuning-2023",
@@ -899,6 +1634,19 @@
     ],
     "topics": [
       "code-models"
+    ]
+  },
+  {
+    "id": "test-time-backdoor-defense-via-detecting-and-repairing-2023",
+    "title": "Test-Time Backdoor Defense via Detecting and Repairing",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2308.06107",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
     ]
   },
   {
@@ -997,6 +1745,20 @@
     ]
   },
   {
+    "id": "towards-understanding-how-self-training-tolerates-data-backdoor-poisoning-2023",
+    "title": "Towards Understanding How Self-training Tolerates Data Backdoor Poisoning",
+    "year": 2023,
+    "venue": "SafeAI @ AAAI",
+    "url": "https://arxiv.org/abs/2301.08751",
+    "types": [
+      "Defense",
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "trojanedcm-a-repository-of-trojaned-large-language-models-of-code-2023",
     "title": "TrojanedCM: A Repository of Trojaned Large Language Models of Code",
     "year": 2023,
@@ -1010,6 +1772,19 @@
       "code-models"
     ],
     "code": "https://github.com/UH-SERG/TrojanedCM"
+  },
+  {
+    "id": "trojaning-semi-supervised-learning-model-via-poisoning-wild-images-on-the-web-2023",
+    "title": "Trojaning semi-supervised learning model via poisoning wild images on the web",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2301.00435",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
   },
   {
     "id": "trojdiff-trojan-attacks-on-diffusion-models-with-diverse-targets-2023",
@@ -1068,6 +1843,45 @@
     "code": "https://github.com/RU-System-Software-and-Security/UNICORN"
   },
   {
+    "id": "universal-adversarial-backdoor-attacks-to-fool-vertical-federated-learning-in-cloud-edge-collaboration-2023",
+    "title": "Universal Adversarial Backdoor Attacks to Fool Vertical Federated Learning in Cloud-Edge Collaboration",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2304.11432",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "vertical-fl"
+    ]
+  },
+  {
+    "id": "universal-detection-of-backdoor-attacks-via-density-based-clustering-and-centroids-analysis-2023",
+    "title": "Universal Detection of Backdoor Attacks via Density-based Clustering and Centroids Analysis",
+    "year": 2023,
+    "venue": "IEEE TIFS",
+    "url": "https://arxiv.org/abs/2301.04554",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "universal-soldier-using-universal-adversarial-perturbations-for-detecting-backdoor-attacks-2023",
+    "title": "Universal Soldier: Using Universal Adversarial Perturbations for Detecting Backdoor Attacks",
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2302.00747",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "unnoticeable-backdoor-attacks-on-graph-neural-networks-2023",
     "title": "Unnoticeable Backdoor Attacks on Graph Neural Networks",
     "year": 2023,
@@ -1078,6 +1892,19 @@
     ],
     "topics": [
       "graph-node-classification"
+    ]
+  },
+  {
+    "id": "untargeted-backdoor-attack-against-object-detection-2023",
+    "title": "Untargeted Backdoor Attack against Object Detection",
+    "year": 2023,
+    "venue": "ICASSP",
+    "url": "https://arxiv.org/abs/2211.05638",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "detection-segmentation-tracking"
     ]
   },
   {

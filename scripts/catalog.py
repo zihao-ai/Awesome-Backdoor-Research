@@ -11,7 +11,7 @@ from jsonschema import Draft202012Validator, FormatChecker
 from jsonschema.exceptions import SchemaError
 
 ROOT = Path(__file__).resolve().parents[1]
-SLOTS = ("AREA_NAVIGATION", "PAPERS", "TUTORIALS", "WORKSHOPS", "TOOLBOXES")
+SLOTS = ("CATALOG_STATS", "AREA_NAVIGATION", "PAPERS", "TUTORIALS", "WORKSHOPS", "TOOLBOXES")
 FORMATS = FormatChecker()
 
 

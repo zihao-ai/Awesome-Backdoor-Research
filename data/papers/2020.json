@@ -41,6 +41,87 @@
     "code": "https://github.com/pps-lab/fl-analysis"
   },
   {
+    "id": "baaan-backdoor-attacks-against-autoencoder-and-gan-based-machine-learning-models-2020",
+    "title": "BAAAN: Backdoor Attacks Against Autoencoder and GAN-Based Machine Learning Models",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2010.03007",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-generation"
+    ]
+  },
+  {
+    "id": "backdoor-attacks-against-transfer-learning-with-pre-trained-deep-learning-models-2020",
+    "title": "Backdoor Attacks against Transfer Learning with Pre-trained Deep Learning Models",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2001.03274",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "backdoor-attacks-and-defenses-in-feature-partitioned-collaborative-learning-2020",
+    "title": "Backdoor attacks and defenses in feature-partitioned collaborative learning",
+    "year": 2020,
+    "venue": "ICML Workshop",
+    "url": "https://arxiv.org/abs/2007.03608",
+    "types": [
+      "Attack",
+      "Defense"
+    ],
+    "topics": [
+      "vertical-fl"
+    ]
+  },
+  {
+    "id": "backdoor-attacks-on-federated-meta-learning-2020",
+    "title": "Backdoor Attacks on Federated Meta-Learning",
+    "year": 2020,
+    "venue": "NeurIPS Workshop",
+    "url": "https://arxiv.org/abs/2006.07026",
+    "types": [
+      "Attack",
+      "Defense"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
+    "id": "backdooring-and-poisoning-neural-networks-with-image-scaling-attacks-2020",
+    "title": "Backdooring and Poisoning Neural Networks with Image-Scaling Attacks",
+    "year": 2020,
+    "venue": "IEEE DLS Workshop",
+    "url": "https://arxiv.org/abs/2003.08633",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "backdoors-in-neural-models-of-source-code-2020",
+    "title": "Backdoors in Neural Models of Source Code",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2006.06841",
+    "types": [
+      "Attack",
+      "Defense"
+    ],
+    "topics": [
+      "code-models"
+    ]
+  },
+  {
     "id": "bridging-mode-connectivity-in-loss-landscapes-and-adversarial-robustness-2020",
     "title": "Bridging Mode Connectivity in Loss Landscapes and Adversarial Robustness",
     "year": 2020,
@@ -70,6 +151,19 @@
     "code": "https://github.com/goel96vibhor/AdvWeightPerturbations"
   },
   {
+    "id": "cassandra-detecting-trojaned-networks-from-adversarial-perturbations-2020",
+    "title": "Cassandra: Detecting Trojaned Networks from Adversarial Perturbations",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2007.14433",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "clean-label-backdoor-attacks-on-video-recognition-models-2020",
     "title": "Clean-Label Backdoor Attacks on Video Recognition Models",
     "year": 2020,
@@ -97,6 +191,19 @@
     ]
   },
   {
+    "id": "confoc-content-focus-protection-against-trojan-attacks-on-neural-networks-2020",
+    "title": "ConFoc: Content-Focus Protection Against Trojan Attacks on Neural Networks",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2007.00711",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "dba-distributed-backdoor-attacks-against-federated-learning-2020",
     "title": "DBA: Distributed Backdoor Attacks against Federated Learning",
     "year": 2020,
@@ -109,6 +216,32 @@
       "horizontal-fl"
     ],
     "code": "https://github.com/AI-secure/DBA"
+  },
+  {
+    "id": "don-t-trigger-me-a-triggerless-backdoor-attack-against-deep-neural-networks-2020",
+    "title": "Don't Trigger Me! A Triggerless Backdoor Attack Against Deep Neural Networks",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2010.03282",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "dynamic-backdoor-attacks-against-federated-learning-2020",
+    "title": "Dynamic backdoor attacks against federated learning",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2011.07429",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
   },
   {
     "id": "federated-backdoor-2020",
@@ -166,6 +299,99 @@
     "code": "https://github.com/VinAIResearch/input-aware-backdoor-attack-release"
   },
   {
+    "id": "l-red-efficient-post-training-detection-of-imperceptible-backdoor-attacks-without-access-to-the-training-set-2020",
+    "title": "L-RED: Efficient Post-Training Detection of Imperceptible Backdoor Attacks without Access to the Training Set",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2010.09987",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "light-can-hack-your-face-black-box-backdoor-attack-on-face-recognition-systems-2020",
+    "title": "Light Can Hack Your Face! Black-box Backdoor Attack on Face Recognition Systems",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2009.06996",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "mitigating-backdoor-attacks-in-lstm-based-text-classification-systems-by-backdoor-keyword-identification-2020",
+    "title": "Mitigating backdoor attacks in LSTM-based Text Classification Systems by Backdoor Keyword Identification",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2007.12070",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "text-classification"
+    ]
+  },
+  {
+    "id": "natural-backdoor-attack-on-text-data-2020",
+    "title": "Natural Backdoor Attack on Text Data",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2006.16176",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "text-classification"
+    ]
+  },
+  {
+    "id": "neural-network-laundering-removing-black-box-backdoor-watermarks-from-deep-neural-networks-2020",
+    "title": "Neural Network Laundering: Removing Black-Box Backdoor Watermarks from Deep Neural Networks",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2004.11368",
+    "types": [
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "on-certifying-robustness-against-backdoor-attacks-via-randomized-smoothing-2020",
+    "title": "On Certifying Robustness against Backdoor Attacks via Randomized Smoothing",
+    "year": 2020,
+    "venue": "CVPR Workshop",
+    "url": "https://arxiv.org/abs/2002.11750",
+    "types": [
+      "Defense",
+      "Analysis"
+    ],
+    "topics": [
+      "learning-theory"
+    ]
+  },
+  {
+    "id": "on-evaluating-neural-network-backdoor-defenses-2020",
+    "title": "On Evaluating Neural Network Backdoor Defenses",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2010.12186",
+    "types": [
+      "Analysis",
+      "Benchmark"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "on-the-trade-off-between-adversarial-and-backdoor-robustness-2020",
     "title": "On the Trade-off between Adversarial and Backdoor Robustness",
     "year": 2020,
@@ -178,6 +404,32 @@
       "learning-theory"
     ],
     "code": "https://github.com/nthu-datalab/On.the.Trade-off.between.Adversarial.and.Backdoor.Robustness"
+  },
+  {
+    "id": "one-pixel-signature-characterizing-cnn-models-for-backdoor-detection-2020",
+    "title": "One-pixel Signature: Characterizing CNN Models for Backdoor Detection",
+    "year": 2020,
+    "venue": "ECCV",
+    "url": "https://arxiv.org/abs/2008.07711",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "practical-detection-of-trojan-neural-networks-data-limited-and-data-free-cases-2020",
+    "title": "Practical Detection of Trojan Neural Networks: Data-Limited and Data-Free Cases",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2007.15802",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
   },
   {
     "id": "reflection-backdoor-a-natural-backdoor-attack-on-deep-neural-networks-2020",
@@ -194,11 +446,51 @@
     "code": "https://github.com/DreamtaleCore/Refool"
   },
   {
+    "id": "rethinking-the-trigger-of-backdoor-attack-2020",
+    "title": "Rethinking the Trigger of Backdoor Attack",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2004.04692",
+    "types": [
+      "Analysis",
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "reverse-engineering-imperceptible-backdoor-attacks-on-deep-neural-networks-for-detection-and-training-set-cleansing-2020",
+    "title": "Reverse Engineering Imperceptible Backdoor Attacks on Deep Neural Networks for Detection and Training Set Cleansing",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2010.07489",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "robust-anomaly-detection-and-backdoor-attack-detection-via-differential-privacy-2020",
     "title": "Robust anomaly detection and backdoor attack detection via differential privacy",
     "year": 2020,
     "venue": "ICLR",
     "url": "https://arxiv.org/abs/1911.07116",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "scalable-backdoor-detection-in-neural-networks-2020",
+    "title": "Scalable Backdoor Detection in Neural Networks",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2006.05646",
     "types": [
       "Defense"
     ],
@@ -220,11 +512,76 @@
     ]
   },
   {
+    "id": "strong-data-augmentation-sanitizes-poisoning-and-backdoor-attacks-without-an-accuracy-tradeoff-2020",
+    "title": "Strong Data Augmentation Sanitizes Poisoning and Backdoor Attacks Without an Accuracy Tradeoff",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2011.09527",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "systematic-evaluation-of-backdoor-data-poisoning-attacks-on-image-classifiers-2020",
+    "title": "Systematic Evaluation of Backdoor Data Poisoning Attacks on Image Classifiers",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2004.11514",
+    "types": [
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "targeted-forgetting-and-false-memory-formation-in-continual-learners-through-adversarial-backdoor-attacks-2020",
+    "title": "Targeted Forgetting and False Memory Formation in Continual Learners through Adversarial Backdoor Attacks",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2002.07111",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "the-trojai-software-framework-an-opensource-tool-for-embedding-trojans-into-deep-learning-models-2020",
+    "title": "The TrojAI Software Framework: An OpenSource tool for Embedding Trojans into Deep Learning Models",
+    "year": 2020,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2003.07233",
+    "types": [
+      "Benchmark"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "towards-inspecting-and-eliminating-trojan-backdoors-in-deep-neural-networks-2020",
     "title": "Towards Inspecting and Eliminating Trojan Backdoors in Deep Neural Networks",
     "year": 2020,
     "venue": "ICDM",
     "url": "https://doi.org/10.1109/ICDM50108.2020.00025",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "universal-litmus-patterns-revealing-backdoor-attacks-in-cnns-2020",
+    "title": "Universal Litmus Patterns: Revealing Backdoor Attacks in CNNs",
+    "year": 2020,
+    "venue": "CVPR",
+    "url": "https://arxiv.org/abs/1906.10842",
     "types": [
       "Defense"
     ],

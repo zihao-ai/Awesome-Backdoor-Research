@@ -29,15 +29,18 @@ Every script accepts `--root PATH`; its default is the checkout containing that 
 
 ## Editing and regeneration
 
-Edit JSON records or `templates/README.md`, validate, build, and commit source plus generated README together. The template contains these five slots exactly once:
+Edit JSON records or `templates/README.md`, validate, build, and commit source plus generated README together. The template contains these six slots exactly once:
 
 ```text
+{{CATALOG_STATS}}
 {{AREA_NAVIGATION}}
 {{PAPERS}}
 {{TUTORIALS}}
 {{WORKSHOPS}}
 {{TOOLBOXES}}
 ```
+
+The statistics directly below the Papers heading and the category navigation counts are calculated from the source catalog on every build. The summary shows unique papers, categories (including Surveys), and subcategories (taxonomy leaves). The top resource navigation contains no counts. No counts need manual editing.
 
 Keep generated sections out of the template. Text escaping, icon markup, table headers, stable anchors, sorting, and empty-state rows are renderer responsibilities. Edit `scripts/render.py` to change that behavior and add a behavioral test for the change.
 

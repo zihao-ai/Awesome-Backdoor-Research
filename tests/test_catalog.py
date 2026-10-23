@@ -31,7 +31,7 @@ class CatalogFixture(unittest.TestCase):
         }
         self.paper = {"id": "example-2024", "title": "Example Paper", "year": 2024, "venue": "Conference", "url": "https://arxiv.org/abs/2401.12345", "types": ["Attack"], "topics": ["recognition"], "code": "https://github.com/research/example"}
         self.resources = {"tutorials": [], "workshops": [], "toolboxes": []}
-        self.template = "# Example\n\n{{AREA_NAVIGATION}}\n\n{{PAPERS}}\n\n{{TUTORIALS}}\n\n{{WORKSHOPS}}\n\n{{TOOLBOXES}}\n"
+        self.template = "# Example\n\n{{CATALOG_STATS}}\n\n{{AREA_NAVIGATION}}\n\n{{PAPERS}}\n\n{{TUTORIALS}}\n\n{{WORKSHOPS}}\n\n{{TOOLBOXES}}\n"
         self.save()
 
     def write(self, path, data):

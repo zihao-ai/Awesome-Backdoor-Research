@@ -14,6 +14,20 @@
     "code": "https://github.com/zhenxianglance/PCBA"
   },
   {
+    "id": "a-general-framework-for-defending-against-backdoor-attacks-via-influence-graph-2021",
+    "title": "A General Framework for Defending Against Backdoor Attacks via Influence Graph",
+    "year": 2021,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2111.14309",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification",
+      "text-classification"
+    ]
+  },
+  {
     "id": "adversarial-neuron-pruning-purifies-backdoored-deep-models-2021",
     "title": "Adversarial Neuron Pruning Purifies Backdoored Deep Models",
     "year": 2021,
@@ -26,6 +40,33 @@
       "image-classification"
     ],
     "code": "https://github.com/csdongxian/ANP_backdoor"
+  },
+  {
+    "id": "an-overview-of-backdoor-attacks-against-deep-neural-networks-and-possible-defences-2021",
+    "title": "An Overview of Backdoor Attacks Against Deep Neural Networks and Possible Defences",
+    "year": 2021,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2111.08429",
+    "types": [
+      "Survey"
+    ],
+    "topics": [
+      "general-surveys"
+    ]
+  },
+  {
+    "id": "anomaly-localization-in-model-gradients-under-backdoor-attacks-against-federated-learning-2021",
+    "title": "Anomaly Localization in Model Gradients Under Backdoor Attacks Against Federated Learning",
+    "year": 2021,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2111.14683",
+    "types": [
+      "Analysis"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ],
+    "code": "https://github.com/ArcelikAcikKaynak/Federated_Learning.git"
   },
   {
     "id": "anti-backdoor-learning-training-clean-models-on-poisoned-data-2021",
@@ -122,6 +163,32 @@
     ]
   },
   {
+    "id": "badnl-backdoor-attacks-against-nlp-models-with-semantic-preserving-improvements-2021",
+    "title": "BadNL: Backdoor Attacks against NLP Models with Semantic-preserving Improvements",
+    "year": 2021,
+    "venue": "ACSAC",
+    "url": "https://arxiv.org/abs/2006.01043",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "text-classification"
+    ]
+  },
+  {
+    "id": "baffle-backdoor-detection-via-feedback-based-federated-learning-2021",
+    "title": "BaFFLe: Backdoor detection via Feedback-based Federated Learning",
+    "year": 2021,
+    "venue": "ICDCS",
+    "url": "https://arxiv.org/abs/2011.02167",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "horizontal-fl"
+    ]
+  },
+  {
     "id": "blind-backdoors-in-deep-learning-models-2021",
     "title": "Blind Backdoors in Deep Learning Models",
     "year": 2021,
@@ -136,6 +203,19 @@
     "code": "https://github.com/ebagdasa/backdoors101"
   },
   {
+    "id": "catchbackdoor-backdoor-detection-via-critical-trojan-neural-path-fuzzing-2021",
+    "title": "CatchBackdoor: Backdoor Detection via Critical Trojan Neural Path Fuzzing",
+    "year": 2021,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2112.13064",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "clear-clean-up-sample-targeted-backdoor-in-neural-networks-2021",
     "title": "CLEAR: Clean-up Sample-Targeted Backdoor in Neural Networks",
     "year": 2021,
@@ -143,6 +223,19 @@
     "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Zhu_CLEAR_Clean-Up_Sample-Targeted_Backdoor_in_Neural_Networks_ICCV_2021_paper.html",
     "types": [
       "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "dbia-data-free-backdoor-injection-attack-against-transformer-networks-2021",
+    "title": "DBIA: Data-free Backdoor Injection Attack against Transformer Networks",
+    "year": 2021,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2111.11870",
+    "types": [
+      "Attack"
     ],
     "topics": [
       "image-classification"
@@ -174,6 +267,19 @@
     ],
     "topics": [
       "image-classification"
+    ]
+  },
+  {
+    "id": "defending-against-backdoors-in-federated-learning-with-robust-learning-rate-2021",
+    "title": "Defending against Backdoors in Federated Learning with Robust Learning Rate",
+    "year": 2021,
+    "venue": "AAAI",
+    "url": "https://arxiv.org/abs/2007.03767",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "horizontal-fl"
     ]
   },
   {
@@ -229,6 +335,21 @@
       "image-classification"
     ],
     "code": "https://github.com/AI-secure/Meta-Nerual-Trojan-Detection"
+  },
+  {
+    "id": "enhancing-backdoor-attacks-with-multi-level-mmd-regularization-2021",
+    "title": "Enhancing Backdoor Attacks with Multi-Level MMD Regularization",
+    "year": 2021,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2111.05077",
+    "types": [
+      "Attack",
+      "Analysis"
+    ],
+    "topics": [
+      "image-classification"
+    ],
+    "code": "https://github.com/xpf/Multi-Level-MMD-Regularization"
   },
   {
     "id": "excess-capacity-and-backdoor-poisoning-2021",
@@ -399,6 +520,19 @@
     "code": "https://github.com/bboylyg/NAD"
   },
   {
+    "id": "ntd-non-transferability-enabled-backdoor-detection-2021",
+    "title": "NTD: Non-Transferability Enabled Backdoor Detection",
+    "year": 2021,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2111.11157",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "odyssey-creation-analysis-and-detection-of-trojan-models-2021",
     "title": "Odyssey: Creation, Analysis and Detection of Trojan Models",
     "year": 2021,
@@ -413,6 +547,20 @@
       "image-classification"
     ],
     "code": "https://github.com/LCWN-Lab/Odyssey"
+  },
+  {
+    "id": "onion-a-simple-and-effective-defense-against-textual-backdoor-attacks-2021",
+    "title": "ONION: A Simple and Effective Defense Against Textual Backdoor Attacks",
+    "year": 2021,
+    "venue": "EMNLP",
+    "url": "https://arxiv.org/abs/2011.10369",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "text-classification"
+    ],
+    "code": "https://github.com/thunlp/ONION"
   },
   {
     "id": "pointba-towards-backdoor-attacks-in-3d-point-cloud-2021",
@@ -486,6 +634,33 @@
       "image-classification"
     ],
     "code": "https://github.com/SewoongLab/spectre-defense"
+  },
+  {
+    "id": "stop-and-go-exploring-backdoor-attacks-on-deep-reinforcement-learning-based-traffic-congestion-control-systems-2021",
+    "title": "Stop-and-Go: Exploring Backdoor Attacks on Deep Reinforcement Learning-based Traffic Congestion Control Systems",
+    "year": 2021,
+    "venue": "TIFS",
+    "url": "https://arxiv.org/abs/2003.07859",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "navigation-driving",
+      "single-agent-rl"
+    ]
+  },
+  {
+    "id": "test-time-detection-of-backdoor-triggers-for-poisoned-deep-neural-networks-2021",
+    "title": "Test-Time Detection of Backdoor Triggers for Poisoned Deep Neural Networks",
+    "year": 2021,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2112.03350",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
   },
   {
     "id": "topological-detection-of-trojaned-neural-networks-2021",

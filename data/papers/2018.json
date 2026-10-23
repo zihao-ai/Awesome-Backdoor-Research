@@ -1,5 +1,31 @@
 [
   {
+    "id": "backdoor-embedding-in-convolutional-neural-network-models-via-invisible-perturbation-2018",
+    "title": "Backdoor Embedding in Convolutional Neural Network Models via Invisible Perturbation",
+    "year": 2018,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/1808.10307",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "backdooring-convolutional-neural-networks-via-targeted-weight-perturbations-2018",
+    "title": "Backdooring Convolutional Neural Networks via Targeted Weight Perturbations",
+    "year": 2018,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/1812.03128",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "detecting-backdoor-attacks-on-deep-neural-networks-by-activation-clustering-2018",
     "title": "Detecting Backdoor Attacks on Deep Neural Networks by Activation Clustering",
     "year": 2018,

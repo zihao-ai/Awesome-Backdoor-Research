@@ -17,6 +17,25 @@ class RenderingTests(CatalogFixture):
         self.save()
         return render_readme(load_catalog(self.root), self.template)
 
+    def test_summary_counts_unique_papers_categories_and_subcategories_only(self):
+        self.paper['topics'] = ['recognition', 'video']
+        self.resources['tutorials'] = [{
+            'id': 'course', 'title': 'Course', 'year': 2026, 'venue': 'University',
+            'url': 'https://example.org/course', 'description': 'Teaching resource',
+        }]
+        output = self.render()
+        self.assertIn('1 Papers', output)
+        self.assertIn('2 Categories', output)
+        self.assertIn('3 Subcategories', output)
+        self.assertNotIn('1 Resources', output)
+        self.assertNotIn('1 Tutorials &amp; Courses', output)
+        self.assertNotIn('0 Workshops', output)
+        self.assertNotIn('0 Toolboxes', output)
+        self.write('data/papers/2025.json', [dict(self.paper, id='second-2025',
+            title='Second', year=2025, url='https://example.org/second')])
+        updated = render_readme(load_catalog(self.root), self.template)
+        self.assertIn('2 Papers', updated)
+
     def test_empty_leaf_tables_and_navigation_remain_visible(self):
         output = self.render()
         self.assertIn('colspan="2"', output)

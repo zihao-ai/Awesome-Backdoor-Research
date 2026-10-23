@@ -121,10 +121,24 @@ def _toolboxes(records: list[dict]) -> str:
     return "\n".join(rows)
 
 
+def _catalog_stats(catalog: dict) -> str:
+    areas = catalog['taxonomy']['areas']
+    counts = ' · '.join(
+        f'{count} {label}'
+        for count, label in (
+            (len(catalog['papers']), 'Papers'),
+            (len(areas), 'Categories'),
+            (sum(len(area['topics']) for area in areas), 'Subcategories'),
+        )
+    )
+    return f'**{counts}**'
+
+
 def render_readme(catalog: dict, template: str) -> str:
     """Render validated sources; no filesystem writes or network requests."""
     validate_template(template)
     generated = {
+        "CATALOG_STATS": _catalog_stats(catalog),
         "AREA_NAVIGATION": _navigation(catalog["taxonomy"]["areas"], catalog["papers"]),
         "PAPERS": _papers(catalog),
         "TUTORIALS": _resource_list(catalog["resources"]["tutorials"]),

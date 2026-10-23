@@ -1,6 +1,6 @@
 # Curation and coverage — October 23, 2026
 
-This is a dated editorial snapshot of the first full migration and topic-by-topic expansion. It is not an exhaustive bibliography of all published backdoor research.
+This dated editorial snapshot tracks the historical migration, topic-by-topic expansion, community contributions, and a further backfill of historical and recent omissions. It is not an exhaustive bibliography of all published backdoor research.
 
 ## Batch accounting
 
@@ -11,7 +11,8 @@ This is a dated editorial snapshot of the first full migration and topic-by-topi
 | Initial abstract-reviewed additions | 90 |
 | Subsequent 2025–2026 expansion | 146 |
 | Community contribution PR #6 | 2 |
-| **Total** | **454** |
+| Historical and recent omissions expansion | 433 |
+| **Total** | **887** |
 
 The old README contains 222 year-table rows and four additional toolbox-associated paper rows. All 226 rows are accounted for: 212 migrated works, seven repeated rows merged into their canonical records, and seven scope exclusions. The fifth toolbox-only row had no paper and remains a software resource. The [original catalog](https://github.com/zihao-ai/Awesome-Backdoor-Research/blob/4be174fceda6034a8b7856a56a848e5b10adc097/README.md) and retired parser are available in Git history; redundant working-tree copies have been removed.
 
@@ -21,45 +22,45 @@ Counts below are table appearances, not unique-paper counts. Cross-listed papers
 
 | Area | Subcategory | Current papers | Initial additions | Recent additions |
 | :--- | :--- | ---: | ---: | ---: |
-| Surveys | [General Surveys](../README.md#topic-general-surveys) | 7 | 1 | 1 |
-| Surveys | [Topic-Specific Surveys](../README.md#topic-surveys-specific) | 7 | 3 | 3 |
-| Computer Vision | [Image Classification & Recognition](../README.md#topic-image-classification) | 135 | 3 | 1 |
-| Computer Vision | [Object Detection, Segmentation & Tracking](../README.md#topic-detection-segmentation-tracking) | 18 | 3 | 10 |
-| Computer Vision | [Video Understanding](../README.md#topic-video-understanding) | 3 | 2 | 0 |
-| Computer Vision | [3D Vision & Point Clouds](../README.md#topic-3d-vision) | 9 | 2 | 4 |
-| Computer Vision | [Visual Representation Learning](../README.md#topic-visual-representation) | 11 | 1 | 4 |
-| Computer Vision | [Image Restoration & Compression](../README.md#topic-image-restoration-compression) | 5 | 1 | 2 |
-| Computer Vision | [Visual Regression & Counting](../README.md#topic-visual-regression-counting) | 5 | 1 | 3 |
-| NLP & Language Models | [Text Classification & Sequence Labeling](../README.md#topic-text-classification) | 19 | 2 | 0 |
-| NLP & Language Models | [Language Representation & Embedding Models](../README.md#topic-language-representation) | 10 | 2 | 1 |
-| NLP & Language Models | [Sequence Generation & Translation](../README.md#topic-sequence-generation-translation) | 3 | 1 | 0 |
-| NLP & Language Models | [Large Language Models & Instruction Following](../README.md#topic-llms) | 38 | 5 | 28 |
-| NLP & Language Models | [Code Language Models](../README.md#topic-code-models) | 16 | 6 | 10 |
-| NLP & Language Models | [Retrieval-Augmented Generation](../README.md#topic-rag) | 7 | 3 | 4 |
-| Multimodal Learning | [Vision–Language Representation & Retrieval](../README.md#topic-vision-language-representation) | 13 | 2 | 7 |
-| Multimodal Learning | [Vision–Language Understanding & MLLMs](../README.md#topic-mllms) | 23 | 3 | 17 |
+| Surveys | [General Surveys](../README.md#topic-general-surveys) | 9 | 1 | 1 |
+| Surveys | [Topic-Specific Surveys](../README.md#topic-surveys-specific) | 12 | 3 | 3 |
+| Computer Vision | [Image Classification & Recognition](../README.md#topic-image-classification) | 308 | 3 | 1 |
+| Computer Vision | [Object Detection, Segmentation & Tracking](../README.md#topic-detection-segmentation-tracking) | 31 | 3 | 10 |
+| Computer Vision | [Video Understanding](../README.md#topic-video-understanding) | 4 | 2 | 0 |
+| Computer Vision | [3D Vision & Point Clouds](../README.md#topic-3d-vision) | 14 | 2 | 4 |
+| Computer Vision | [Visual Representation Learning](../README.md#topic-visual-representation) | 20 | 1 | 4 |
+| Computer Vision | [Image Restoration & Compression](../README.md#topic-image-restoration-compression) | 6 | 1 | 2 |
+| Computer Vision | [Visual Regression & Counting](../README.md#topic-visual-regression-counting) | 7 | 1 | 3 |
+| NLP & Language Models | [Text Classification & Sequence Labeling](../README.md#topic-text-classification) | 55 | 2 | 0 |
+| NLP & Language Models | [Language Representation & Embedding Models](../README.md#topic-language-representation) | 15 | 2 | 1 |
+| NLP & Language Models | [Sequence Generation & Translation](../README.md#topic-sequence-generation-translation) | 6 | 1 | 0 |
+| NLP & Language Models | [Large Language Models & Instruction Following](../README.md#topic-llms) | 91 | 5 | 28 |
+| NLP & Language Models | [Code Language Models](../README.md#topic-code-models) | 29 | 6 | 10 |
+| NLP & Language Models | [Retrieval-Augmented Generation](../README.md#topic-rag) | 8 | 3 | 4 |
+| Multimodal Learning | [Vision–Language Representation & Retrieval](../README.md#topic-vision-language-representation) | 26 | 2 | 7 |
+| Multimodal Learning | [Vision–Language Understanding & MLLMs](../README.md#topic-mllms) | 37 | 3 | 17 |
 | Multimodal Learning | [Audio–Language & Other Multimodal Models](../README.md#topic-audio-language) | 4 | 3 | 0 |
-| Generative Models | [Image Generation & Editing](../README.md#topic-image-generation) | 21 | 3 | 14 |
-| Generative Models | [Video Generation](../README.md#topic-video-generation) | 2 | 2 | 0 |
-| Generative Models | [Audio, Speech & Music Generation](../README.md#topic-audio-generation) | 1 | 1 | 0 |
+| Generative Models | [Image Generation & Editing](../README.md#topic-image-generation) | 37 | 3 | 14 |
+| Generative Models | [Video Generation](../README.md#topic-video-generation) | 3 | 2 | 0 |
+| Generative Models | [Audio, Speech & Music Generation](../README.md#topic-audio-generation) | 2 | 1 | 0 |
 | Generative Models | [3D Content & Motion Generation](../README.md#topic-3d-generation) | 3 | 2 | 1 |
 | AI Agents | [Planning & Reasoning](../README.md#topic-agent-planning) | 5 | 3 | 2 |
-| AI Agents | [Memory & Knowledge](../README.md#topic-agent-memory) | 4 | 2 | 1 |
-| AI Agents | [Tools & Skills](../README.md#topic-agent-tools) | 19 | 6 | 13 |
+| AI Agents | [Memory & Knowledge](../README.md#topic-agent-memory) | 7 | 2 | 1 |
+| AI Agents | [Tools & Skills](../README.md#topic-agent-tools) | 22 | 6 | 13 |
 | AI Agents | [Multi-Agent Systems](../README.md#topic-multi-agent-systems) | 5 | 2 | 3 |
-| Embodied AI | [Vision–Language–Action Models](../README.md#topic-vla-models) | 6 | 2 | 3 |
-| Embodied AI | [Robotic Manipulation & Control](../README.md#topic-robotic-control) | 3 | 1 | 2 |
-| Embodied AI | [Navigation & Autonomous Driving](../README.md#topic-navigation-driving) | 5 | 3 | 2 |
-| Embodied AI | [Embodied Planning & Interaction](../README.md#topic-embodied-planning) | 6 | 2 | 4 |
-| Graph Learning | [Graph & Node Classification](../README.md#topic-graph-node-classification) | 10 | 4 | 1 |
-| Graph Learning | [Link Prediction & Graph Representation Learning](../README.md#topic-graph-representation) | 5 | 2 | 3 |
-| Speech & Audio | [Speech & Speaker Recognition](../README.md#topic-speech-recognition) | 10 | 5 | 3 |
-| Speech & Audio | [Audio Classification & Representation Learning](../README.md#topic-audio-representation) | 2 | 2 | 0 |
-| Reinforcement Learning | [Single-Agent Reinforcement Learning](../README.md#topic-single-agent-rl) | 11 | 3 | 7 |
-| Reinforcement Learning | [Multi-Agent Reinforcement Learning](../README.md#topic-multi-agent-rl) | 7 | 2 | 2 |
-| Federated Learning | [Horizontal Federated Learning](../README.md#topic-horizontal-fl) | 21 | 2 | 6 |
-| Federated Learning | [Vertical Federated Learning](../README.md#topic-vertical-fl) | 5 | 3 | 2 |
-| Foundations & Theory | [Learning Theory & Formal Guarantees](../README.md#topic-learning-theory) | 13 | 5 | 1 |
+| Embodied AI | [Vision–Language–Action Models](../README.md#topic-vla-models) | 9 | 2 | 3 |
+| Embodied AI | [Robotic Manipulation & Control](../README.md#topic-robotic-control) | 5 | 1 | 2 |
+| Embodied AI | [Navigation & Autonomous Driving](../README.md#topic-navigation-driving) | 14 | 3 | 2 |
+| Embodied AI | [Embodied Planning & Interaction](../README.md#topic-embodied-planning) | 7 | 2 | 4 |
+| Graph Learning | [Graph & Node Classification](../README.md#topic-graph-node-classification) | 25 | 4 | 1 |
+| Graph Learning | [Link Prediction & Graph Representation Learning](../README.md#topic-graph-representation) | 6 | 2 | 3 |
+| Speech & Audio | [Speech & Speaker Recognition](../README.md#topic-speech-recognition) | 19 | 5 | 3 |
+| Speech & Audio | [Audio Classification & Representation Learning](../README.md#topic-audio-representation) | 5 | 2 | 0 |
+| Reinforcement Learning | [Single-Agent Reinforcement Learning](../README.md#topic-single-agent-rl) | 24 | 3 | 7 |
+| Reinforcement Learning | [Multi-Agent Reinforcement Learning](../README.md#topic-multi-agent-rl) | 9 | 2 | 2 |
+| Federated Learning | [Horizontal Federated Learning](../README.md#topic-horizontal-fl) | 76 | 2 | 6 |
+| Federated Learning | [Vertical Federated Learning](../README.md#topic-vertical-fl) | 9 | 3 | 2 |
+| Foundations & Theory | [Learning Theory & Formal Guarantees](../README.md#topic-learning-theory) | 28 | 5 | 1 |
 
 ## Scope exclusions
 
@@ -99,6 +100,7 @@ Foundations & Theory was added as an ordinary area for formal guarantees and cry
 - [Legacy migration ledger](../data/curation/legacy-migration.json): one disposition per original paper row, line in the Git-history source linked above, canonical paper ID, abstract source, and editorial note.
 - [Expansion review ledger](../data/curation/expansion-reviews.json): one entry per new paper, source, reviewed arXiv version where available, date, and classification rationale.
 - [Topic search log](../data/curation/searches.json): queries and retrieval methods for every leaf topic in the initial expansion.
+- [Historical and recent omissions log](../data/curation/expansion-to-800.json): the 800-paper target, reconciled retrievals, final counts, alias exclusions, and metadata/classification corrections.
 - [Recent expansion log](../data/curation/recent-expansion.json): 2025–2026 retrieval parameters, counts, exclusions, and version/alias decisions.
 
 Read abstracts and publication metadata, without downloading PDFs or reviewing full papers. Sources include arXiv, publisher/proceedings abstracts, OpenReview, ACL Anthology, and author/institution publication pages. Some abstracts were visible in web-indexed author papers; this did not involve downloading the PDFs. Full abstracts and raw retrieval responses are not copied into the public catalog.
@@ -136,3 +138,28 @@ The retrieval/parser workflow used the `paper-lookup` procedure from Scientific 
 ## Community contribution PR #6
 
 The two papers proposed in [PR #6](https://github.com/zihao-ai/Awesome-Backdoor-Research/pull/6) were abstract-reviewed and migrated from legacy README rows into `data/papers/2024.json`. Unlearn to Relearn Backdoors is placed under image classification; Mask-based Invisible Backdoor Attacks on Object Detection is placed under detection, segmentation, and tracking, retaining its official implementation link. The individual review records use batch ID `community-pr-6-2026-10-23`. This adds two unique papers, bringing the current catalog to 454; the earlier expansion batches and their counts remain historical records.
+
+## Historical and recent omissions expansion
+
+This pass adds **433 unique papers**, bringing the catalog from **454 to 887** and exceeding the requested 800-paper target. Displayed publication years span **2017–2026**. Of the additions, **271** have displayed years in 2017–2025 and **162** in 2026. By first arXiv submission year, **268** are from 2017–2024 and **165** from 2026; venue dates can differ from preprint dates.
+
+The historical title query `(ti:backdoor OR ti:trojan) AND submittedDate:[201701010000 TO 202412312359]` returned **1,221/1,221** records in two bounded pages (900 + 321). Current-catalog identifier/title deduplication left 1,023 historical candidates. Recent screening reused the same-day 767-record 2025–2026 query cache; 553 candidates remained after current exact deduplication, and 215 complete abstracts were screened in the recent shard. These are retrieval/screening counts, not counts of accepted papers. Some title-screened or unselected candidates have not had their abstracts reviewed, and no exhaustive coverage is claimed.
+
+Every accepted addition has its own abstract source, reviewed arXiv version, date, and classification note in the expansion ledger, under batch ID `expansion-to-800-2026-10-23`. No PDFs, datasets, weights, or full papers were downloaded. Official author-supplied journal references/comments determine venue and year when explicit; otherwise the entry remains arXiv with its first-submission year. Three preprints whose comments report acceptance at 2027 venues remain listed as arXiv 2026 pending formal publication, rather than presenting future publications as already published.
+
+The final alias check keeps one record for FTrojan's preprint/ECCV title, the preliminary/expanded dataset-ownership verification work, and the workshop/expanded FedGAN medical-image-synthesis work. The existing PolicyCleanse publication was also recognized during screening. These aliases do not inflate the total.
+
+Classification review removed unsupported audio and graph-task cross-listings, added the explicitly evaluated LLM/segmentation victims to Memory Backdoor Attacks, and cross-listed the Stop-and-Go driving controller under reinforcement learning. Hardware/astronomy/SAT/causal-adjustment uses of the keywords, withdrawn submissions, and generic attacks without a model-backdoor mechanism were excluded or held. Relevant time-series, BCI, tabular, and malware-classifier candidates lacking a suitable current leaf were held instead of being forced into unrelated categories. This remaining taxonomy gap is separate from coverage within the existing areas.
+
+| Display year | Additions in this pass | Current unique papers |
+| :--- | ---: | ---: |
+| 2017 | 1 | 1 |
+| 2018 | 2 | 7 |
+| 2019 | 9 | 15 |
+| 2020 | 27 | 44 |
+| 2021 | 13 | 53 |
+| 2022 | 107 | 175 |
+| 2023 | 61 | 143 |
+| 2024 | 39 | 82 |
+| 2025 | 12 | 113 |
+| 2026 | 162 | 254 |

@@ -1,5 +1,31 @@
 [
   {
+    "id": "a-backdoor-attack-against-lstm-based-text-classification-systems-2019",
+    "title": "A backdoor attack against LSTM-based text classification systems",
+    "year": 2019,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/1905.12457",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "text-classification"
+    ]
+  },
+  {
+    "id": "a-new-backdoor-attack-in-cnns-by-training-set-corruption-without-label-poisoning-2019",
+    "title": "A new Backdoor Attack in CNNs by training set corruption without label poisoning",
+    "year": 2019,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/1902.11237",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "abs-scanning-neural-networks-for-backdoors-by-artificial-brain-stimulation-2019",
     "title": "Abs: Scanning neural networks for backdoors by artificial brain stimulation",
     "year": 2019,
@@ -41,6 +67,32 @@
     "code": "https://github.com/superrrpotato/Defending-Neural-Backdoors-via-Generative-Distribution-Modeling"
   },
   {
+    "id": "design-of-intentional-backdoors-in-sequential-models-2019",
+    "title": "Design of intentional backdoors in sequential models",
+    "year": 2019,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/1902.09972",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "single-agent-rl"
+    ]
+  },
+  {
+    "id": "label-consistent-backdoor-attacks-2019",
+    "title": "Label-Consistent Backdoor Attacks",
+    "year": 2019,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/1912.02771",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
     "id": "latent-backdoor-attacks-on-deep-neural-networks-2019",
     "title": "Latent Backdoor Attacks on Deep Neural Networks",
     "year": 2019,
@@ -69,6 +121,45 @@
     "code": "https://github.com/bolunwang/backdoor"
   },
   {
+    "id": "neuroninspect-detecting-backdoors-in-neural-networks-via-output-explanations-2019",
+    "title": "NeuronInspect: Detecting Backdoors in Neural Networks via Output Explanations",
+    "year": 2019,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/1911.07399",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "poison-as-a-cure-detecting-neutralizing-variable-sized-backdoor-attacks-in-deep-neural-networks-2019",
+    "title": "Poison as a Cure: Detecting & Neutralizing Variable-Sized Backdoor Attacks in Deep Neural Networks",
+    "year": 2019,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/1911.08040",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "programmable-neural-network-trojan-for-pre-trained-feature-extractor-2019",
+    "title": "Programmable Neural Network Trojan for Pre-Trained Feature Extractor",
+    "year": 2019,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/1901.07766",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "visual-representation"
+    ]
+  },
+  {
     "id": "strip-a-defence-against-trojan-attacks-on-deep-neural-networks-2019",
     "title": "STRIP: A Defence Against Trojan Attacks on Deep Neural Networks",
     "year": 2019,
@@ -81,5 +172,31 @@
       "image-classification"
     ],
     "code": "https://github.com/garrisongys/STRIP"
+  },
+  {
+    "id": "tabor-a-highly-accurate-approach-to-inspecting-and-restoring-trojan-backdoors-in-ai-systems-2019",
+    "title": "TABOR: A Highly Accurate Approach to Inspecting and Restoring Trojan Backdoors in AI Systems",
+    "year": 2019,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/1908.01763",
+    "types": [
+      "Defense"
+    ],
+    "topics": [
+      "image-classification"
+    ]
+  },
+  {
+    "id": "trojdrl-trojan-attacks-on-deep-reinforcement-learning-agents-2019",
+    "title": "TrojDRL: Trojan Attacks on Deep Reinforcement Learning Agents",
+    "year": 2019,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/1903.06638",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "single-agent-rl"
+    ]
   }
 ]

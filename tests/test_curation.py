@@ -76,6 +76,25 @@ class CurationEvidenceTests(unittest.TestCase):
             self.assertGreaterEqual(review["first_submitted"], "2025-01-01")
             self.assertLessEqual(review["first_submitted"], batch["review_date"])
 
+    def test_historical_and_recent_expansion_counts_reconcile(self):
+        batch = json.loads((ROOT / 'data/curation/expansion-to-800.json').read_text())
+        reviews = [r for r in self.reviews if r.get('batch_id') == batch['batch_id']]
+        self.assertEqual(len(reviews), batch['added'])
+        self.assertEqual(batch['catalog_before'] + batch['added'], batch['catalog_after'])
+        self.assertGreaterEqual(batch['catalog_after'], batch['requested_target'])
+        self.assertEqual(sum(batch['accepted_by_display_year'].values()), len(reviews))
+        self.assertEqual(sum(batch['accepted_by_first_submission_year'].values()), len(reviews))
+        for retrieval in batch['retrievals']:
+            self.assertEqual(retrieval['reported_total'], retrieval['retrieved'])
+            if 'pages' in retrieval:
+                self.assertEqual(sum(p['returned'] for p in retrieval['pages']), retrieval['retrieved'])
+        accepted_ids = {r['paper_id'] for r in reviews}
+        for excluded in batch['final_alias_exclusions']:
+            self.assertNotIn(excluded['paper_id'], accepted_ids)
+        for review in reviews:
+            self.assertIn(review['paper_id'], self.papers)
+            self.assertLessEqual(review['first_submitted'], batch['review_date'])
+
 
 if __name__ == "__main__":
     unittest.main()
