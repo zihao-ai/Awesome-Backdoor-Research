@@ -1,6 +1,6 @@
 # Contributing
 
-Help researchers find relevant backdoor papers, implementations, and learning resources. Small, focused contributions are welcome. This repository currently contains a complete classification framework and a small selection of example entries; the historical catalog has not yet been fully migrated.
+Help researchers find relevant backdoor papers, implementations, and learning resources. Small, focused contributions are welcome. The catalog combines migrated historical entries with newer abstract-reviewed papers and curated learning resources.
 
 ## Choose the right place
 
@@ -60,6 +60,7 @@ Open [the local preview](http://127.0.0.1:8766/). Refresh it after editing the s
 - Assign one or more paper types and the most relevant leaf topic IDs. Do not tag every setting mentioned in the introduction.
 - Put surveys in Surveys. Put benchmark/dataset papers in their research subcategories with the corresponding paper types.
 - Add a toolbox separately only when it is a reusable resource. A single paper's code usually belongs in that paper's `code` field.
+- For tutorials, courses, and workshops, use the edition or teaching year stated by the organizer. Identify broader courses or workshops explicitly and confirm backdoor coverage in the syllabus, scope, or program. Put undated software documentation in the toolbox's extra links rather than inventing an event year.
 - Describe resources factually in one sentence. Avoid promotional language, rankings, and unsupported claims about maintenance or completeness.
 - Do not store PDFs, datasets, model weights, credentials, or other large artifacts in this catalog. Link to their authoritative public locations.
 
@@ -67,6 +68,6 @@ Open [the local preview](http://127.0.0.1:8766/). Refresh it after editing the s
 
 Describe the change and the reason for its classification. Check for existing IDs, titles, and URLs first. Include validation/build results and disclose any links you could not confirm. Keep unrelated taxonomy changes and bulk migrations in separate pull requests.
 
-Normal CI performs offline validation, tests, and a generation check. Live link auditing is a separate, optional command; see the [maintenance guide](docs/maintenance.md). The archived catalog is preserved as a historical snapshot and should not be rewritten.
+Normal CI performs offline validation, tests, and a generation check. Live link auditing is a separate, optional command; see the [maintenance guide](docs/maintenance.md). The previous catalog remains available in Git history; preserve the historical accounting in the curation ledgers.
 
 Contributions to repository files follow the existing [GPL-3.0 license](LICENSE). Linked papers, code, and resources retain their own licenses; listing a URL does not relicense its contents.

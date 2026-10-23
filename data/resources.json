@@ -13,6 +13,70 @@
           "url": "https://docs.google.com/presentation/d/1C9o8cqltyKqAlkvQVukbNMypUw7G7u1w/edit"
         }
       ]
+    },
+    {
+      "id": "backdoor-copyright-tutorial-2025",
+      "title": "From Devil to Angel: Backdoor Attacks for AI Copyright Protection and Beyond",
+      "year": 2025,
+      "venue": "Southwest Jiaotong University",
+      "url": "https://liyiming.tech/talks/",
+      "description": "Tutorial on constructive uses of backdoors for AI copyright and ownership protection.",
+      "links": [
+        {
+          "label": "Slides",
+          "url": "https://www.dropbox.com/scl/fi/g7a4fje33d4r98w0w0ur3/Talk_YimingLi_20250108.pdf?dl=0&rlkey=qno7yzb3muchlx0aga3yl0sh9&st=jp2vmvka"
+        }
+      ]
+    },
+    {
+      "id": "theory-guided-backdoor-lecture-2024",
+      "title": "Towards Theory-guided Backdoor Learning",
+      "year": 2024,
+      "venue": "International Conference on Mathematical Theory of Deep Learning",
+      "url": "https://liyiming.tech/talks/",
+      "description": "Invited lecture connecting theoretical perspectives with backdoor learning; slides and a recording are available.",
+      "links": [
+        {
+          "label": "Slides",
+          "url": "https://www.dropbox.com/scl/fi/43dl18ew5my28qzam48em/CASTalk_Yiming.pdf?dl=0&rlkey=4vfxdrgdasjgella5798jrjp5&st=ufq6la5b"
+        },
+        {
+          "label": "Recording",
+          "url": "https://www.dropbox.com/scl/fi/6h9sqoongx29oozsv9n07/CASTalk.mp4?dl=0&rlkey=h4eeas0nwmamp8rpkj9jiw49i&st=i81blvgu"
+        }
+      ]
+    },
+    {
+      "id": "bu-cs787-2026",
+      "title": "MET CS 787: AI and Cybersecurity",
+      "year": 2026,
+      "venue": "Boston University",
+      "url": "https://www.bu.edu/csmet/academic-programs/courses/cs787/",
+      "description": "Fall 2026 course listing covering backdoor injection and defenses alongside broader AI security; the public page describes the syllabus and hands-on labs."
+    },
+    {
+      "id": "tau-cryptography-ml-2026",
+      "title": "Cryptography and Machine Learning",
+      "year": 2026,
+      "venue": "Tel Aviv University",
+      "url": "https://www.alonrosen.net/cryptoml/",
+      "description": "Fall 2026–27 course with public notes and a scheduled backdoor unit on detectability, cryptographic constructions, and removal guarantees."
+    },
+    {
+      "id": "umbc-robust-ml-2024",
+      "title": "CMSC 491/691: Robust Machine Learning",
+      "year": 2024,
+      "venue": "University of Maryland, Baltimore County",
+      "url": "https://courses.cs.umbc.edu/graduate/691rml/",
+      "description": "Course with public slides, notes, and readings; its adversarial-attack unit includes backdoors and BadNets."
+    },
+    {
+      "id": "cispa-adversarial-ml-2023",
+      "title": "Topics in Adversarial Machine Learning",
+      "year": 2023,
+      "venue": "CISPA / Saarland University",
+      "url": "https://trustml-cispa.gitlab.io/seminar_aml_ss23/syllabus/",
+      "description": "Research seminar with a public syllabus and reading list covering poisoning and backdoor attacks alongside robustness theory."
     }
   ],
   "workshops": [
@@ -33,6 +97,52 @@
           "url": "https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/BUGS"
         }
       ]
+    },
+    {
+      "id": "c4ai4c-ieee-cai-2026",
+      "title": "Cybersecurity for AI & AI for Cybersecurity (C4AI4C)",
+      "year": 2026,
+      "venue": "IEEE CAI",
+      "url": "https://www.ieeesmc.org/cai-2026/w12-security/",
+      "description": "Broader AI and cybersecurity workshop whose stated scope includes model vulnerabilities such as backdoor attacks."
+    },
+    {
+      "id": "real-life-ml-security-2025",
+      "title": "Adversarial Threats on Real Life Learning Systems",
+      "year": 2025,
+      "venue": "Sorbonne University & CEA",
+      "url": "https://mlsecurity-workshop.github.io/",
+      "description": "Workshop on deployed ML security with backdoor-focused keynote slides and a presentation on physical-world backdoors."
+    },
+    {
+      "id": "dlsp-ieee-sp-2025",
+      "title": "Deep Learning Security and Privacy (DLSP)",
+      "year": 2025,
+      "venue": "IEEE S&P",
+      "url": "https://dlsp2025.ieee-security.org/",
+      "description": "Broader deep learning security workshop explicitly soliciting poisoning and backdoor research, including modern generative and agent settings."
+    },
+    {
+      "id": "trust-llms-iclr-2025",
+      "title": "Building Trust in LLMs and LLM Applications",
+      "year": 2025,
+      "venue": "ICLR",
+      "url": "https://building-trust-in-llms.github.io/iclr-workshop/",
+      "description": "Broader trustworthy-LLM workshop whose poster program includes CleanGen, a defense against backdoors in language generation.",
+      "links": [
+        {
+          "label": "Poster program",
+          "url": "https://building-trust-in-llms.github.io/iclr-workshop/poster_session_2.html"
+        }
+      ]
+    },
+    {
+      "id": "aisec-acm-ccs-2024",
+      "title": "Artificial Intelligence and Security (AISec)",
+      "year": 2024,
+      "venue": "ACM CCS",
+      "url": "https://aisec.cc/2024/",
+      "description": "Broader AI security workshop with accepted work on backdoor defenses, graph-model backdoors, and speaker-identification backdoors."
     }
   ],
   "toolboxes": [
@@ -58,7 +168,13 @@
       "id": "backdoorbench",
       "title": "BackdoorBench",
       "url": "https://github.com/SCLBD/backdoorbench",
-      "description": "A unified evaluation framework for backdoor attacks and defenses in computer vision."
+      "description": "A unified evaluation framework for backdoor attacks and defenses in computer vision.",
+      "links": [
+        {
+          "label": "Docs & tutorials",
+          "url": "https://backdoorbench.github.io/docs/index.html"
+        }
+      ]
     },
     {
       "id": "openbackdoor",
@@ -70,7 +186,61 @@
       "id": "backdoor-toolbox",
       "title": "BackdoorToolbox",
       "url": "https://github.com/vtu81/backdoor-toolbox",
-      "description": "A collection of backdoor attack and defense implementations retained from the original catalog."
+      "description": "Image classification: shared implementations for backdoor attacks, defenses, and evaluation."
+    },
+    {
+      "id": "backdoorllm",
+      "title": "BackdoorLLM",
+      "url": "https://github.com/bboylyg/BackdoorLLM",
+      "description": "LLMs: a shared framework for backdoor attack experiments and defense comparisons, including the Backdoor-DefenseBox module."
+    },
+    {
+      "id": "backdoordm",
+      "title": "BackdoorDM",
+      "url": "https://github.com/linweiii/BackdoorDM",
+      "description": "Diffusion models: integrated attacks, defenses, evaluation metrics, and visualization tools for image-generation backdoors."
+    },
+    {
+      "id": "backdoormbti",
+      "title": "BackdoorMBTI",
+      "url": "https://github.com/SJTUHaiyangYu/BackdoorMBTI",
+      "description": "Image, text, and audio classification: a common toolkit for configuring backdoor attacks and evaluating defenses across modalities.",
+      "links": [
+        {
+          "label": "Docs & tutorials",
+          "url": "https://backdoormbti.readthedocs.io/en/latest/"
+        }
+      ]
+    },
+    {
+      "id": "backfed",
+      "title": "BackFed",
+      "url": "https://github.com/thinh-dao/BackFed",
+      "description": "Federated learning: modular attack and defense evaluation with shared configurations and optional parallel client training."
+    },
+    {
+      "id": "backdoors101",
+      "title": "Backdoors 101",
+      "url": "https://github.com/ebagdasa/backdoors101",
+      "description": "Centralized and federated learning: a PyTorch framework with configurable tasks, trigger synthesizers, and backdoor experiments."
+    },
+    {
+      "id": "mithridates",
+      "title": "Mithridates",
+      "url": "https://github.com/ebagdasa/mithridates",
+      "description": "Training pipelines: wrappers and examples for measuring backdoor resistance and searching for more resistant training configurations."
+    },
+    {
+      "id": "adversarial-robustness-toolbox",
+      "title": "Adversarial Robustness Toolbox (ART)",
+      "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox",
+      "description": "General ML security: a reusable library with backdoor poisoning implementations, including attacks on generative models.",
+      "links": [
+        {
+          "label": "Backdoor attack API",
+          "url": "https://adversarial-robustness-toolbox.readthedocs.io/en/latest/modules/attacks/poisoning.html"
+        }
+      ]
     }
   ]
 }

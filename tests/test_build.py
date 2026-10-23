@@ -33,6 +33,32 @@ class RenderingTests(CatalogFixture):
         self.assertEqual(output.count('title="Code repository"'), 2)
         self.assertNotIn('Official implementation', output)
 
+    def test_navigation_links_full_topic_names_in_separate_lines_with_zero_counts(self):
+        self.taxonomy['areas'][1]['topics'][0]['name'] = 'Image Recognition & Classification'
+        output = self.render()
+        navigation = output.split('</table>', 1)[0]
+        self.assertIn('Surveys (0)</strong></a>', navigation)
+        self.assertIn('Vision (1)</strong></a>', navigation)
+        self.assertIn('<a href="#topic-general-surveys">General Surveys (0)</a>', navigation)
+        self.assertIn('<a href="#topic-recognition">Image Recognition &amp; Classification (1)</a><br>', navigation)
+        self.assertIn('<a href="#topic-video">Video (0)</a>', navigation)
+
+    def test_navigation_deduplicates_area_papers_and_recounts_after_addition(self):
+        self.paper['topics'] = ['recognition', 'video']
+        self.save()
+        catalog = load_catalog(self.root)
+        first = render_readme(catalog, self.template).split('</table>', 1)[0]
+        self.assertIn('Vision (1)</strong></a>', first)
+        self.assertIn('Recognition (1)</a>', first)
+        self.assertIn('Video (1)</a>', first)
+        new = dict(self.paper, id='new-2025', title='New Paper', year=2025,
+                   url='https://example.org/new', topics=['video'])
+        self.write('data/papers/2025.json', [new])
+        updated = render_readme(load_catalog(self.root), self.template).split('</table>', 1)[0]
+        self.assertIn('Vision (2)</strong></a>', updated)
+        self.assertIn('Recognition (1)</a>', updated)
+        self.assertIn('Video (2)</a>', updated)
+
     def test_missing_code_renders_dash(self):
         del self.paper["code"]
         output = self.render()

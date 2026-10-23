@@ -82,19 +82,6 @@
     "code": "https://github.com/ruoxi-jia-group/ASSET"
   },
   {
-    "id": "attacks-in-adversarial-machine-learning-a-systematic-survey-from-the-life-cycle-perspective-2023",
-    "title": "Attacks in Adversarial Machine Learning: A Systematic Survey from the Life-cycle Perspective",
-    "year": 2023,
-    "venue": "arXiv",
-    "url": "https://arxiv.org/abs/2302.09457",
-    "types": [
-      "Survey"
-    ],
-    "topics": [
-      "general-surveys"
-    ]
-  },
-  {
     "id": "backdoor-attacks-against-deep-image-compression-via-adaptive-frequency-trigger-2023",
     "title": "Backdoor Attacks Against Deep Image Compression via Adaptive Frequency Trigger",
     "year": 2023,

@@ -72,6 +72,8 @@ The files in `curation/` are editorial ledgers, separate from rendered paper fie
 
 These ledgers do not duplicate paper abstracts or feed the README renderer. The offline curation tests check archive accounting, paper references, and batch coverage. See the dated [coverage report](../docs/curation.md) for interpretation and limitations. Add later editorial batches without rewriting the historical evidence.
 
+The separate [resource curation notes](../docs/resource-curation.md) document official sources, edition dates, scope boundaries, and availability limitations for the tutorial, course, workshop, and toolbox expansion.
+
 ## URLs and rendering
 
 URLs must be absolute HTTP(S) addresses without credentials or whitespace. Code/toolbox links must point to `github.com/owner/repository`, with optional trailing slash or `.git`. Put a documentation URL in resource `links`, not in a GitHub icon cell. A missing paper implementation renders as `—`.

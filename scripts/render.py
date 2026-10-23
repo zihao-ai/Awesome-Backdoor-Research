@@ -34,12 +34,25 @@ def github_icon(url: str) -> str:
     )
 
 
-def _navigation(areas: list[dict]) -> str:
+def _navigation(areas: list[dict], papers: list[dict]) -> str:
+    paper_ids_by_topic: dict[str, set[str]] = {}
+    for paper in papers:
+        for topic in paper['topics']:
+            paper_ids_by_topic.setdefault(topic, set()).add(paper['id'])
+
     def cell(area: dict, attribute: str) -> str:
+        area_papers: set[str] = set()
+        topic_links = []
+        for topic in area['topics']:
+            topic_papers = paper_ids_by_topic.get(topic['id'], set())
+            area_papers.update(topic_papers)
+            topic_links.append(
+                f'<a href="#topic-{topic["id"]}">{escape(topic["name"])} ({len(topic_papers)})</a>'
+            )
         return (
-            f'    <td {attribute}><a href="#area-{area["id"]}"><strong>'
-            f'{escape(area["emoji"])} {escape(area["name"])}</strong></a><br>'
-            f'<sub>{escape(area["description"])}</sub></td>'
+            f'    <td {attribute} valign="top"><a href="#area-{area["id"]}"><strong>'
+            f'{escape(area["emoji"])} {escape(area["name"])} ({len(area_papers)})</strong></a><br>\n'
+            + '<br>\n'.join(topic_links) + '</td>'
         )
 
     lines = ["<table>", "  <tr>", cell(areas[0], 'colspan="2"'), "  </tr>"]
@@ -112,7 +125,7 @@ def render_readme(catalog: dict, template: str) -> str:
     """Render validated sources; no filesystem writes or network requests."""
     validate_template(template)
     generated = {
-        "AREA_NAVIGATION": _navigation(catalog["taxonomy"]["areas"]),
+        "AREA_NAVIGATION": _navigation(catalog["taxonomy"]["areas"], catalog["papers"]),
         "PAPERS": _papers(catalog),
         "TUTORIALS": _resource_list(catalog["resources"]["tutorials"]),
         "WORKSHOPS": _resource_list(catalog["resources"]["workshops"]),

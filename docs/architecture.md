@@ -59,6 +59,8 @@ Awesome-Backdoor-Research/
 
 `data/taxonomy.json` determines navigation, category order, stable anchors, and every paper table. Its hierarchy has 12 areas and 39 subcategories, with Surveys first. Add or rename classifications there; do not create parallel handwritten lists of paper entries.
 
+The navigation shows each full subcategory name on its own line, linked to its stable `topic-` anchor. `scripts/render.py` derives all navigation counts from paper IDs at build time: a subcategory counts its records, and an area counts the union of its subcategories. A paper assigned to two subcategories in one area is counted once in that area's total. Counts can overlap across areas; their sum is not the catalog's unique-paper total. After adding, removing, or reclassifying papers, run `python scripts/build.py` to update both counts and paper tables. The existing `--check` command and CI generation check detect stale generated output.
+
 `data/papers/YYYY.json` stores each paper once. Its `topics` array contains one or more leaf IDs, allowing the same record to appear in multiple appropriate tables. The filename year must match each record's displayed publication year. `types` is an array of Attack, Defense, Analysis, Application, Survey, Benchmark, or Dataset. Survey records belong in survey subcategories; benchmark and dataset papers belong in their subject areas.
 
 `data/resources.json` keeps tutorials/courses, workshops, and toolboxes separate from paper records. The README template supplies fixed prose and exactly five generated slots: `AREA_NAVIGATION`, `PAPERS`, `TUTORIALS`, `WORKSHOPS`, and `TOOLBOXES`.

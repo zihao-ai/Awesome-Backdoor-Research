@@ -18,38 +18,26 @@
       ]
     },
     {
-      "id": "computer-vision",
-      "name": "Computer Vision",
-      "emoji": "🖼️",
-      "description": "Recognition, detection, segmentation, video & 3D vision",
+      "id": "ai-agents",
+      "name": "AI Agents",
+      "emoji": "🤖",
+      "description": "Planning, memory, tools, skills & multi-agent systems",
       "topics": [
         {
-          "id": "image-classification",
-          "name": "Image Classification & Recognition"
+          "id": "agent-planning",
+          "name": "Planning & Reasoning"
         },
         {
-          "id": "detection-segmentation-tracking",
-          "name": "Object Detection, Segmentation & Tracking"
+          "id": "agent-memory",
+          "name": "Memory & Knowledge"
         },
         {
-          "id": "video-understanding",
-          "name": "Video Understanding"
+          "id": "agent-tools",
+          "name": "Tools & Skills"
         },
         {
-          "id": "3d-vision",
-          "name": "3D Vision & Point Clouds"
-        },
-        {
-          "id": "visual-representation",
-          "name": "Visual Representation Learning"
-        },
-        {
-          "id": "image-restoration-compression",
-          "name": "Image Restoration & Compression"
-        },
-        {
-          "id": "visual-regression-counting",
-          "name": "Visual Regression & Counting"
+          "id": "multi-agent-systems",
+          "name": "Multi-Agent Systems"
         }
       ]
     },
@@ -130,30 +118,6 @@
       ]
     },
     {
-      "id": "ai-agents",
-      "name": "AI Agents",
-      "emoji": "🤖",
-      "description": "Planning, memory, tools, skills & multi-agent systems",
-      "topics": [
-        {
-          "id": "agent-planning",
-          "name": "Planning & Reasoning"
-        },
-        {
-          "id": "agent-memory",
-          "name": "Memory & Knowledge"
-        },
-        {
-          "id": "agent-tools",
-          "name": "Tools & Skills"
-        },
-        {
-          "id": "multi-agent-systems",
-          "name": "Multi-Agent Systems"
-        }
-      ]
-    },
-    {
       "id": "embodied-ai",
       "name": "Embodied AI",
       "emoji": "🦾",
@@ -174,6 +138,42 @@
         {
           "id": "embodied-planning",
           "name": "Embodied Planning & Interaction"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision",
+      "name": "Computer Vision",
+      "emoji": "🖼️",
+      "description": "Recognition, detection, segmentation, video & 3D vision",
+      "topics": [
+        {
+          "id": "image-classification",
+          "name": "Image Classification & Recognition"
+        },
+        {
+          "id": "detection-segmentation-tracking",
+          "name": "Object Detection, Segmentation & Tracking"
+        },
+        {
+          "id": "video-understanding",
+          "name": "Video Understanding"
+        },
+        {
+          "id": "3d-vision",
+          "name": "3D Vision & Point Clouds"
+        },
+        {
+          "id": "visual-representation",
+          "name": "Visual Representation Learning"
+        },
+        {
+          "id": "image-restoration-compression",
+          "name": "Image Restoration & Compression"
+        },
+        {
+          "id": "visual-regression-counting",
+          "name": "Visual Regression & Counting"
         }
       ]
     },

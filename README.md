@@ -24,32 +24,73 @@
 
 Start with surveys for an overview, or browse a research area and its subcategories. Each table lists papers from newest to oldest; GitHub icons link to implementations when available.
 
+Navigation counts are generated from the catalog. Each area counts unique papers across its subcategories; cross-listed papers may appear in multiple subcategories or areas.
+
 <table>
   <tr>
-    <td colspan="2"><a href="#area-surveys"><strong>📖 Surveys</strong></a><br><sub>Start here: broad overviews and surveys of specific research directions</sub></td>
+    <td colspan="2" valign="top"><a href="#area-surveys"><strong>📖 Surveys (14)</strong></a><br>
+<a href="#topic-general-surveys">General Surveys (7)</a><br>
+<a href="#topic-surveys-specific">Topic-Specific Surveys (7)</a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="#area-computer-vision"><strong>🖼️ Computer Vision</strong></a><br><sub>Recognition, detection, segmentation, video &amp; 3D vision</sub></td>
-    <td width="50%"><a href="#area-language-models"><strong>📝 NLP &amp; Language Models</strong></a><br><sub>Text, language models, reasoning &amp; code generation</sub></td>
+    <td width="50%" valign="top"><a href="#area-ai-agents"><strong>🤖 AI Agents (28)</strong></a><br>
+<a href="#topic-agent-planning">Planning &amp; Reasoning (5)</a><br>
+<a href="#topic-agent-memory">Memory &amp; Knowledge (4)</a><br>
+<a href="#topic-agent-tools">Tools &amp; Skills (19)</a><br>
+<a href="#topic-multi-agent-systems">Multi-Agent Systems (5)</a></td>
+    <td width="50%" valign="top"><a href="#area-language-models"><strong>📝 NLP &amp; Language Models (86)</strong></a><br>
+<a href="#topic-text-classification">Text Classification &amp; Sequence Labeling (19)</a><br>
+<a href="#topic-language-representation">Language Representation &amp; Embedding Models (10)</a><br>
+<a href="#topic-sequence-generation-translation">Sequence Generation &amp; Translation (3)</a><br>
+<a href="#topic-llms">Large Language Models &amp; Instruction Following (38)</a><br>
+<a href="#topic-code-models">Code Language Models (16)</a><br>
+<a href="#topic-rag">Retrieval-Augmented Generation (7)</a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="#area-multimodal-learning"><strong>🔗 Multimodal Learning</strong></a><br><sub>Cross-modal representations, retrieval &amp; understanding</sub></td>
-    <td width="50%"><a href="#area-generative-models"><strong>🎨 Generative Models</strong></a><br><sub>Image, video, audio &amp; 3D generation</sub></td>
+    <td width="50%" valign="top"><a href="#area-multimodal-learning"><strong>🔗 Multimodal Learning (40)</strong></a><br>
+<a href="#topic-vision-language-representation">Vision–Language Representation &amp; Retrieval (13)</a><br>
+<a href="#topic-mllms">Vision–Language Understanding &amp; MLLMs (23)</a><br>
+<a href="#topic-audio-language">Audio–Language &amp; Other Multimodal Models (4)</a></td>
+    <td width="50%" valign="top"><a href="#area-generative-models"><strong>🎨 Generative Models (27)</strong></a><br>
+<a href="#topic-image-generation">Image Generation &amp; Editing (21)</a><br>
+<a href="#topic-video-generation">Video Generation (2)</a><br>
+<a href="#topic-audio-generation">Audio, Speech &amp; Music Generation (1)</a><br>
+<a href="#topic-3d-generation">3D Content &amp; Motion Generation (3)</a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="#area-ai-agents"><strong>🤖 AI Agents</strong></a><br><sub>Planning, memory, tools, skills &amp; multi-agent systems</sub></td>
-    <td width="50%"><a href="#area-embodied-ai"><strong>🦾 Embodied AI</strong></a><br><sub>Vision–language–action models, robotics &amp; autonomy</sub></td>
+    <td width="50%" valign="top"><a href="#area-embodied-ai"><strong>🦾 Embodied AI (19)</strong></a><br>
+<a href="#topic-vla-models">Vision–Language–Action Models (6)</a><br>
+<a href="#topic-robotic-control">Robotic Manipulation &amp; Control (3)</a><br>
+<a href="#topic-navigation-driving">Navigation &amp; Autonomous Driving (5)</a><br>
+<a href="#topic-embodied-planning">Embodied Planning &amp; Interaction (6)</a></td>
+    <td width="50%" valign="top"><a href="#area-computer-vision"><strong>🖼️ Computer Vision (177)</strong></a><br>
+<a href="#topic-image-classification">Image Classification &amp; Recognition (134)</a><br>
+<a href="#topic-detection-segmentation-tracking">Object Detection, Segmentation &amp; Tracking (17)</a><br>
+<a href="#topic-video-understanding">Video Understanding (3)</a><br>
+<a href="#topic-3d-vision">3D Vision &amp; Point Clouds (9)</a><br>
+<a href="#topic-visual-representation">Visual Representation Learning (11)</a><br>
+<a href="#topic-image-restoration-compression">Image Restoration &amp; Compression (5)</a><br>
+<a href="#topic-visual-regression-counting">Visual Regression &amp; Counting (5)</a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="#area-graph-learning"><strong>🕸️ Graph Learning</strong></a><br><sub>Graph classification, node classification &amp; link prediction</sub></td>
-    <td width="50%"><a href="#area-speech-audio"><strong>🔊 Speech &amp; Audio</strong></a><br><sub>Speech recognition, speaker verification &amp; audio understanding</sub></td>
+    <td width="50%" valign="top"><a href="#area-graph-learning"><strong>🕸️ Graph Learning (14)</strong></a><br>
+<a href="#topic-graph-node-classification">Graph &amp; Node Classification (10)</a><br>
+<a href="#topic-graph-representation">Link Prediction &amp; Graph Representation Learning (5)</a></td>
+    <td width="50%" valign="top"><a href="#area-speech-audio"><strong>🔊 Speech &amp; Audio (12)</strong></a><br>
+<a href="#topic-speech-recognition">Speech &amp; Speaker Recognition (10)</a><br>
+<a href="#topic-audio-representation">Audio Classification &amp; Representation Learning (2)</a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="#area-reinforcement-learning"><strong>🎮 Reinforcement Learning</strong></a><br><sub>Policies, sequential decisions &amp; multi-agent learning</sub></td>
-    <td width="50%"><a href="#area-federated-learning"><strong>🌐 Federated Learning</strong></a><br><sub>Collaborative training, client updates &amp; aggregation</sub></td>
+    <td width="50%" valign="top"><a href="#area-reinforcement-learning"><strong>🎮 Reinforcement Learning (16)</strong></a><br>
+<a href="#topic-single-agent-rl">Single-Agent Reinforcement Learning (11)</a><br>
+<a href="#topic-multi-agent-rl">Multi-Agent Reinforcement Learning (7)</a></td>
+    <td width="50%" valign="top"><a href="#area-federated-learning"><strong>🌐 Federated Learning (26)</strong></a><br>
+<a href="#topic-horizontal-fl">Horizontal Federated Learning (21)</a><br>
+<a href="#topic-vertical-fl">Vertical Federated Learning (5)</a></td>
   </tr>
   <tr>
-    <td colspan="2"><a href="#area-foundations-theory"><strong>📐 Foundations &amp; Theory</strong></a><br><sub>Learning-theoretic limits, formal guarantees &amp; cryptographic backdoors</sub></td>
+    <td colspan="2" valign="top"><a href="#area-foundations-theory"><strong>📐 Foundations &amp; Theory (13)</strong></a><br>
+<a href="#topic-learning-theory">Learning Theory &amp; Formal Guarantees (13)</a></td>
   </tr>
 </table>
 
@@ -67,9 +108,9 @@ Survey papers are collected in **Surveys**; benchmark and dataset papers appear 
 
 | Year / Venue | Paper | Type | Code |
 | :--- | :--- | :--- | :---: |
+| 2026 · IJCV | [Attacks in Adversarial Machine Learning: A Systematic Survey from the Lifecycle Perspective](https://doi.org/10.1007/s11263-025-02692-0) | `Survey` | — |
 | 2025 · arXiv | [SoK: The Last Line of Defense: On Backdoor Defense Evaluation](https://arxiv.org/abs/2511.13143) | `Survey` · `Analysis` | — |
 | 2024 · arXiv | [A Survey of Trojan Attacks and Defenses to Deep Neural Networks](https://arxiv.org/abs/2408.08920) | `Survey` | — |
-| 2023 · arXiv | [Attacks in Adversarial Machine Learning: A Systematic Survey from the Life\-cycle Perspective](https://arxiv.org/abs/2302.09457) | `Survey` | — |
 | 2022 · TNNLS | [Backdoor Learning: A Survey](https://arxiv.org/abs/2007.08745) | `Survey` | — |
 | 2022 · TPAMI | [Dataset Security for Machine Learning: Data Poisoning, Backdoor Attacks, and Defenses](https://arxiv.org/abs/2012.10544) | `Survey` | — |
 | 2021 · Neurocomputing | [Defense against Neural Trojan Attacks: A Survey](https://www.sciencedirect.com/science/article/pii/S0925231220316350) | `Survey` | — |
@@ -91,242 +132,70 @@ Survey papers are collected in **Surveys**; benchmark and dataset papers appear 
 
 <p align="right"><a href="#papers">↑ Research areas</a></p>
 
-<a id="area-computer-vision"></a>
+<a id="area-ai-agents"></a>
 
-### 🖼️ Computer Vision
+### 🤖 AI Agents
 
-<a id="topic-image-classification"></a>
+<a id="topic-agent-planning"></a>
 
-#### Image Classification &amp; Recognition
-
-| Year / Venue | Paper | Type | Code |
-| :--- | :--- | :--- | :---: |
-| 2026 · AAAI | [Breaking the Stealth\-Potency Trade\-off in Clean\-Image Backdoors with Generative Trigger Optimization](https://arxiv.org/abs/2511.07210) | `Attack` | — |
-| 2024 · arXiv | [BadScan: An Architectural Backdoor Attack on Visual State Space Models](https://arxiv.org/abs/2411.17283) | `Attack` | — |
-| 2024 · arXiv | [Megatron: Evasive Clean\-Label Backdoor Attacks against Vision Transformer](https://arxiv.org/abs/2412.04776) | `Attack` | — |
-| 2024 · BMVC | [Backdoor Defense through Self\-Supervised and Generative Learning](https://arxiv.org/abs/2409.01185) | `Defense` | — |
-| 2024 · ICLR | [VDC: Versatile Data Cleanser based on Visual\-Linguistic Inconsistency by Multimodal Large Language Models](https://arxiv.org/abs/2309.16211) | `Defense` | <a href="https://github.com/zihao-ai/vdc" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2024 · IEEE S&amp;P | [MM\-BD: Post\-Training Detection of Backdoor Attacks with Arbitrary Backdoor Pattern Types Using a Maximum Margin Statistic](https://arxiv.org/abs/2205.06900) | `Defense` | — |
-| 2024 · IEEE S&amp;P | [Robust Backdoor Detection for Deep Learning via Topological Evolution Dynamics](https://arxiv.org/abs/2312.02673) | `Defense` · `Attack` · `Analysis` | <a href="https://github.com/tedbackdoordefense/ted" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · arXiv | [BackdoorBox: A Python Toolbox for Backdoor Learning](https://arxiv.org/abs/2302.01762) | `Benchmark` | <a href="https://github.com/THUYimingLi/BackdoorBox" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · arXiv | [Boosting backdoor attack with a learnable poisoning sample selection strategy](https://arxiv.org/abs/2307.07328) | `Attack` | — |
-| 2023 · arXiv | [Robust Backdoor Attack with Visible, Semantic, Sample\-Specific, and Compatible Triggers](https://arxiv.org/abs/2306.00816) | `Attack` | — |
-| 2023 · CVPR | [Architectural Backdoors in Neural Networks](https://arxiv.org/abs/2206.07840) | `Attack` | — |
-| 2023 · CVPR | [Backdoor Cleansing with Unlabeled Data](https://arxiv.org/abs/2211.12044) | `Defense` | <a href="https://github.com/luluppang/BCU" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · CVPR | [Backdoor Defense via Adaptively Splitting Poisoned Dataset](https://arxiv.org/abs/2303.12993) | `Defense` | <a href="https://github.com/KuofengGao/ASD" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · CVPR | [Backdoor Defense via Deconfounded Representation Learning](https://arxiv.org/abs/2303.06818) | `Defense` | <a href="https://github.com/zaixizhang/CBD" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · CVPR | [Color Backdoor: A Robust Poisoning Attack in Color Space](https://openaccess.thecvf.com/content/CVPR2023/html/Jiang_Color_Backdoor_A_Robust_Poisoning_Attack_in_Color_Space_CVPR_2023_paper.html) | `Attack` | — |
-| 2023 · CVPR | [Detecting Backdoors During the Inference Stage Based on Corruption Robustness Consistency](https://arxiv.org/abs/2303.18191) | `Defense` | — |
-| 2023 · CVPR | [Don’t FREAK Out: A Frequency\-Inspired Approach to Detecting Backdoor Poisoned Samples in DNNs](https://arxiv.org/abs/2303.13211) | `Defense` | — |
-| 2023 · CVPR | [MEDIC: Remove Model Backdoors via Importance Driven Cloning](https://openaccess.thecvf.com/content/CVPR2023/html/Xu_MEDIC_Remove_Model_Backdoors_via_Importance_Driven_Cloning_CVPR_2023_paper.html) | `Defense` | — |
-| 2023 · CVPR | [Progressive Backdoor Erasing via connecting Backdoor and Adversarial Attacks](https://arxiv.org/abs/2202.06312) | `Defense` | — |
-| 2023 · CVPR | [Single Image Backdoor Inversion via Robust Smoothed Classifiers](https://openaccess.thecvf.com/content/CVPR2023/html/Sun_Single_Image_Backdoor_Inversion_via_Robust_Smoothed_Classifiers_CVPR_2023_paper.html) | `Defense` | <a href="https://github.com/locuslab/smoothinv" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · CVPR | [The Dark Side of Dynamic Routing Neural Networks: Towards Efficiency Backdoor Injection](https://openaccess.thecvf.com/content/CVPR2023/html/Chen_The_Dark_Side_of_Dynamic_Routing_Neural_Networks_Towards_Efficiency_CVPR_2023_paper.html) | `Attack` | <a href="https://github.com/SeekingDream/CVPR23_EfficFrog" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · CVPR | [You Are Catching My Attention: Are Vision Transformers Bad Learners Under Backdoor Attacks?](https://openaccess.thecvf.com/content/CVPR2023/html/Yuan_You_Are_Catching_My_Attention_Are_Vision_Transformers_Bad_Learners_CVPR_2023_paper.html) | `Attack` | — |
-| 2023 · ICASSP | [Backdoor Defense via Suppressing Model Shortcuts](https://arxiv.org/abs/2211.05631) | `Defense` | <a href="https://github.com/20000yshust/Backdoor-Defense-Via-Suppressing-Model-Shortcuts" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · ICCV | [Beating Backdoor Attack at Its Own Game](https://arxiv.org/abs/2307.15539) | `Defense` | <a href="https://github.com/damianliumin/non-adversarial" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · ICCV | [Computation and Data Efficient Backdoor Attacks](https://openaccess.thecvf.com/content/ICCV2023/html/Wu_Computation_and_Data_Efficient_Backdoor_Attacks_ICCV_2023_paper.html) | `Attack` | — |
-| 2023 · ICCV | [Enhancing Fine\-Tuning Based Backdoor Defense with Sharpness\-Aware Minimization](https://arxiv.org/abs/2304.11823) | `Defense` | — |
-| 2023 · ICCV | [The Perils of Learning From Unlabeled Data: Backdoor Attacks on Semi\-supervised Learning](https://arxiv.org/abs/2211.00453) | `Attack` | — |
-| 2023 · ICLR | [Clean\-image Backdoor: Attacking Multi\-label Models with Poisoned Labels Only](https://openreview.net/forum?id=rFQfjDC9Mt) | `Attack` | — |
-| 2023 · ICLR | [Few\-shot Backdoor Attacks via Neural Tangent Kernels](https://arxiv.org/abs/2210.05929) | `Attack` | — |
-| 2023 · ICLR | [Incompatibility Clustering as a Defense Against Backdoor Poisoning Attacks](https://arxiv.org/abs/2105.03692) | `Defense` | — |
-| 2023 · ICLR | [Revisiting the Assumption of Latent Separability for Backdoor Defenses](https://openreview.net/forum?id=_wSHsgrVali) | `Attack` | <a href="https://github.com/Unispac/Circumventing-Backdoor-Defenses" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · ICLR | [SCALE\-UP: An Efficient Black\-box Input\-level Backdoor Detection via Analyzing Scaled Prediction Consistency](https://arxiv.org/abs/2302.03251) | `Defense` | <a href="https://github.com/JunfengGo/SCALE-UP" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · ICLR | [The Dark Side of AutoML: Towards Architectural Backdoor Search](https://arxiv.org/abs/2210.12179) | `Attack` | <a href="https://github.com/ain-soph/nas_backdoor" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · ICLR | [UNICORN: A Unified Backdoor Trigger Inversion Framework](https://arxiv.org/abs/2304.02786) | `Defense` | <a href="https://github.com/RU-System-Software-and-Security/UNICORN" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · IJCAI | [Orion: Online Backdoor Sample Detection via Evolution Deviance](https://www.ijcai.org/proceedings/2023/96) | `Defense` | — |
-| 2023 · NDSS | [The “Beatrix” Resurrections: Robust Backdoor Detection via Gram Matrices](https://arxiv.org/abs/2209.11715) | `Defense` | <a href="https://github.com/wanlunsec/Beatrix" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · NeurIPS | [A Unified Detection Framework for Inference\-Stage Backdoor Defenses](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1868a3c73d0d2a44c42458575fa8514c-Abstract-Conference.html) | `Defense` | — |
-| 2023 · NeurIPS | [Black\-box Backdoor Defense via Zero\-shot Image Purification](https://arxiv.org/abs/2303.12175) | `Defense` | — |
-| 2023 · NeurIPS | [CBD: A Certified Backdoor Detector Based on Local Dominant Probability](https://arxiv.org/abs/2310.17498) | `Defense` | — |
-| 2023 · NeurIPS | [Label Poisoning is All You Need](https://arxiv.org/abs/2310.18933) | `Attack` | — |
-| 2023 · NeurIPS | [Neural Polarizer: A Lightweight and Effective Backdoor Defense via Purifying Poisoned Features](https://arxiv.org/abs/2306.16697) | `Defense` | — |
-| 2023 · NeurIPS | [Shared Adversarial Unlearning: Backdoor Mitigation by Unlearning Shared Adversarial Examples](https://arxiv.org/abs/2307.10562) | `Defense` | — |
-| 2023 · NeurIPS | [Towards Stable Backdoor Purification through Feature Shift Tuning](https://arxiv.org/abs/2310.01875) | `Defense` | <a href="https://github.com/AISafety-HKUST/stable_backdoor_purification" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · USENIX Security | [ASSET: Robust Backdoor Data Detection Across a Multiplicity of Deep Learning Paradigms](https://arxiv.org/abs/2302.11408) | `Defense` | <a href="https://github.com/ruoxi-jia-group/ASSET" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · USENIX Security | [How to Sift Out a Clean Data Subset in the Presence of Data Poisoning?](https://arxiv.org/abs/2210.06516) | `Defense` | <a href="https://github.com/ruoxi-jia-group/Meta-Sift" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · USENIX Security | [Towards A Proactive ML Approach for Detecting Backdoor Poison Samples](https://arxiv.org/abs/2205.13616) | `Defense` | — |
-| 2022 · AAAI | [Backdoor Attacks on the DNN Interpretation System](https://arxiv.org/abs/2011.10698) | `Attack` · `Analysis` | — |
-| 2022 · AAAI | [Hibernated Backdoor: A Mutual Information Empowered Backdoor Attack to Deep Neural Networks](https://ojs.aaai.org/index.php/AAAI/article/view/21272) | `Attack` | — |
-| 2022 · CCS | [LoneNeuron: A Highly\-Effective Feature\-Domain Neural Trojan Using Invisible and Polymorphic Watermarks](https://liuzey.com/publication/ccs2022) | `Attack` | — |
-| 2022 · CCS | [Poster: Backdoor Attacks on Spiking NNs and Neuromorphic Datasets](https://www.sigsac.org/ccs/CCS2022/proceedings/ccs-proceedings.html) | `Attack` | <a href="https://github.com/GorkaAbad/NeuromorphicBackdoors" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · CVPR | [Better Trigger Inversion Optimization in Backdoor Scanning](https://openaccess.thecvf.com/content/CVPR2022/html/Tao_Better_Trigger_Inversion_Optimization_in_Backdoor_Scanning_CVPR_2022_paper.html) | `Defense` | <a href="https://github.com/Gwinhen/PixelBackdoor" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · CVPR | [BppAttack: Stealthy and Efficient Trojan Attacks against Deep Neural Networks via Image Quantization and Contrastive Adversarial Learning](https://arxiv.org/abs/2205.13383) | `Attack` | — |
-| 2022 · CVPR | [Complex Backdoor Detection by Symmetric Feature Differencing](https://openaccess.thecvf.com/content/CVPR2022/html/Liu_Complex_Backdoor_Detection_by_Symmetric_Feature_Differencing_CVPR_2022_paper.html) | `Defense` | <a href="https://github.com/PurduePAML/Exray" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · CVPR | [DEFEAT: Deep Hidden Feature Backdoor Attacks by Imperceptible Perturbation and Latent Representation Constraints](https://openaccess.thecvf.com/content/CVPR2022/html/Zhao_DEFEAT_Deep_Hidden_Feature_Backdoor_Attacks_by_Imperceptible_Perturbation_and_CVPR_2022_paper.html) | `Attack` | — |
-| 2022 · CVPR | [Few\-Shot Backdoor Defense Using Shapley Estimation](https://arxiv.org/abs/2112.14889) | `Defense` | — |
-| 2022 · CVPR | [FIBA: Frequency\-Injection based Backdoor Attack in Medical Image Analysis](https://arxiv.org/abs/2112.01148) | `Attack` | <a href="https://github.com/HazardFY/FIBA" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · CVPR | [Towards Practical Deployment\-Stage Backdoor Attack on Deep Neural Networks](https://arxiv.org/abs/2111.12965) | `Attack` | — |
-| 2022 · ECCV | [An Invisible Black\-Box Backdoor Attack Through Frequency Domain](https://researchconnect.stonybrook.edu/en/publications/an-invisible-black-box-backdoor-attack-through-frequency-domain/) | `Attack` | <a href="https://github.com/SoftWiser-group/FTrojan" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · ECCV | [Data\-free backdoor removal based on channel lipschitzness](https://arxiv.org/abs/2208.03111) | `Defense` | <a href="https://github.com/rkteddy/channel-Lipschitzness-based-pruning" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · ECCV | [RIBAC: Towards Robust and Imperceptible Backdoor Attack against Compact DNN](https://arxiv.org/abs/2208.10608) | `Attack` | <a href="https://github.com/huyvnphan/ECCV2022-RIBAC" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · EuroS&amp;P | [Dynamic Backdoor Attacks Against Machine Learning Models](https://arxiv.org/abs/2003.03675) | `Attack` | — |
-| 2022 · EuroS&amp;P | [TrojanZoo: Towards Unified, Holistic, and Practical Evaluation of Neural Backdoors](https://arxiv.org/abs/2012.09302) | `Benchmark` | <a href="https://github.com/ain-soph/trojanzoo" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · ICASSP | [Invisible and Efficient Backdoor Attacks for Compressed Deep Neural Networks](https://www.researchwithrutgers.org/en/publications/invisible-and-efficient-backdoor-attacks-for-compressed-deep-neur/) | `Attack` | — |
-| 2022 · ICASSP | [Stealthy Backdoor Attack with Adversarial Training](https://resourcecenter.ieee.org/conferences/icassp-2022/spsicassp22vid1582) | `Attack` | — |
-| 2022 · ICLR | [Adversarial Unlearning of Backdoors via Implicit Hypergradient](https://arxiv.org/abs/2110.03735) | `Defense` | <a href="https://github.com/YiZeng623/I-BAU" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · ICLR | [AEVA: Black\-box Backdoor Detection Using Adversarial Extreme Value Analysis](https://arxiv.org/abs/2110.14880) | `Defense` | <a href="https://github.com/JunfengGo/AEVA-Blackbox-Backdoor-Detection-main" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · ICLR | [Backdoor defense via decoupling the training process](https://arxiv.org/abs/2202.03423) | `Defense` | <a href="https://github.com/SCLBD/DBD" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · ICLR | [How to Inject Backdoors with Better Consistency: Logit Anchoring on Clean Data](https://arxiv.org/abs/2109.01300) | `Attack` | — |
-| 2022 · ICLR | [Post\-Training Detection of Backdoor Attacks for Two\-Class and Multi\-Attack Scenarios](https://arxiv.org/abs/2201.08474) | `Defense` | <a href="https://github.com/zhenxianglance/2ClassBADetection" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · ICLR | [Trigger Hunting with a Topological Prior for Trojan Detection](https://arxiv.org/abs/2110.08335) | `Defense` | — |
-| 2022 · IJCAI | [Data\-Efficient Backdoor Attacks](https://arxiv.org/abs/2204.12281) | `Attack` | <a href="https://github.com/xpf/Data-Efficient-Backdoor-Attacks" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · IJCAI | [Eliminating Backdoor Triggers for Deep Neural Networks Using Attention Relation Graph Distillation](https://arxiv.org/abs/2204.09975) | `Defense` | — |
-| 2022 · IJCAI | [Imperceptible Backdoor Attack: From Input Space to Feature Representation](https://arxiv.org/abs/2205.03190) | `Attack` | <a href="https://github.com/Ekko-zn/IJCAI2022-Backdoor" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · IJCAI | [Membership Inference via Backdooring](https://arxiv.org/abs/2206.04823) | `Application` | <a href="https://github.com/HongshengHu/membership-inference-via-backdooring" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · INFOCOM | [Backdoor Defense with Machine Unlearning](https://arxiv.org/abs/2201.09538) | `Defense` | <a href="https://github.com/fmy266/Pytorch-Backdoor-Unlearning" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · MM | [Purifier: Plug\-and\-play Backdoor Mitigation for Pre\-trained Models Via Anomaly Activation Suppression](https://doi.org/10.1145/3503161.3548065) | `Defense` | <a href="https://github.com/RUIYUN-ML/Purifier" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · NeurIPS | [BackdoorBench: A Comprehensive Benchmark of Backdoor Learning](https://arxiv.org/abs/2206.12654) | `Benchmark` | <a href="https://github.com/SCLBD/backdoorbench" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · NeurIPS | [Effective Backdoor Defense by Exploiting Sensitivity of Poisoned Samples](https://proceedings.neurips.cc/paper_files/paper/2022/hash/3f9bbf77fbd858e5b6e39d39fe84ed2e-Abstract-Conference.html) | `Defense` | <a href="https://github.com/SCLBD/Effective_backdoor_defense" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · NeurIPS | [Handcrafted Backdoors in Deep Neural Networks](https://arxiv.org/abs/2106.04690) | `Attack` | — |
-| 2022 · NeurIPS | [Marksman Backdoor: Backdoor Attacks with Arbitrary Target Class](https://arxiv.org/abs/2210.09194) | `Attack` | — |
-| 2022 · NeurIPS | [One\-shot Neural Backdoor Erasing via Adversarial Weight Masking](https://arxiv.org/abs/2207.04497) | `Defense` | <a href="https://github.com/jinghuichen/AWM" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · NeurIPS | [Pre\-activation Distributions Expose Backdoor Neurons](https://proceedings.neurips.cc/paper_files/paper/2022/hash/76917808731dae9e6d62c2a7a6afb542-Abstract-Conference.html) | `Defense` | <a href="https://github.com/RJ-T/NIPS2022_EP_BNP" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · NeurIPS | [Randomized channel shuffling: Minimal\-overhead backdoor attack detection without clean datasets](https://proceedings.neurips.cc/paper_files/paper/2022/hash/db1d5c63576587fc1d40d33a75190c71-Abstract.html) | `Defense` | <a href="https://github.com/VITA-Group/Random-Shuffling-BackdoorDetect" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · NeurIPS | [Sleeper Agent: Scalable Hidden Trigger Backdoors for Neural Networks Trained from Scratch](https://arxiv.org/abs/2106.08970) | `Attack` | <a href="https://github.com/hsouri/Sleeper-Agent" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · NeurIPS | [Untargeted Backdoor Watermark: Towards Harmless and Stealthy Dataset Copyright Protection](https://arxiv.org/abs/2210.00875) | `Application` | <a href="https://github.com/THUYimingLi/Untargeted_Backdoor_Watermark" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · TDSC | [One\-to\-N &amp; N\-to\-One: Two Advanced Backdoor Attacks Against Deep Learning Models](https://doi.org/10.1109/TDSC.2020.3028448) | `Attack` | — |
-| 2022 · TIFS | [Dispersed Pixel Perturbation\-Based Imperceptible Backdoor Trigger for Image Classifier Models](https://arxiv.org/abs/2208.09336) | `Attack` | — |
-| 2022 · TIFS | [Stealthy Backdoors as Compression Artifacts](https://arxiv.org/abs/2104.15129) | `Attack` | <a href="https://github.com/yulongtzzz/Stealthy-Backdoors-as-Compression-Artifacts" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · TIP | [Poison Ink: Robust and Invisible Backdoor Attack](https://arxiv.org/abs/2108.02488) | `Attack` | — |
-| 2022 · TNNLS | [Critical Path\-Based Backdoor Detection for Deep Neural Networks](https://pubmed.ncbi.nlm.nih.gov/36074883/) | `Defense` | — |
-| 2021 · AAAI | [Deep Feature Space Trojan Attack of Neural Networks by Controlled Detoxification](https://arxiv.org/abs/2012.11212) | `Attack` | <a href="https://github.com/Megum1/DFST" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2021 · AAAI | [DeHiB: Deep Hidden Backdoor Attack on Semi\-supervised Learning via Adversarial Perturbation](https://ojs.aaai.org/index.php/AAAI/article/view/17266) | `Attack` | — |
-| 2021 · CVPR | [Backdoor Attacks Against Deep Learning Systems in the Physical World](https://arxiv.org/abs/2006.14580) | `Attack` | — |
-| 2021 · ICCV | [CLEAR: Clean\-up Sample\-Targeted Backdoor in Neural Networks](https://openaccess.thecvf.com/content/ICCV2021/html/Zhu_CLEAR_Clean-Up_Sample-Targeted_Backdoor_in_Neural_Networks_ICCV_2021_paper.html) | `Defense` | — |
-| 2021 · ICCV | [Invisible Backdoor Attack with Sample\-Specific Triggers](https://arxiv.org/abs/2012.03816) | `Attack` | <a href="https://github.com/yuezunli/ISSBA" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2021 · ICCV | [LIRA: Learnable, Imperceptible and Robust Backdoor Attacks](https://openaccess.thecvf.com/content/ICCV2021/html/Doan_LIRA_Learnable_Imperceptible_and_Robust_Backdoor_Attacks_ICCV_2021_paper.html) | `Attack` | <a href="https://github.com/sunbelbd/invisible_backdoor_attacks" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2021 · ICCV | [Rethinking the Backdoor Attacks' Triggers: A Frequency Perspective](https://arxiv.org/abs/2104.03413) | `Attack` · `Defense` · `Analysis` | <a href="https://github.com/YiZeng623/frequency-backdoor" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2021 · ICLR | [Neural Attention Distillation: Erasing Backdoor Triggers from Deep Neural Networks](https://arxiv.org/abs/2101.05930) | `Defense` | <a href="https://github.com/bboylyg/NAD" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2021 · ICLR | [WaNet \- Imperceptible Warping\-based Backdoor Attack](https://openreview.net/forum?id=eEn8KTtJOx) | `Attack` | <a href="https://github.com/VinAIResearch/Warping-based_Backdoor_Attack-release" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2021 · ICML | [Just How Toxic is Data Poisoning? A Unified Benchmark for Backdoor and Data Poisoning Attacks](https://arxiv.org/abs/2006.12557) | `Benchmark` · `Analysis` | <a href="https://github.com/aks2203/poisoning-benchmark" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2021 · ICML | [SPECTRE: Defending Against Backdoor Attacks Using Robust Statistics](https://arxiv.org/abs/2104.11315) | `Defense` | <a href="https://github.com/SewoongLab/spectre-defense" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2021 · IEEE S&amp;P | [Detecting AI Trojans Using Meta Neural Analysis](https://arxiv.org/abs/1910.03137) | `Defense` | <a href="https://github.com/AI-secure/Meta-Nerual-Trojan-Detection" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2021 · KDD | [What Do You See?: Evaluation of Explainable Artificial Intelligence \(XAI\) Interpretability through Neural Backdoors](https://arxiv.org/abs/2009.10639) | `Analysis` · `Application` | — |
-| 2021 · NeurIPS | [Adversarial Neuron Pruning Purifies Backdoored Deep Models](https://arxiv.org/abs/2110.14430) | `Defense` | <a href="https://github.com/csdongxian/ANP_backdoor" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2021 · NeurIPS | [Anti\-Backdoor Learning: Training Clean Models on Poisoned Data](https://arxiv.org/abs/2110.11571) | `Defense` | <a href="https://github.com/bboylyg/ABL" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2021 · NeurIPS | [Backdoor Attack with Imperceptible Input and Latent Modification](https://proceedings.neurips.cc/paper/2021/hash/9d99197e2ebf03fc388d09f1e94af89b-Abstract.html) | `Attack` | — |
-| 2021 · NeurIPS | [Topological Detection of Trojaned Neural Networks](https://arxiv.org/abs/2106.06469) | `Defense` | <a href="https://github.com/TopoXLab/TopoTrojDetection" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2021 · TDSC | [Invisible Backdoor Attacks on Deep Neural Networks Via Steganography and Regularization](https://arxiv.org/abs/1909.02742) | `Attack` | — |
-| 2021 · TIFS | [Deep Neural Backdoor in Semi\-Supervised Learning: Threats and Countermeasures](https://waseda.elsevierpure.com/en/publications/deep-neural-backdoor-in-semi-supervised-learning-threats-and-coun/) | `Attack` · `Defense` | — |
-| 2021 · TIFS | [Odyssey: Creation, Analysis and Detection of Trojan Models](https://arxiv.org/abs/2007.08142) | `Defense` · `Analysis` · `Benchmark` | <a href="https://github.com/LCWN-Lab/Odyssey" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2021 · USENIX Security | [Blind Backdoors in Deep Learning Models](https://arxiv.org/abs/2005.03823) | `Attack` | <a href="https://github.com/ebagdasa/backdoors101" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2021 · USENIX Security | [Demon in the Variant: Statistical Analysis of DNNs for Robust Backdoor Contamination Detection](https://arxiv.org/abs/1908.00686) | `Defense` | <a href="https://github.com/TDteach/Demon-in-the-Variant" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2020 · AAAI | [Hidden Trigger Backdoor Attacks](https://arxiv.org/abs/1910.00033) | `Attack` | <a href="https://github.com/UMBCvision/Hidden-Trigger-Backdoor-Attacks" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2020 · CCS | [Composite Backdoor Attack for Deep Neural Network by Mixing Existing Benign Features](https://sigsac.org/ccs/CCS2020/proceedings.html) | `Attack` | — |
-| 2020 · CIKM | [Can Adversarial Weight Perturbations Inject Neural Backdoors](https://arxiv.org/abs/2008.01761) | `Attack` | <a href="https://github.com/goel96vibhor/AdvWeightPerturbations" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2020 · ECCV | [Reflection Backdoor: A Natural Backdoor Attack on Deep Neural Networks](https://arxiv.org/abs/2007.02343) | `Attack` | <a href="https://github.com/DreamtaleCore/Refool" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2020 · ICDM | [Towards Inspecting and Eliminating Trojan Backdoors in Deep Neural Networks](https://doi.org/10.1109/ICDM50108.2020.00025) | `Defense` | — |
-| 2020 · ICLR | [Bridging Mode Connectivity in Loss Landscapes and Adversarial Robustness](https://arxiv.org/abs/2005.00060) | `Defense` | <a href="https://github.com/IBM/model-sanitization" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2020 · ICLR | [Robust anomaly detection and backdoor attack detection via differential privacy](https://arxiv.org/abs/1911.07116) | `Defense` | — |
-| 2020 · IEEE S&amp;P | [SentiNet: Detecting Localized Universal Attacks Against Deep Learning Systems](https://arxiv.org/abs/1812.00292) | `Defense` | — |
-| 2020 · KDD | [An Embarrassingly Simple Approach for Trojan Attack in Deep Neural Networks](https://arxiv.org/abs/2006.08131) | `Attack` | <a href="https://github.com/trx14/TrojanNet" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2020 · MM | [GangSweep: Sweep out Neural Backdoors by GAN](https://digitalcommons.odu.edu/computerscience_fac_pubs/185/) | `Defense` | — |
-| 2020 · NeurIPS | [Input\-Aware Dynamic Backdoor Attack](https://arxiv.org/abs/2010.08138) | `Attack` | <a href="https://github.com/VinAIResearch/input-aware-backdoor-attack-release" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2019 · ACSAC | [STRIP: A Defence Against Trojan Attacks on Deep Neural Networks](https://arxiv.org/abs/1902.06531) | `Defense` | <a href="https://github.com/garrisongys/STRIP" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2019 · CCS | [Abs: Scanning neural networks for backdoors by artificial brain stimulation](https://doi.org/10.1145/3319535.3363216) | `Defense` | <a href="https://github.com/naiyeleo/ABS" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2019 · CCS | [Latent Backdoor Attacks on Deep Neural Networks](https://arxiv.org/abs/1905.10447) | `Attack` | <a href="https://github.com/Huiying-Li/Latent-Backdoor" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2019 · IEEE S&amp;P | [Neural Cleanse: Identifying and Mitigating Backdoor Attacks in Neural Networks](https://people.cs.uchicago.edu/~ravenben/publications/abstracts/backdoor-sp19.html) | `Defense` | <a href="https://github.com/bolunwang/backdoor" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2019 · IJCAI | [DeepInspect: A Black\-box Trojan Detection and Mitigation Framework for Deep Neural Networks](https://www.ijcai.org/Proceedings/2019/647) | `Defense` | — |
-| 2019 · NeurIPS | [Defending Neural Backdoors via Generative Distribution Modeling](https://arxiv.org/abs/1910.04749) | `Defense` | <a href="https://github.com/superrrpotato/Defending-Neural-Backdoors-via-Generative-Distribution-Modeling" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2018 · arXiv | [Detecting Backdoor Attacks on Deep Neural Networks by Activation Clustering](https://arxiv.org/abs/1811.03728) | `Defense` | — |
-| 2018 · NDSS | [Trojaning Attack on Neural Networks](https://www.ndss-symposium.org/ndss-program-2018-program/) | `Attack` | <a href="https://github.com/PurduePAML/TrojanNN" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2018 · NeurIPS | [Spectral Signatures in Backdoor Attacks](https://arxiv.org/abs/1811.00636) | `Defense` | <a href="https://github.com/MadryLab/backdoor_data_poisoning" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2018 · RAID | [Fine\-pruning: Defending against backdooring attacks on deep neural networks](https://arxiv.org/abs/1805.12185) | `Defense` | <a href="https://github.com/kangliucn/Fine-pruning-defense" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2018 · USENIX Security | [Turning Your Weakness Into a Strength: Watermarking Deep Neural Networks by Backdooring](https://arxiv.org/abs/1802.04633) | `Application` | <a href="https://github.com/adiyoss/WatermarkNN" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-
-<a id="topic-detection-segmentation-tracking"></a>
-
-#### Object Detection, Segmentation &amp; Tracking
+#### Planning &amp; Reasoning
 
 | Year / Venue | Paper | Type | Code |
 | :--- | :--- | :--- | :---: |
-| 2026 · AAAI | [Backdoor Attacks on Open Vocabulary Object Detectors via Multi\-Modal Prompt Tuning](https://arxiv.org/abs/2511.12735) | `Attack` | <a href="https://github.com/rajankita/TrAP" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2026 · AAAI | [Breaking the Stealth\-Potency Trade\-off in Clean\-Image Backdoors with Generative Trigger Optimization](https://arxiv.org/abs/2511.07210) | `Attack` | — |
-| 2026 · AAAI | [MOBA: A Material\-Oriented Backdoor Attack against LiDAR\-based 3D Object Detection Systems](https://arxiv.org/abs/2511.09999) | `Attack` | — |
-| 2026 · arXiv | [Detecting Backdoors in Object Detection via Pre\-NMS Prediction Distribution Shift](https://arxiv.org/abs/2608.19088) | `Defense` | — |
-| 2026 · arXiv | [ODPure: Backdoor Purification for Object Detection via Ensemble Corruption Consensus](https://arxiv.org/abs/2609.28239) | `Defense` | <a href="https://github.com/Alex66366/ODPure" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2026 · CVPR | [IAG: Input\-aware Backdoor Attack on VLM\-based Visual Grounding](https://arxiv.org/abs/2508.09456) | `Attack` | <a href="https://github.com/lijunxian111/IAG" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2026 · CVPR | [Towards Stealthy and Effective Backdoor Attacks on Lane Detection: A Naturalistic Data Poisoning Approach](https://arxiv.org/abs/2508.15778) | `Attack` | — |
-| 2026 · DSN | [Event Burst Trigger: An Availability Backdoor Attack on Event\-Based SNN Object Detection](https://arxiv.org/abs/2607.09115) | `Attack` | — |
-| 2025 · arXiv | [Backdoor Attacks on Prompt\-Driven Video Segmentation Foundation Models](https://arxiv.org/abs/2512.22046) | `Attack` | — |
-| 2025 · arXiv | [CIS\-BA: Continuous Interaction Space Based Backdoor Attack for Object Detection in the Real\-World](https://arxiv.org/abs/2512.14158) | `Attack` | — |
-| 2025 · arXiv | [ConSeg: Contextual Backdoor Attack Against Semantic Segmentation](https://arxiv.org/abs/2507.19905) | `Attack` | — |
-| 2025 · CVPR | [Test\-Time Backdoor Detection for Object Detection Models](https://arxiv.org/abs/2503.15293) | `Defense` | <a href="https://github.com/Rookie143/Trace" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · arXiv | [Influencer Backdoor Attack on Semantic Segmentation](https://arxiv.org/abs/2303.12054) | `Attack` | — |
-| 2023 · NeurIPS | [BadTrack: A Poison\-Only Backdoor Attack on Visual Object Tracking](https://proceedings.neurips.cc/paper_files/paper/2023/hash/828bb8f42d4ab15322b9315151959c61-Abstract-Conference.html) | `Attack` | — |
-| 2023 · NeurIPS | [Django: Detecting Trojans in Object Detection Models via Gaussian Focus Calibration](https://papers.neurips.cc/paper_files/paper/2023/hash/a102d6cb996be3482c059c1e18bbe523-Abstract-Conference.html) | `Defense` | <a href="https://github.com/PurduePAML/DJGO" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · CVPR | [FIBA: Frequency\-Injection based Backdoor Attack in Medical Image Analysis](https://arxiv.org/abs/2112.01148) | `Attack` | <a href="https://github.com/HazardFY/FIBA" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · ICLR | [Few\-Shot Backdoor Attacks on Visual Object Tracking](https://arxiv.org/abs/2201.13178) | `Attack` | <a href="https://github.com/HXZhong1997/FSBA" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2026 · arXiv | [BackdoorAgent: A Unified Framework for Backdoor Attacks on LLM\-based Agents](https://arxiv.org/abs/2601.04566) | `Benchmark` · `Attack` · `Analysis` | — |
+| 2026 · Findings of EMNLP | [Understanding and Enhancing Backdoor Persistency in LLM Agent Post\-Training](https://arxiv.org/abs/2610.07510) | `Attack` | <a href="https://github.com/uiuc-kang-lab/PersistBD" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2025 · arXiv | [Chain\-of\-Trigger: An Agentic Backdoor that Paradoxically Enhances Agentic Robustness](https://arxiv.org/abs/2510.08238) | `Attack` | — |
+| 2025 · arXiv | [Your Agent Can Defend Itself against Backdoor Attacks](https://arxiv.org/abs/2506.08336) | `Defense` | — |
+| 2024 · ACL | [BadAgent: Inserting and Activating Backdoor Attacks in LLM Agents](https://arxiv.org/abs/2406.03007) | `Attack` | <a href="https://github.com/DPamK/BadAgent" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
 
-<a id="topic-video-understanding"></a>
+<a id="topic-agent-memory"></a>
 
-#### Video Understanding
+#### Memory &amp; Knowledge
 
 | Year / Venue | Paper | Type | Code |
 | :--- | :--- | :--- | :---: |
-| 2024 · AAAI | [Temporal\-Distributed Backdoor Attack Against Video Based Action Recognition](https://arxiv.org/abs/2308.11070) | `Attack` | — |
-| 2023 · arXiv | [Look, Listen, and Attack: Backdoor Attacks Against Video Action Recognition](https://arxiv.org/abs/2301.00986) | `Attack` | — |
-| 2020 · CVPR | [Clean\-Label Backdoor Attacks on Video Recognition Models](https://arxiv.org/abs/2003.03030) | `Attack` | <a href="https://github.com/ShihaoZhaoZSH/Video-Backdoor-Attack" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2026 · arXiv | [BackdoorAgent: A Unified Framework for Backdoor Attacks on LLM\-based Agents](https://arxiv.org/abs/2601.04566) | `Benchmark` · `Attack` · `Analysis` | — |
+| 2026 · arXiv | [EvolvAttack: Backdooring self Evolving VLM Agents](https://arxiv.org/abs/2610.15244) | `Attack` | — |
+| 2026 · arXiv | [Stateful Agent Backdoors: Constructing Cross\-Session Attack Programs](https://arxiv.org/abs/2605.06158) | `Attack` | — |
+| 2024 · NeurIPS | [AgentPoison: Red\-teaming LLM Agents via Poisoning Memory or Knowledge Bases](https://proceedings.neurips.cc/paper_files/paper/2024/hash/eb113910e9c3f6242541c1652e30dfd6-Abstract-Conference.html) | `Attack` | <a href="https://github.com/AI-secure/AgentPoison" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
 
-<a id="topic-3d-vision"></a>
+<a id="topic-agent-tools"></a>
 
-#### 3D Vision &amp; Point Clouds
-
-| Year / Venue | Paper | Type | Code |
-| :--- | :--- | :--- | :---: |
-| 2026 · AAAI | [MOBA: A Material\-Oriented Backdoor Attack against LiDAR\-based 3D Object Detection Systems](https://arxiv.org/abs/2511.09999) | `Attack` | — |
-| 2025 · arXiv | [6DAttack: Backdoor Attacks in the 6DoF Pose Estimation](https://arxiv.org/abs/2512.19058) | `Attack` | — |
-| 2025 · arXiv | [Stealthy Patch\-Wise Backdoor Attack in 3D Point Cloud via Curvature Awareness](https://arxiv.org/abs/2503.09336) | `Attack` | <a href="https://github.com/HazardFY/SPBA" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2025 · arXiv | [STONE: Pioneering the One\-to\-N Universal Backdoor Threat in 3D Point Cloud](https://arxiv.org/abs/2511.11210) | `Attack` | — |
-| 2024 · arXiv | [CloudFort: Enhancing Robustness of 3D Point Cloud Classification Against Backdoor Attacks via Spatial Partitioning and Ensemble Prediction](https://arxiv.org/abs/2404.14042) | `Defense` | — |
-| 2024 · TIFS | [iBA: Backdoor Attack on 3D Point Cloud via Reconstructing Itself](https://arxiv.org/abs/2403.05847) | `Attack` | — |
-| 2023 · ICCV | [Computation and Data Efficient Backdoor Attacks](https://openaccess.thecvf.com/content/ICCV2023/html/Wu_Computation_and_Data_Efficient_Backdoor_Attacks_ICCV_2023_paper.html) | `Attack` | — |
-| 2021 · ICCV | [A Backdoor Attack against 3D Point Cloud Classifiers](https://arxiv.org/abs/2104.05808) | `Attack` | <a href="https://github.com/zhenxianglance/PCBA" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2021 · ICCV | [PointBA: Towards Backdoor Attacks in 3D Point Cloud](https://arxiv.org/abs/2103.16074) | `Attack` | <a href="https://github.com/zhenxianglance/PCBA" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-
-<a id="topic-visual-representation"></a>
-
-#### Visual Representation Learning
+#### Tools &amp; Skills
 
 | Year / Venue | Paper | Type | Code |
 | :--- | :--- | :--- | :---: |
-| 2026 · ACM MM | [DEFUSE: Generalizable Backdoor Defense for Self\-Supervised Encoders with Generative Priors](https://arxiv.org/abs/2608.25851) | `Defense` | <a href="https://github.com/jsrdcht/DEFUSE" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2026 · arXiv | [The Platonic Defense: Backdoor Defense for Self\-Supervised Encoders in the Era of Large Scale Pre\-training](https://arxiv.org/abs/2606.29451) | `Defense` | <a href="https://github.com/jsrdcht/Platonic-Representation-Defense" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2025 · AAAI | [TrojanDec: Data\-free Detection of Trojan Inputs in Self\-supervised Learning](https://arxiv.org/abs/2501.04108) | `Defense` | — |
-| 2025 · ICCV | [Backdooring Self\-Supervised Contrastive Learning by Noisy Alignment](https://arxiv.org/abs/2508.14015) | `Attack` | <a href="https://github.com/jsrdcht/Noisy-Alignment" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2024 · arXiv | [Invisible Backdoor Attack against Self\-supervised Learning](https://arxiv.org/abs/2405.14672) | `Attack` | <a href="https://github.com/Zhang-Henry/INACTIVE" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · CVPR | [Defending Against Patch\-based Backdoor Attacks on Self\-Supervised Learning](https://arxiv.org/abs/2304.01482) | `Defense` | <a href="https://github.com/UCDvision/PatchSearch" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · CVPR | [Detecting Backdoors in Pre\-trained Encoders](https://arxiv.org/abs/2303.15180) | `Defense` | <a href="https://github.com/GiantSeaweed/DECREE" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · ICCV | [An Embarrassingly Simple Backdoor Attack on Self\-supervised Learning](https://arxiv.org/abs/2210.07346) | `Attack` | <a href="https://github.com/meet-cjli/CTRL" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2023 · USENIX Security | [ASSET: Robust Backdoor Data Detection Across a Multiplicity of Deep Learning Paradigms](https://arxiv.org/abs/2302.11408) | `Defense` | <a href="https://github.com/ruoxi-jia-group/ASSET" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · CVPR | [Backdoor Attacks on Self\-Supervised Learning](https://arxiv.org/abs/2105.10123) | `Attack` · `Defense` | <a href="https://github.com/UMBCvision/SSL-Backdoor" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2022 · MM | [BadHash: Invisible Backdoor Attacks against Deep Hashing with Clean Label](https://arxiv.org/abs/2207.00278) | `Attack` | — |
+| 2026 · arXiv | [Backdoor Decontamination Dynamics in LLM Agents](https://arxiv.org/abs/2608.11295) | `Defense` · `Analysis` | — |
+| 2026 · arXiv | [Backdoor in the Loop: Compromising Agentic Search via Malicious Retrievers](https://arxiv.org/abs/2609.37468) | `Attack` | — |
+| 2026 · arXiv | [BackdoorAgent: A Unified Framework for Backdoor Attacks on LLM\-based Agents](https://arxiv.org/abs/2601.04566) | `Benchmark` · `Attack` · `Analysis` | — |
+| 2026 · arXiv | [BadSkill: Backdoor Attacks on Agent Skills via Model\-in\-Skill Poisoning](https://arxiv.org/abs/2604.09378) | `Attack` | — |
+| 2026 · arXiv | [ElasticBack: Stealthy Conditional Backdoor in LLM\-Agent Skills via Coupled Trigger\-Rule Optimization](https://arxiv.org/abs/2608.09577) | `Attack` | — |
+| 2026 · arXiv | [Query\-Only Backdoor Attacks on Self\-Evolving Skills via Trajectory Poisoning](https://arxiv.org/abs/2608.08303) | `Attack` | — |
+| 2026 · arXiv | [SilentCall: Hidden Tool\-Call Backdoors in Open\-Weight Agents, and How to Catch Them](https://arxiv.org/abs/2609.32021) | `Attack` · `Defense` | — |
+| 2026 · arXiv | [SkillJack: Persistent Skill Backdoors in Self\-Evolving Agents](https://arxiv.org/abs/2608.03509) | `Attack` | <a href="https://github.com/Tencent/AI-Infra-Guard" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2026 · arXiv | [SkillTrojan: Backdoor Attacks on Skill\-Based Agent Systems](https://arxiv.org/abs/2604.06811) | `Attack` · `Dataset` | — |
+| 2026 · arXiv | [Stateful Agent Backdoors: Constructing Cross\-Session Attack Programs](https://arxiv.org/abs/2605.06158) | `Attack` | — |
+| 2026 · EMNLP | [AGENTQ: Quantization\-Conditioned Backdoor Attacks on LLM Agents](https://arxiv.org/abs/2609.14060) | `Attack` | — |
+| 2025 · arXiv | [Collaborative Shadows: Distributed Backdoor Attacks in LLM\-Based Multi\-Agent Systems](https://arxiv.org/abs/2510.11246) | `Attack` · `Benchmark` | <a href="https://github.com/whfeLingYu/Distributed-Backdoor-Attacks-in-MAS" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2025 · arXiv | [Cross\-LLM Generalization of Behavioral Backdoor Detection in AI Agent Supply Chains](https://arxiv.org/abs/2511.19874) | `Analysis` · `Defense` · `Dataset` | — |
+| 2025 · arXiv | [DemonAgent: Dynamically Encrypted Multi\-Backdoor Implantation Attack on LLM\-based Agent](https://arxiv.org/abs/2502.12575) | `Attack` · `Dataset` | <a href="https://github.com/whfeLingYu/DemonAgent" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2025 · arXiv | [Malice in Agentland: Down the Rabbit Hole of Backdoors in the AI Supply Chain](https://arxiv.org/abs/2510.05159) | `Attack` | — |
+| 2025 · arXiv | [Poison Once, Control Anywhere: Clean\-Text Visual Backdoors in VLM\-based Mobile Agents](https://arxiv.org/abs/2506.13205) | `Attack` | — |
+| 2025 · arXiv | [Your Agent Can Defend Itself against Backdoor Attacks](https://arxiv.org/abs/2506.08336) | `Defense` | — |
+| 2025 · COLM | [VisualTrap: A Stealthy Backdoor Attack on GUI Agents via Visual Grounding Manipulation](https://arxiv.org/abs/2507.06899) | `Attack` | — |
+| 2025 · Findings of EMNLP | [Hidden Ghost Hand: Unveiling Backdoor Vulnerabilities in MLLM\-Powered Mobile GUI Agents](https://arxiv.org/abs/2505.14418) | `Attack` · `Defense` | — |
 
-<a id="topic-image-restoration-compression"></a>
+<a id="topic-multi-agent-systems"></a>
 
-#### Image Restoration &amp; Compression
-
-| Year / Venue | Paper | Type | Code |
-| :--- | :--- | :--- | :---: |
-| 2026 · arXiv | [MROP: Mask\-Region Optimized Purification Against Backdoor Attack in Deep JSCC](https://arxiv.org/abs/2609.00786) | `Defense` | — |
-| 2025 · arXiv | [BadRefSR: Backdoor Attacks Against Reference\-based Image Super Resolution](https://arxiv.org/abs/2502.20943) | `Attack` | <a href="https://github.com/xuefusiji/BadRefSR" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2025 · arXiv | [BadSR: Stealthy Label Backdoor Attacks on Image Super\-Resolution](https://arxiv.org/abs/2505.15308) | `Attack` | — |
-| 2023 · CVPR | [Backdoor Attacks Against Deep Image Compression via Adaptive Frequency Trigger](https://arxiv.org/abs/2302.14677) | `Attack` | — |
-| 2022 · ICASSP | [When Does Backdoor Attack Succeed in Image Reconstruction? A Study of Heuristics vs\. Bi\-Level Solution](https://research.ibm.com/publications/when-does-backdoor-attack-succeed-in-image-reconstruction-a-study-of-heuristics-vs-bi-level-solution) | `Attack` | — |
-
-<a id="topic-visual-regression-counting"></a>
-
-#### Visual Regression &amp; Counting
+#### Multi\-Agent Systems
 
 | Year / Venue | Paper | Type | Code |
 | :--- | :--- | :--- | :---: |
-| 2026 · AAAI | [Breaking the Stealth\-Potency Trade\-off in Clean\-Image Backdoors with Generative Trigger Optimization](https://arxiv.org/abs/2511.07210) | `Attack` | — |
-| 2025 · arXiv | [6DAttack: Backdoor Attacks in the 6DoF Pose Estimation](https://arxiv.org/abs/2512.19058) | `Attack` | — |
-| 2025 · arXiv | [BadDepth: Backdoor Attacks Against Monocular Depth Estimation in the Physical World](https://arxiv.org/abs/2505.16154) | `Attack` | — |
-| 2025 · arXiv | [SecureGaze: Defending Gaze Estimation Against Backdoor Attacks](https://arxiv.org/abs/2502.20306) | `Defense` | — |
-| 2022 · MM | [Backdoor Attacks on Crowd Counting](https://arxiv.org/abs/2207.05641) | `Attack` | <a href="https://github.com/Nathangitlab/Backdoor-Attacks-on-Crowd-Counting" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2026 · arXiv | [Early Detection of Distributed Backdoors in Multi\-Agent LLM Systems: A Characterization Study](https://arxiv.org/abs/2607.24893) | `Analysis` · `Defense` | — |
+| 2026 · arXiv | [When Collaboration Becomes a Trigger: Collective Evidence\-Threshold Backdoors in Multi\-Agent Systems](https://arxiv.org/abs/2608.01085) | `Attack` · `Defense` | — |
+| 2026 · arXiv | [When Local Monitors Miss Compositional Harm: Diagnosing Distributed Backdoors in Multi\-Agent Systems](https://arxiv.org/abs/2607.11751) | `Analysis` · `Defense` | — |
+| 2025 · arXiv | [Collaborative Shadows: Distributed Backdoor Attacks in LLM\-Based Multi\-Agent Systems](https://arxiv.org/abs/2510.11246) | `Attack` · `Benchmark` | <a href="https://github.com/whfeLingYu/Distributed-Backdoor-Attacks-in-MAS" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2025 · IEEE IRI | [PeerGuard: Defending Multi\-Agent Systems Against Backdoor Attacks Through Mutual Reasoning](https://arxiv.org/abs/2505.11642) | `Defense` | — |
 
 <p align="right"><a href="#papers">↑ Research areas</a></p>
 
@@ -599,73 +468,6 @@ Survey papers are collected in **Surveys**; benchmark and dataset papers appear 
 
 <p align="right"><a href="#papers">↑ Research areas</a></p>
 
-<a id="area-ai-agents"></a>
-
-### 🤖 AI Agents
-
-<a id="topic-agent-planning"></a>
-
-#### Planning &amp; Reasoning
-
-| Year / Venue | Paper | Type | Code |
-| :--- | :--- | :--- | :---: |
-| 2026 · arXiv | [BackdoorAgent: A Unified Framework for Backdoor Attacks on LLM\-based Agents](https://arxiv.org/abs/2601.04566) | `Benchmark` · `Attack` · `Analysis` | — |
-| 2026 · Findings of EMNLP | [Understanding and Enhancing Backdoor Persistency in LLM Agent Post\-Training](https://arxiv.org/abs/2610.07510) | `Attack` | <a href="https://github.com/uiuc-kang-lab/PersistBD" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2025 · arXiv | [Chain\-of\-Trigger: An Agentic Backdoor that Paradoxically Enhances Agentic Robustness](https://arxiv.org/abs/2510.08238) | `Attack` | — |
-| 2025 · arXiv | [Your Agent Can Defend Itself against Backdoor Attacks](https://arxiv.org/abs/2506.08336) | `Defense` | — |
-| 2024 · ACL | [BadAgent: Inserting and Activating Backdoor Attacks in LLM Agents](https://arxiv.org/abs/2406.03007) | `Attack` | <a href="https://github.com/DPamK/BadAgent" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-
-<a id="topic-agent-memory"></a>
-
-#### Memory &amp; Knowledge
-
-| Year / Venue | Paper | Type | Code |
-| :--- | :--- | :--- | :---: |
-| 2026 · arXiv | [BackdoorAgent: A Unified Framework for Backdoor Attacks on LLM\-based Agents](https://arxiv.org/abs/2601.04566) | `Benchmark` · `Attack` · `Analysis` | — |
-| 2026 · arXiv | [EvolvAttack: Backdooring self Evolving VLM Agents](https://arxiv.org/abs/2610.15244) | `Attack` | — |
-| 2026 · arXiv | [Stateful Agent Backdoors: Constructing Cross\-Session Attack Programs](https://arxiv.org/abs/2605.06158) | `Attack` | — |
-| 2024 · NeurIPS | [AgentPoison: Red\-teaming LLM Agents via Poisoning Memory or Knowledge Bases](https://proceedings.neurips.cc/paper_files/paper/2024/hash/eb113910e9c3f6242541c1652e30dfd6-Abstract-Conference.html) | `Attack` | <a href="https://github.com/AI-secure/AgentPoison" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-
-<a id="topic-agent-tools"></a>
-
-#### Tools &amp; Skills
-
-| Year / Venue | Paper | Type | Code |
-| :--- | :--- | :--- | :---: |
-| 2026 · arXiv | [Backdoor Decontamination Dynamics in LLM Agents](https://arxiv.org/abs/2608.11295) | `Defense` · `Analysis` | — |
-| 2026 · arXiv | [Backdoor in the Loop: Compromising Agentic Search via Malicious Retrievers](https://arxiv.org/abs/2609.37468) | `Attack` | — |
-| 2026 · arXiv | [BackdoorAgent: A Unified Framework for Backdoor Attacks on LLM\-based Agents](https://arxiv.org/abs/2601.04566) | `Benchmark` · `Attack` · `Analysis` | — |
-| 2026 · arXiv | [BadSkill: Backdoor Attacks on Agent Skills via Model\-in\-Skill Poisoning](https://arxiv.org/abs/2604.09378) | `Attack` | — |
-| 2026 · arXiv | [ElasticBack: Stealthy Conditional Backdoor in LLM\-Agent Skills via Coupled Trigger\-Rule Optimization](https://arxiv.org/abs/2608.09577) | `Attack` | — |
-| 2026 · arXiv | [Query\-Only Backdoor Attacks on Self\-Evolving Skills via Trajectory Poisoning](https://arxiv.org/abs/2608.08303) | `Attack` | — |
-| 2026 · arXiv | [SilentCall: Hidden Tool\-Call Backdoors in Open\-Weight Agents, and How to Catch Them](https://arxiv.org/abs/2609.32021) | `Attack` · `Defense` | — |
-| 2026 · arXiv | [SkillJack: Persistent Skill Backdoors in Self\-Evolving Agents](https://arxiv.org/abs/2608.03509) | `Attack` | <a href="https://github.com/Tencent/AI-Infra-Guard" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2026 · arXiv | [SkillTrojan: Backdoor Attacks on Skill\-Based Agent Systems](https://arxiv.org/abs/2604.06811) | `Attack` · `Dataset` | — |
-| 2026 · arXiv | [Stateful Agent Backdoors: Constructing Cross\-Session Attack Programs](https://arxiv.org/abs/2605.06158) | `Attack` | — |
-| 2026 · EMNLP | [AGENTQ: Quantization\-Conditioned Backdoor Attacks on LLM Agents](https://arxiv.org/abs/2609.14060) | `Attack` | — |
-| 2025 · arXiv | [Collaborative Shadows: Distributed Backdoor Attacks in LLM\-Based Multi\-Agent Systems](https://arxiv.org/abs/2510.11246) | `Attack` · `Benchmark` | <a href="https://github.com/whfeLingYu/Distributed-Backdoor-Attacks-in-MAS" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2025 · arXiv | [Cross\-LLM Generalization of Behavioral Backdoor Detection in AI Agent Supply Chains](https://arxiv.org/abs/2511.19874) | `Analysis` · `Defense` · `Dataset` | — |
-| 2025 · arXiv | [DemonAgent: Dynamically Encrypted Multi\-Backdoor Implantation Attack on LLM\-based Agent](https://arxiv.org/abs/2502.12575) | `Attack` · `Dataset` | <a href="https://github.com/whfeLingYu/DemonAgent" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2025 · arXiv | [Malice in Agentland: Down the Rabbit Hole of Backdoors in the AI Supply Chain](https://arxiv.org/abs/2510.05159) | `Attack` | — |
-| 2025 · arXiv | [Poison Once, Control Anywhere: Clean\-Text Visual Backdoors in VLM\-based Mobile Agents](https://arxiv.org/abs/2506.13205) | `Attack` | — |
-| 2025 · arXiv | [Your Agent Can Defend Itself against Backdoor Attacks](https://arxiv.org/abs/2506.08336) | `Defense` | — |
-| 2025 · COLM | [VisualTrap: A Stealthy Backdoor Attack on GUI Agents via Visual Grounding Manipulation](https://arxiv.org/abs/2507.06899) | `Attack` | — |
-| 2025 · Findings of EMNLP | [Hidden Ghost Hand: Unveiling Backdoor Vulnerabilities in MLLM\-Powered Mobile GUI Agents](https://arxiv.org/abs/2505.14418) | `Attack` · `Defense` | — |
-
-<a id="topic-multi-agent-systems"></a>
-
-#### Multi\-Agent Systems
-
-| Year / Venue | Paper | Type | Code |
-| :--- | :--- | :--- | :---: |
-| 2026 · arXiv | [Early Detection of Distributed Backdoors in Multi\-Agent LLM Systems: A Characterization Study](https://arxiv.org/abs/2607.24893) | `Analysis` · `Defense` | — |
-| 2026 · arXiv | [When Collaboration Becomes a Trigger: Collective Evidence\-Threshold Backdoors in Multi\-Agent Systems](https://arxiv.org/abs/2608.01085) | `Attack` · `Defense` | — |
-| 2026 · arXiv | [When Local Monitors Miss Compositional Harm: Diagnosing Distributed Backdoors in Multi\-Agent Systems](https://arxiv.org/abs/2607.11751) | `Analysis` · `Defense` | — |
-| 2025 · arXiv | [Collaborative Shadows: Distributed Backdoor Attacks in LLM\-Based Multi\-Agent Systems](https://arxiv.org/abs/2510.11246) | `Attack` · `Benchmark` | <a href="https://github.com/whfeLingYu/Distributed-Backdoor-Attacks-in-MAS" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| 2025 · IEEE IRI | [PeerGuard: Defending Multi\-Agent Systems Against Backdoor Attacks Through Mutual Reasoning](https://arxiv.org/abs/2505.11642) | `Defense` | — |
-
-<p align="right"><a href="#papers">↑ Research areas</a></p>
-
 <a id="area-embodied-ai"></a>
 
 ### 🦾 Embodied AI
@@ -717,6 +519,245 @@ Survey papers are collected in **Surveys**; benchmark and dataset papers appear 
 | 2026 · IROS | [MuTRAP: Multi\-trigger Trojans Attacking Robot Task Planning Systems](https://arxiv.org/abs/2504.17070) | `Attack` | — |
 | 2025 · ICLR | [Can We Trust Embodied Agents? Exploring Backdoor Attacks against Embodied LLM\-based Decision\-Making Systems](https://arxiv.org/abs/2405.20774) | `Attack` | — |
 | 2024 · arXiv | [Compromising Embodied Agents with Contextual Backdoor Attacks](https://arxiv.org/abs/2408.02882) | `Attack` | — |
+
+<p align="right"><a href="#papers">↑ Research areas</a></p>
+
+<a id="area-computer-vision"></a>
+
+### 🖼️ Computer Vision
+
+<a id="topic-image-classification"></a>
+
+#### Image Classification &amp; Recognition
+
+| Year / Venue | Paper | Type | Code |
+| :--- | :--- | :--- | :---: |
+| 2026 · AAAI | [Breaking the Stealth\-Potency Trade\-off in Clean\-Image Backdoors with Generative Trigger Optimization](https://arxiv.org/abs/2511.07210) | `Attack` | — |
+| 2024 · arXiv | [BadScan: An Architectural Backdoor Attack on Visual State Space Models](https://arxiv.org/abs/2411.17283) | `Attack` | — |
+| 2024 · arXiv | [Megatron: Evasive Clean\-Label Backdoor Attacks against Vision Transformer](https://arxiv.org/abs/2412.04776) | `Attack` | — |
+| 2024 · BMVC | [Backdoor Defense through Self\-Supervised and Generative Learning](https://arxiv.org/abs/2409.01185) | `Defense` | — |
+| 2024 · ICLR | [VDC: Versatile Data Cleanser based on Visual\-Linguistic Inconsistency by Multimodal Large Language Models](https://arxiv.org/abs/2309.16211) | `Defense` | <a href="https://github.com/zihao-ai/vdc" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2024 · IEEE S&amp;P | [MM\-BD: Post\-Training Detection of Backdoor Attacks with Arbitrary Backdoor Pattern Types Using a Maximum Margin Statistic](https://arxiv.org/abs/2205.06900) | `Defense` | — |
+| 2024 · IEEE S&amp;P | [Robust Backdoor Detection for Deep Learning via Topological Evolution Dynamics](https://arxiv.org/abs/2312.02673) | `Defense` · `Attack` · `Analysis` | <a href="https://github.com/tedbackdoordefense/ted" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · arXiv | [BackdoorBox: A Python Toolbox for Backdoor Learning](https://arxiv.org/abs/2302.01762) | `Benchmark` | <a href="https://github.com/THUYimingLi/BackdoorBox" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · arXiv | [Boosting backdoor attack with a learnable poisoning sample selection strategy](https://arxiv.org/abs/2307.07328) | `Attack` | — |
+| 2023 · arXiv | [Robust Backdoor Attack with Visible, Semantic, Sample\-Specific, and Compatible Triggers](https://arxiv.org/abs/2306.00816) | `Attack` | — |
+| 2023 · CVPR | [Architectural Backdoors in Neural Networks](https://arxiv.org/abs/2206.07840) | `Attack` | — |
+| 2023 · CVPR | [Backdoor Cleansing with Unlabeled Data](https://arxiv.org/abs/2211.12044) | `Defense` | <a href="https://github.com/luluppang/BCU" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · CVPR | [Backdoor Defense via Adaptively Splitting Poisoned Dataset](https://arxiv.org/abs/2303.12993) | `Defense` | <a href="https://github.com/KuofengGao/ASD" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · CVPR | [Backdoor Defense via Deconfounded Representation Learning](https://arxiv.org/abs/2303.06818) | `Defense` | <a href="https://github.com/zaixizhang/CBD" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · CVPR | [Color Backdoor: A Robust Poisoning Attack in Color Space](https://openaccess.thecvf.com/content/CVPR2023/html/Jiang_Color_Backdoor_A_Robust_Poisoning_Attack_in_Color_Space_CVPR_2023_paper.html) | `Attack` | — |
+| 2023 · CVPR | [Detecting Backdoors During the Inference Stage Based on Corruption Robustness Consistency](https://arxiv.org/abs/2303.18191) | `Defense` | — |
+| 2023 · CVPR | [Don’t FREAK Out: A Frequency\-Inspired Approach to Detecting Backdoor Poisoned Samples in DNNs](https://arxiv.org/abs/2303.13211) | `Defense` | — |
+| 2023 · CVPR | [MEDIC: Remove Model Backdoors via Importance Driven Cloning](https://openaccess.thecvf.com/content/CVPR2023/html/Xu_MEDIC_Remove_Model_Backdoors_via_Importance_Driven_Cloning_CVPR_2023_paper.html) | `Defense` | — |
+| 2023 · CVPR | [Progressive Backdoor Erasing via connecting Backdoor and Adversarial Attacks](https://arxiv.org/abs/2202.06312) | `Defense` | — |
+| 2023 · CVPR | [Single Image Backdoor Inversion via Robust Smoothed Classifiers](https://openaccess.thecvf.com/content/CVPR2023/html/Sun_Single_Image_Backdoor_Inversion_via_Robust_Smoothed_Classifiers_CVPR_2023_paper.html) | `Defense` | <a href="https://github.com/locuslab/smoothinv" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · CVPR | [The Dark Side of Dynamic Routing Neural Networks: Towards Efficiency Backdoor Injection](https://openaccess.thecvf.com/content/CVPR2023/html/Chen_The_Dark_Side_of_Dynamic_Routing_Neural_Networks_Towards_Efficiency_CVPR_2023_paper.html) | `Attack` | <a href="https://github.com/SeekingDream/CVPR23_EfficFrog" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · CVPR | [You Are Catching My Attention: Are Vision Transformers Bad Learners Under Backdoor Attacks?](https://openaccess.thecvf.com/content/CVPR2023/html/Yuan_You_Are_Catching_My_Attention_Are_Vision_Transformers_Bad_Learners_CVPR_2023_paper.html) | `Attack` | — |
+| 2023 · ICASSP | [Backdoor Defense via Suppressing Model Shortcuts](https://arxiv.org/abs/2211.05631) | `Defense` | <a href="https://github.com/20000yshust/Backdoor-Defense-Via-Suppressing-Model-Shortcuts" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · ICCV | [Beating Backdoor Attack at Its Own Game](https://arxiv.org/abs/2307.15539) | `Defense` | <a href="https://github.com/damianliumin/non-adversarial" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · ICCV | [Computation and Data Efficient Backdoor Attacks](https://openaccess.thecvf.com/content/ICCV2023/html/Wu_Computation_and_Data_Efficient_Backdoor_Attacks_ICCV_2023_paper.html) | `Attack` | — |
+| 2023 · ICCV | [Enhancing Fine\-Tuning Based Backdoor Defense with Sharpness\-Aware Minimization](https://arxiv.org/abs/2304.11823) | `Defense` | — |
+| 2023 · ICCV | [The Perils of Learning From Unlabeled Data: Backdoor Attacks on Semi\-supervised Learning](https://arxiv.org/abs/2211.00453) | `Attack` | — |
+| 2023 · ICLR | [Clean\-image Backdoor: Attacking Multi\-label Models with Poisoned Labels Only](https://openreview.net/forum?id=rFQfjDC9Mt) | `Attack` | — |
+| 2023 · ICLR | [Few\-shot Backdoor Attacks via Neural Tangent Kernels](https://arxiv.org/abs/2210.05929) | `Attack` | — |
+| 2023 · ICLR | [Incompatibility Clustering as a Defense Against Backdoor Poisoning Attacks](https://arxiv.org/abs/2105.03692) | `Defense` | — |
+| 2023 · ICLR | [Revisiting the Assumption of Latent Separability for Backdoor Defenses](https://openreview.net/forum?id=_wSHsgrVali) | `Attack` | <a href="https://github.com/Unispac/Circumventing-Backdoor-Defenses" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · ICLR | [SCALE\-UP: An Efficient Black\-box Input\-level Backdoor Detection via Analyzing Scaled Prediction Consistency](https://arxiv.org/abs/2302.03251) | `Defense` | <a href="https://github.com/JunfengGo/SCALE-UP" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · ICLR | [The Dark Side of AutoML: Towards Architectural Backdoor Search](https://arxiv.org/abs/2210.12179) | `Attack` | <a href="https://github.com/ain-soph/nas_backdoor" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · ICLR | [UNICORN: A Unified Backdoor Trigger Inversion Framework](https://arxiv.org/abs/2304.02786) | `Defense` | <a href="https://github.com/RU-System-Software-and-Security/UNICORN" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · IJCAI | [Orion: Online Backdoor Sample Detection via Evolution Deviance](https://www.ijcai.org/proceedings/2023/96) | `Defense` | — |
+| 2023 · NDSS | [The “Beatrix” Resurrections: Robust Backdoor Detection via Gram Matrices](https://arxiv.org/abs/2209.11715) | `Defense` | <a href="https://github.com/wanlunsec/Beatrix" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · NeurIPS | [A Unified Detection Framework for Inference\-Stage Backdoor Defenses](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1868a3c73d0d2a44c42458575fa8514c-Abstract-Conference.html) | `Defense` | — |
+| 2023 · NeurIPS | [Black\-box Backdoor Defense via Zero\-shot Image Purification](https://arxiv.org/abs/2303.12175) | `Defense` | — |
+| 2023 · NeurIPS | [CBD: A Certified Backdoor Detector Based on Local Dominant Probability](https://arxiv.org/abs/2310.17498) | `Defense` | — |
+| 2023 · NeurIPS | [Label Poisoning is All You Need](https://arxiv.org/abs/2310.18933) | `Attack` | — |
+| 2023 · NeurIPS | [Neural Polarizer: A Lightweight and Effective Backdoor Defense via Purifying Poisoned Features](https://arxiv.org/abs/2306.16697) | `Defense` | — |
+| 2023 · NeurIPS | [Shared Adversarial Unlearning: Backdoor Mitigation by Unlearning Shared Adversarial Examples](https://arxiv.org/abs/2307.10562) | `Defense` | — |
+| 2023 · NeurIPS | [Towards Stable Backdoor Purification through Feature Shift Tuning](https://arxiv.org/abs/2310.01875) | `Defense` | <a href="https://github.com/AISafety-HKUST/stable_backdoor_purification" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · USENIX Security | [ASSET: Robust Backdoor Data Detection Across a Multiplicity of Deep Learning Paradigms](https://arxiv.org/abs/2302.11408) | `Defense` | <a href="https://github.com/ruoxi-jia-group/ASSET" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · USENIX Security | [How to Sift Out a Clean Data Subset in the Presence of Data Poisoning?](https://arxiv.org/abs/2210.06516) | `Defense` | <a href="https://github.com/ruoxi-jia-group/Meta-Sift" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · USENIX Security | [Towards A Proactive ML Approach for Detecting Backdoor Poison Samples](https://arxiv.org/abs/2205.13616) | `Defense` | — |
+| 2022 · AAAI | [Backdoor Attacks on the DNN Interpretation System](https://arxiv.org/abs/2011.10698) | `Attack` · `Analysis` | — |
+| 2022 · AAAI | [Hibernated Backdoor: A Mutual Information Empowered Backdoor Attack to Deep Neural Networks](https://ojs.aaai.org/index.php/AAAI/article/view/21272) | `Attack` | — |
+| 2022 · CCS | [LoneNeuron: A Highly\-Effective Feature\-Domain Neural Trojan Using Invisible and Polymorphic Watermarks](https://liuzey.com/publication/ccs2022) | `Attack` | — |
+| 2022 · CCS | [Poster: Backdoor Attacks on Spiking NNs and Neuromorphic Datasets](https://www.sigsac.org/ccs/CCS2022/proceedings/ccs-proceedings.html) | `Attack` | <a href="https://github.com/GorkaAbad/NeuromorphicBackdoors" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · CVPR | [Better Trigger Inversion Optimization in Backdoor Scanning](https://openaccess.thecvf.com/content/CVPR2022/html/Tao_Better_Trigger_Inversion_Optimization_in_Backdoor_Scanning_CVPR_2022_paper.html) | `Defense` | <a href="https://github.com/Gwinhen/PixelBackdoor" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · CVPR | [BppAttack: Stealthy and Efficient Trojan Attacks against Deep Neural Networks via Image Quantization and Contrastive Adversarial Learning](https://arxiv.org/abs/2205.13383) | `Attack` | — |
+| 2022 · CVPR | [Complex Backdoor Detection by Symmetric Feature Differencing](https://openaccess.thecvf.com/content/CVPR2022/html/Liu_Complex_Backdoor_Detection_by_Symmetric_Feature_Differencing_CVPR_2022_paper.html) | `Defense` | <a href="https://github.com/PurduePAML/Exray" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · CVPR | [DEFEAT: Deep Hidden Feature Backdoor Attacks by Imperceptible Perturbation and Latent Representation Constraints](https://openaccess.thecvf.com/content/CVPR2022/html/Zhao_DEFEAT_Deep_Hidden_Feature_Backdoor_Attacks_by_Imperceptible_Perturbation_and_CVPR_2022_paper.html) | `Attack` | — |
+| 2022 · CVPR | [Few\-Shot Backdoor Defense Using Shapley Estimation](https://arxiv.org/abs/2112.14889) | `Defense` | — |
+| 2022 · CVPR | [FIBA: Frequency\-Injection based Backdoor Attack in Medical Image Analysis](https://arxiv.org/abs/2112.01148) | `Attack` | <a href="https://github.com/HazardFY/FIBA" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · CVPR | [Towards Practical Deployment\-Stage Backdoor Attack on Deep Neural Networks](https://arxiv.org/abs/2111.12965) | `Attack` | — |
+| 2022 · ECCV | [An Invisible Black\-Box Backdoor Attack Through Frequency Domain](https://researchconnect.stonybrook.edu/en/publications/an-invisible-black-box-backdoor-attack-through-frequency-domain/) | `Attack` | <a href="https://github.com/SoftWiser-group/FTrojan" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · ECCV | [Data\-free backdoor removal based on channel lipschitzness](https://arxiv.org/abs/2208.03111) | `Defense` | <a href="https://github.com/rkteddy/channel-Lipschitzness-based-pruning" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · ECCV | [RIBAC: Towards Robust and Imperceptible Backdoor Attack against Compact DNN](https://arxiv.org/abs/2208.10608) | `Attack` | <a href="https://github.com/huyvnphan/ECCV2022-RIBAC" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · EuroS&amp;P | [Dynamic Backdoor Attacks Against Machine Learning Models](https://arxiv.org/abs/2003.03675) | `Attack` | — |
+| 2022 · EuroS&amp;P | [TrojanZoo: Towards Unified, Holistic, and Practical Evaluation of Neural Backdoors](https://arxiv.org/abs/2012.09302) | `Benchmark` | <a href="https://github.com/ain-soph/trojanzoo" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · ICASSP | [Invisible and Efficient Backdoor Attacks for Compressed Deep Neural Networks](https://www.researchwithrutgers.org/en/publications/invisible-and-efficient-backdoor-attacks-for-compressed-deep-neur/) | `Attack` | — |
+| 2022 · ICASSP | [Stealthy Backdoor Attack with Adversarial Training](https://resourcecenter.ieee.org/conferences/icassp-2022/spsicassp22vid1582) | `Attack` | — |
+| 2022 · ICLR | [Adversarial Unlearning of Backdoors via Implicit Hypergradient](https://arxiv.org/abs/2110.03735) | `Defense` | <a href="https://github.com/YiZeng623/I-BAU" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · ICLR | [AEVA: Black\-box Backdoor Detection Using Adversarial Extreme Value Analysis](https://arxiv.org/abs/2110.14880) | `Defense` | <a href="https://github.com/JunfengGo/AEVA-Blackbox-Backdoor-Detection-main" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · ICLR | [Backdoor defense via decoupling the training process](https://arxiv.org/abs/2202.03423) | `Defense` | <a href="https://github.com/SCLBD/DBD" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · ICLR | [How to Inject Backdoors with Better Consistency: Logit Anchoring on Clean Data](https://arxiv.org/abs/2109.01300) | `Attack` | — |
+| 2022 · ICLR | [Post\-Training Detection of Backdoor Attacks for Two\-Class and Multi\-Attack Scenarios](https://arxiv.org/abs/2201.08474) | `Defense` | <a href="https://github.com/zhenxianglance/2ClassBADetection" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · ICLR | [Trigger Hunting with a Topological Prior for Trojan Detection](https://arxiv.org/abs/2110.08335) | `Defense` | — |
+| 2022 · IJCAI | [Data\-Efficient Backdoor Attacks](https://arxiv.org/abs/2204.12281) | `Attack` | <a href="https://github.com/xpf/Data-Efficient-Backdoor-Attacks" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · IJCAI | [Eliminating Backdoor Triggers for Deep Neural Networks Using Attention Relation Graph Distillation](https://arxiv.org/abs/2204.09975) | `Defense` | — |
+| 2022 · IJCAI | [Imperceptible Backdoor Attack: From Input Space to Feature Representation](https://arxiv.org/abs/2205.03190) | `Attack` | <a href="https://github.com/Ekko-zn/IJCAI2022-Backdoor" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · IJCAI | [Membership Inference via Backdooring](https://arxiv.org/abs/2206.04823) | `Application` | <a href="https://github.com/HongshengHu/membership-inference-via-backdooring" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · INFOCOM | [Backdoor Defense with Machine Unlearning](https://arxiv.org/abs/2201.09538) | `Defense` | <a href="https://github.com/fmy266/Pytorch-Backdoor-Unlearning" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · MM | [Purifier: Plug\-and\-play Backdoor Mitigation for Pre\-trained Models Via Anomaly Activation Suppression](https://doi.org/10.1145/3503161.3548065) | `Defense` | <a href="https://github.com/RUIYUN-ML/Purifier" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · NeurIPS | [BackdoorBench: A Comprehensive Benchmark of Backdoor Learning](https://arxiv.org/abs/2206.12654) | `Benchmark` | <a href="https://github.com/SCLBD/backdoorbench" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · NeurIPS | [Effective Backdoor Defense by Exploiting Sensitivity of Poisoned Samples](https://proceedings.neurips.cc/paper_files/paper/2022/hash/3f9bbf77fbd858e5b6e39d39fe84ed2e-Abstract-Conference.html) | `Defense` | <a href="https://github.com/SCLBD/Effective_backdoor_defense" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · NeurIPS | [Handcrafted Backdoors in Deep Neural Networks](https://arxiv.org/abs/2106.04690) | `Attack` | — |
+| 2022 · NeurIPS | [Marksman Backdoor: Backdoor Attacks with Arbitrary Target Class](https://arxiv.org/abs/2210.09194) | `Attack` | — |
+| 2022 · NeurIPS | [One\-shot Neural Backdoor Erasing via Adversarial Weight Masking](https://arxiv.org/abs/2207.04497) | `Defense` | <a href="https://github.com/jinghuichen/AWM" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · NeurIPS | [Pre\-activation Distributions Expose Backdoor Neurons](https://proceedings.neurips.cc/paper_files/paper/2022/hash/76917808731dae9e6d62c2a7a6afb542-Abstract-Conference.html) | `Defense` | <a href="https://github.com/RJ-T/NIPS2022_EP_BNP" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · NeurIPS | [Randomized channel shuffling: Minimal\-overhead backdoor attack detection without clean datasets](https://proceedings.neurips.cc/paper_files/paper/2022/hash/db1d5c63576587fc1d40d33a75190c71-Abstract.html) | `Defense` | <a href="https://github.com/VITA-Group/Random-Shuffling-BackdoorDetect" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · NeurIPS | [Sleeper Agent: Scalable Hidden Trigger Backdoors for Neural Networks Trained from Scratch](https://arxiv.org/abs/2106.08970) | `Attack` | <a href="https://github.com/hsouri/Sleeper-Agent" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · NeurIPS | [Untargeted Backdoor Watermark: Towards Harmless and Stealthy Dataset Copyright Protection](https://arxiv.org/abs/2210.00875) | `Application` | <a href="https://github.com/THUYimingLi/Untargeted_Backdoor_Watermark" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · TDSC | [One\-to\-N &amp; N\-to\-One: Two Advanced Backdoor Attacks Against Deep Learning Models](https://doi.org/10.1109/TDSC.2020.3028448) | `Attack` | — |
+| 2022 · TIFS | [Dispersed Pixel Perturbation\-Based Imperceptible Backdoor Trigger for Image Classifier Models](https://arxiv.org/abs/2208.09336) | `Attack` | — |
+| 2022 · TIFS | [Stealthy Backdoors as Compression Artifacts](https://arxiv.org/abs/2104.15129) | `Attack` | <a href="https://github.com/yulongtzzz/Stealthy-Backdoors-as-Compression-Artifacts" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · TIP | [Poison Ink: Robust and Invisible Backdoor Attack](https://arxiv.org/abs/2108.02488) | `Attack` | — |
+| 2022 · TNNLS | [Critical Path\-Based Backdoor Detection for Deep Neural Networks](https://pubmed.ncbi.nlm.nih.gov/36074883/) | `Defense` | — |
+| 2021 · AAAI | [Deep Feature Space Trojan Attack of Neural Networks by Controlled Detoxification](https://arxiv.org/abs/2012.11212) | `Attack` | <a href="https://github.com/Megum1/DFST" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2021 · AAAI | [DeHiB: Deep Hidden Backdoor Attack on Semi\-supervised Learning via Adversarial Perturbation](https://ojs.aaai.org/index.php/AAAI/article/view/17266) | `Attack` | — |
+| 2021 · CVPR | [Backdoor Attacks Against Deep Learning Systems in the Physical World](https://arxiv.org/abs/2006.14580) | `Attack` | — |
+| 2021 · ICCV | [CLEAR: Clean\-up Sample\-Targeted Backdoor in Neural Networks](https://openaccess.thecvf.com/content/ICCV2021/html/Zhu_CLEAR_Clean-Up_Sample-Targeted_Backdoor_in_Neural_Networks_ICCV_2021_paper.html) | `Defense` | — |
+| 2021 · ICCV | [Invisible Backdoor Attack with Sample\-Specific Triggers](https://arxiv.org/abs/2012.03816) | `Attack` | <a href="https://github.com/yuezunli/ISSBA" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2021 · ICCV | [LIRA: Learnable, Imperceptible and Robust Backdoor Attacks](https://openaccess.thecvf.com/content/ICCV2021/html/Doan_LIRA_Learnable_Imperceptible_and_Robust_Backdoor_Attacks_ICCV_2021_paper.html) | `Attack` | <a href="https://github.com/sunbelbd/invisible_backdoor_attacks" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2021 · ICCV | [Rethinking the Backdoor Attacks' Triggers: A Frequency Perspective](https://arxiv.org/abs/2104.03413) | `Attack` · `Defense` · `Analysis` | <a href="https://github.com/YiZeng623/frequency-backdoor" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2021 · ICLR | [Neural Attention Distillation: Erasing Backdoor Triggers from Deep Neural Networks](https://arxiv.org/abs/2101.05930) | `Defense` | <a href="https://github.com/bboylyg/NAD" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2021 · ICLR | [WaNet \- Imperceptible Warping\-based Backdoor Attack](https://openreview.net/forum?id=eEn8KTtJOx) | `Attack` | <a href="https://github.com/VinAIResearch/Warping-based_Backdoor_Attack-release" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2021 · ICML | [Just How Toxic is Data Poisoning? A Unified Benchmark for Backdoor and Data Poisoning Attacks](https://arxiv.org/abs/2006.12557) | `Benchmark` · `Analysis` | <a href="https://github.com/aks2203/poisoning-benchmark" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2021 · ICML | [SPECTRE: Defending Against Backdoor Attacks Using Robust Statistics](https://arxiv.org/abs/2104.11315) | `Defense` | <a href="https://github.com/SewoongLab/spectre-defense" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2021 · IEEE S&amp;P | [Detecting AI Trojans Using Meta Neural Analysis](https://arxiv.org/abs/1910.03137) | `Defense` | <a href="https://github.com/AI-secure/Meta-Nerual-Trojan-Detection" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2021 · KDD | [What Do You See?: Evaluation of Explainable Artificial Intelligence \(XAI\) Interpretability through Neural Backdoors](https://arxiv.org/abs/2009.10639) | `Analysis` · `Application` | — |
+| 2021 · NeurIPS | [Adversarial Neuron Pruning Purifies Backdoored Deep Models](https://arxiv.org/abs/2110.14430) | `Defense` | <a href="https://github.com/csdongxian/ANP_backdoor" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2021 · NeurIPS | [Anti\-Backdoor Learning: Training Clean Models on Poisoned Data](https://arxiv.org/abs/2110.11571) | `Defense` | <a href="https://github.com/bboylyg/ABL" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2021 · NeurIPS | [Backdoor Attack with Imperceptible Input and Latent Modification](https://proceedings.neurips.cc/paper/2021/hash/9d99197e2ebf03fc388d09f1e94af89b-Abstract.html) | `Attack` | — |
+| 2021 · NeurIPS | [Topological Detection of Trojaned Neural Networks](https://arxiv.org/abs/2106.06469) | `Defense` | <a href="https://github.com/TopoXLab/TopoTrojDetection" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2021 · TDSC | [Invisible Backdoor Attacks on Deep Neural Networks Via Steganography and Regularization](https://arxiv.org/abs/1909.02742) | `Attack` | — |
+| 2021 · TIFS | [Deep Neural Backdoor in Semi\-Supervised Learning: Threats and Countermeasures](https://waseda.elsevierpure.com/en/publications/deep-neural-backdoor-in-semi-supervised-learning-threats-and-coun/) | `Attack` · `Defense` | — |
+| 2021 · TIFS | [Odyssey: Creation, Analysis and Detection of Trojan Models](https://arxiv.org/abs/2007.08142) | `Defense` · `Analysis` · `Benchmark` | <a href="https://github.com/LCWN-Lab/Odyssey" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2021 · USENIX Security | [Blind Backdoors in Deep Learning Models](https://arxiv.org/abs/2005.03823) | `Attack` | <a href="https://github.com/ebagdasa/backdoors101" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2021 · USENIX Security | [Demon in the Variant: Statistical Analysis of DNNs for Robust Backdoor Contamination Detection](https://arxiv.org/abs/1908.00686) | `Defense` | <a href="https://github.com/TDteach/Demon-in-the-Variant" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2020 · AAAI | [Hidden Trigger Backdoor Attacks](https://arxiv.org/abs/1910.00033) | `Attack` | <a href="https://github.com/UMBCvision/Hidden-Trigger-Backdoor-Attacks" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2020 · CCS | [Composite Backdoor Attack for Deep Neural Network by Mixing Existing Benign Features](https://sigsac.org/ccs/CCS2020/proceedings.html) | `Attack` | — |
+| 2020 · CIKM | [Can Adversarial Weight Perturbations Inject Neural Backdoors](https://arxiv.org/abs/2008.01761) | `Attack` | <a href="https://github.com/goel96vibhor/AdvWeightPerturbations" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2020 · ECCV | [Reflection Backdoor: A Natural Backdoor Attack on Deep Neural Networks](https://arxiv.org/abs/2007.02343) | `Attack` | <a href="https://github.com/DreamtaleCore/Refool" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2020 · ICDM | [Towards Inspecting and Eliminating Trojan Backdoors in Deep Neural Networks](https://doi.org/10.1109/ICDM50108.2020.00025) | `Defense` | — |
+| 2020 · ICLR | [Bridging Mode Connectivity in Loss Landscapes and Adversarial Robustness](https://arxiv.org/abs/2005.00060) | `Defense` | <a href="https://github.com/IBM/model-sanitization" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2020 · ICLR | [Robust anomaly detection and backdoor attack detection via differential privacy](https://arxiv.org/abs/1911.07116) | `Defense` | — |
+| 2020 · IEEE S&amp;P | [SentiNet: Detecting Localized Universal Attacks Against Deep Learning Systems](https://arxiv.org/abs/1812.00292) | `Defense` | — |
+| 2020 · KDD | [An Embarrassingly Simple Approach for Trojan Attack in Deep Neural Networks](https://arxiv.org/abs/2006.08131) | `Attack` | <a href="https://github.com/trx14/TrojanNet" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2020 · MM | [GangSweep: Sweep out Neural Backdoors by GAN](https://digitalcommons.odu.edu/computerscience_fac_pubs/185/) | `Defense` | — |
+| 2020 · NeurIPS | [Input\-Aware Dynamic Backdoor Attack](https://arxiv.org/abs/2010.08138) | `Attack` | <a href="https://github.com/VinAIResearch/input-aware-backdoor-attack-release" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2019 · ACSAC | [STRIP: A Defence Against Trojan Attacks on Deep Neural Networks](https://arxiv.org/abs/1902.06531) | `Defense` | <a href="https://github.com/garrisongys/STRIP" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2019 · CCS | [Abs: Scanning neural networks for backdoors by artificial brain stimulation](https://doi.org/10.1145/3319535.3363216) | `Defense` | <a href="https://github.com/naiyeleo/ABS" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2019 · CCS | [Latent Backdoor Attacks on Deep Neural Networks](https://arxiv.org/abs/1905.10447) | `Attack` | <a href="https://github.com/Huiying-Li/Latent-Backdoor" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2019 · IEEE S&amp;P | [Neural Cleanse: Identifying and Mitigating Backdoor Attacks in Neural Networks](https://people.cs.uchicago.edu/~ravenben/publications/abstracts/backdoor-sp19.html) | `Defense` | <a href="https://github.com/bolunwang/backdoor" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2019 · IJCAI | [DeepInspect: A Black\-box Trojan Detection and Mitigation Framework for Deep Neural Networks](https://www.ijcai.org/Proceedings/2019/647) | `Defense` | — |
+| 2019 · NeurIPS | [Defending Neural Backdoors via Generative Distribution Modeling](https://arxiv.org/abs/1910.04749) | `Defense` | <a href="https://github.com/superrrpotato/Defending-Neural-Backdoors-via-Generative-Distribution-Modeling" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2018 · arXiv | [Detecting Backdoor Attacks on Deep Neural Networks by Activation Clustering](https://arxiv.org/abs/1811.03728) | `Defense` | — |
+| 2018 · NDSS | [Trojaning Attack on Neural Networks](https://www.ndss-symposium.org/ndss-program-2018-program/) | `Attack` | <a href="https://github.com/PurduePAML/TrojanNN" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2018 · NeurIPS | [Spectral Signatures in Backdoor Attacks](https://arxiv.org/abs/1811.00636) | `Defense` | <a href="https://github.com/MadryLab/backdoor_data_poisoning" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2018 · RAID | [Fine\-pruning: Defending against backdooring attacks on deep neural networks](https://arxiv.org/abs/1805.12185) | `Defense` | <a href="https://github.com/kangliucn/Fine-pruning-defense" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2018 · USENIX Security | [Turning Your Weakness Into a Strength: Watermarking Deep Neural Networks by Backdooring](https://arxiv.org/abs/1802.04633) | `Application` | <a href="https://github.com/adiyoss/WatermarkNN" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+
+<a id="topic-detection-segmentation-tracking"></a>
+
+#### Object Detection, Segmentation &amp; Tracking
+
+| Year / Venue | Paper | Type | Code |
+| :--- | :--- | :--- | :---: |
+| 2026 · AAAI | [Backdoor Attacks on Open Vocabulary Object Detectors via Multi\-Modal Prompt Tuning](https://arxiv.org/abs/2511.12735) | `Attack` | <a href="https://github.com/rajankita/TrAP" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2026 · AAAI | [Breaking the Stealth\-Potency Trade\-off in Clean\-Image Backdoors with Generative Trigger Optimization](https://arxiv.org/abs/2511.07210) | `Attack` | — |
+| 2026 · AAAI | [MOBA: A Material\-Oriented Backdoor Attack against LiDAR\-based 3D Object Detection Systems](https://arxiv.org/abs/2511.09999) | `Attack` | — |
+| 2026 · arXiv | [Detecting Backdoors in Object Detection via Pre\-NMS Prediction Distribution Shift](https://arxiv.org/abs/2608.19088) | `Defense` | — |
+| 2026 · arXiv | [ODPure: Backdoor Purification for Object Detection via Ensemble Corruption Consensus](https://arxiv.org/abs/2609.28239) | `Defense` | <a href="https://github.com/Alex66366/ODPure" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2026 · CVPR | [IAG: Input\-aware Backdoor Attack on VLM\-based Visual Grounding](https://arxiv.org/abs/2508.09456) | `Attack` | <a href="https://github.com/lijunxian111/IAG" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2026 · CVPR | [Towards Stealthy and Effective Backdoor Attacks on Lane Detection: A Naturalistic Data Poisoning Approach](https://arxiv.org/abs/2508.15778) | `Attack` | — |
+| 2026 · DSN | [Event Burst Trigger: An Availability Backdoor Attack on Event\-Based SNN Object Detection](https://arxiv.org/abs/2607.09115) | `Attack` | — |
+| 2025 · arXiv | [Backdoor Attacks on Prompt\-Driven Video Segmentation Foundation Models](https://arxiv.org/abs/2512.22046) | `Attack` | — |
+| 2025 · arXiv | [CIS\-BA: Continuous Interaction Space Based Backdoor Attack for Object Detection in the Real\-World](https://arxiv.org/abs/2512.14158) | `Attack` | — |
+| 2025 · arXiv | [ConSeg: Contextual Backdoor Attack Against Semantic Segmentation](https://arxiv.org/abs/2507.19905) | `Attack` | — |
+| 2025 · CVPR | [Test\-Time Backdoor Detection for Object Detection Models](https://arxiv.org/abs/2503.15293) | `Defense` | <a href="https://github.com/Rookie143/Trace" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · arXiv | [Influencer Backdoor Attack on Semantic Segmentation](https://arxiv.org/abs/2303.12054) | `Attack` | — |
+| 2023 · NeurIPS | [BadTrack: A Poison\-Only Backdoor Attack on Visual Object Tracking](https://proceedings.neurips.cc/paper_files/paper/2023/hash/828bb8f42d4ab15322b9315151959c61-Abstract-Conference.html) | `Attack` | — |
+| 2023 · NeurIPS | [Django: Detecting Trojans in Object Detection Models via Gaussian Focus Calibration](https://papers.neurips.cc/paper_files/paper/2023/hash/a102d6cb996be3482c059c1e18bbe523-Abstract-Conference.html) | `Defense` | <a href="https://github.com/PurduePAML/DJGO" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · CVPR | [FIBA: Frequency\-Injection based Backdoor Attack in Medical Image Analysis](https://arxiv.org/abs/2112.01148) | `Attack` | <a href="https://github.com/HazardFY/FIBA" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · ICLR | [Few\-Shot Backdoor Attacks on Visual Object Tracking](https://arxiv.org/abs/2201.13178) | `Attack` | <a href="https://github.com/HXZhong1997/FSBA" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+
+<a id="topic-video-understanding"></a>
+
+#### Video Understanding
+
+| Year / Venue | Paper | Type | Code |
+| :--- | :--- | :--- | :---: |
+| 2024 · AAAI | [Temporal\-Distributed Backdoor Attack Against Video Based Action Recognition](https://arxiv.org/abs/2308.11070) | `Attack` | — |
+| 2023 · arXiv | [Look, Listen, and Attack: Backdoor Attacks Against Video Action Recognition](https://arxiv.org/abs/2301.00986) | `Attack` | — |
+| 2020 · CVPR | [Clean\-Label Backdoor Attacks on Video Recognition Models](https://arxiv.org/abs/2003.03030) | `Attack` | <a href="https://github.com/ShihaoZhaoZSH/Video-Backdoor-Attack" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+
+<a id="topic-3d-vision"></a>
+
+#### 3D Vision &amp; Point Clouds
+
+| Year / Venue | Paper | Type | Code |
+| :--- | :--- | :--- | :---: |
+| 2026 · AAAI | [MOBA: A Material\-Oriented Backdoor Attack against LiDAR\-based 3D Object Detection Systems](https://arxiv.org/abs/2511.09999) | `Attack` | — |
+| 2025 · arXiv | [6DAttack: Backdoor Attacks in the 6DoF Pose Estimation](https://arxiv.org/abs/2512.19058) | `Attack` | — |
+| 2025 · arXiv | [Stealthy Patch\-Wise Backdoor Attack in 3D Point Cloud via Curvature Awareness](https://arxiv.org/abs/2503.09336) | `Attack` | <a href="https://github.com/HazardFY/SPBA" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2025 · arXiv | [STONE: Pioneering the One\-to\-N Universal Backdoor Threat in 3D Point Cloud](https://arxiv.org/abs/2511.11210) | `Attack` | — |
+| 2024 · arXiv | [CloudFort: Enhancing Robustness of 3D Point Cloud Classification Against Backdoor Attacks via Spatial Partitioning and Ensemble Prediction](https://arxiv.org/abs/2404.14042) | `Defense` | — |
+| 2024 · TIFS | [iBA: Backdoor Attack on 3D Point Cloud via Reconstructing Itself](https://arxiv.org/abs/2403.05847) | `Attack` | — |
+| 2023 · ICCV | [Computation and Data Efficient Backdoor Attacks](https://openaccess.thecvf.com/content/ICCV2023/html/Wu_Computation_and_Data_Efficient_Backdoor_Attacks_ICCV_2023_paper.html) | `Attack` | — |
+| 2021 · ICCV | [A Backdoor Attack against 3D Point Cloud Classifiers](https://arxiv.org/abs/2104.05808) | `Attack` | <a href="https://github.com/zhenxianglance/PCBA" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2021 · ICCV | [PointBA: Towards Backdoor Attacks in 3D Point Cloud](https://arxiv.org/abs/2103.16074) | `Attack` | <a href="https://github.com/zhenxianglance/PCBA" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+
+<a id="topic-visual-representation"></a>
+
+#### Visual Representation Learning
+
+| Year / Venue | Paper | Type | Code |
+| :--- | :--- | :--- | :---: |
+| 2026 · ACM MM | [DEFUSE: Generalizable Backdoor Defense for Self\-Supervised Encoders with Generative Priors](https://arxiv.org/abs/2608.25851) | `Defense` | <a href="https://github.com/jsrdcht/DEFUSE" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2026 · arXiv | [The Platonic Defense: Backdoor Defense for Self\-Supervised Encoders in the Era of Large Scale Pre\-training](https://arxiv.org/abs/2606.29451) | `Defense` | <a href="https://github.com/jsrdcht/Platonic-Representation-Defense" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2025 · AAAI | [TrojanDec: Data\-free Detection of Trojan Inputs in Self\-supervised Learning](https://arxiv.org/abs/2501.04108) | `Defense` | — |
+| 2025 · ICCV | [Backdooring Self\-Supervised Contrastive Learning by Noisy Alignment](https://arxiv.org/abs/2508.14015) | `Attack` | <a href="https://github.com/jsrdcht/Noisy-Alignment" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2024 · arXiv | [Invisible Backdoor Attack against Self\-supervised Learning](https://arxiv.org/abs/2405.14672) | `Attack` | <a href="https://github.com/Zhang-Henry/INACTIVE" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · CVPR | [Defending Against Patch\-based Backdoor Attacks on Self\-Supervised Learning](https://arxiv.org/abs/2304.01482) | `Defense` | <a href="https://github.com/UCDvision/PatchSearch" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · CVPR | [Detecting Backdoors in Pre\-trained Encoders](https://arxiv.org/abs/2303.15180) | `Defense` | <a href="https://github.com/GiantSeaweed/DECREE" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · ICCV | [An Embarrassingly Simple Backdoor Attack on Self\-supervised Learning](https://arxiv.org/abs/2210.07346) | `Attack` | <a href="https://github.com/meet-cjli/CTRL" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2023 · USENIX Security | [ASSET: Robust Backdoor Data Detection Across a Multiplicity of Deep Learning Paradigms](https://arxiv.org/abs/2302.11408) | `Defense` | <a href="https://github.com/ruoxi-jia-group/ASSET" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · CVPR | [Backdoor Attacks on Self\-Supervised Learning](https://arxiv.org/abs/2105.10123) | `Attack` · `Defense` | <a href="https://github.com/UMBCvision/SSL-Backdoor" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2022 · MM | [BadHash: Invisible Backdoor Attacks against Deep Hashing with Clean Label](https://arxiv.org/abs/2207.00278) | `Attack` | — |
+
+<a id="topic-image-restoration-compression"></a>
+
+#### Image Restoration &amp; Compression
+
+| Year / Venue | Paper | Type | Code |
+| :--- | :--- | :--- | :---: |
+| 2026 · arXiv | [MROP: Mask\-Region Optimized Purification Against Backdoor Attack in Deep JSCC](https://arxiv.org/abs/2609.00786) | `Defense` | — |
+| 2025 · arXiv | [BadRefSR: Backdoor Attacks Against Reference\-based Image Super Resolution](https://arxiv.org/abs/2502.20943) | `Attack` | <a href="https://github.com/xuefusiji/BadRefSR" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2025 · arXiv | [BadSR: Stealthy Label Backdoor Attacks on Image Super\-Resolution](https://arxiv.org/abs/2505.15308) | `Attack` | — |
+| 2023 · CVPR | [Backdoor Attacks Against Deep Image Compression via Adaptive Frequency Trigger](https://arxiv.org/abs/2302.14677) | `Attack` | — |
+| 2022 · ICASSP | [When Does Backdoor Attack Succeed in Image Reconstruction? A Study of Heuristics vs\. Bi\-Level Solution](https://research.ibm.com/publications/when-does-backdoor-attack-succeed-in-image-reconstruction-a-study-of-heuristics-vs-bi-level-solution) | `Attack` | — |
+
+<a id="topic-visual-regression-counting"></a>
+
+#### Visual Regression &amp; Counting
+
+| Year / Venue | Paper | Type | Code |
+| :--- | :--- | :--- | :---: |
+| 2026 · AAAI | [Breaking the Stealth\-Potency Trade\-off in Clean\-Image Backdoors with Generative Trigger Optimization](https://arxiv.org/abs/2511.07210) | `Attack` | — |
+| 2025 · arXiv | [6DAttack: Backdoor Attacks in the 6DoF Pose Estimation](https://arxiv.org/abs/2512.19058) | `Attack` | — |
+| 2025 · arXiv | [BadDepth: Backdoor Attacks Against Monocular Depth Estimation in the Physical World](https://arxiv.org/abs/2505.16154) | `Attack` | — |
+| 2025 · arXiv | [SecureGaze: Defending Gaze Estimation Against Backdoor Attacks](https://arxiv.org/abs/2502.20306) | `Defense` | — |
+| 2022 · MM | [Backdoor Attacks on Crowd Counting](https://arxiv.org/abs/2207.05641) | `Attack` | <a href="https://github.com/Nathangitlab/Backdoor-Attacks-on-Crowd-Counting" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
 
 <p align="right"><a href="#papers">↑ Research areas</a></p>
 
@@ -903,6 +944,28 @@ Survey papers are collected in **Surveys**; benchmark and dataset papers appear 
 
 ## 🎓 Tutorials & Courses
 
+Tutorials, lectures, and university courses with explicit backdoor coverage. Descriptions distinguish dedicated material from broader courses; some course pages provide a syllabus rather than a full set of recordings.
+
+- **[MET CS 787: AI and Cybersecurity](https://www.bu.edu/csmet/academic-programs/courses/cs787/)** · Boston University 2026<br>
+  Fall 2026 course listing covering backdoor injection and defenses alongside broader AI security; the public page describes the syllabus and hands\-on labs\.
+
+- **[Cryptography and Machine Learning](https://www.alonrosen.net/cryptoml/)** · Tel Aviv University 2026<br>
+  Fall 2026–27 course with public notes and a scheduled backdoor unit on detectability, cryptographic constructions, and removal guarantees\.
+
+- **[From Devil to Angel: Backdoor Attacks for AI Copyright Protection and Beyond](https://liyiming.tech/talks/)** · Southwest Jiaotong University 2025<br>
+  Tutorial on constructive uses of backdoors for AI copyright and ownership protection\.<br>
+  [Slides](https://www.dropbox.com/scl/fi/g7a4fje33d4r98w0w0ur3/Talk_YimingLi_20250108.pdf?dl=0&rlkey=qno7yzb3muchlx0aga3yl0sh9&st=jp2vmvka)
+
+- **[Towards Theory\-guided Backdoor Learning](https://liyiming.tech/talks/)** · International Conference on Mathematical Theory of Deep Learning 2024<br>
+  Invited lecture connecting theoretical perspectives with backdoor learning; slides and a recording are available\.<br>
+  [Slides](https://www.dropbox.com/scl/fi/43dl18ew5my28qzam48em/CASTalk_Yiming.pdf?dl=0&rlkey=4vfxdrgdasjgella5798jrjp5&st=ufq6la5b) · [Recording](https://www.dropbox.com/scl/fi/6h9sqoongx29oozsv9n07/CASTalk.mp4?dl=0&rlkey=h4eeas0nwmamp8rpkj9jiw49i&st=i81blvgu)
+
+- **[CMSC 491/691: Robust Machine Learning](https://courses.cs.umbc.edu/graduate/691rml/)** · University of Maryland, Baltimore County 2024<br>
+  Course with public slides, notes, and readings; its adversarial\-attack unit includes backdoors and BadNets\.
+
+- **[Topics in Adversarial Machine Learning](https://trustml-cispa.gitlab.io/seminar_aml_ss23/syllabus/)** · CISPA / Saarland University 2023<br>
+  Research seminar with a public syllabus and reading list covering poisoning and backdoor attacks alongside robustness theory\.
+
 - **[Backdoor Learning: Recent Advances and Future Trends](https://backdoor-learning-tutorial.github.io/)** · ICCV 2023<br>
   Foundations, attacks, defenses, benchmarks, and applications\.<br>
   [Slides](https://docs.google.com/presentation/d/1C9o8cqltyKqAlkvQVukbNMypUw7G7u1w/edit)
@@ -910,6 +973,24 @@ Survey papers are collected in **Surveys**; benchmark and dataset papers appear 
 <a id="workshops"></a>
 
 ## 💬 Workshops
+
+Backdoor-focused events and selected broader security workshops with relevant topics or accepted papers. Each entry links to a specific edition.
+
+- **[Cybersecurity for AI &amp; AI for Cybersecurity \(C4AI4C\)](https://www.ieeesmc.org/cai-2026/w12-security/)** · IEEE CAI 2026<br>
+  Broader AI and cybersecurity workshop whose stated scope includes model vulnerabilities such as backdoor attacks\.
+
+- **[Building Trust in LLMs and LLM Applications](https://building-trust-in-llms.github.io/iclr-workshop/)** · ICLR 2025<br>
+  Broader trustworthy\-LLM workshop whose poster program includes CleanGen, a defense against backdoors in language generation\.<br>
+  [Poster program](https://building-trust-in-llms.github.io/iclr-workshop/poster_session_2.html)
+
+- **[Deep Learning Security and Privacy \(DLSP\)](https://dlsp2025.ieee-security.org/)** · IEEE S&amp;P 2025<br>
+  Broader deep learning security workshop explicitly soliciting poisoning and backdoor research, including modern generative and agent settings\.
+
+- **[Adversarial Threats on Real Life Learning Systems](https://mlsecurity-workshop.github.io/)** · Sorbonne University &amp; CEA 2025<br>
+  Workshop on deployed ML security with backdoor\-focused keynote slides and a presentation on physical\-world backdoors\.
+
+- **[Artificial Intelligence and Security \(AISec\)](https://aisec.cc/2024/)** · ACM CCS 2024<br>
+  Broader AI security workshop with accepted work on backdoor defenses, graph\-model backdoors, and speaker\-identification backdoors\.
 
 - **[Backdoors in Deep Learning: The Good, the Bad, and the Ugly](https://neurips2023-bugs.github.io/)** · NeurIPS 2023<br>
   Backdoor threats, defenses, and beneficial applications\.<br>
@@ -923,9 +1004,16 @@ Reusable libraries and experimental frameworks. Associated papers belong in the 
 
 | Toolbox | Focus | Links |
 | :--- | :--- | :--- |
-| **BackdoorBench** | A unified evaluation framework for backdoor attacks and defenses in computer vision\. | <a href="https://github.com/SCLBD/backdoorbench" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| **Adversarial Robustness Toolbox \(ART\)** | General ML security: a reusable library with backdoor poisoning implementations, including attacks on generative models\. | <a href="https://github.com/Trusted-AI/adversarial-robustness-toolbox" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> · [Backdoor attack API](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/modules/attacks/poisoning.html) |
+| **BackdoorBench** | A unified evaluation framework for backdoor attacks and defenses in computer vision\. | <a href="https://github.com/SCLBD/backdoorbench" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> · [Docs &amp; tutorials](https://backdoorbench.github.io/docs/index.html) |
 | **BackdoorBox** | A unified Python framework for implementing and comparing backdoor attacks and defenses\. | <a href="https://github.com/THUYimingLi/BackdoorBox" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
-| **BackdoorToolbox** | A collection of backdoor attack and defense implementations retained from the original catalog\. | <a href="https://github.com/vtu81/backdoor-toolbox" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| **BackdoorDM** | Diffusion models: integrated attacks, defenses, evaluation metrics, and visualization tools for image\-generation backdoors\. | <a href="https://github.com/linweiii/BackdoorDM" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| **BackdoorLLM** | LLMs: a shared framework for backdoor attack experiments and defense comparisons, including the Backdoor\-DefenseBox module\. | <a href="https://github.com/bboylyg/BackdoorLLM" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| **BackdoorMBTI** | Image, text, and audio classification: a common toolkit for configuring backdoor attacks and evaluating defenses across modalities\. | <a href="https://github.com/SJTUHaiyangYu/BackdoorMBTI" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> · [Docs &amp; tutorials](https://backdoormbti.readthedocs.io/en/latest/) |
+| **Backdoors 101** | Centralized and federated learning: a PyTorch framework with configurable tasks, trigger synthesizers, and backdoor experiments\. | <a href="https://github.com/ebagdasa/backdoors101" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| **BackdoorToolbox** | Image classification: shared implementations for backdoor attacks, defenses, and evaluation\. | <a href="https://github.com/vtu81/backdoor-toolbox" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| **BackFed** | Federated learning: modular attack and defense evaluation with shared configurations and optional parallel client training\. | <a href="https://github.com/thinh-dao/BackFed" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| **Mithridates** | Training pipelines: wrappers and examples for measuring backdoor resistance and searching for more resistant training configurations\. | <a href="https://github.com/ebagdasa/mithridates" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
 | **OpenBackdoor** | A framework for implementing and evaluating textual backdoor attacks and defenses\. | <a href="https://github.com/thunlp/OpenBackdoor" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
 | **TrojanZoo** | A PyTorch platform for evaluating backdoor attacks and defenses in image classification\. | <a href="https://github.com/ain-soph/trojanzoo" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> · [Docs](https://ain-soph.github.io/trojanzoo/) |
 

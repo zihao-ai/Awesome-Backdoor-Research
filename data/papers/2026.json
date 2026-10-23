@@ -40,6 +40,19 @@
     ]
   },
   {
+    "id": "attacks-in-adversarial-machine-learning-a-systematic-survey-from-the-life-cycle-perspective-2023",
+    "title": "Attacks in Adversarial Machine Learning: A Systematic Survey from the Lifecycle Perspective",
+    "year": 2026,
+    "venue": "IJCV",
+    "url": "https://doi.org/10.1007/s11263-025-02692-0",
+    "types": [
+      "Survey"
+    ],
+    "topics": [
+      "general-surveys"
+    ]
+  },
+  {
     "id": "backdfl-a-unified-benchmark-for-backdoor-attacks-and-defenses-in-decentralized-federated-learning-2026",
     "title": "BackDFL: A Unified Benchmark For Backdoor Attacks and Defenses In Decentralized Federated Learning",
     "year": 2026,
