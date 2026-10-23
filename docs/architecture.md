@@ -5,7 +5,7 @@ Awesome Backdoor Research is a curated research catalog. Readers browse one gene
 ## Structure
 
 ```text
-awesome-backdoor/
+Awesome-Backdoor-Research/
 ├── README.md                    # Generated public catalog
 ├── CONTRIBUTING.md              # Submission and editing guide
 ├── LICENSE                      # Existing GPL-3.0 license

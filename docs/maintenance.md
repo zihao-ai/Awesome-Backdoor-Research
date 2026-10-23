@@ -80,7 +80,7 @@ These workflow files take effect after they are pushed to GitHub. Local test suc
 
 ## Migrating the historical collection
 
-The October 2026 migration accounts for all 226 historical paper rows: 212 independent papers migrated, seven duplicate rows merged, and seven scope exclusions documented. The catalog also contains four previously reviewed examples outside that collection and 90 new abstract-reviewed additions. See [curation and coverage](curation.md) and the ledgers in `data/curation/`. [The original collection](https://github.com/zihao-ai/Awesome-Backdoor-in-Deep-Learning/blob/4be174fceda6034a8b7856a56a848e5b10adc097/README.md) is available in Git history.
+The October 2026 migration accounts for all 226 historical paper rows: 212 independent papers migrated, seven duplicate rows merged, and seven scope exclusions documented. The catalog also contains four previously reviewed examples outside that collection and 90 new abstract-reviewed additions. See [curation and coverage](curation.md) and the ledgers in `data/curation/`. [The original collection](https://github.com/zihao-ai/Awesome-Backdoor-Research/blob/4be174fceda6034a8b7856a56a848e5b10adc097/README.md) is available in Git history.
 
 For further expansion, work through one leaf topic at a time: search for candidates, read their abstracts, identify the actual victim task and contribution, resolve preprint/proceedings aliases, and add records with known implementation links. Record the abstract source and rationale in the expansion review ledger. Do not download PDFs or infer classifications solely from search terms. Validate/build after each batch.
 

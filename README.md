@@ -14,7 +14,7 @@
   <a href="#toolboxes">🧰 Toolboxes</a>
 </p>
 
-> **Catalog update · October 2026.** The previous collection has been reorganized and expanded through abstract-based review. Browse the [coverage and migration notes](docs/curation.md) for scope, classification decisions, and remaining limitations. The [previous catalog](https://github.com/zihao-ai/Awesome-Backdoor-in-Deep-Learning/blob/4be174fceda6034a8b7856a56a848e5b10adc097/README.md) is available in Git history.
+> **Catalog update · October 2026.** The previous collection has been reorganized and expanded through abstract-based review. Browse the [coverage and migration notes](docs/curation.md) for scope, classification decisions, and remaining limitations. The [previous catalog](https://github.com/zihao-ai/Awesome-Backdoor-Research/blob/4be174fceda6034a8b7856a56a848e5b10adc097/README.md) is available in Git history.
 
 <a id="papers"></a>
 
@@ -764,10 +764,10 @@ Reusable libraries and experimental frameworks. Associated papers belong in the 
 
 ---
 
-Suggestions are welcome via [issues](https://github.com/zihao-ai/Awesome-Backdoor-in-Deep-Learning/issues) or [pull requests](https://github.com/zihao-ai/Awesome-Backdoor-in-Deep-Learning/pulls). See the [contribution guide](CONTRIBUTING.md) for adding entries, the [taxonomy guide](docs/taxonomy.md) for classification, and the [repository architecture](docs/architecture.md) for maintenance.
+Suggestions are welcome via [issues](https://github.com/zihao-ai/Awesome-Backdoor-Research/issues) or [pull requests](https://github.com/zihao-ai/Awesome-Backdoor-Research/pulls). See the [contribution guide](CONTRIBUTING.md) for adding entries, the [taxonomy guide](docs/taxonomy.md) for classification, and the [repository architecture](docs/architecture.md) for maintenance.
 
 <p align="center">
   <a href="#papers">Back to research areas ↑</a> &nbsp;·&nbsp;
-  <a href="https://github.com/zihao-ai/Awesome-Backdoor-in-Deep-Learning/blob/4be174fceda6034a8b7856a56a848e5b10adc097/README.md">Previous catalog</a> &nbsp;·&nbsp;
+  <a href="https://github.com/zihao-ai/Awesome-Backdoor-Research/blob/4be174fceda6034a8b7856a56a848e5b10adc097/README.md">Previous catalog</a> &nbsp;·&nbsp;
   <a href="LICENSE">GPL-3.0 license</a>
 </p>
