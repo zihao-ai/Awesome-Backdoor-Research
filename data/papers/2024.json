@@ -346,6 +346,20 @@
     "code": "https://github.com/invisibleTriggerDiffusion/invisible_triggers_for_diffusion"
   },
   {
+    "id": "mask-based-invisible-backdoor-attacks-on-object-detection-2024",
+    "title": "Mask-based Invisible Backdoor Attacks on Object Detection",
+    "year": 2024,
+    "venue": "ICIP",
+    "url": "https://ieeexplore.ieee.org/document/10647450/",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "detection-segmentation-tracking"
+    ],
+    "code": "https://github.com/jeongjin0/invisible-backdoor-object-detection"
+  },
+  {
     "id": "megatron-evasive-clean-label-backdoor-attacks-against-vision-transformer-2024",
     "title": "Megatron: Evasive Clean-Label Backdoor Attacks against Vision Transformer",
     "year": 2024,
@@ -494,6 +508,19 @@
     ],
     "topics": [
       "rag"
+    ]
+  },
+  {
+    "id": "unlearn-to-relearn-backdoors-2024",
+    "title": "Unlearn to Relearn Backdoors: Deferred Backdoor Functionality Attacks on Deep Learning Models",
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2411.14449",
+    "types": [
+      "Attack"
+    ],
+    "topics": [
+      "image-classification"
     ]
   },
   {

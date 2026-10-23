@@ -63,9 +63,9 @@ Navigation counts are generated from the catalog. Each area counts unique papers
 <a href="#topic-robotic-control">Robotic Manipulation &amp; Control (3)</a><br>
 <a href="#topic-navigation-driving">Navigation &amp; Autonomous Driving (5)</a><br>
 <a href="#topic-embodied-planning">Embodied Planning &amp; Interaction (6)</a></td>
-    <td width="50%" valign="top"><a href="#area-computer-vision"><strong>🖼️ Computer Vision (177)</strong></a><br>
-<a href="#topic-image-classification">Image Classification &amp; Recognition (134)</a><br>
-<a href="#topic-detection-segmentation-tracking">Object Detection, Segmentation &amp; Tracking (17)</a><br>
+    <td width="50%" valign="top"><a href="#area-computer-vision"><strong>🖼️ Computer Vision (179)</strong></a><br>
+<a href="#topic-image-classification">Image Classification &amp; Recognition (135)</a><br>
+<a href="#topic-detection-segmentation-tracking">Object Detection, Segmentation &amp; Tracking (18)</a><br>
 <a href="#topic-video-understanding">Video Understanding (3)</a><br>
 <a href="#topic-3d-vision">3D Vision &amp; Point Clouds (9)</a><br>
 <a href="#topic-visual-representation">Visual Representation Learning (11)</a><br>
@@ -535,6 +535,7 @@ Survey papers are collected in **Surveys**; benchmark and dataset papers appear 
 | 2026 · AAAI | [Breaking the Stealth\-Potency Trade\-off in Clean\-Image Backdoors with Generative Trigger Optimization](https://arxiv.org/abs/2511.07210) | `Attack` | — |
 | 2024 · arXiv | [BadScan: An Architectural Backdoor Attack on Visual State Space Models](https://arxiv.org/abs/2411.17283) | `Attack` | — |
 | 2024 · arXiv | [Megatron: Evasive Clean\-Label Backdoor Attacks against Vision Transformer](https://arxiv.org/abs/2412.04776) | `Attack` | — |
+| 2024 · arXiv | [Unlearn to Relearn Backdoors: Deferred Backdoor Functionality Attacks on Deep Learning Models](https://arxiv.org/abs/2411.14449) | `Attack` | — |
 | 2024 · BMVC | [Backdoor Defense through Self\-Supervised and Generative Learning](https://arxiv.org/abs/2409.01185) | `Defense` | — |
 | 2024 · ICLR | [VDC: Versatile Data Cleanser based on Visual\-Linguistic Inconsistency by Multimodal Large Language Models](https://arxiv.org/abs/2309.16211) | `Defense` | <a href="https://github.com/zihao-ai/vdc" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
 | 2024 · IEEE S&amp;P | [MM\-BD: Post\-Training Detection of Backdoor Attacks with Arbitrary Backdoor Pattern Types Using a Maximum Margin Statistic](https://arxiv.org/abs/2205.06900) | `Defense` | — |
@@ -685,6 +686,7 @@ Survey papers are collected in **Surveys**; benchmark and dataset papers appear 
 | 2025 · arXiv | [CIS\-BA: Continuous Interaction Space Based Backdoor Attack for Object Detection in the Real\-World](https://arxiv.org/abs/2512.14158) | `Attack` | — |
 | 2025 · arXiv | [ConSeg: Contextual Backdoor Attack Against Semantic Segmentation](https://arxiv.org/abs/2507.19905) | `Attack` | — |
 | 2025 · CVPR | [Test\-Time Backdoor Detection for Object Detection Models](https://arxiv.org/abs/2503.15293) | `Defense` | <a href="https://github.com/Rookie143/Trace" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
+| 2024 · ICIP | [Mask\-based Invisible Backdoor Attacks on Object Detection](https://ieeexplore.ieee.org/document/10647450/) | `Attack` | <a href="https://github.com/jeongjin0/invisible-backdoor-object-detection" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |
 | 2023 · arXiv | [Influencer Backdoor Attack on Semantic Segmentation](https://arxiv.org/abs/2303.12054) | `Attack` | — |
 | 2023 · NeurIPS | [BadTrack: A Poison\-Only Backdoor Attack on Visual Object Tracking](https://proceedings.neurips.cc/paper_files/paper/2023/hash/828bb8f42d4ab15322b9315151959c61-Abstract-Conference.html) | `Attack` | — |
 | 2023 · NeurIPS | [Django: Detecting Trojans in Object Detection Models via Gaussian Focus Calibration](https://papers.neurips.cc/paper_files/paper/2023/hash/a102d6cb996be3482c059c1e18bbe523-Abstract-Conference.html) | `Defense` | <a href="https://github.com/PurduePAML/DJGO" title="Code repository"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-mark-light.svg"><img src="assets/github-mark.svg" width="18" height="18" alt="GitHub"></picture></a> |

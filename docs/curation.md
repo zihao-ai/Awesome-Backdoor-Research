@@ -10,7 +10,8 @@ This is a dated editorial snapshot of the first full migration and topic-by-topi
 | Previously reviewed examples outside that catalog | 4 |
 | Initial abstract-reviewed additions | 90 |
 | Subsequent 2025–2026 expansion | 146 |
-| **Total** | **452** |
+| Community contribution PR #6 | 2 |
+| **Total** | **454** |
 
 The old README contains 222 year-table rows and four additional toolbox-associated paper rows. All 226 rows are accounted for: 212 migrated works, seven repeated rows merged into their canonical records, and seven scope exclusions. The fifth toolbox-only row had no paper and remains a software resource. The [original catalog](https://github.com/zihao-ai/Awesome-Backdoor-Research/blob/4be174fceda6034a8b7856a56a848e5b10adc097/README.md) and retired parser are available in Git history; redundant working-tree copies have been removed.
 
@@ -22,8 +23,8 @@ Counts below are table appearances, not unique-paper counts. Cross-listed papers
 | :--- | :--- | ---: | ---: | ---: |
 | Surveys | [General Surveys](../README.md#topic-general-surveys) | 7 | 1 | 1 |
 | Surveys | [Topic-Specific Surveys](../README.md#topic-surveys-specific) | 7 | 3 | 3 |
-| Computer Vision | [Image Classification & Recognition](../README.md#topic-image-classification) | 134 | 3 | 1 |
-| Computer Vision | [Object Detection, Segmentation & Tracking](../README.md#topic-detection-segmentation-tracking) | 17 | 3 | 10 |
+| Computer Vision | [Image Classification & Recognition](../README.md#topic-image-classification) | 135 | 3 | 1 |
+| Computer Vision | [Object Detection, Segmentation & Tracking](../README.md#topic-detection-segmentation-tracking) | 18 | 3 | 10 |
 | Computer Vision | [Video Understanding](../README.md#topic-video-understanding) | 3 | 2 | 0 |
 | Computer Vision | [3D Vision & Point Clouds](../README.md#topic-3d-vision) | 9 | 2 | 4 |
 | Computer Vision | [Visual Representation Learning](../README.md#topic-visual-representation) | 11 | 1 | 4 |
@@ -131,3 +132,7 @@ Each accepted entry has a primary arXiv abstract source, reviewed version, revie
 Additional classification checks prevent misleading placements: BadEngram targets parameterized memory inside an LLM rather than an agent's external memory; FreqDoor attacks captioning/VQA models rather than CLIP embeddings; SPBA uses an SLLM to attack speech classifiers; SRD uses RL as a defense tool for a captioning model; and retrieval-augmented diffusion belongs in image generation rather than language RAG. Topology-Conditioned Backdoors is listed under code/language models because its abstract explicitly says live multi-agent activation remains untested.
 
 The retrieval/parser workflow used the `paper-lookup` procedure from Scientific Agent Skills: Timothy Kassis, Vinayak Agarwal, Yuhuan He, Darshil Patel, and Aubrey M. Brueckner (2026), [Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents](https://arxiv.org/abs/2609.00065). The procedure supports retrieval and provenance; editorial classification remains based on the paper abstracts.
+
+## Community contribution PR #6
+
+The two papers proposed in [PR #6](https://github.com/zihao-ai/Awesome-Backdoor-Research/pull/6) were abstract-reviewed and migrated from legacy README rows into `data/papers/2024.json`. Unlearn to Relearn Backdoors is placed under image classification; Mask-based Invisible Backdoor Attacks on Object Detection is placed under detection, segmentation, and tracking, retaining its official implementation link. The individual review records use batch ID `community-pr-6-2026-10-23`. This adds two unique papers, bringing the current catalog to 454; the earlier expansion batches and their counts remain historical records.

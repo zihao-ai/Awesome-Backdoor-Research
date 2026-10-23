@@ -2543,5 +2543,29 @@
     "classification_note": "Detects and repairs triggered inputs to shared self-supervised image encoders without clean training data.",
     "metadata_note": "Venue/year follow explicit publication information in author-supplied arXiv metadata; otherwise arXiv and first-submission year. No separate proceedings verification is claimed.",
     "publication_metadata": "To appear in AAAI'2025"
+  },
+  {
+    "paper_id": "unlearn-to-relearn-backdoors-2024",
+    "abstract_source": "https://arxiv.org/abs/2411.14449",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2411.14449v2",
+    "first_submitted": "2024-11-10",
+    "classification_note": "The abstract describes a backdoor hidden during initial inspection and reactivated by later model updates. Retains the contributor's image-classification placement from PR #6.",
+    "metadata_note": "arXiv landing page supplies title and first-submission year; no published venue is stated there.",
+    "review_date": "2026-10-23",
+    "batch_id": "community-pr-6-2026-10-23",
+    "contribution_source": "https://github.com/zihao-ai/Awesome-Backdoor-Research/pull/6"
+  },
+  {
+    "paper_id": "mask-based-invisible-backdoor-attacks-on-object-detection-2024",
+    "abstract_source": "https://arxiv.org/abs/2405.09550",
+    "review_basis": "abstract",
+    "reviewed_arxiv_version": "2405.09550v3",
+    "first_submitted": "2024-03-20",
+    "classification_note": "The abstract explicitly targets object detection with disappearance, misclassification, and generation outcomes. Classified under detection, segmentation, and tracking.",
+    "metadata_note": "The official author repository identifies ICIP 2024 and the IEEE publication link. IEEE returned a JavaScript challenge; abstract reviewed on arXiv instead.",
+    "review_date": "2026-10-23",
+    "batch_id": "community-pr-6-2026-10-23",
+    "contribution_source": "https://github.com/zihao-ai/Awesome-Backdoor-Research/pull/6"
   }
 ]
