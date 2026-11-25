@@ -1,4 +1,4 @@
-# Curation and coverage — November 1, 2026
+# Curation and coverage — November 24, 2026
 
 This dated editorial snapshot tracks the historical migration, topic-by-topic expansion, community contributions, and a further backfill of historical and recent omissions. It is not an exhaustive bibliography of all published backdoor research.
 
@@ -13,7 +13,8 @@ This dated editorial snapshot tracks the historical migration, topic-by-topic ex
 | Community contribution PR #6 | 2 |
 | Historical and recent omissions expansion | 433 |
 | Incremental update through November 1, 2026 | 9 |
-| **Total** | **896** |
+| Incremental update through November 24, 2026 | 32 |
+| **Total** | **928** |
 
 The old README contains 222 year-table rows and four additional toolbox-associated paper rows. All 226 rows are accounted for: 212 migrated works, seven repeated rows merged into their canonical records, and seven scope exclusions. The fifth toolbox-only row had no paper and remains a software resource. The [original catalog](https://github.com/zihao-ai/Awesome-Backdoor-Research/blob/4be174fceda6034a8b7856a56a848e5b10adc097/README.md) and retired parser are available in Git history; redundant working-tree copies have been removed.
 
@@ -24,22 +25,22 @@ Counts below are table appearances, not unique-paper counts. Cross-listed papers
 | Area | Subcategory | Current papers | Initial additions | Recent additions |
 | :--- | :--- | ---: | ---: | ---: |
 | Surveys | [General Surveys](../README.md#topic-general-surveys) | 9 | 1 | 1 |
-| Surveys | [Topic-Specific Surveys](../README.md#topic-surveys-specific) | 13 | 3 | 3 |
-| Computer Vision | [Image Classification & Recognition](../README.md#topic-image-classification) | 309 | 3 | 1 |
-| Computer Vision | [Object Detection, Segmentation & Tracking](../README.md#topic-detection-segmentation-tracking) | 32 | 3 | 10 |
+| Surveys | [Topic-Specific Surveys](../README.md#topic-surveys-specific) | 14 | 3 | 3 |
+| Computer Vision | [Image Classification & Recognition](../README.md#topic-image-classification) | 316 | 3 | 1 |
+| Computer Vision | [Object Detection, Segmentation & Tracking](../README.md#topic-detection-segmentation-tracking) | 33 | 3 | 10 |
 | Computer Vision | [Video Understanding](../README.md#topic-video-understanding) | 4 | 2 | 0 |
 | Computer Vision | [3D Vision & Point Clouds](../README.md#topic-3d-vision) | 14 | 2 | 4 |
-| Computer Vision | [Visual Representation Learning](../README.md#topic-visual-representation) | 21 | 1 | 4 |
+| Computer Vision | [Visual Representation Learning](../README.md#topic-visual-representation) | 22 | 1 | 4 |
 | Computer Vision | [Image Restoration & Compression](../README.md#topic-image-restoration-compression) | 6 | 1 | 2 |
 | Computer Vision | [Visual Regression & Counting](../README.md#topic-visual-regression-counting) | 7 | 1 | 3 |
-| NLP & Language Models | [Text Classification & Sequence Labeling](../README.md#topic-text-classification) | 55 | 2 | 0 |
+| NLP & Language Models | [Text Classification & Sequence Labeling](../README.md#topic-text-classification) | 56 | 2 | 0 |
 | NLP & Language Models | [Language Representation & Embedding Models](../README.md#topic-language-representation) | 15 | 2 | 1 |
 | NLP & Language Models | [Sequence Generation & Translation](../README.md#topic-sequence-generation-translation) | 6 | 1 | 0 |
-| NLP & Language Models | [Large Language Models & Instruction Following](../README.md#topic-llms) | 93 | 5 | 28 |
+| NLP & Language Models | [Large Language Models & Instruction Following](../README.md#topic-llms) | 105 | 5 | 28 |
 | NLP & Language Models | [Code Language Models](../README.md#topic-code-models) | 30 | 6 | 10 |
 | NLP & Language Models | [Retrieval-Augmented Generation](../README.md#topic-rag) | 8 | 3 | 4 |
-| Multimodal Learning | [Vision–Language Representation & Retrieval](../README.md#topic-vision-language-representation) | 26 | 2 | 7 |
-| Multimodal Learning | [Vision–Language Understanding & MLLMs](../README.md#topic-mllms) | 37 | 3 | 17 |
+| Multimodal Learning | [Vision–Language Representation & Retrieval](../README.md#topic-vision-language-representation) | 28 | 2 | 7 |
+| Multimodal Learning | [Vision–Language Understanding & MLLMs](../README.md#topic-mllms) | 41 | 3 | 17 |
 | Multimodal Learning | [Audio–Language & Other Multimodal Models](../README.md#topic-audio-language) | 4 | 3 | 0 |
 | Generative Models | [Image Generation & Editing](../README.md#topic-image-generation) | 37 | 3 | 14 |
 | Generative Models | [Video Generation](../README.md#topic-video-generation) | 3 | 2 | 0 |
@@ -47,19 +48,19 @@ Counts below are table appearances, not unique-paper counts. Cross-listed papers
 | Generative Models | [3D Content & Motion Generation](../README.md#topic-3d-generation) | 3 | 2 | 1 |
 | AI Agents | [Planning & Reasoning](../README.md#topic-agent-planning) | 5 | 3 | 2 |
 | AI Agents | [Memory & Knowledge](../README.md#topic-agent-memory) | 7 | 2 | 1 |
-| AI Agents | [Tools & Skills](../README.md#topic-agent-tools) | 23 | 6 | 13 |
+| AI Agents | [Tools & Skills](../README.md#topic-agent-tools) | 27 | 6 | 13 |
 | AI Agents | [Multi-Agent Systems](../README.md#topic-multi-agent-systems) | 5 | 2 | 3 |
-| Embodied AI | [Vision–Language–Action Models](../README.md#topic-vla-models) | 9 | 2 | 3 |
+| Embodied AI | [Vision–Language–Action Models](../README.md#topic-vla-models) | 10 | 2 | 3 |
 | Embodied AI | [Robotic Manipulation & Control](../README.md#topic-robotic-control) | 5 | 1 | 2 |
 | Embodied AI | [Navigation & Autonomous Driving](../README.md#topic-navigation-driving) | 14 | 3 | 2 |
 | Embodied AI | [Embodied Planning & Interaction](../README.md#topic-embodied-planning) | 7 | 2 | 4 |
-| Graph Learning | [Graph & Node Classification](../README.md#topic-graph-node-classification) | 25 | 4 | 1 |
+| Graph Learning | [Graph & Node Classification](../README.md#topic-graph-node-classification) | 26 | 4 | 1 |
 | Graph Learning | [Link Prediction & Graph Representation Learning](../README.md#topic-graph-representation) | 6 | 2 | 3 |
-| Speech & Audio | [Speech & Speaker Recognition](../README.md#topic-speech-recognition) | 19 | 5 | 3 |
+| Speech & Audio | [Speech & Speaker Recognition](../README.md#topic-speech-recognition) | 20 | 5 | 3 |
 | Speech & Audio | [Audio Classification & Representation Learning](../README.md#topic-audio-representation) | 5 | 2 | 0 |
 | Reinforcement Learning | [Single-Agent Reinforcement Learning](../README.md#topic-single-agent-rl) | 24 | 3 | 7 |
 | Reinforcement Learning | [Multi-Agent Reinforcement Learning](../README.md#topic-multi-agent-rl) | 9 | 2 | 2 |
-| Federated Learning | [Horizontal Federated Learning](../README.md#topic-horizontal-fl) | 76 | 2 | 6 |
+| Federated Learning | [Horizontal Federated Learning](../README.md#topic-horizontal-fl) | 77 | 2 | 6 |
 | Federated Learning | [Vertical Federated Learning](../README.md#topic-vertical-fl) | 9 | 3 | 2 |
 | Foundations & Theory | [Learning Theory & Formal Guarantees](../README.md#topic-learning-theory) | 29 | 5 | 1 |
 
@@ -174,3 +175,15 @@ New coverage includes pretraining backdoors in CLI agents, code-model poison sel
 Four records concern unrelated meanings of backdoor/Trojan (SMT solving, astronomy, causal adjustment, and an adversarial-proof-generation acronym) and were excluded. One relevant HDC classifier-watermarking paper was held: the abstract does not identify its benchmark modalities and the present leaf taxonomy has no suitable HDC classifier category. It was not forced into a vision or formal-theory table.
 
 The [incremental manifest](../data/curation/incremental-2026-11-01.json) records the window, baseline commit, query, reconciled counts, accepted IDs, and individual exclusions/hold. Individual accepted-paper review notes are in the expansion ledger under batch ID `incremental-2026-11-01`. No PDFs or full papers were downloaded.
+
+## Incremental update — November 24, 2026
+
+The last published catalog update was November 1, 2026 (`a83ec34`). This pass searches November 1–24 inclusive, overlapping the previous cutoff day to capture late-indexed records. The bounded title/abstract query returned **42/42** records; all 42 complete abstracts were reviewed. **32 distinct papers** were added, bringing the catalog from **896 to 928**.
+
+New coverage includes persistent jailbreak backdoors, masked diffusion language-model defenses, weight-space programming and forensics, GUI and terminal-agent security, self-evolving skills, VLA manipulation, graph continual learning, medical image classifiers, multimodal contrastive encoders, federated defense evaluation, speaker identification, and scene graph generation. LLMs used to edit victim weights are treated as attack tools, not automatically as compromised AI-agent targets. Image-based scene graph generation is placed in Computer Vision rather than input-graph learning; text diffusion models remain in NLP & Language Models.
+
+Eight records were excluded: quantum-device Trojan probes, malware-family classification without a model backdoor, astronomy, SAT backdoor sets, proxy unlearning explicitly unrelated to backdoors, deployment-time thought injection without an implanted model/skill backdoor, and analog sensor-circuit Trojans. Two relevant tabular/network-intrusion papers were held because the current taxonomy lacks a matching leaf; they were not forced into NLP, CV, or formal theory.
+
+Author comments explicitly report NeurIPS2026, AI4GOOD/NeurIPS workshop, and ACM MM2026 acceptance for three additions; these metadata are not independently publisher-confirmed. Two papers reporting 2027 venue acceptance remain arXiv2026 pending formal publication. The author-linked BAPLe++ repository contained only a README at review time, so its Code icon is omitted. Other code links come only from explicit author-provided metadata and their implementations were not run.
+
+The [incremental manifest](../data/curation/incremental-2026-11-24.json) records query parameters, counts, accepted IDs, held/excluded records, and related-paper checks. Individual abstract-review notes use batch ID `incremental-2026-11-24` in the expansion ledger. No PDFs or full papers were downloaded. This is a reconciled incremental arXiv search, not an exhaustive bibliography across all venues.

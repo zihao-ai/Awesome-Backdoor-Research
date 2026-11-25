@@ -1,0 +1,174 @@
+{
+  "batch_id": "incremental-2026-11-24",
+  "previous_update_date": "2026-11-01",
+  "review_date": "2026-11-24",
+  "window_start": "2026-11-01",
+  "window_end": "2026-11-24",
+  "baseline_commit": "a83ec34e6ea118dc003f9e3554cdac9bc047b996",
+  "catalog_before": 896,
+  "added": 32,
+  "catalog_after": 928,
+  "database": "arXiv",
+  "query": "(ti:backdoor OR ti:trojan OR abs:backdoor OR abs:trojan) AND submittedDate:[202611010000 TO 202611242359]",
+  "endpoint": "https://export.arxiv.org/api/query",
+  "parameters": {
+    "start": 0,
+    "max_results": 300,
+    "sortBy": "submittedDate",
+    "sortOrder": "descending"
+  },
+  "reported_total": 42,
+  "retrieved": 42,
+  "abstracts_reviewed": 42,
+  "accepted_paper_ids": [
+    "lightweight-spectral-subspace-filtering-for-trojan-resilient-ai-inference-engines-2026",
+    "persistent-jailbreak-backdoor-attack-2026",
+    "mitigating-backdoors-in-masked-diffusion-language-models-2026",
+    "weight-space-backdoors-in-open-weight-llms-cross-architecture-attacks-and-blind-model-forensics-2026",
+    "sok-splitting-the-trigger-or-adding-attackers-disentangling-distributed-backdoor-attacks-in-federated-learning-2026",
+    "autonomous-parameter-surgery-how-llms-implant-selective-backdoors-into-language-models-2026",
+    "trojanmaxxing-one-shotting-vlm-backdoors-with-weight-space-programming-2026",
+    "scr-detecting-backdoor-poisoned-samples-through-clean-reference-residuals-2026",
+    "idea-intent-dominance-evidence-audit-for-inference-time-backdoor-detection-in-gui-agents-2026",
+    "detectvit-test-time-backdoor-detection-for-vision-transformers-via-inter-head-attention-discrepancy-2026",
+    "as-student-rollouts-continue-visual-backdoors-keep-growing-2026",
+    "halluprobe-exploiting-vlm-hallucinations-for-backdoor-detection-2026",
+    "when-backdoors-can-be-switched-off-suppression-aware-backdoor-attacks-on-vision-language-action-models-2026",
+    "badgcl-towards-persistent-backdoor-attack-on-graph-continual-learning-systems-2026",
+    "a-backdoor-trigger-is-legible-in-fine-tune-weights-2026",
+    "on-policy-distillation-as-a-backdoor-propagation-channel-2026",
+    "can-llms-write-backdoors-an-empirical-security-study-of-weight-space-programming-2026",
+    "lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents-2026",
+    "poison-then-hide-finetuning-activated-backdoor-attack-on-pretrained-vision-encoders-2026",
+    "gard-gradient-guided-adversarial-representation-defense-against-backdoors-in-multimodal-contrastive-learning-models-2026",
+    "data-efficient-unlearning-based-backdoor-detection-in-federated-learning-2026",
+    "suppression-is-not-erasure-mechanistic-analysis-and-reactivation-boundaries-of-subspace-projection-for-lora-backdoor-defense-2026",
+    "baple-cross-model-transferability-and-prompt-level-defense-of-backdoors-in-medical-foundation-models-2026",
+    "when-experience-becomes-a-backdoor-poisoning-self-evolving-llm-agents-via-failure-aware-task-optimization-2026",
+    "homeopathic-learning-diluting-poisoned-fine-tuning-data-can-strengthen-its-effect-2026",
+    "when-feedback-becomes-a-backdoor-tracing-backdoor-skill-formation-in-text-space-skill-optimization-2026",
+    "towards-interpreting-any-residual-stream-direction-by-scaling-activation-inversion-2026",
+    "interactive-backdoor-attacks-in-llm-based-proactive-dialogue-systems-2026",
+    "a-bag-of-tricks-for-defending-deep-learning-based-face-recognition-pipelines-against-backdoor-attacks-2026",
+    "understanding-backdoor-attacks-in-scene-graph-generation-via-global-context-pathway-2026",
+    "lora-patch-defending-against-backdoored-lora-adapters-via-directional-steering-2026",
+    "gdback-a-group-delay-backdoor-attack-on-speaker-identification-via-analytic-all-pass-filtering-2026"
+  ],
+  "decisions_not_added": [
+    {
+      "arxiv_id": "2611.29627",
+      "title": "Attacking Tabular Foundation Models: An Experimental Taxonomy of Context Poisoning and Test-Time Evasion",
+      "source": "https://arxiv.org/abs/2611.29627",
+      "status": "held",
+      "reason": "Relevant context-backdoor attacks on tabular foundation models for intrusion detection; no current tabular/intrusion-classifier taxonomy leaf. Held rather than forced into NLP or CV."
+    },
+    {
+      "arxiv_id": "2611.28945",
+      "title": "Q-TRACE: Physics-based zero-day attack detection for decoy-state quantum key distribution",
+      "source": "https://arxiv.org/abs/2611.28945",
+      "status": "excluded",
+      "reason": "Physical Trojan-horse/eavesdropping probes in quantum key distribution, not learned-model backdoors."
+    },
+    {
+      "arxiv_id": "2611.25004",
+      "title": "On the Impact of Feature Reduction Techniques on Adversarial Attacks",
+      "source": "https://arxiv.org/abs/2611.25004",
+      "status": "held",
+      "reason": "Feature-reduction study includes backdoor attacks on APT intrusion data, but the existing taxonomy has no tabular/network-intrusion classifier leaf."
+    },
+    {
+      "arxiv_id": "2611.21936",
+      "title": "CNN Architecture Comparison for Malware Classification with Limited Training Data",
+      "source": "https://arxiv.org/abs/2611.21936",
+      "status": "excluded",
+      "reason": "Compares malware-family classifiers; trojan is a malware label and no implanted model backdoor is studied."
+    },
+    {
+      "arxiv_id": "2611.16046",
+      "title": "A Bright L4 Neptune Trojan Found by Stacking Archival ZTF Images",
+      "source": "https://arxiv.org/abs/2611.16046",
+      "status": "excluded",
+      "reason": "Neptune Trojan astronomy, not a machine-learning security backdoor."
+    },
+    {
+      "arxiv_id": "2611.15013",
+      "title": "Protecting Sensitive Knowledge Under LLM Unlearning: The Proxy Threat and a Superposition-Aware Defense",
+      "source": "https://arxiv.org/abs/2611.15013",
+      "status": "excluded",
+      "reason": "Proxy unlearning of sensitive knowledge; the abstract explicitly distinguishes this threat from poisoning/backdoor attacks."
+    },
+    {
+      "arxiv_id": "2611.14330",
+      "title": "Linking Outer Solar System Objects in Archival DECam Imaging: A Multi-year Linker Tested on Held-out Known Objects, and 189 Multi-opposition Candidates Including Five L4 Neptune Trojans, Two Retrograde Objects and Eight with a > 150 au",
+      "source": "https://arxiv.org/abs/2611.14330",
+      "status": "excluded",
+      "reason": "Solar-system object linking and Neptune Trojans, not model backdoors."
+    },
+    {
+      "arxiv_id": "2611.12321",
+      "title": "Strong Backdoor to Forests is FPT: Tight Linear-Time FPT for Essentially General SAT",
+      "source": "https://arxiv.org/abs/2611.12321",
+      "status": "excluded",
+      "reason": "Parameterized SAT backdoor sets, not malicious learned-model behavior."
+    },
+    {
+      "arxiv_id": "2611.08811",
+      "title": "I Think, Therefore I Attack: Evaluating Thought Injection Attacks on Reasoning Agents",
+      "source": "https://arxiv.org/abs/2611.08811",
+      "status": "excluded",
+      "reason": "Deployment-time thought/prompt injection and repository software backdooring; the abstract does not establish a persistent learned model/skill backdoor."
+    },
+    {
+      "arxiv_id": "2611.06103",
+      "title": "SenTrojan: Revealing Analog Hardware Trojan Attacks on Sensors",
+      "source": "https://arxiv.org/abs/2611.06103",
+      "status": "excluded",
+      "reason": "Analog sensor-circuit hardware Trojans; no compromised learning model is the attacked victim."
+    }
+  ],
+  "alias_and_scope_checks": [
+    {
+      "sources": [
+        "https://arxiv.org/abs/2611.28640",
+        "https://arxiv.org/abs/2605.19262"
+      ],
+      "decision": "The new UNMASK defense differs from the existing masked-diffusion-language-model attack paper; similarity of titles does not establish a duplicate."
+    },
+    {
+      "sources": [
+        "https://arxiv.org/abs/2611.19207",
+        "https://arxiv.org/abs/2610.07654"
+      ],
+      "decision": "The new OPD propagation work has different authors and study details from the existing OPD-for-safety study."
+    },
+    {
+      "sources": [
+        "https://arxiv.org/abs/2611.22446",
+        "https://arxiv.org/abs/2611.19207"
+      ],
+      "decision": "Related-author studies with distinct victim modalities: visual backdoors in VLM OPD versus conditional backdoors in LLM OPD. Retained distinct records; no source metadata identifies a renamed submission."
+    },
+    {
+      "sources": [
+        "https://arxiv.org/abs/2611.29734",
+        "https://arxiv.org/abs/2610.33437"
+      ],
+      "decision": "Same authors and related spectral defense ideas, but distinct source identifiers and method descriptions: SVD projection using offline triggered samples versus hash-assisted combinatorial signatures and anomaly-gated scrubbing. No explicit replacement/version statement found in supplied metadata; not merged solely for author overlap."
+    },
+    {
+      "sources": [
+        "https://arxiv.org/abs/2611.27920",
+        "https://arxiv.org/abs/2611.17395"
+      ],
+      "decision": "Different-author weight-space programming studies with different victim evaluations; LLM attackers were not mistaken for compromised agent victims."
+    }
+  ],
+  "metadata_notes": [
+    "Only explicit author-supplied acceptance statements are used for NeurIPS2026, its AI4GOOD workshop, and ACM MM2026; these are not independent publisher confirmations.",
+    "Papers reporting ICISS2027 and KDD2027 acceptance remain arXiv2026 pending formal publication.",
+    "The author-linked BAPLe++ GitHub repository contained only a README when checked, so no Code icon was added for that paper.",
+    "No PDFs, full papers, datasets, or model weights were downloaded. Accepted entries were classified from full abstracts, with code repository metadata used only to check link availability.",
+    "The start date overlaps the preceding cutoff day to catch late-indexed records; exact IDs/normalized titles and near-title or method aliases were checked.",
+    "Counts reconcile this bounded arXiv query, not every possible venue or terminology variant."
+  ]
+}
